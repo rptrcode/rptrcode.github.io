@@ -443,19 +443,14 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_topics">Topics</a></li>
 <li><a href="#_more_topics">More topics</a></li>
 <li><a href="#_c11">C++11</a></li>
-<li><a href="#_design_patterns_and_oop">Design patterns and OOP</a></li>
 </ul>
 </li>
-<li><a href="#_math_and_geometry">Math and geometry</a>
-<ul class="sectlevel3">
-<li><a href="#_books">Books</a></li>
-<li><a href="#_topics_2">Topics</a></li>
-</ul>
-</li>
-<li><a href="#_algorithms_and_more">Algorithms and more</a></li>
+<li><a href="#_ooad_design_patterns">OOAD, Design patterns</a></li>
+<li><a href="#_operating_systems">Operating Systems</a></li>
 <li><a href="#_cpu">CPU</a>
 <ul class="sectlevel3">
 <li><a href="#_multi_threading">Multi-threading</a></li>
+<li><a href="#_ipc">IPC</a></li>
 </ul>
 </li>
 <li><a href="#_graphics">Graphics</a>
@@ -463,10 +458,20 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_mobile_gpus_architecture">Mobile GPUs architecture</a></li>
 <li><a href="#_desktop_gpus_architecture">Desktop GPUs architecture</a></li>
 <li><a href="#_graphics_techniques">Graphics techniques</a></li>
+</ul>
+</li>
+<li><a href="#_algorithms_and_data_structures">Algorithms and Data Structures</a>
+<ul class="sectlevel3">
 <li><a href="#_more_topics_2">More topics</a></li>
 </ul>
 </li>
 <li><a href="#_data_oriented_design">Data Oriented Design</a></li>
+<li><a href="#_math_and_geometry">Math and geometry</a>
+<ul class="sectlevel3">
+<li><a href="#_books">Books</a></li>
+<li><a href="#_topics_2">Topics</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -753,8 +758,9 @@ As before, the numbers in round brackets are a reference inside Marshall Cline&#
 </ul>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_design_patterns_and_oop">Design patterns and OOP</h4>
+</div>
+<div class="sect2">
+<h3 id="_ooad_design_patterns">OOAD, Design patterns</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -778,122 +784,46 @@ As before, the numbers in round brackets are a reference inside Marshall Cline&#
 </ul>
 </div>
 </div>
-</div>
 <div class="sect2">
-<h3 id="_math_and_geometry">Math and geometry</h3>
-<div class="sect3">
-<h4 id="_books">Books</h4>
-<div class="paragraph">
-<p>Read about the same math concepts on more than one book.
-Some books are targeted to game developers, like:</p>
-</div>
+<h3 id="_operating_systems">Operating Systems</h3>
 <div class="ulist">
 <ul>
 <li>
-<p>"<em>Essential Mathematics for Games and Interactive Applications</em>" by James M. Van Verth and Lars M. Bishop</p>
+<p>Wiki Links <a href="https://en.wikipedia.org/wiki/Virtual_memory">Virtual memory</a>, <a href="https://en.wikipedia.org/wiki/Paging">paging</a>, <a href="https://en.wikipedia.org/wiki/Translation_lookaside_buffer">TLB</a>, <a href="https://en.wikipedia.org/wiki/Memory_management_unit">MMU</a>, <a href="https://en.wikipedia.org/wiki/Mmap">mmap</a></p>
 </li>
 <li>
-<p>"<em>3D Math Primer for Graphics and Game Development</em>" by Fletcher Dunn and Ian Parberry</p>
+<p><a href="https://manybutfinite.com/post/anatomy-of-a-program-in-memory/index.html">Anatomy of a Program in Memory</a></p>
 </li>
 <li>
-<p>"<em>Mathematics for 3D Game Programming and Computer Graphics</em>" by Eric Lengyel and John Flynt</p>
+<p><a href="https://arjunsreedharan.org/post/148675821737/write-a-simple-memory-allocator">Write a simple memory allocator</a></p>
+</li>
+<li>
+<p><a href="https://assets.bitbashing.io/papers/concurrency-primer.pdf">What every programmer should know about concurrency</a></p>
+</li>
+<li>
+<p><a href="https://blog.feabhas.com/search/semaphore/">Mutex VS Semaphore</a></p>
+</li>
+<li>
+<p><a href="https://cyber.wtf/2017/07/28/negative-result-reading-kernel-memory-from-user-mode/">Reading Kernel memory from user mode</a></p>
+</li>
+<li>
+<p><a href="https://events.static.linuxfound.org/sites/events/files/slides/elc_2016_mem.pdf">Virtual Memory</a></p>
+</li>
+<li>
+<p>SOVF</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://stackoverflow.com/questions/13013491/why-is-kernel-mapped-to-the-same-address-space-as-processes">Why is kernel mapped to the same address space as processes</a></p>
+</li>
+<li>
+<p><a href="https://stackoverflow.com/questions/8463741/how-linux-handles-threads-and-process-scheduling">How Linux handles threads and process scheduling</a></p>
+</li>
+<li>
+<p><a href="https://stackoverflow.com/questions/5440128/thread-context-switch-vs-process-context-switch">Thread context switch vs process context switch</a></p>
 </li>
 </ul>
 </div>
-</div>
-<div class="sect3">
-<h4 id="_topics_2">Topics</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>Trigonometry</p>
-</li>
-<li>
-<p>Vectors and matrices</p>
-</li>
-<li>
-<p>Rendering pipeline</p>
-</li>
-<li>
-<p>OpenGL transformations and matrices:</p>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="http://www.songho.ca/opengl/gl_transform.html">OpenGL Transformation</a></p>
-</li>
-<li>
-<p><a href="http://www.songho.ca/opengl/gl_projectionmatrix.html">OpenGL Projection Matrix</a></p>
-</li>
-<li>
-<p><a href="http://www.scratchapixel.com/lessons/3d-basic-rendering/perspective-and-orthographic-projection-matrix/projection-matrix-introduction">The Perspective and Orthographic Projection Matrix</a></p>
-</li>
-<li>
-<p><a href="https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/projection-stage">The Projection Stage</a></p>
-</li>
-<li>
-<p><a href="http://www.terathon.com/gdc07_lengyel.pdf">Projection Matrix Tricks by Eric Lengyel (PDF)</a></p>
-</li>
-<li>
-<p><a href="http://stackoverflow.com/questions/76134/how-do-i-reverse-project-2d-points-into-3d/33976739#33976739">How do I reverse-project 2D points into 3D?</a></p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_algorithms_and_more">Algorithms and more</h3>
-<div class="ulist">
-<ul>
-<li>
-<p>Sorting and data structures (lists, arrays, hash tables)</p>
-<div class="ulist">
-<ul>
-<li>
-<p>About hash tables: linear probing, quadratic probing, <a href="http://preshing.com/20160314/leapfrog-probing/">leapfrog probing</a>, double hashing, cuckoo hashing, hopscotch hashing</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>Floating point (29.17 and <a href="https://randomascii.wordpress.com/">Random ASCII blog</a>)</p>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://randomascii.wordpress.com/2012/01/11/tricks-with-the-floating-point-format/">Tricks With the Floating-Point Format</a> (representation)</p>
-</li>
-<li>
-<p><a href="https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/">Comparing Floating Point Numbers, 2012 Edition</a> (ULP comparison)</p>
-</li>
-<li>
-<p><a href="https://randomascii.wordpress.com/2012/05/20/thats-not-normalthe-performance-of-odd-floats/">That’s Not Normal–the Performance of Odd Floats</a> (hole around zero, denormals)</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p><a href="https://download-mirror.savannah.gnu.org/releases/pgubook/ProgrammingGroundUp-1-0-booksize.pdf">"Programming from the Ground Up" (PDF)</a> by Jonathan Bartlett</p>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Call_stack">Call stack</a>, relocating code, dynamic libraries, <a href="https://en.wikipedia.org/wiki/Data_segment">data</a> / <a href="https://en.wikipedia.org/wiki/.bss">bss</a> / <a href="https://en.wikipedia.org/wiki/Code_segment">text</a> segments</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Virtual_memory">Virtual memory</a>, <a href="https://en.wikipedia.org/wiki/Paging">paging</a>, <a href="https://en.wikipedia.org/wiki/Translation_lookaside_buffer">TLB</a>, <a href="https://en.wikipedia.org/wiki/Memory_management_unit">MMU</a>, <a href="https://en.wikipedia.org/wiki/Mmap">mmap</a></p>
-</li>
-<li>
-<p><a href="http://gafferongames.com/game-physics/fix-your-timestep/">Fix Your Timestep! by Glenn Fiedler</a></p>
-</li>
-<li>
-<p>Custom allocator with pools</p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Quadtree">Quadtree</a>, <a href="https://en.wikipedia.org/wiki/Octree">Octree</a> and <a href="https://en.wikipedia.org/wiki/Binary_space_partitioning">Binary Space Partitioning (BSP)</a></p>
 </li>
 </ul>
 </div>
@@ -981,6 +911,16 @@ One of the book you could read to learn more on the subject is "<em>Computer Arc
 </ul>
 </div>
 </div>
+<div class="sect3">
+<h4 id="_ipc">IPC</h4>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://dbus.freedesktop.org/doc/dbus-tutorial.html">DBUS Tutorial</a></p>
+</li>
+</ul>
+</div>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_graphics">Graphics</h3>
@@ -988,6 +928,12 @@ One of the book you could read to learn more on the subject is "<em>Computer Arc
 <ul>
 <li>
 <p><a href="https://www.scratchapixel.com/">Scratchapixel - Learn Computer Graphics From Scratch!</a></p>
+</li>
+<li>
+<p><a href="http://blip.tv/linuxconfau/x-and-the-future-of-linux-graphics-4711540">X and the future of Linux graphics</a></p>
+</li>
+<li>
+<p><a href="https://lwn.net/Articles/413335/">Life after X</a></p>
 </li>
 </ul>
 </div>
@@ -1237,6 +1183,58 @@ One of the book you could read to learn more on the subject is "<em>Computer Arc
 </div>
 </div>
 </div>
+</div>
+<div class="sect2">
+<h3 id="_algorithms_and_data_structures">Algorithms and Data Structures</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Sorting and data structures (lists, arrays, hash tables)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>About hash tables: linear probing, quadratic probing, <a href="http://preshing.com/20160314/leapfrog-probing/">leapfrog probing</a>, double hashing, cuckoo hashing, hopscotch hashing</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Floating point (29.17 and <a href="https://randomascii.wordpress.com/">Random ASCII blog</a>)</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://randomascii.wordpress.com/2012/01/11/tricks-with-the-floating-point-format/">Tricks With the Floating-Point Format</a> (representation)</p>
+</li>
+<li>
+<p><a href="https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/">Comparing Floating Point Numbers, 2012 Edition</a> (ULP comparison)</p>
+</li>
+<li>
+<p><a href="https://randomascii.wordpress.com/2012/05/20/thats-not-normalthe-performance-of-odd-floats/">That’s Not Normal–the Performance of Odd Floats</a> (hole around zero, denormals)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><a href="https://download-mirror.savannah.gnu.org/releases/pgubook/ProgrammingGroundUp-1-0-booksize.pdf">"Programming from the Ground Up" (PDF)</a> by Jonathan Bartlett</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Call_stack">Call stack</a>, relocating code, dynamic libraries, <a href="https://en.wikipedia.org/wiki/Data_segment">data</a> / <a href="https://en.wikipedia.org/wiki/.bss">bss</a> / <a href="https://en.wikipedia.org/wiki/Code_segment">text</a> segments</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><a href="http://gafferongames.com/game-physics/fix-your-timestep/">Fix Your Timestep! by Glenn Fiedler</a></p>
+</li>
+<li>
+<p>Custom allocator with pools</p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Quadtree">Quadtree</a>, <a href="https://en.wikipedia.org/wiki/Octree">Octree</a> and <a href="https://en.wikipedia.org/wiki/Binary_space_partitioning">Binary Space Partitioning (BSP)</a></p>
+</li>
+</ul>
+</div>
 <div class="sect3">
 <h4 id="_more_topics_2">More topics</h4>
 <div class="ulist">
@@ -1376,6 +1374,70 @@ One of the book you could read to learn more on the subject is "<em>Computer Arc
 <p><a href="http://www.gamasutra.com/view/feature/132084/sponsored_feature_common_.php">Sponsored Feature: Common Performance Issues in Game Programming</a> by Becky Heineman</p>
 </li>
 </ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_math_and_geometry">Math and geometry</h3>
+<div class="sect3">
+<h4 id="_books">Books</h4>
+<div class="paragraph">
+<p>Read about the same math concepts on more than one book.
+Some books are targeted to game developers, like:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>"<em>Essential Mathematics for Games and Interactive Applications</em>" by James M. Van Verth and Lars M. Bishop</p>
+</li>
+<li>
+<p>"<em>3D Math Primer for Graphics and Game Development</em>" by Fletcher Dunn and Ian Parberry</p>
+</li>
+<li>
+<p>"<em>Mathematics for 3D Game Programming and Computer Graphics</em>" by Eric Lengyel and John Flynt</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_topics_2">Topics</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Trigonometry</p>
+</li>
+<li>
+<p>Vectors and matrices</p>
+</li>
+<li>
+<p>Rendering pipeline</p>
+</li>
+<li>
+<p>OpenGL transformations and matrices:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://www.songho.ca/opengl/gl_transform.html">OpenGL Transformation</a></p>
+</li>
+<li>
+<p><a href="http://www.songho.ca/opengl/gl_projectionmatrix.html">OpenGL Projection Matrix</a></p>
+</li>
+<li>
+<p><a href="http://www.scratchapixel.com/lessons/3d-basic-rendering/perspective-and-orthographic-projection-matrix/projection-matrix-introduction">The Perspective and Orthographic Projection Matrix</a></p>
+</li>
+<li>
+<p><a href="https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/projection-stage">The Projection Stage</a></p>
+</li>
+<li>
+<p><a href="http://www.terathon.com/gdc07_lengyel.pdf">Projection Matrix Tricks by Eric Lengyel (PDF)</a></p>
+</li>
+<li>
+<p><a href="http://stackoverflow.com/questions/76134/how-do-i-reverse-project-2d-points-into-3d/33976739#33976739">How do I reverse-project 2D points into 3D?</a></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
 </div>
 </div>
 </div>

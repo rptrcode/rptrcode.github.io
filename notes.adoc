@@ -98,7 +98,7 @@ The book "_Effective Modern C++_" by Scott Meyers is a must-have.
 * Range-based for loops (and issues with `auto` and copying objects around)
 * List initialization
 
-==== Design patterns and OOP
+=== OOAD, Design patterns
 * https://en.wikipedia.org/wiki/Single_responsibility_principle[Single responsibility principle]
 * https://en.wikipedia.org/wiki/Cohesion_(computer_science)[Cohesion] / https://en.wikipedia.org/wiki/Coupling_(computer_programming)[Coupling]
 * https://en.wikipedia.org/wiki/Factory_method_pattern[Factory method] / https://en.wikipedia.org/wiki/Abstract_factory_pattern[Abstract factory pattern]
@@ -106,40 +106,19 @@ The book "_Effective Modern C++_" by Scott Meyers is a must-have.
 * Meyer's singleton
 * https://en.wikipedia.org/wiki/Object_pool_pattern[Object pool], https://en.wikipedia.org/wiki/Thread_pool[Thread pool], https://en.wikipedia.org/wiki/Flyweight_pattern[Flyweight pattern]
 
-=== Math and geometry
-==== Books
-Read about the same math concepts on more than one book.
-Some books are targeted to game developers, like:
 
-* "_Essential Mathematics for Games and Interactive Applications_" by James M. Van Verth and Lars M. Bishop
-* "_3D Math Primer for Graphics and Game Development_" by Fletcher Dunn and Ian Parberry
-* "_Mathematics for 3D Game Programming and Computer Graphics_" by Eric Lengyel and John Flynt
-
-==== Topics
-* Trigonometry
-* Vectors and matrices
-* Rendering pipeline
-* OpenGL transformations and matrices:
-** http://www.songho.ca/opengl/gl_transform.html[OpenGL Transformation]
-** http://www.songho.ca/opengl/gl_projectionmatrix.html[OpenGL Projection Matrix]
-** http://www.scratchapixel.com/lessons/3d-basic-rendering/perspective-and-orthographic-projection-matrix/projection-matrix-introduction[The Perspective and Orthographic Projection Matrix]
-** https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/projection-stage[The Projection Stage]
-** http://www.terathon.com/gdc07_lengyel.pdf[Projection Matrix Tricks by Eric Lengyel (PDF)]
-** http://stackoverflow.com/questions/76134/how-do-i-reverse-project-2d-points-into-3d/33976739#33976739[How do I reverse-project 2D points into 3D?]
-
-=== Algorithms and more
-* Sorting and data structures (lists, arrays, hash tables)
-** About hash tables: linear probing, quadratic probing, http://preshing.com/20160314/leapfrog-probing/[leapfrog probing], double hashing, cuckoo hashing, hopscotch hashing
-* Floating point (29.17 and https://randomascii.wordpress.com/[Random ASCII blog])
-** https://randomascii.wordpress.com/2012/01/11/tricks-with-the-floating-point-format/[Tricks With the Floating-Point Format] (representation)
-** https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/[Comparing Floating Point Numbers, 2012 Edition] (ULP comparison)
-** https://randomascii.wordpress.com/2012/05/20/thats-not-normalthe-performance-of-odd-floats/[That’s Not Normal–the Performance of Odd Floats] (hole around zero, denormals)
-* https://download-mirror.savannah.gnu.org/releases/pgubook/ProgrammingGroundUp-1-0-booksize.pdf["Programming from the Ground Up" (PDF)] by Jonathan Bartlett
-** https://en.wikipedia.org/wiki/Call_stack[Call stack], relocating code, dynamic libraries, https://en.wikipedia.org/wiki/Data_segment[data] / https://en.wikipedia.org/wiki/.bss[bss] / https://en.wikipedia.org/wiki/Code_segment[text] segments
-* https://en.wikipedia.org/wiki/Virtual_memory[Virtual memory], https://en.wikipedia.org/wiki/Paging[paging], https://en.wikipedia.org/wiki/Translation_lookaside_buffer[TLB], https://en.wikipedia.org/wiki/Memory_management_unit[MMU], https://en.wikipedia.org/wiki/Mmap[mmap]
-* http://gafferongames.com/game-physics/fix-your-timestep/[Fix Your Timestep! by Glenn Fiedler]
-* Custom allocator with pools
-* https://en.wikipedia.org/wiki/Quadtree[Quadtree], https://en.wikipedia.org/wiki/Octree[Octree] and https://en.wikipedia.org/wiki/Binary_space_partitioning[Binary Space Partitioning (BSP)]
+=== Operating Systems
+* Wiki Links https://en.wikipedia.org/wiki/Virtual_memory[Virtual memory], https://en.wikipedia.org/wiki/Paging[paging], https://en.wikipedia.org/wiki/Translation_lookaside_buffer[TLB], https://en.wikipedia.org/wiki/Memory_management_unit[MMU], https://en.wikipedia.org/wiki/Mmap[mmap]
+* https://manybutfinite.com/post/anatomy-of-a-program-in-memory/index.html[Anatomy of a Program in Memory]
+* https://arjunsreedharan.org/post/148675821737/write-a-simple-memory-allocator[Write a simple memory allocator]
+* https://assets.bitbashing.io/papers/concurrency-primer.pdf[What every programmer should know about concurrency]
+* https://blog.feabhas.com/search/semaphore/[Mutex VS Semaphore]
+* https://cyber.wtf/2017/07/28/negative-result-reading-kernel-memory-from-user-mode/[Reading Kernel memory from user mode]
+* https://events.static.linuxfound.org/sites/events/files/slides/elc_2016_mem.pdf[Virtual Memory]
+* SOVF
+** https://stackoverflow.com/questions/13013491/why-is-kernel-mapped-to-the-same-address-space-as-processes[Why is kernel mapped to the same address space as processes]
+** https://stackoverflow.com/questions/8463741/how-linux-handles-threads-and-process-scheduling[How Linux handles threads and process scheduling]
+** https://stackoverflow.com/questions/5440128/thread-context-switch-vs-process-context-switch[Thread context switch vs process context switch]
 
 === CPU
 Important links from Wikipedia about the architecture of a CPU.
@@ -171,9 +150,20 @@ One of the book on the topic is "_The Art of Multiprocessor Programming_" by Mau
 * Aligning AoS to cache line size to avoid false sharing
 * https://fgiesen.wordpress.com/2016/08/07/why-do-cpus-have-multiple-cache-levels/[Why do CPUs have multiple cache levels?]
 
+==== IPC
+* https://dbus.freedesktop.org/doc/dbus-tutorial.html[DBUS Tutorial]
+
+
+
+
+
 === Graphics
 
 * https://www.scratchapixel.com/[Scratchapixel - Learn Computer Graphics From Scratch!]
+* http://blip.tv/linuxconfau/x-and-the-future-of-linux-graphics-4711540[X and the future of Linux graphics]
+* https://lwn.net/Articles/413335/[Life after X]
+
+
 
 ==== Mobile GPUs architecture
 The book "_OpenGL ES 3.0 Programming Guide_" by Dan Ginsburg and Budirijanto Purnomo is a must-have.
@@ -251,6 +241,20 @@ The book "_OpenGL ES 3.0 Programming Guide_" by Dan Ginsburg and Budirijanto Pur
 * http://amd-dev.wpengine.netdna-cdn.com/wordpress/media/2012/10/Scheuermann_DepthOfField.pdf[Advanced Depth of Field (PDF)] by Thorsten Scheuermann
 * http://realtimecollisiondetection.net/blog/?p=86[Order your graphics draw calls around!] from the Real-Time Collision Detection blog
 
+
+=== Algorithms and Data Structures
+* Sorting and data structures (lists, arrays, hash tables)
+** About hash tables: linear probing, quadratic probing, http://preshing.com/20160314/leapfrog-probing/[leapfrog probing], double hashing, cuckoo hashing, hopscotch hashing
+* Floating point (29.17 and https://randomascii.wordpress.com/[Random ASCII blog])
+** https://randomascii.wordpress.com/2012/01/11/tricks-with-the-floating-point-format/[Tricks With the Floating-Point Format] (representation)
+** https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/[Comparing Floating Point Numbers, 2012 Edition] (ULP comparison)
+** https://randomascii.wordpress.com/2012/05/20/thats-not-normalthe-performance-of-odd-floats/[That’s Not Normal–the Performance of Odd Floats] (hole around zero, denormals)
+* https://download-mirror.savannah.gnu.org/releases/pgubook/ProgrammingGroundUp-1-0-booksize.pdf["Programming from the Ground Up" (PDF)] by Jonathan Bartlett
+** https://en.wikipedia.org/wiki/Call_stack[Call stack], relocating code, dynamic libraries, https://en.wikipedia.org/wiki/Data_segment[data] / https://en.wikipedia.org/wiki/.bss[bss] / https://en.wikipedia.org/wiki/Code_segment[text] segments
+* http://gafferongames.com/game-physics/fix-your-timestep/[Fix Your Timestep! by Glenn Fiedler]
+* Custom allocator with pools
+* https://en.wikipedia.org/wiki/Quadtree[Quadtree], https://en.wikipedia.org/wiki/Octree[Octree] and https://en.wikipedia.org/wiki/Binary_space_partitioning[Binary Space Partitioning (BSP)]
+
 ==== More topics
 * https://mynameismjp.wordpress.com/2012/10/24/msaa-overview/[A Quick Overview of MSAA] by Matt Pettineo
 * https://www.opengl.org/pipeline/article/vol003_6/[GLSL: Center or Centroid?  (Or When Shaders Attack!)] by Bill Licea-Kane (AMD)
@@ -297,3 +301,24 @@ The book "_OpenGL ES 3.0 Programming Guide_" by Dan Ginsburg and Budirijanto Pur
 
 * http://assemblyrequired.crashworks.org/load-hit-stores-and-the-\__restrict-keyword/[Load-Hit-Stores and the `__restrict` keyword] by Elan Ruskin
 * http://www.gamasutra.com/view/feature/132084/sponsored_feature_common_.php[Sponsored Feature: Common Performance Issues in Game Programming] by Becky Heineman
+
+=== Math and geometry
+==== Books
+Read about the same math concepts on more than one book.
+Some books are targeted to game developers, like:
+
+* "_Essential Mathematics for Games and Interactive Applications_" by James M. Van Verth and Lars M. Bishop
+* "_3D Math Primer for Graphics and Game Development_" by Fletcher Dunn and Ian Parberry
+* "_Mathematics for 3D Game Programming and Computer Graphics_" by Eric Lengyel and John Flynt
+
+==== Topics
+* Trigonometry
+* Vectors and matrices
+* Rendering pipeline
+* OpenGL transformations and matrices:
+** http://www.songho.ca/opengl/gl_transform.html[OpenGL Transformation]
+** http://www.songho.ca/opengl/gl_projectionmatrix.html[OpenGL Projection Matrix]
+** http://www.scratchapixel.com/lessons/3d-basic-rendering/perspective-and-orthographic-projection-matrix/projection-matrix-introduction[The Perspective and Orthographic Projection Matrix]
+** https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/projection-stage[The Projection Stage]
+** http://www.terathon.com/gdc07_lengyel.pdf[Projection Matrix Tricks by Eric Lengyel (PDF)]
+** http://stackoverflow.com/questions/76134/how-do-i-reverse-project-2d-points-into-3d/33976739#33976739[How do I reverse-project 2D points into 3D?]
