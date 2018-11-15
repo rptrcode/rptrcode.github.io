@@ -5,8 +5,8 @@
 I hope you will find my notes useful in case you intend to study more about engine and graphics programming.
 
 === C++
-* ISOCPP https://isocpp.org/faq[FAQ]
-* ISOCPP http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines[C++ Core Guidelines]
+* ISOCPP https://isocpp.org/faq[FAQ,window="_blank"]
+* ISOCPP http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines[C++ Core Guidelines,window="_blank"]
 * Marshall Cline's FAQ
 ** Mirror of 2012 version: http://www.cs.technion.ac.il/users/yechiel/c++-faq/index.html
 ** Mirror of 2006 version: http://www.dietmar-kuehl.de/mirror/c++-faq/
@@ -50,39 +50,39 @@ The numbers in round brackets are a reference inside Marshall Cline's C++ FAQ.
 * Pure virtual member functions (22.4), abstract base classes (ch. 22)
 * Covariant Return Types and "virtual constructor" (20.8, 22.5)
 * Object slicing (21.4, 31.8, 20.8)
-* Template Method pattern and private virtuals (23.4) (http://www.gotw.ca/publications/mill18.htm[Virtuality by Herb Sutter])
-* Private inheritance (24.2, 24.3) (http://www.gotw.ca/publications/mill06.htm[Uses and Abuses of Inheritance, Part 1 by Herb Sutter])
+* Template Method pattern and private virtuals (23.4) (http://www.gotw.ca/publications/mill18.htm[Virtuality by Herb Sutter,window="_blank"])
+* Private inheritance (24.2, 24.3) (http://www.gotw.ca/publications/mill06.htm[Uses and Abuses of Inheritance, Part 1 by Herb Sutter,window="_blank"])
 * Static initialization order fiasco (10.14)
 * Meyer's singleton (10.16)
-* https://en.wikipedia.org/wiki/One_Definition_Rule[One definition rule]
-* https://en.wikipedia.org/wiki/Common_subexpression_elimination[Common subexpression elimination]
+* https://en.wikipedia.org/wiki/One_Definition_Rule[One definition rule,window="_blank"]
+* https://en.wikipedia.org/wiki/Common_subexpression_elimination[Common subexpression elimination,window="_blank"]
 * Different kind of casts: C style, `static_cast`, `dynamic_cast`, `const_cast` and `reinterpret_cast`
-* https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization[Resource acquisition is initialization] (RAII)
-* https://en.wikipedia.org/wiki/Run-time_type_information[Run-time type information] (RTTI)
+* https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization[Resource acquisition is initialization,window="_blank"] (RAII)
+* https://en.wikipedia.org/wiki/Run-time_type_information[Run-time type information,window="_blank"] (RTTI)
 
 ==== More topics
 A second list of concepts to keep in mind, only a bit harder this time.
 As before, the numbers in round brackets are a reference inside Marshall Cline's C++ FAQ.
 
-* Placement new (11.10)
+* Placement new http://www.cs.technion.ac.il/users/yechiel/c++-faq/placement-new.html[11.10,window="_blank"]
 * Pointer to member function
 * Diamond problem (25.8, 25.9) and multiple inheritance (ch. 25)
 * Hiding rule (23.9, 23.3)
 * Templates (ch. 35)
-* https://en.wikipedia.org/wiki/Rule_of_three_(C%2B%2B_programming)[Rule of three] / five / zero, https://en.wikipedia.org/wiki/Special_member_functions[special member functions]
-* Return value optimization (NRVO, RVO) (10.9) / Copy elision (https://eatplayhate.me/2013/10/01/c-cargo-cults-rvo-and-copy-elision/[C++ Cargo Cults, RVO and Copy Elision])
-* Copy-and-swap idiom (http://stackoverflow.com/a/3279550[Why do we need the copy-and-swap idiom?])
-* http://en.cppreference.com/w/cpp/language/adl[Argument-dependant lookup] (Koenig lookup)
+* https://en.wikipedia.org/wiki/Rule_of_three_(C%2B%2B_programming)[Rule of three,window="_blank"] / five / zero, https://en.wikipedia.org/wiki/Special_member_functions[special member functions,window="_blank"]
+* Return value optimization (NRVO, RVO) (10.9) / Copy elision (https://eatplayhate.me/2013/10/01/c-cargo-cults-rvo-and-copy-elision/[C++ Cargo Cults, RVO and Copy Elision,window="_blank"])
+* Copy-and-swap idiom (http://stackoverflow.com/a/3279550[Why do we need the copy-and-swap idiom?,window="_blank"])
+* http://en.cppreference.com/w/cpp/language/adl[Argument-dependant lookup,window="_blank"] (Koenig lookup)
 * Substitution Failure Is Not An Error (SFINAE) (35.11)
 * non-dependent types and members (35.18, 35.19, 35.20)
 * Proxy template (35.22), in C++11 you would employ the Type alias declaration with `using`
-* Type traits, concepts, tag dispatching (http://www.boost.org/community/generic_programming.html[Generic Programming Techniques])
-* https://en.wikipedia.org/wiki/Most_vexing_parse[Most vexing parse]
-* http://blog.llvm.org/2009/12/dreaded-two-phase-name-lookup.html[Two-phase name lookup]
-* https://en.wikipedia.org/wiki/Maximal_munch[Maximal munch]
-* https://en.wikipedia.org/wiki/Sequence_point[Sequence point]
-* https://en.wikipedia.org/wiki/Tail_call[Tail call]
-* https://en.wikipedia.org/wiki/Constant_folding[Constant folding]
+* Type traits, concepts, tag dispatching (http://www.boost.org/community/generic_programming.html[Generic Programming Techniques,window="_blank"])
+* https://en.wikipedia.org/wiki/Most_vexing_parse[Most vexing parse,window="_blank"]
+* http://blog.llvm.org/2009/12/dreaded-two-phase-name-lookup.html[Two-phase name lookup,window="_blank"]
+* https://en.wikipedia.org/wiki/Maximal_munch[Maximal munch,window="_blank"]
+* https://en.wikipedia.org/wiki/Sequence_point[Sequence point,window="_blank"]
+* https://en.wikipedia.org/wiki/Tail_call[Tail call,window="_blank"]
+* https://en.wikipedia.org/wiki/Constant_folding[Constant folding,window="_blank"]
 
 ==== C++11
 The book "_Effective Modern C++_" by Scott Meyers is a must-have.
@@ -92,66 +92,66 @@ The book "_Effective Modern C++_" by Scott Meyers is a must-have.
 * Move semantics, rule of five
 * Reference collapsing
 * Reference qualifiers
-* Forwarding (AKA universal) references (https://isocpp.org/blog/2012/11/universal-references-in-c11-scott-meyers[Universal References in C++11 by Scott Meyers])
+* Forwarding (AKA universal) references (https://isocpp.org/blog/2012/11/universal-references-in-c11-scott-meyers[Universal References in C++11 by Scott Meyers,window="_blank"])
 * Perfect forwarding
 * Enum classes
 * Range-based for loops (and issues with `auto` and copying objects around)
 * List initialization
 
 === OOAD, Design patterns
-* https://en.wikipedia.org/wiki/Single_responsibility_principle[Single responsibility principle]
-* https://en.wikipedia.org/wiki/Cohesion_(computer_science)[Cohesion] / https://en.wikipedia.org/wiki/Coupling_(computer_programming)[Coupling]
-* https://en.wikipedia.org/wiki/Factory_method_pattern[Factory method] / https://en.wikipedia.org/wiki/Abstract_factory_pattern[Abstract factory pattern]
-* https://en.wikipedia.org/wiki/Builder_pattern[Builder pattern]
+* https://en.wikipedia.org/wiki/Single_responsibility_principle[Single responsibility principle,window="_blank"]
+* https://en.wikipedia.org/wiki/Cohesion_(computer_science)[Cohesion,window="_blank"] / https://en.wikipedia.org/wiki/Coupling_(computer_programming)[Coupling,window="_blank"]
+* https://en.wikipedia.org/wiki/Factory_method_pattern[Factory method,window="_blank"] / https://en.wikipedia.org/wiki/Abstract_factory_pattern[Abstract factory pattern,window="_blank"]
+* https://en.wikipedia.org/wiki/Builder_pattern[Builder pattern,window="_blank"]
 * Meyer's singleton
-* https://en.wikipedia.org/wiki/Object_pool_pattern[Object pool], https://en.wikipedia.org/wiki/Thread_pool[Thread pool], https://en.wikipedia.org/wiki/Flyweight_pattern[Flyweight pattern]
+* https://en.wikipedia.org/wiki/Object_pool_pattern[Object pool,window="_blank"], https://en.wikipedia.org/wiki/Thread_pool[Thread pool,window="_blank"], https://en.wikipedia.org/wiki/Flyweight_pattern[Flyweight pattern,window="_blank"]
 
 
 === Operating Systems
-* Wiki Links https://en.wikipedia.org/wiki/Virtual_memory[Virtual memory], https://en.wikipedia.org/wiki/Paging[paging], https://en.wikipedia.org/wiki/Translation_lookaside_buffer[TLB], https://en.wikipedia.org/wiki/Memory_management_unit[MMU], https://en.wikipedia.org/wiki/Mmap[mmap]
-* https://manybutfinite.com/post/anatomy-of-a-program-in-memory/index.html[Anatomy of a Program in Memory]
-* https://arjunsreedharan.org/post/148675821737/write-a-simple-memory-allocator[Write a simple memory allocator]
-* https://assets.bitbashing.io/papers/concurrency-primer.pdf[What every programmer should know about concurrency]
-* https://blog.feabhas.com/search/semaphore/[Mutex VS Semaphore]
-* https://cyber.wtf/2017/07/28/negative-result-reading-kernel-memory-from-user-mode/[Reading Kernel memory from user mode]
-* https://events.static.linuxfound.org/sites/events/files/slides/elc_2016_mem.pdf[Virtual Memory]
+* Wiki Links https://en.wikipedia.org/wiki/Virtual_memory[Virtual memory,window="_blank"], https://en.wikipedia.org/wiki/Paging[paging,window="_blank"], https://en.wikipedia.org/wiki/Translation_lookaside_buffer[TLB,window="_blank"], https://en.wikipedia.org/wiki/Memory_management_unit[MMU,window="_blank"], https://en.wikipedia.org/wiki/Mmap[mmap,window="_blank"]
+* https://manybutfinite.com/post/anatomy-of-a-program-in-memory/index.html[Anatomy of a Program in Memory,window="_blank"]
+* https://arjunsreedharan.org/post/148675821737/write-a-simple-memory-allocator[Write a simple memory allocator,window="_blank"]
+* https://assets.bitbashing.io/papers/concurrency-primer.pdf[What every programmer should know about concurrency,window="_blank"]
+* https://blog.feabhas.com/search/semaphore/[Mutex VS Semaphore,window="_blank"]
+* https://cyber.wtf/2017/07/28/negative-result-reading-kernel-memory-from-user-mode/[Reading Kernel memory from user mode,window="_blank"]
+* https://events.static.linuxfound.org/sites/events/files/slides/elc_2016_mem.pdf[Virtual Memory,window="_blank"]
 * SOVF
-** https://stackoverflow.com/questions/13013491/why-is-kernel-mapped-to-the-same-address-space-as-processes[Why is kernel mapped to the same address space as processes]
-** https://stackoverflow.com/questions/8463741/how-linux-handles-threads-and-process-scheduling[How Linux handles threads and process scheduling]
-** https://stackoverflow.com/questions/5440128/thread-context-switch-vs-process-context-switch[Thread context switch vs process context switch]
+** https://stackoverflow.com/questions/13013491/why-is-kernel-mapped-to-the-same-address-space-as-processes[Why is kernel mapped to the same address space as processes,window="_blank"]
+** https://stackoverflow.com/questions/8463741/how-linux-handles-threads-and-process-scheduling[How Linux handles threads and process scheduling,window="_blank"]
+** https://stackoverflow.com/questions/5440128/thread-context-switch-vs-process-context-switch[Thread context switch vs process context switch,window="_blank"]
 
 === CPU
 Important links from Wikipedia about the architecture of a CPU.
 One of the book you could read to learn more on the subject is "_Computer Architecture: A Quantitative Approach_" by David A. Patterson.
 
-* https://en.wikipedia.org/wiki/Von_Neumann_architecture[Von Neumann architecture], https://en.wikipedia.org/wiki/Harvard_architecture[Harvard architecture]
-* https://en.wikipedia.org/wiki/Instruction_pipelining[Instruction pipelining], https://en.wikipedia.org/wiki/Classic_RISC_pipeline[Classic RISC pipeline] -> (fetch, decode, execute, memory access, writeback), https://en.wikipedia.org/wiki/Branch_predication[Branch predication]
-* https://en.wikipedia.org/wiki/Instruction-level_parallelism[Instruction-level parallelism], https://en.wikipedia.org/wiki/Out-of-order_execution[Out-of-order execution], https://en.wikipedia.org/wiki/Register_renaming[Register renaming], https://en.wikipedia.org/wiki/Register_allocation#Spilling[Register spilling], https://en.wikipedia.org/wiki/Superscalar_processor[Superscalar processor], https://en.wikipedia.org/wiki/Very_long_instruction_word[VLIW (Very Long Instruction Word)], https://en.wikipedia.org/wiki/Barrel_processor[Barrell processor]
-* https://en.wikipedia.org/wiki/Cycles_per_instruction[Cycles per instruction], https://en.wikipedia.org/wiki/Instructions_per_cycle[Instructions per cycle (IPC)]
-* https://en.wikipedia.org/wiki/Branch_predictor[Branch predictor], https://en.wikipedia.org/wiki/Branch_target_predictor[Branch target predictor]
-* https://en.wikipedia.org/wiki/Hazard_%28computer_architecture%29[Hazard (computer architecture)] -> (RAW, WAR, WAW data hazards, pipeline bubbling, register forwarding)
-* https://en.wikipedia.org/wiki/Speculative_execution[Speculative execution], https://en.wikipedia.org/wiki/Instruction_prefetch[Instruction prefetch], https://en.wikipedia.org/wiki/Prefetch_input_queue[Prefetch input queue]
-* https://en.wikipedia.org/wiki/CPU_cache[CPU cache], https://en.wikipedia.org/wiki/Cache_replacement_policies[Cache replacement policies], https://en.wikipedia.org/wiki/Translation_lookaside_buffer[Translation Lookaside Buffer (TLB)], https://en.wikipedia.org/wiki/Scratchpad_memory[Scratchpad memory]
-* https://en.wikipedia.org/wiki/Cache_coherence[Cache coherence] (https://en.wikipedia.org/wiki/MESI_protocol[MESI protocol], https://en.wikipedia.org/wiki/MOESI_protocol[MOESI protocol]), https://en.wikipedia.org/wiki/Bus_snooping[Bus snooping], https://en.wikipedia.org/wiki/Write_combining[Write combining]
-* https://en.wikipedia.org/wiki/Clock_gating[Clock gating]
-* https://en.wikipedia.org/wiki/Multiply%E2%80%93accumulate_operation[Multiply–accumulate operation] -> (Fused multiply–add)
-* https://en.wikipedia.org/wiki/Symmetric_multiprocessing[Symmetric multiprocessing], https://en.wikipedia.org/wiki/Simultaneous_multithreading[Simultaneous multithreading]
+* https://en.wikipedia.org/wiki/Von_Neumann_architecture[Von Neumann architecture,window="_blank"], https://en.wikipedia.org/wiki/Harvard_architecture[Harvard architecture,window="_blank"]
+* https://en.wikipedia.org/wiki/Instruction_pipelining[Instruction pipelining,window="_blank"], https://en.wikipedia.org/wiki/Classic_RISC_pipeline[Classic RISC pipeline,window="_blank"] -> (fetch, decode, execute, memory access, writeback), https://en.wikipedia.org/wiki/Branch_predication[Branch predication,window="_blank"]
+* https://en.wikipedia.org/wiki/Instruction-level_parallelism[Instruction-level parallelism,window="_blank"], https://en.wikipedia.org/wiki/Out-of-order_execution[Out-of-order execution,window="_blank"], https://en.wikipedia.org/wiki/Register_renaming[Register renaming,window="_blank"], https://en.wikipedia.org/wiki/Register_allocation#Spilling[Register spilling,window="_blank"], https://en.wikipedia.org/wiki/Superscalar_processor[Superscalar processor,window="_blank"], https://en.wikipedia.org/wiki/Very_long_instruction_word[VLIW (Very Long Instruction Word),window="_blank"], https://en.wikipedia.org/wiki/Barrel_processor[Barrell processor,window="_blank"]
+* https://en.wikipedia.org/wiki/Cycles_per_instruction[Cycles per instruction,window="_blank"], https://en.wikipedia.org/wiki/Instructions_per_cycle[Instructions per cycle (IPC),window="_blank"]
+* https://en.wikipedia.org/wiki/Branch_predictor[Branch predictor,window="_blank"], https://en.wikipedia.org/wiki/Branch_target_predictor[Branch target predictor,window="_blank"]
+* https://en.wikipedia.org/wiki/Hazard_%28computer_architecture%29[Hazard (computer architecture),window="_blank"] -> (RAW, WAR, WAW data hazards, pipeline bubbling, register forwarding)
+* https://en.wikipedia.org/wiki/Speculative_execution[Speculative execution,window="_blank"], https://en.wikipedia.org/wiki/Instruction_prefetch[Instruction prefetch,window="_blank"], https://en.wikipedia.org/wiki/Prefetch_input_queue[Prefetch input queue,window="_blank"]
+* https://en.wikipedia.org/wiki/CPU_cache[CPU cache,window="_blank"], https://en.wikipedia.org/wiki/Cache_replacement_policies[Cache replacement policies,window="_blank"], https://en.wikipedia.org/wiki/Translation_lookaside_buffer[Translation Lookaside Buffer (TLB),window="_blank"], https://en.wikipedia.org/wiki/Scratchpad_memory[Scratchpad memory,window="_blank"]
+* https://en.wikipedia.org/wiki/Cache_coherence[Cache coherence,window="_blank"] (https://en.wikipedia.org/wiki/MESI_protocol[MESI protocol,window="_blank"], https://en.wikipedia.org/wiki/MOESI_protocol[MOESI protocol,window="_blank"]), https://en.wikipedia.org/wiki/Bus_snooping[Bus snooping,window="_blank"], https://en.wikipedia.org/wiki/Write_combining[Write combining,window="_blank"]
+* https://en.wikipedia.org/wiki/Clock_gating[Clock gating,window="_blank"]
+* https://en.wikipedia.org/wiki/Multiply%E2%80%93accumulate_operation[Multiply–accumulate operation,window="_blank"] -> (Fused multiply–add)
+* https://en.wikipedia.org/wiki/Symmetric_multiprocessing[Symmetric multiprocessing,window="_blank"], https://en.wikipedia.org/wiki/Simultaneous_multithreading[Simultaneous multithreading,window="_blank"]
 
 ==== Multi-threading
 One of the book on the topic is "_The Art of Multiprocessor Programming_" by Maurice Herlihy and Nir Shavit
 
-* Critical section, mutex, semaphore, https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem[Producer-consumer problem], https://en.wikipedia.org/wiki/Dining_philosophers_problem[Dining philosophers problem], https://en.wikipedia.org/wiki/Priority_inversion[Priority inversion], race condition
-* Atomics and lock-free programming (http://preshing.com/[Preshing on Programming]), http://preshing.com/20120226/roll-your-own-lightweight-mutex/[Benaphore], https://en.wikipedia.org/wiki/ABA_problem[ABA problem], https://en.wikipedia.org/wiki/Load-link/store-conditional[Load-link/store-conditional], http://preshing.com/20120913/acquire-and-release-semantics/[acquire and release semantics] (Load-Acquire/Store-Release in the ARM Reference Manual)
-* Cache coherency, https://en.wikipedia.org/wiki/MOESI_protocol[MOESI protocol], https://en.wikipedia.org/wiki/MESIF_protocol[MESIF protocol], https://en.wikipedia.org/wiki/False_sharing[false sharing], https://en.wikipedia.org/wiki/Branch_misprediction[branch misprediction], https://en.wikipedia.org/wiki/Scratchpad_memory[scratchpad memory]
-* https://www.quora.com/CPUs-How-is-branch-prediction-implemented-in-microprocessors[CPUs: How is branch prediction implemented in microprocessors?]
+* Critical section, mutex, semaphore, https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem[Producer-consumer problem,window="_blank"], https://en.wikipedia.org/wiki/Dining_philosophers_problem[Dining philosophers problem,window="_blank"], https://en.wikipedia.org/wiki/Priority_inversion[Priority inversion,window="_blank"], race condition
+* Atomics and lock-free programming (http://preshing.com/[Preshing on Programming,window="_blank"]), http://preshing.com/20120226/roll-your-own-lightweight-mutex/[Benaphore,window="_blank"], https://en.wikipedia.org/wiki/ABA_problem[ABA problem,window="_blank"], https://en.wikipedia.org/wiki/Load-link/store-conditional[Load-link/store-conditional,window="_blank"], http://preshing.com/20120913/acquire-and-release-semantics/[acquire and release semantics,window="_blank"] (Load-Acquire/Store-Release in the ARM Reference Manual)
+* Cache coherency, https://en.wikipedia.org/wiki/MOESI_protocol[MOESI protocol,window="_blank"], https://en.wikipedia.org/wiki/MESIF_protocol[MESIF protocol,window="_blank"], https://en.wikipedia.org/wiki/False_sharing[false sharing,window="_blank"], https://en.wikipedia.org/wiki/Branch_misprediction[branch misprediction,window="_blank"], https://en.wikipedia.org/wiki/Scratchpad_memory[scratchpad memory,window="_blank"]
+* https://www.quora.com/CPUs-How-is-branch-prediction-implemented-in-microprocessors[CPUs: How is branch prediction implemented in microprocessors?,window="_blank"]
 * Single Producer / Multiple Consumer
 * Lock-free queues
-* https://en.wikipedia.org/wiki/Hazard_pointer[Hazard pointer]
+* https://en.wikipedia.org/wiki/Hazard_pointer[Hazard pointer,window="_blank"]
 * Aligning AoS to cache line size to avoid false sharing
-* https://fgiesen.wordpress.com/2016/08/07/why-do-cpus-have-multiple-cache-levels/[Why do CPUs have multiple cache levels?]
+* https://fgiesen.wordpress.com/2016/08/07/why-do-cpus-have-multiple-cache-levels/[Why do CPUs have multiple cache levels?,window="_blank"]
 
 ==== IPC
-* https://dbus.freedesktop.org/doc/dbus-tutorial.html[DBUS Tutorial]
+* https://dbus.freedesktop.org/doc/dbus-tutorial.html[DBUS Tutorial,window="_blank"]
 
 
 
@@ -159,148 +159,148 @@ One of the book on the topic is "_The Art of Multiprocessor Programming_" by Mau
 
 === Graphics
 
-* https://www.scratchapixel.com/[Scratchapixel - Learn Computer Graphics From Scratch!]
-* http://blip.tv/linuxconfau/x-and-the-future-of-linux-graphics-4711540[X and the future of Linux graphics]
-* https://lwn.net/Articles/413335/[Life after X]
+* https://www.scratchapixel.com/[Scratchapixel - Learn Computer Graphics From Scratch!,window="_blank"]
+* http://blip.tv/linuxconfau/x-and-the-future-of-linux-graphics-4711540[X and the future of Linux graphics,window="_blank"]
+* https://lwn.net/Articles/413335/[Life after X,window="_blank"]
 
 
 
 ==== Mobile GPUs architecture
 The book "_OpenGL ES 3.0 Programming Guide_" by Dan Ginsburg and Budirijanto Purnomo is a must-have.
 
-* http://www.seas.upenn.edu/~pcozzi/OpenGLInsights/OpenGLInsights-TileBasedArchitectures.pdf[Performance Tuning for Tile-Based Architectures (PDF)], from chapter 23 of the "OpenGL Insights" book
-* http://gpuopen.com/vulkan-renderpasses/[Vulkan Renderpasses]
-* http://malideveloper.arm.com/downloads/ARM_Game_Developer_Days/PDFs/4-compute_shaders.pdf[Get the most out of the new OpenGL ES 3.1 API (PDF)] by ARM
-* http://malideveloper.arm.com/sample-code/opengl-es-sample-code/[OpenGL ES Sample Code by ARM]
-* http://malideveloper.arm.com/sample-code/vulkan-sample-code/[Vulkan sample code by ARM]
+* http://www.seas.upenn.edu/~pcozzi/OpenGLInsights/OpenGLInsights-TileBasedArchitectures.pdf[Performance Tuning for Tile-Based Architectures (PDF),window="_blank"], from chapter 23 of the "OpenGL Insights" book
+* http://gpuopen.com/vulkan-renderpasses/[Vulkan Renderpasses,window="_blank"]
+* http://malideveloper.arm.com/downloads/ARM_Game_Developer_Days/PDFs/4-compute_shaders.pdf[Get the most out of the new OpenGL ES 3.1 API (PDF),window="_blank"] by ARM
+* http://malideveloper.arm.com/sample-code/opengl-es-sample-code/[OpenGL ES Sample Code by ARM,window="_blank"]
+* http://malideveloper.arm.com/sample-code/vulkan-sample-code/[Vulkan sample code by ARM,window="_blank"]
 
 ===== ARM Mali
-* http://malideveloper.arm.com/documentation/developer-guides/mali-gpu-application-optimization-guide/[Mali GPU Application Optimization Guide]
+* http://malideveloper.arm.com/documentation/developer-guides/mali-gpu-application-optimization-guide/[Mali GPU Application Optimization Guide,window="_blank"]
 * The Mali GPU: An Abstract Machine
-** https://www.community.arm.com/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-1---frame-pipelining[Part 1 - Frame Pipelining]
-** https://www.community.arm.com/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-2---tile-based-rendering[Part 2 - Tile-based Rendering]
-** https://www.community.arm.com/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-3---the-midgard-shader-core[Part 3 - The Midgard Shader Core]
-** https://www.community.arm.com/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-4---the-bifrost-shader-core[Part 4 - The Bifrost Shader Core]
-* https://www.community.arm.com/graphics/b/blog/posts/killing-pixels---a-new-optimization-for-shading-on-arm-mali-gpus[Killing Pixels - A New Optimization for Shading on ARM Mali GPUs] (Forward Pixel Kill)
-* https://www.community.arm.com/graphics/b/blog/posts/how-low-can-you-go-building-low-power-low-bandwidth-arm-mali-gpus[How low can you go? Building low-power, low-bandwidth ARM Mali GPUs] (Transaction elimination)
+** https://www.community.arm.com/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-1---frame-pipelining[Part 1 - Frame Pipelining,window="_blank"]
+** https://www.community.arm.com/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-2---tile-based-rendering[Part 2 - Tile-based Rendering,window="_blank"]
+** https://www.community.arm.com/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-3---the-midgard-shader-core[Part 3 - The Midgard Shader Core,window="_blank"]
+** https://www.community.arm.com/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-4---the-bifrost-shader-core[Part 4 - The Bifrost Shader Core,window="_blank"]
+* https://www.community.arm.com/graphics/b/blog/posts/killing-pixels---a-new-optimization-for-shading-on-arm-mali-gpus[Killing Pixels - A New Optimization for Shading on ARM Mali GPUs,window="_blank"] (Forward Pixel Kill)
+* https://www.community.arm.com/graphics/b/blog/posts/how-low-can-you-go-building-low-power-low-bandwidth-arm-mali-gpus[How low can you go? Building low-power, low-bandwidth ARM Mali GPUs,window="_blank"] (Transaction elimination)
 * Mali Performance
-** https://www.community.arm.com/graphics/b/blog/posts/mali-performance-1-checking-the-pipeline[1: Checking the Pipeline]
-** https://www.community.arm.com/graphics/b/blog/posts/mali-performance-2-how-to-correctly-handle-framebuffers[2: How to Correctly Handle Framebuffers]
-** https://www.community.arm.com/graphics/b/blog/posts/mali-performance-3-is-egl_5f00_buffer_5f00_preserved-a-good-thing[3: Is `EGL_BUFFER_PRESERVED` a good thing?]
-** https://www.community.arm.com/graphics/b/blog/posts/mali-performance-4-principles-of-high-performance-rendering[4: Principles of High Performance Rendering]
-** https://www.community.arm.com/graphics/b/blog/posts/mali-performance-5-an-application-s-performance-responsibilities[5: An Application's Performance Responsibilities]
+** https://www.community.arm.com/graphics/b/blog/posts/mali-performance-1-checking-the-pipeline[1: Checking the Pipeline,window="_blank"]
+** https://www.community.arm.com/graphics/b/blog/posts/mali-performance-2-how-to-correctly-handle-framebuffers[2: How to Correctly Handle Framebuffers,window="_blank"]
+** https://www.community.arm.com/graphics/b/blog/posts/mali-performance-3-is-egl_5f00_buffer_5f00_preserved-a-good-thing[3: Is `EGL_BUFFER_PRESERVED` a good thing?,window="_blank"]
+** https://www.community.arm.com/graphics/b/blog/posts/mali-performance-4-principles-of-high-performance-rendering[4: Principles of High Performance Rendering,window="_blank"]
+** https://www.community.arm.com/graphics/b/blog/posts/mali-performance-5-an-application-s-performance-responsibilities[5: An Application's Performance Responsibilities,window="_blank"]
 * Benchmarking floating-point precision in mobile GPUs
-** https://community.arm.com/graphics/b/blog/posts/benchmarking-floating-point-precision-in-mobile-gpus[Part I]
-** https://community.arm.com/graphics/b/blog/posts/benchmarking-floating-point-precision-in-mobile-gpus---part-ii[Part II]
-** https://community.arm.com/graphics/b/blog/posts/benchmarking-floating-point-precision-in-mobile-gpus---part-iii[Part III]
-* https://www.community.arm.com/graphics/b/blog/posts/pixel-local-storage-on-arm-mali-gpus[Pixel Local Storage on ARM(R) Mali(TM) GPUs]
-* http://www.geomerics.com/wp-content/uploads/2014/11/Efficient-Rendering-with-Tile-Local-Storage.pdf[Efficient Rendering with Tile Local Storage (PDF)] (SIGGRAPH 2014)
-* http://www.anandtech.com/show/8234/arms-mali-midgard-architecture-explored[ARM's Mali Midgard Architecture Explored]
-* http://www.anandtech.com/show/10375/arm-unveils-bifrost-and-mali-g71[ARM Unveils Next Generation Bifrost GPU Architexture & Mali-G71: The New High-End Mali]
+** https://community.arm.com/graphics/b/blog/posts/benchmarking-floating-point-precision-in-mobile-gpus[Part I,window="_blank"]
+** https://community.arm.com/graphics/b/blog/posts/benchmarking-floating-point-precision-in-mobile-gpus---part-ii[Part II,window="_blank"]
+** https://community.arm.com/graphics/b/blog/posts/benchmarking-floating-point-precision-in-mobile-gpus---part-iii[Part III,window="_blank"]
+* https://www.community.arm.com/graphics/b/blog/posts/pixel-local-storage-on-arm-mali-gpus[Pixel Local Storage on ARM(R) Mali(TM) GPUs,window="_blank"]
+* http://www.geomerics.com/wp-content/uploads/2014/11/Efficient-Rendering-with-Tile-Local-Storage.pdf[Efficient Rendering with Tile Local Storage (PDF),window="_blank"] (SIGGRAPH 2014)
+* http://www.anandtech.com/show/8234/arms-mali-midgard-architecture-explored[ARM's Mali Midgard Architecture Explored,window="_blank"]
+* http://www.anandtech.com/show/10375/arm-unveils-bifrost-and-mali-g71[ARM Unveils Next Generation Bifrost GPU Architexture & Mali-G71: The New High-End Mali,window="_blank"]
 
 ===== Imagination PowerVR
-* https://www.imgtec.com/blog/a-look-at-the-powervr-graphics-architecture-tile-based-rendering/[A look at the PowerVR graphics architecture: Tile-based rendering]
-* https://www.imgtec.com/blog/the-dr-in-tbdr-deferred-rendering-in-rogue/[A look at the PowerVR graphics architecture: Deferred rendering]
-* https://community.imgtec.com/?do-download=50703[PowerVR Hardware Architecture Overview for Developers (PDF)]
-* https://community.imgtec.com/?do-download=50702[PowerVR Series5 Architecture Guide for Developers (PDF)]
-* https://community.imgtec.com/?do-download=50691[PowerVR Series6 Compiler Instruction Set Reference (PDF)]
-* https://community.imgtec.com/?do-download=50705[PowerVR Performance Recommendations (PDF)]
-* https://community.imgtec.com/?do-download=50751[PowerVR Performance Recommendations The Golden Rules (PDF)]
+* https://www.imgtec.com/blog/a-look-at-the-powervr-graphics-architecture-tile-based-rendering/[A look at the PowerVR graphics architecture: Tile-based rendering,window="_blank"]
+* https://www.imgtec.com/blog/the-dr-in-tbdr-deferred-rendering-in-rogue/[A look at the PowerVR graphics architecture: Deferred rendering,window="_blank"]
+* https://community.imgtec.com/?do-download=50703[PowerVR Hardware Architecture Overview for Developers (PDF),window="_blank"]
+* https://community.imgtec.com/?do-download=50702[PowerVR Series5 Architecture Guide for Developers (PDF),window="_blank"]
+* https://community.imgtec.com/?do-download=50691[PowerVR Series6 Compiler Instruction Set Reference (PDF),window="_blank"]
+* https://community.imgtec.com/?do-download=50705[PowerVR Performance Recommendations (PDF),window="_blank"]
+* https://community.imgtec.com/?do-download=50751[PowerVR Performance Recommendations The Golden Rules (PDF),window="_blank"]
 
 ===== Qualcomm Adreno
-* https://developer.qualcomm.com/download/adrenosdk/adreno-opengl-es-developer-guide.pdf[Adreno OpenGL ES Developer Guide (PDF)]
+* https://developer.qualcomm.com/download/adrenosdk/adreno-opengl-es-developer-guide.pdf[Adreno OpenGL ES Developer Guide (PDF),window="_blank"]
 
 ===== Nvidia Tegra
-* https://developer.nvidia.com/embedded/tegra-2-reference[Tegra 2 Reference]
-* https://developer.nvidia.com/embedded/tegra-3-reference[Tegra 3 Reference]
-* https://developer.nvidia.com/embedded/tegra-4-reference[Tegra 4 Reference]
-* https://developer.nvidia.com/embedded/tegra-k1-reference[Tegra K1 Reference]
-* http://developer.download.nvidia.com/assets/mobile/files/tegra_gles2_development.pdf[OpenGL ES 2.0 Development for the Tegra Platform (PDF)]
+* https://developer.nvidia.com/embedded/tegra-2-reference[Tegra 2 Reference,window="_blank"]
+* https://developer.nvidia.com/embedded/tegra-3-reference[Tegra 3 Reference,window="_blank"]
+* https://developer.nvidia.com/embedded/tegra-4-reference[Tegra 4 Reference,window="_blank"]
+* https://developer.nvidia.com/embedded/tegra-k1-reference[Tegra K1 Reference,window="_blank"]
+* http://developer.download.nvidia.com/assets/mobile/files/tegra_gles2_development.pdf[OpenGL ES 2.0 Development for the Tegra Platform (PDF),window="_blank"]
 
 ==== Desktop GPUs architecture
-* http://bps10.idav.ucdavis.edu/talks/03-fatahalian_gpuArchTeraflop_BPS_SIGGRAPH2010.pdf[From Shader Code to a Teraflop: How GPU Shader Cores Work (PDF)] by Kayvon Fatahalian (SIGGRAPH 2010)
-* http://bps11.idav.ucdavis.edu/talks/05-schedulingGraphicsPipeline-BPS2011-ragankelley.pdf[Scheduling the Graphics Pipeline (PDF)] by Jonathan Ragan-Kelley (SIGGRAPH 2011)
-* https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/[A trip through the Graphics Pipeline 2011: Index] by Fabian "ryg" Giesen
+* http://bps10.idav.ucdavis.edu/talks/03-fatahalian_gpuArchTeraflop_BPS_SIGGRAPH2010.pdf[From Shader Code to a Teraflop: How GPU Shader Cores Work (PDF),window="_blank"] by Kayvon Fatahalian (SIGGRAPH 2010)
+* http://bps11.idav.ucdavis.edu/talks/05-schedulingGraphicsPipeline-BPS2011-ragankelley.pdf[Scheduling the Graphics Pipeline (PDF),window="_blank"] by Jonathan Ragan-Kelley (SIGGRAPH 2011)
+* https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/[A trip through the Graphics Pipeline 2011: Index,window="_blank"] by Fabian "ryg" Giesen
 
 ===== AMD Radeon
-* http://gpuopen.com/compute-product/amd-gcn3-isa-architecture-manual/[AMD GCN3 ISA Architecture Manual]
+* http://gpuopen.com/compute-product/amd-gcn3-isa-architecture-manual/[AMD GCN3 ISA Architecture Manual,window="_blank"]
 
 ==== Graphics techniques
-* http://advances.realtimerendering.com/[Advances in Real-Time Rendering in 3D Graphics and Games]
-* http://blog.selfshadow.com/publications/s2016-shading-course/[SIGGRAPH 2016 Course: Physically Based Shading in Theory and Practice]
-* http://blog.selfshadow.com/publications/s2013-shading-course/hoffman/s2013_pbs_physics_math_notes.pdf[Background: Physics and Math of Shading (PDF)] by Naty Hoffman
-* https://newq.net/publications/more/s2015-many-lights-course[Real-Time Many-Light Management and Shadows with Clustered Shading] a SIGGRAPH 2015 Course
-* http://www.adriancourreges.com/blog/2016/09/09/doom-2016-graphics-study/[DOOM (2016) - Graphics Study] by Adrian Courreges
-* http://www.adriancourreges.com/blog/2015/11/02/gta-v-graphics-study/[GTA V - Graphics Study] by Adrian Courreges
-* http://iryoku.com/downloads/Practical-Realtime-Strategies-for-Accurate-Indirect-Occlusion.pdf[Practical Realtime Strategies for Accurate Indirect Occlusion (PDF)] by Jorge Jimenez, Xian-Chun Wu, Angelo Pesce and Adrian Jarabo
+* http://advances.realtimerendering.com/[Advances in Real-Time Rendering in 3D Graphics and Games,window="_blank"]
+* http://blog.selfshadow.com/publications/s2016-shading-course/[SIGGRAPH 2016 Course: Physically Based Shading in Theory and Practice,window="_blank"]
+* http://blog.selfshadow.com/publications/s2013-shading-course/hoffman/s2013_pbs_physics_math_notes.pdf[Background: Physics and Math of Shading (PDF),window="_blank"] by Naty Hoffman
+* https://newq.net/publications/more/s2015-many-lights-course[Real-Time Many-Light Management and Shadows with Clustered Shading,window="_blank"] a SIGGRAPH 2015 Course
+* http://www.adriancourreges.com/blog/2016/09/09/doom-2016-graphics-study/[DOOM (2016) - Graphics Study,window="_blank"] by Adrian Courreges
+* http://www.adriancourreges.com/blog/2015/11/02/gta-v-graphics-study/[GTA V - Graphics Study,window="_blank"] by Adrian Courreges
+* http://iryoku.com/downloads/Practical-Realtime-Strategies-for-Accurate-Indirect-Occlusion.pdf[Practical Realtime Strategies for Accurate Indirect Occlusion (PDF),window="_blank"] by Jorge Jimenez, Xian-Chun Wu, Angelo Pesce and Adrian Jarabo
 
 ===== Older resources
-* http://www.punkuser.net/vsm/vsm_paper.pdf[Variance Shadow Maps (PDF)] by William Donnelly and Andrew Lauritzen
-* http://www.cescg.org/CESCG-2006/papers/TUBudapest-Premecz-Matyas.pdf[Iterative Parallax Mapping with Slope Information (PDF)] by Mátyás Premecz
-* https://www.gamedev.net/resources/_/technical/graphics-programming-and-theory/a-simple-and-practical-approach-to-ssao-r2753[A Simple and Practical Approach to SSAO] by José María Méndez
-* http://amd-dev.wpengine.netdna-cdn.com/wordpress/media/2012/10/Scheuermann_DepthOfField.pdf[Advanced Depth of Field (PDF)] by Thorsten Scheuermann
-* http://realtimecollisiondetection.net/blog/?p=86[Order your graphics draw calls around!] from the Real-Time Collision Detection blog
+* http://www.punkuser.net/vsm/vsm_paper.pdf[Variance Shadow Maps (PDF),window="_blank"] by William Donnelly and Andrew Lauritzen
+* http://www.cescg.org/CESCG-2006/papers/TUBudapest-Premecz-Matyas.pdf[Iterative Parallax Mapping with Slope Information (PDF),window="_blank"] by Mátyás Premecz
+* https://www.gamedev.net/resources/_/technical/graphics-programming-and-theory/a-simple-and-practical-approach-to-ssao-r2753[A Simple and Practical Approach to SSAO,window="_blank"] by José María Méndez
+* http://amd-dev.wpengine.netdna-cdn.com/wordpress/media/2012/10/Scheuermann_DepthOfField.pdf[Advanced Depth of Field (PDF),window="_blank"] by Thorsten Scheuermann
+* http://realtimecollisiondetection.net/blog/?p=86[Order your graphics draw calls around!,window="_blank"] from the Real-Time Collision Detection blog
 
 
 === Algorithms and Data Structures
 * Sorting and data structures (lists, arrays, hash tables)
-** About hash tables: linear probing, quadratic probing, http://preshing.com/20160314/leapfrog-probing/[leapfrog probing], double hashing, cuckoo hashing, hopscotch hashing
-* Floating point (29.17 and https://randomascii.wordpress.com/[Random ASCII blog])
-** https://randomascii.wordpress.com/2012/01/11/tricks-with-the-floating-point-format/[Tricks With the Floating-Point Format] (representation)
-** https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/[Comparing Floating Point Numbers, 2012 Edition] (ULP comparison)
-** https://randomascii.wordpress.com/2012/05/20/thats-not-normalthe-performance-of-odd-floats/[That’s Not Normal–the Performance of Odd Floats] (hole around zero, denormals)
-* https://download-mirror.savannah.gnu.org/releases/pgubook/ProgrammingGroundUp-1-0-booksize.pdf["Programming from the Ground Up" (PDF)] by Jonathan Bartlett
-** https://en.wikipedia.org/wiki/Call_stack[Call stack], relocating code, dynamic libraries, https://en.wikipedia.org/wiki/Data_segment[data] / https://en.wikipedia.org/wiki/.bss[bss] / https://en.wikipedia.org/wiki/Code_segment[text] segments
-* http://gafferongames.com/game-physics/fix-your-timestep/[Fix Your Timestep! by Glenn Fiedler]
+** About hash tables: linear probing, quadratic probing, http://preshing.com/20160314/leapfrog-probing/[leapfrog probing,window="_blank"], double hashing, cuckoo hashing, hopscotch hashing
+* Floating point (29.17 and https://randomascii.wordpress.com/[Random ASCII blog,window="_blank"])
+** https://randomascii.wordpress.com/2012/01/11/tricks-with-the-floating-point-format/[Tricks With the Floating-Point Format,window="_blank"] (representation)
+** https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/[Comparing Floating Point Numbers, 2012 Edition,window="_blank"] (ULP comparison)
+** https://randomascii.wordpress.com/2012/05/20/thats-not-normalthe-performance-of-odd-floats/[That’s Not Normal–the Performance of Odd Floats,window="_blank"] (hole around zero, denormals)
+* https://download-mirror.savannah.gnu.org/releases/pgubook/ProgrammingGroundUp-1-0-booksize.pdf["Programming from the Ground Up" (PDF),window="_blank"] by Jonathan Bartlett
+** https://en.wikipedia.org/wiki/Call_stack[Call stack,window="_blank"], relocating code, dynamic libraries, https://en.wikipedia.org/wiki/Data_segment[data,window="_blank"] / https://en.wikipedia.org/wiki/.bss[bss,window="_blank"] / https://en.wikipedia.org/wiki/Code_segment[text,window="_blank"] segments
+* http://gafferongames.com/game-physics/fix-your-timestep/[Fix Your Timestep! by Glenn Fiedler,window="_blank"]
 * Custom allocator with pools
-* https://en.wikipedia.org/wiki/Quadtree[Quadtree], https://en.wikipedia.org/wiki/Octree[Octree] and https://en.wikipedia.org/wiki/Binary_space_partitioning[Binary Space Partitioning (BSP)]
+* https://en.wikipedia.org/wiki/Quadtree[Quadtree,window="_blank"], https://en.wikipedia.org/wiki/Octree[Octree,window="_blank"] and https://en.wikipedia.org/wiki/Binary_space_partitioning[Binary Space Partitioning (BSP),window="_blank"]
 
 ==== More topics
-* https://mynameismjp.wordpress.com/2012/10/24/msaa-overview/[A Quick Overview of MSAA] by Matt Pettineo
-* https://www.opengl.org/pipeline/article/vol003_6/[GLSL: Center or Centroid?  (Or When Shaders Attack!)] by Bill Licea-Kane (AMD)
-* https://renderdoc.org/vulkan-in-30-minutes.html[Vulkan in 30 minutes] by Baldur Karlsson
-* https://www.cs.cornell.edu/courses/cs4620/2008fa/lectures/texture-filtering.pdf[Texture filtering (PDF)] (Mipmap selection with derivatives) by Steve Marschner
-* http://www.3dkingdoms.com/weekly/weekly.php?a=2[Reflecting a Vector] (Vector reflection with vector projection and dot product)
-* https://en.wikipedia.org/wiki/Gram%E2%80%93Schmidt_process[Gram-Schmidt orthogonalization] with vector projection and dot product
-* http://s09.idav.ucdavis.edu/talks/05-JP_id_Tech_5_Challenges.pdf[id Tech 5 Challanges - From Texture Virtualization to Massive Parallelization (PDF)] by J.M.P. van Wavewer (id Software) (virtual texturing, sparse resources, parallel job system)
-* http://www.slideshare.net/CassEveritt/approaching-zero-driver-overhead[Approaching Zero Driver Overhead in OpenGL (PDF)] http://gdcvault.com/play/1020791/[(GDC Vault video)], persistent mapping
-* http://media.steampowered.com/apps/steamdevdays/slides/beyondporting.pdf[Beyond Porting (PDF)] https://www.youtube.com/watch?v=-bCeNzgiJ8I[(Steam Dev Days video)] by Cass Everitt and John McDonald (NVIDIA) (persistent mapping, texture arrays, sparse and bindless textures)
-* http://kayru.org/articles/deferred-stencil/[Rendering deferred lights using Stencil culling algorithm] by Yuriy O'Donnell
-* https://developer.nvidia.com/content/depth-precision-visualized[Depth Precision Visualized] by Nathan Reed (NVIDIA)
-* https://gamedev.stackexchange.com/questions/130888/what-are-screen-space-derivatives-and-when-would-i-use-them/130933#130933[What are screen space derivatives and when would I use them?]
-* https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/gl_HelperInvocation.xhtml[gl_HelperInvocation] - OpenGL 4 Reference Pages
-* https://developer.nvidia.com/content/life-triangle-nvidias-logical-pipeline[Life of a triangle - NVIDIA's logical pipeline] by Christoph Kubisch
-* https://mynameismjp.wordpress.com/2018/03/06/breaking-down-barriers-part-1-whats-a-barrier/[Breaking Down Barriers - Part 1: What's a Barrier?] by Matt Pettineo
-* https://mynameismjp.wordpress.com/2018/04/01/breaking-down-barriers-part-2-synchronizing-gpu-threads/[Breaking Down Barriers - Part 2: Synchronizing GPU Threads] by Matt Pettineo
-* https://mynameismjp.wordpress.com/2018/06/17/breaking-down-barriers-part-3-multiple-command-processors/[Breaking Down Barriers - Part 3: Multiple Command Processors] by Matt Pettineo
-* https://mynameismjp.wordpress.com/2018/07/03/breaking-down-barriers-part-4-gpu-preemption/[Breaking Down Barriers - Part 4: GPU Preemption] by Matt Pettineo
-* https://mynameismjp.wordpress.com/2018/09/08/breaking-down-barriers-part-5-back-to-the-real-world/[Breaking Down Barriers - Part 5: Back to the Real World] by Matt Pettineo
-* https://anteru.net/blog/2018/intro-to-compute-shaders/index.html[Introduction to compute shaders] by Matthäus G. Chajdas
-* https://anteru.net/blog/2018/more-compute-shaders/index.html[More compute shaders] by Matthäus G. Chajdas
-* https://anteru.net/blog/2018/even-more-compute-shaders/index.html[Even more compute shaders] by Matthäus G. Chajdas
-* https://medium.com/@alen.ladavac/the-elusive-frame-timing-168f899aec92[The Elusive Frame Timing] by Alen Ladavac
+* https://mynameismjp.wordpress.com/2012/10/24/msaa-overview/[A Quick Overview of MSAA,window="_blank"] by Matt Pettineo
+* https://www.opengl.org/pipeline/article/vol003_6/[GLSL: Center or Centroid?  (Or When Shaders Attack!),window="_blank"] by Bill Licea-Kane (AMD)
+* https://renderdoc.org/vulkan-in-30-minutes.html[Vulkan in 30 minutes,window="_blank"] by Baldur Karlsson
+* https://www.cs.cornell.edu/courses/cs4620/2008fa/lectures/texture-filtering.pdf[Texture filtering (PDF),window="_blank"] (Mipmap selection with derivatives) by Steve Marschner
+* http://www.3dkingdoms.com/weekly/weekly.php?a=2[Reflecting a Vector,window="_blank"] (Vector reflection with vector projection and dot product)
+* https://en.wikipedia.org/wiki/Gram%E2%80%93Schmidt_process[Gram-Schmidt orthogonalization,window="_blank"] with vector projection and dot product
+* http://s09.idav.ucdavis.edu/talks/05-JP_id_Tech_5_Challenges.pdf[id Tech 5 Challanges - From Texture Virtualization to Massive Parallelization (PDF),window="_blank"] by J.M.P. van Wavewer (id Software) (virtual texturing, sparse resources, parallel job system)
+* http://www.slideshare.net/CassEveritt/approaching-zero-driver-overhead[Approaching Zero Driver Overhead in OpenGL (PDF),window="_blank"] http://gdcvault.com/play/1020791/[(GDC Vault video),window="_blank"], persistent mapping
+* http://media.steampowered.com/apps/steamdevdays/slides/beyondporting.pdf[Beyond Porting (PDF),window="_blank"] https://www.youtube.com/watch?v=-bCeNzgiJ8I[(Steam Dev Days video),window="_blank"] by Cass Everitt and John McDonald (NVIDIA) (persistent mapping, texture arrays, sparse and bindless textures)
+* http://kayru.org/articles/deferred-stencil/[Rendering deferred lights using Stencil culling algorithm,window="_blank"] by Yuriy O'Donnell
+* https://developer.nvidia.com/content/depth-precision-visualized[Depth Precision Visualized,window="_blank"] by Nathan Reed (NVIDIA)
+* https://gamedev.stackexchange.com/questions/130888/what-are-screen-space-derivatives-and-when-would-i-use-them/130933#130933[What are screen space derivatives and when would I use them?,window="_blank"]
+* https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/gl_HelperInvocation.xhtml[gl_HelperInvocation,window="_blank"] - OpenGL 4 Reference Pages
+* https://developer.nvidia.com/content/life-triangle-nvidias-logical-pipeline[Life of a triangle - NVIDIA's logical pipeline,window="_blank"] by Christoph Kubisch
+* https://mynameismjp.wordpress.com/2018/03/06/breaking-down-barriers-part-1-whats-a-barrier/[Breaking Down Barriers - Part 1: What's a Barrier?,window="_blank"] by Matt Pettineo
+* https://mynameismjp.wordpress.com/2018/04/01/breaking-down-barriers-part-2-synchronizing-gpu-threads/[Breaking Down Barriers - Part 2: Synchronizing GPU Threads,window="_blank"] by Matt Pettineo
+* https://mynameismjp.wordpress.com/2018/06/17/breaking-down-barriers-part-3-multiple-command-processors/[Breaking Down Barriers - Part 3: Multiple Command Processors,window="_blank"] by Matt Pettineo
+* https://mynameismjp.wordpress.com/2018/07/03/breaking-down-barriers-part-4-gpu-preemption/[Breaking Down Barriers - Part 4: GPU Preemption,window="_blank"] by Matt Pettineo
+* https://mynameismjp.wordpress.com/2018/09/08/breaking-down-barriers-part-5-back-to-the-real-world/[Breaking Down Barriers - Part 5: Back to the Real World,window="_blank"] by Matt Pettineo
+* https://anteru.net/blog/2018/intro-to-compute-shaders/index.html[Introduction to compute shaders,window="_blank"] by Matthäus G. Chajdas
+* https://anteru.net/blog/2018/more-compute-shaders/index.html[More compute shaders,window="_blank"] by Matthäus G. Chajdas
+* https://anteru.net/blog/2018/even-more-compute-shaders/index.html[Even more compute shaders,window="_blank"] by Matthäus G. Chajdas
+* https://medium.com/@alen.ladavac/the-elusive-frame-timing-168f899aec92[The Elusive Frame Timing,window="_blank"] by Alen Ladavac
 
 === Data Oriented Design
-* http://harmful.cat-v.org/software/OO_programming/_pdf/Pitfalls_of_Object_Oriented_Programming_GCAP_09.pdf[Pitfalls of Object Oriented Programming (PDF)] by Tony Albrecht (SCEE)
-* https://macton.smugmug.com/Other/2008-07-15-by-Eye-Fi/n-xmKDH/i-BrHWXdJ[Typical C++ Bullshit] by Mike Acton (Insomniac Games)
-* http://www.frostbite.com/wp-content/uploads/2013/05/CullingTheBattlefield.pdf[Culling the Battlefield (PDF)] by Daniel Collin (Frostbite)
-* http://www.slideshare.net/naughty_dog/multiprocessor-game-loops-lessons-from-uncharted-2-among-thieves[Multiprocessor Game Loops] by Jason Gregory (Naughty Dog)
-* http://twvideo01.ubm-us.net/o1/vault/gdc2015/presentations/Gyrling_Christian_Parallelizing_The_Naughty.pdf[Parallelizing the Naughty Dog Engine Using Fibers (PDF)] (http://www.gdcvault.com/play/1022186/Parallelizing-the-Naughty-Dog-Engine[GDC Vault video]) by Christian Gyrling (Naughty Dog)
-* http://lukasz.dk/mirror/research-scea/research/pdfs/GDC2003_Memory_Optimization_18Mar03.pdf[Memory Optimization (PDF)] by Christer Ericson (Sony Santa Monica)
-* http://www.dice.se/wp-content/uploads/2014/12/Introduction_to_Data-Oriented_Design.pdf[Introduction to Data Oriented Design (PDF)] by Daniel Collin (DICE)
-* http://gameprogrammingpatterns.com/data-locality.html[Data Locality] (cache miss, branch misprediction, pipeline flush) from http://gameprogrammingpatterns.com[Game Programming Patterns] by Robert Nystrom
-* http://media.steampowered.com/apps/valve/2015/Migdalskiy_Sergiy_Physics_Optimization_Strategies.pdf[Performance - Physics Optimization Strategies (PDF)] by Sergiy Migdalskiy (Valve)
-* http://cellperformance.beyond3d.com/articles/2009/08/roundup-recent-sketches-on-concurrency-data-design-and-performance.html[Roundup: Recent sketches on concurrency, data design and performance] by Mike Acton (Insomniac Games)
-* https://fgiesen.wordpress.com/2013/02/17/optimizing-sw-occlusion-culling-index/[Optimizing Software Occlusion Culling - Index] by Fabian "ryg" Giesen
-* https://docs.google.com/presentation/d/17Bzle0w6jz-1ndabrvC5MXUIQ5jme0M8xBF71oz-0Js/present?slide=id.i0[Practical Examples in Data Oriented Design] by Niklas Frykholm (BitSquid)
-* https://gamedevelopment.tutsplus.com/articles/what-is-data-oriented-game-engine-design--cms-21052[What is Data-Oriented Game Engine Design?] by David Davidović
-* http://gamesfromwithin.com/data-oriented-design[Data-Oriented Design (Or Why You Might Be Shooting Yourself in The Foot With OOP)] by Noel Llopis
-* http://www.dataorienteddesign.com/dodmain/dodmain.html[Data-Oriented Design] book by Richard Fabian
-* http://www.bounceapp.com/116414[Mike Acton's review] of `OgreNode.cpp`
-* https://gist.github.com/ocornut/cb980ea183e848685a36[Memory, Cache, CPU optimization resources] by Omar Cornut
+* http://harmful.cat-v.org/software/OO_programming/_pdf/Pitfalls_of_Object_Oriented_Programming_GCAP_09.pdf[Pitfalls of Object Oriented Programming (PDF),window="_blank"] by Tony Albrecht (SCEE)
+* https://macton.smugmug.com/Other/2008-07-15-by-Eye-Fi/n-xmKDH/i-BrHWXdJ[Typical C++ Bullshit,window="_blank"] by Mike Acton (Insomniac Games)
+* http://www.frostbite.com/wp-content/uploads/2013/05/CullingTheBattlefield.pdf[Culling the Battlefield (PDF),window="_blank"] by Daniel Collin (Frostbite)
+* http://www.slideshare.net/naughty_dog/multiprocessor-game-loops-lessons-from-uncharted-2-among-thieves[Multiprocessor Game Loops,window="_blank"] by Jason Gregory (Naughty Dog)
+* http://twvideo01.ubm-us.net/o1/vault/gdc2015/presentations/Gyrling_Christian_Parallelizing_The_Naughty.pdf[Parallelizing the Naughty Dog Engine Using Fibers (PDF),window="_blank"] (http://www.gdcvault.com/play/1022186/Parallelizing-the-Naughty-Dog-Engine[GDC Vault video,window="_blank"]) by Christian Gyrling (Naughty Dog)
+* http://lukasz.dk/mirror/research-scea/research/pdfs/GDC2003_Memory_Optimization_18Mar03.pdf[Memory Optimization (PDF),window="_blank"] by Christer Ericson (Sony Santa Monica)
+* http://www.dice.se/wp-content/uploads/2014/12/Introduction_to_Data-Oriented_Design.pdf[Introduction to Data Oriented Design (PDF),window="_blank"] by Daniel Collin (DICE)
+* http://gameprogrammingpatterns.com/data-locality.html[Data Locality,window="_blank"] (cache miss, branch misprediction, pipeline flush) from http://gameprogrammingpatterns.com[Game Programming Patterns,window="_blank"] by Robert Nystrom
+* http://media.steampowered.com/apps/valve/2015/Migdalskiy_Sergiy_Physics_Optimization_Strategies.pdf[Performance - Physics Optimization Strategies (PDF),window="_blank"] by Sergiy Migdalskiy (Valve)
+* http://cellperformance.beyond3d.com/articles/2009/08/roundup-recent-sketches-on-concurrency-data-design-and-performance.html[Roundup: Recent sketches on concurrency, data design and performance,window="_blank"] by Mike Acton (Insomniac Games)
+* https://fgiesen.wordpress.com/2013/02/17/optimizing-sw-occlusion-culling-index/[Optimizing Software Occlusion Culling - Index,window="_blank"] by Fabian "ryg" Giesen
+* https://docs.google.com/presentation/d/17Bzle0w6jz-1ndabrvC5MXUIQ5jme0M8xBF71oz-0Js/present?slide=id.i0[Practical Examples in Data Oriented Design,window="_blank"] by Niklas Frykholm (BitSquid)
+* https://gamedevelopment.tutsplus.com/articles/what-is-data-oriented-game-engine-design--cms-21052[What is Data-Oriented Game Engine Design?,window="_blank"] by David Davidović
+* http://gamesfromwithin.com/data-oriented-design[Data-Oriented Design (Or Why You Might Be Shooting Yourself in The Foot With OOP),window="_blank"] by Noel Llopis
+* http://www.dataorienteddesign.com/dodmain/dodmain.html[Data-Oriented Design,window="_blank"] book by Richard Fabian
+* http://www.bounceapp.com/116414[Mike Acton's review,window="_blank"] of `OgreNode.cpp`
+* https://gist.github.com/ocornut/cb980ea183e848685a36[Memory, Cache, CPU optimization resources,window="_blank"] by Omar Cornut
 
-* http://assemblyrequired.crashworks.org/load-hit-stores-and-the-\__restrict-keyword/[Load-Hit-Stores and the `__restrict` keyword] by Elan Ruskin
-* http://www.gamasutra.com/view/feature/132084/sponsored_feature_common_.php[Sponsored Feature: Common Performance Issues in Game Programming] by Becky Heineman
+* http://assemblyrequired.crashworks.org/load-hit-stores-and-the-\__restrict-keyword/[Load-Hit-Stores and the `__restrict` keyword,window="_blank"] by Elan Ruskin
+* http://www.gamasutra.com/view/feature/132084/sponsored_feature_common_.php[Sponsored Feature: Common Performance Issues in Game Programming,window="_blank"] by Becky Heineman
 
 === Math and geometry
 ==== Books
@@ -316,9 +316,9 @@ Some books are targeted to game developers, like:
 * Vectors and matrices
 * Rendering pipeline
 * OpenGL transformations and matrices:
-** http://www.songho.ca/opengl/gl_transform.html[OpenGL Transformation]
-** http://www.songho.ca/opengl/gl_projectionmatrix.html[OpenGL Projection Matrix]
-** http://www.scratchapixel.com/lessons/3d-basic-rendering/perspective-and-orthographic-projection-matrix/projection-matrix-introduction[The Perspective and Orthographic Projection Matrix]
-** https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/projection-stage[The Projection Stage]
-** http://www.terathon.com/gdc07_lengyel.pdf[Projection Matrix Tricks by Eric Lengyel (PDF)]
-** http://stackoverflow.com/questions/76134/how-do-i-reverse-project-2d-points-into-3d/33976739#33976739[How do I reverse-project 2D points into 3D?]
+** http://www.songho.ca/opengl/gl_transform.html[OpenGL Transformation,window="_blank"]
+** http://www.songho.ca/opengl/gl_projectionmatrix.html[OpenGL Projection Matrix,window="_blank"]
+** http://www.scratchapixel.com/lessons/3d-basic-rendering/perspective-and-orthographic-projection-matrix/projection-matrix-introduction[The Perspective and Orthographic Projection Matrix,window="_blank"]
+** https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/projection-stage[The Projection Stage,window="_blank"]
+** http://www.terathon.com/gdc07_lengyel.pdf[Projection Matrix Tricks by Eric Lengyel (PDF),window="_blank"]
+** http://stackoverflow.com/questions/76134/how-do-i-reverse-project-2d-points-into-3d/33976739#33976739[How do I reverse-project 2D points into 3D?,window="_blank"]
