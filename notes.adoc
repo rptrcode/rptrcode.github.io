@@ -1,51 +1,17 @@
 :nofooter:
 :toc: left
 :toclevels: 3
-== Study
-I hope you will find my notes useful in case you intend to study more about engine and graphics programming.
+== NOTES
+image::adieu.jpg[] 
 
 === C++
-* ISOCPP https://isocpp.org/faq[FAQ,window="_blank"]
-* ISOCPP http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines[C++ Core Guidelines,window="_blank"]
-* Marshall Cline's FAQ
-** Mirror of 2012 version: http://www.cs.technion.ac.il/users/yechiel/c++-faq/index.html
-** Mirror of 2006 version: http://www.dietmar-kuehl.de/mirror/c++-faq/
-** Mirror of 2003 version:: https://www.cs.rit.edu/~mjh/docs/c++-faq/
-
-==== Marshall Cline's C++ FAQ (29/07/2011)
-Questions in round brackets are the ones I find more important or difficult to grasp at first.
-
-* *Chapter 7*: 7.7
-* *Chapter 8*: 8.3, 8.4, 8.6
-* *Chapter 9*: 9.1, 9.5, 9.6, 9.7, 9.8, 9.9
-* *Chapter 10*: 10.3, 10.4, (10.5), 10.6, 10.8, (10.9), 10.10, (10.14), 10.20, (10.22)
-* *Chapter 11*: 11.7, 11.10, 11.14
-* *Chapter 12*: 12.3, 12.4
-* *Chapter 13*: 13.9, 13.10, 13.14, 13.15
-* *Chapter 14*: 14.3, 14.5
-* *Chapter 16*: 16.4, 16.8, 16.10, 16.21
-* *Chapter 17*: 17.2, 17.3, 17.4, 17.8, 17.9, 17.10
-* *Chapter 18*: 18.5, 18.7, 18.10, 18.12, (18.13), 18.15
-* *Chapter 20*: 20.3, 20.4, 20.5, 20.6, (20.7), 20.8
-* *Chapter 21*: (21.4), 21.6, 21.8, 21.12
-* *Chapter 22*: 22.4, 22.5
-* *Chapter 23*: 23.1, 23.3, 23.4, 23.5, (23.9)
-* *Chapter 24*: 24.2, 24.3, 24.5, 24.6
-* *Chapter 25*: 25.4, 25.5, (25.9), 25.10
-* *Chapter 26*: 26.12, 26.13
-* *Chapter 27*: 27.10
-* *Chapter 29*: 29.5, 29.7, 29.17, 29.18, (29.19), 29.20
-* *Chapter 35*: 35.2, 35.3, 35.4, (35.7), 35.9, 35.11, 35.16, 35.18, 35.19, 35.22
-
-==== Topics
 A list of concepts, ideas, idioms, patterns and keywords to understand and remember.
-The numbers in round brackets are a reference inside Marshall Cline's C++ FAQ.
 
 * Method chaining (8.4) / Named Parameter Idiom (10.20)
 * Conversion constructor and conversion operator
 * Operator overloading (ch. 13)
 * Explicit constructor (10.22)
-* `const` (29.7) / `mutable` (18.13) / `volatile` / `restrict`
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/const-vs-define.html[const (29.7),window="_blank"] / `mutable` (18.13) / `volatile` / `restrict`
 * v-table mechanism (20.4)
 * Pure virtual member functions (22.4), abstract base classes (ch. 22)
 * Covariant Return Types and "virtual constructor" (20.8, 22.5)
@@ -56,24 +22,26 @@ The numbers in round brackets are a reference inside Marshall Cline's C++ FAQ.
 * Meyer's singleton (10.16)
 * https://en.wikipedia.org/wiki/One_Definition_Rule[One definition rule,window="_blank"]
 * https://en.wikipedia.org/wiki/Common_subexpression_elimination[Common subexpression elimination,window="_blank"]
-* Different kind of casts: C style, `static_cast`, `dynamic_cast`, `const_cast` and `reinterpret_cast`
+* https://embeddedartistry.com/blog/2017/2/28/c-casting-or-oh-no-we-broke-malloc[Different kind of casts,window="_blank"]: 
+	** C style
+	** static_cast 
+	** dynamic_cast
+	** const_cast  https://stackoverflow.com/a/5249910/442992[cast away volatile,window="_blank"],	https://stackoverflow.com/a/7368038/442992[undefined behavior,window="_blank"],
+	** reinterpret_cast
 * https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization[Resource acquisition is initialization,window="_blank"] (RAII)
 * https://en.wikipedia.org/wiki/Run-time_type_information[Run-time type information,window="_blank"] (RTTI)
-
-==== More topics
-A second list of concepts to keep in mind, only a bit harder this time.
-As before, the numbers in round brackets are a reference inside Marshall Cline's C++ FAQ.
-
-* Placement new http://www.cs.technion.ac.il/users/yechiel/c++-faq/placement-new.html[11.10,window="_blank"]
+* http://www.goldsborough.me/c/c++/linker/2016/03/30/19-34-25-internal_and_external_linkage_in_c++/#linkage[External vs Internal Linkage, window="_blank"]
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/placement-new.html[Placement new ,window="_blank"] vs https://www.geeksforgeeks.org/overloading-new-delete-operator-c/[operator new,window="_blank"]
 * Pointer to member function
-* Diamond problem (25.8, 25.9) and multiple inheritance (ch. 25)
-* Hiding rule (23.9, 23.3)
+* Diamond problem (25.8, 25.9) and multiple inheritance (ch. 25) 
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/hiding-rule.html[Hiding rule, window="_blank"]
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/protected-virtuals.html[Protected NVI, window="_blank"]
 * Templates (ch. 35)
 * https://en.wikipedia.org/wiki/Rule_of_three_(C%2B%2B_programming)[Rule of three,window="_blank"] / five / zero, https://en.wikipedia.org/wiki/Special_member_functions[special member functions,window="_blank"]
 * Return value optimization (NRVO, RVO) (10.9) / Copy elision (https://eatplayhate.me/2013/10/01/c-cargo-cults-rvo-and-copy-elision/[C++ Cargo Cults, RVO and Copy Elision,window="_blank"])
-* Copy-and-swap idiom (http://stackoverflow.com/a/3279550[Why do we need the copy-and-swap idiom?,window="_blank"])
+* http://stackoverflow.com/a/3279550[Why do we need the copy-and-swap idiom?,window="_blank"]
 * http://en.cppreference.com/w/cpp/language/adl[Argument-dependant lookup,window="_blank"] (Koenig lookup)
-* Substitution Failure Is Not An Error (SFINAE) (35.11)
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/templates-vs-overloading.html[Substitution Failure Is Not An Error (SFINAE),window="_blank"] (35.11)
 * non-dependent types and members (35.18, 35.19, 35.20)
 * Proxy template (35.22), in C++11 you would employ the Type alias declaration with `using`
 * Type traits, concepts, tag dispatching (http://www.boost.org/community/generic_programming.html[Generic Programming Techniques,window="_blank"])
@@ -83,6 +51,36 @@ As before, the numbers in round brackets are a reference inside Marshall Cline's
 * https://en.wikipedia.org/wiki/Sequence_point[Sequence point,window="_blank"]
 * https://en.wikipedia.org/wiki/Tail_call[Tail call,window="_blank"]
 * https://en.wikipedia.org/wiki/Constant_folding[Constant folding,window="_blank"]
+
+==== Marshall Cline's C++ FAQ 
+* ISOCPP https://isocpp.org/faq[FAQ,window="_blank"]
+* ISOCPP http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines[C++ Core Guidelines,window="_blank"]
+* Marshall Cline's FAQ
+** Mirror of 2012 version: http://www.cs.technion.ac.il/users/yechiel/c++-faq/index.html
+** Mirror of 2006 version: http://www.dietmar-kuehl.de/mirror/c++-faq/
+** Mirror of 2003 version:: https://www.cs.rit.edu/~mjh/docs/c++-faq/
+
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/classes-and-objects.html[Classes and objects,window="_blank"]: 7.7
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/references.html[References,window="_blank"]: 8.3, 8.4, 8.6
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/inline-functions.html[Inline functions,window="_blank"]: 9.1, 9.5, 9.6, 9.7, 9.8, 9.9
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/ctors.html[Constructors,window="_blank"]: 10.3, 10.4, (10.5), 10.6, 10.8, (10.9), 10.10, (10.14), 10.20, (10.22)
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/dtors.html[Destructors,window="_blank"]: 11.7, 11.10, 11.14
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/assignment-operators.html[Assignment operators,window="_blank"]: 12.3, 12.4
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/operator-overloading.html[Operator overloading,window="_blank"]: 13.9, 13.10, 13.14, 13.15
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/friends.html[Friends,window="_blank"]: 14.3, 14.5
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/freestore-mgmt.html[Freestore management,window="_blank"]: 16.4, 16.8, 16.10, 16.21
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/exceptions.html[Exceptions and error handling,window="_blank"]: 17.2, 17.3, 17.4, 17.8, 17.9, 17.10
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/const-correctness.html[Const correctness,window="_blank"]: 18.5, 18.7, 18.10, 18.12, (18.13), 18.15
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/virtual-functions.html[virtual functions,window="_blank"]: 20.3, 20.4, 20.5, 20.6, (20.7), 20.8
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/proper-inheritance.html[proper inheritance and substitutability,window="_blank"]: (21.4), 21.6, 21.8, 21.12
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/abcs.html[abstract base classes (ABCs),window="_blank"]: 22.4, 22.5
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/strange-inheritance.html[Inheritance — what your mother never told you,window="_blank"]: 23.1, 23.3, 23.4, 23.5, (23.9)
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/private-inheritance.html[private and protected inheritance,window="_blank"]: 24.2, 24.3, 24.5, 24.6
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/multiple-inheritance.html[multiple and virtual inheritance,window="_blank"]: 25.4, 25.5, (25.9), 25.10
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/intrinsic-types.html[Built-in / intrinsic / primitive data types,window="_blank"]: 26.12, 26.13
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/coding-standards.html[Coding standards,window="_blank"]: 27.10
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/newbie.html[Newbie Questions / Answers,window="_blank"]: 29.5, 29.7, 29.17, 29.18, (29.19), 29.20
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/templates.html[Templates,window="_blank"]: 35.2, 35.3, 35.4, (35.7), 35.9, 35.11, 35.16, 35.18, 35.19, 35.22
 
 ==== C++11
 The book "_Effective Modern C++_" by Scott Meyers is a must-have.
@@ -98,13 +96,35 @@ The book "_Effective Modern C++_" by Scott Meyers is a must-have.
 * Range-based for loops (and issues with `auto` and copying objects around)
 * List initialization
 
-=== OOAD, Design patterns
-* https://en.wikipedia.org/wiki/Single_responsibility_principle[Single responsibility principle,window="_blank"]
-* https://en.wikipedia.org/wiki/Cohesion_(computer_science)[Cohesion,window="_blank"] / https://en.wikipedia.org/wiki/Coupling_(computer_programming)[Coupling,window="_blank"]
-* https://en.wikipedia.org/wiki/Factory_method_pattern[Factory method,window="_blank"] / https://en.wikipedia.org/wiki/Abstract_factory_pattern[Abstract factory pattern,window="_blank"]
-* https://en.wikipedia.org/wiki/Builder_pattern[Builder pattern,window="_blank"]
-* Meyer's singleton
-* https://en.wikipedia.org/wiki/Object_pool_pattern[Object pool,window="_blank"], https://en.wikipedia.org/wiki/Thread_pool[Thread pool,window="_blank"], https://en.wikipedia.org/wiki/Flyweight_pattern[Flyweight pattern,window="_blank"]
+==== STL
+* Smart Pointers
+** shared_ptr
+*** sh
+** unique_ptr
+** auto_ptr(deprecated)
+
+==== C Tricks/Gotchas/Hacks
+* https://stackoverflow.com/questions/599365/what-is-your-favorite-c-programming-trick[few c tricks]
+
+==== Bit twiddling hacks
+* https://graphics.stanford.edu/~seander/bithacks.html[Bit twiddling hacks,window="_blank"]
+
+
+
+
+
+=== Algorithms and Data Structures
+* Sorting and data structures (lists, arrays, hash tables)
+** About hash tables: linear probing, quadratic probing, http://preshing.com/20160314/leapfrog-probing/[leapfrog probing,window="_blank"], double hashing, cuckoo hashing, hopscotch hashing
+* Floating point (29.17 and https://randomascii.wordpress.com/[Random ASCII blog,window="_blank"])
+** https://randomascii.wordpress.com/2012/01/11/tricks-with-the-floating-point-format/[Tricks With the Floating-Point Format,window="_blank"] (representation)
+** https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/[Comparing Floating Point Numbers, 2012 Edition,window="_blank"] (ULP comparison)
+** https://randomascii.wordpress.com/2012/05/20/thats-not-normalthe-performance-of-odd-floats/[That’s Not Normal–the Performance of Odd Floats,window="_blank"] (hole around zero, denormals)
+* https://download-mirror.savannah.gnu.org/releases/pgubook/ProgrammingGroundUp-1-0-booksize.pdf["Programming from the Ground Up" (PDF),window="_blank"] by Jonathan Bartlett
+** https://en.wikipedia.org/wiki/Call_stack[Call stack,window="_blank"], relocating code, dynamic libraries, https://en.wikipedia.org/wiki/Data_segment[data,window="_blank"] / https://en.wikipedia.org/wiki/.bss[bss,window="_blank"] / https://en.wikipedia.org/wiki/Code_segment[text,window="_blank"] segments
+* http://gafferongames.com/game-physics/fix-your-timestep/[Fix Your Timestep! by Glenn Fiedler,window="_blank"]
+* Custom allocator with pools
+* https://en.wikipedia.org/wiki/Quadtree[Quadtree,window="_blank"], https://en.wikipedia.org/wiki/Octree[Octree,window="_blank"] and https://en.wikipedia.org/wiki/Binary_space_partitioning[Binary Space Partitioning (BSP),window="_blank"]
 
 
 === Operating Systems
@@ -152,8 +172,6 @@ One of the book on the topic is "_The Art of Multiprocessor Programming_" by Mau
 
 ==== IPC
 * https://dbus.freedesktop.org/doc/dbus-tutorial.html[DBUS Tutorial,window="_blank"]
-
-
 
 
 
@@ -242,19 +260,6 @@ The book "_OpenGL ES 3.0 Programming Guide_" by Dan Ginsburg and Budirijanto Pur
 * http://realtimecollisiondetection.net/blog/?p=86[Order your graphics draw calls around!,window="_blank"] from the Real-Time Collision Detection blog
 
 
-=== Algorithms and Data Structures
-* Sorting and data structures (lists, arrays, hash tables)
-** About hash tables: linear probing, quadratic probing, http://preshing.com/20160314/leapfrog-probing/[leapfrog probing,window="_blank"], double hashing, cuckoo hashing, hopscotch hashing
-* Floating point (29.17 and https://randomascii.wordpress.com/[Random ASCII blog,window="_blank"])
-** https://randomascii.wordpress.com/2012/01/11/tricks-with-the-floating-point-format/[Tricks With the Floating-Point Format,window="_blank"] (representation)
-** https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/[Comparing Floating Point Numbers, 2012 Edition,window="_blank"] (ULP comparison)
-** https://randomascii.wordpress.com/2012/05/20/thats-not-normalthe-performance-of-odd-floats/[That’s Not Normal–the Performance of Odd Floats,window="_blank"] (hole around zero, denormals)
-* https://download-mirror.savannah.gnu.org/releases/pgubook/ProgrammingGroundUp-1-0-booksize.pdf["Programming from the Ground Up" (PDF),window="_blank"] by Jonathan Bartlett
-** https://en.wikipedia.org/wiki/Call_stack[Call stack,window="_blank"], relocating code, dynamic libraries, https://en.wikipedia.org/wiki/Data_segment[data,window="_blank"] / https://en.wikipedia.org/wiki/.bss[bss,window="_blank"] / https://en.wikipedia.org/wiki/Code_segment[text,window="_blank"] segments
-* http://gafferongames.com/game-physics/fix-your-timestep/[Fix Your Timestep! by Glenn Fiedler,window="_blank"]
-* Custom allocator with pools
-* https://en.wikipedia.org/wiki/Quadtree[Quadtree,window="_blank"], https://en.wikipedia.org/wiki/Octree[Octree,window="_blank"] and https://en.wikipedia.org/wiki/Binary_space_partitioning[Binary Space Partitioning (BSP),window="_blank"]
-
 ==== More topics
 * https://mynameismjp.wordpress.com/2012/10/24/msaa-overview/[A Quick Overview of MSAA,window="_blank"] by Matt Pettineo
 * https://www.opengl.org/pipeline/article/vol003_6/[GLSL: Center or Centroid?  (Or When Shaders Attack!),window="_blank"] by Bill Licea-Kane (AMD)
@@ -279,6 +284,43 @@ The book "_OpenGL ES 3.0 Programming Guide_" by Dan Ginsburg and Budirijanto Pur
 * https://anteru.net/blog/2018/more-compute-shaders/index.html[More compute shaders,window="_blank"] by Matthäus G. Chajdas
 * https://anteru.net/blog/2018/even-more-compute-shaders/index.html[Even more compute shaders,window="_blank"] by Matthäus G. Chajdas
 * https://medium.com/@alen.ladavac/the-elusive-frame-timing-168f899aec92[The Elusive Frame Timing,window="_blank"] by Alen Ladavac
+
+[%hardbreaks]
+[%hardbreaks]
+[%hardbreaks]
+
+=== OOAD, Design patterns
+
+                              _._
+                               :.
+                               : :
+                               :  .
+                              .:   :
+                             : :    .
+                            :  :     :
+                           .   :      .
+                          :    :       :
+                         :     :        .
+                        .      :         :
+                       :       :          .
+                      :        :           :
+                      .=w=w=w=w=:            .
+                           :=w=w=w=w=w=w=.   ....
+           <--._______:U~~~~~~~~\_________.:---/
+            \-------------------------------------------------/
+             \_____________________________/
+.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.
+"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"
+"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"
+
+
+* https://en.wikipedia.org/wiki/Single_responsibility_principle[Single responsibility principle,window="_blank"]
+* https://enterprisecraftsmanship.com/2015/09/02/cohesion-coupling-difference/[Cohesion/Coupling,window="_blank"]
+* https://en.wikipedia.org/wiki/Factory_method_pattern[Factory method,window="_blank"] / https://en.wikipedia.org/wiki/Abstract_factory_pattern[Abstract factory pattern,window="_blank"]
+* https://en.wikipedia.org/wiki/Builder_pattern[Builder pattern,window="_blank"]
+* Meyer's singleton
+* https://en.wikipedia.org/wiki/Object_pool_pattern[Object pool,window="_blank"], https://en.wikipedia.org/wiki/Thread_pool[Thread pool,window="_blank"], https://en.wikipedia.org/wiki/Flyweight_pattern[Flyweight pattern,window="_blank"]
+
 
 === Data Oriented Design
 * http://harmful.cat-v.org/software/OO_programming/_pdf/Pitfalls_of_Object_Oriented_Programming_GCAP_09.pdf[Pitfalls of Object Oriented Programming (PDF),window="_blank"] by Tony Albrecht (SCEE)

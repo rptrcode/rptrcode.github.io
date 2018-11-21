@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.7.1">
-<title>Study</title>
+<title>NOTES</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -435,17 +435,18 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_study">Study</a>
+<li><a href="#_notes">NOTES</a>
 <ul class="sectlevel2">
 <li><a href="#_c">C++</a>
 <ul class="sectlevel3">
-<li><a href="#_marshall_clines_c_faq_29072011">Marshall Cline&#8217;s C++ FAQ (29/07/2011)</a></li>
-<li><a href="#_topics">Topics</a></li>
-<li><a href="#_more_topics">More topics</a></li>
+<li><a href="#_marshall_clines_c_faq">Marshall Cline&#8217;s C++ FAQ</a></li>
 <li><a href="#_c11">C++11</a></li>
+<li><a href="#_stl">STL</a></li>
+<li><a href="#_c_tricksgotchashacks">C Tricks/Gotchas/Hacks</a></li>
+<li><a href="#_bit_twiddling_hacks">Bit twiddling hacks</a></li>
 </ul>
 </li>
-<li><a href="#_ooad_design_patterns">OOAD, Design patterns</a></li>
+<li><a href="#_algorithms_and_data_structures">Algorithms and Data Structures</a></li>
 <li><a href="#_operating_systems">Operating Systems</a></li>
 <li><a href="#_cpu">CPU</a>
 <ul class="sectlevel3">
@@ -458,18 +459,15 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_mobile_gpus_architecture">Mobile GPUs architecture</a></li>
 <li><a href="#_desktop_gpus_architecture">Desktop GPUs architecture</a></li>
 <li><a href="#_graphics_techniques">Graphics techniques</a></li>
+<li><a href="#_more_topics">More topics</a></li>
 </ul>
 </li>
-<li><a href="#_algorithms_and_data_structures">Algorithms and Data Structures</a>
-<ul class="sectlevel3">
-<li><a href="#_more_topics_2">More topics</a></li>
-</ul>
-</li>
+<li><a href="#_ooad_design_patterns">OOAD, Design patterns</a></li>
 <li><a href="#_data_oriented_design">Data Oriented Design</a></li>
 <li><a href="#_math_and_geometry">Math and geometry</a>
 <ul class="sectlevel3">
 <li><a href="#_books">Books</a></li>
-<li><a href="#_topics_2">Topics</a></li>
+<li><a href="#_topics">Topics</a></li>
 </ul>
 </li>
 </ul>
@@ -479,117 +477,17 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="_study">Study</h2>
+<h2 id="_notes">NOTES</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>I hope you will find my notes useful in case you intend to study more about engine and graphics programming.</p>
+<div class="imageblock">
+<div class="content">
+<img src="adieu.jpg" alt="adieu">
+</div>
 </div>
 <div class="sect2">
 <h3 id="_c">C++</h3>
-<div class="ulist">
-<ul>
-<li>
-<p>ISOCPP <a href="https://isocpp.org/faq" target="_blank" rel="noopener">FAQ</a></p>
-</li>
-<li>
-<p>ISOCPP <a href="http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines" target="_blank" rel="noopener">C++ Core Guidelines</a></p>
-</li>
-<li>
-<p>Marshall Cline&#8217;s FAQ</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Mirror of 2012 version: <a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/index.html" class="bare">http://www.cs.technion.ac.il/users/yechiel/c++-faq/index.html</a></p>
-</li>
-<li>
-<p>Mirror of 2006 version: <a href="http://www.dietmar-kuehl.de/mirror/c++-faq/" class="bare">http://www.dietmar-kuehl.de/mirror/c++-faq/</a></p>
-</li>
-<li>
-<p>Mirror of 2003 version:: <a href="https://www.cs.rit.edu/~mjh/docs/c++-faq/" class="bare">https://www.cs.rit.edu/~mjh/docs/c++-faq/</a></p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<div class="sect3">
-<h4 id="_marshall_clines_c_faq_29072011">Marshall Cline&#8217;s C++ FAQ (29/07/2011)</h4>
 <div class="paragraph">
-<p>Questions in round brackets are the ones I find more important or difficult to grasp at first.</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><strong>Chapter 7</strong>: 7.7</p>
-</li>
-<li>
-<p><strong>Chapter 8</strong>: 8.3, 8.4, 8.6</p>
-</li>
-<li>
-<p><strong>Chapter 9</strong>: 9.1, 9.5, 9.6, 9.7, 9.8, 9.9</p>
-</li>
-<li>
-<p><strong>Chapter 10</strong>: 10.3, 10.4, (10.5), 10.6, 10.8, (10.9), 10.10, (10.14), 10.20, (10.22)</p>
-</li>
-<li>
-<p><strong>Chapter 11</strong>: 11.7, 11.10, 11.14</p>
-</li>
-<li>
-<p><strong>Chapter 12</strong>: 12.3, 12.4</p>
-</li>
-<li>
-<p><strong>Chapter 13</strong>: 13.9, 13.10, 13.14, 13.15</p>
-</li>
-<li>
-<p><strong>Chapter 14</strong>: 14.3, 14.5</p>
-</li>
-<li>
-<p><strong>Chapter 16</strong>: 16.4, 16.8, 16.10, 16.21</p>
-</li>
-<li>
-<p><strong>Chapter 17</strong>: 17.2, 17.3, 17.4, 17.8, 17.9, 17.10</p>
-</li>
-<li>
-<p><strong>Chapter 18</strong>: 18.5, 18.7, 18.10, 18.12, (18.13), 18.15</p>
-</li>
-<li>
-<p><strong>Chapter 20</strong>: 20.3, 20.4, 20.5, 20.6, (20.7), 20.8</p>
-</li>
-<li>
-<p><strong>Chapter 21</strong>: (21.4), 21.6, 21.8, 21.12</p>
-</li>
-<li>
-<p><strong>Chapter 22</strong>: 22.4, 22.5</p>
-</li>
-<li>
-<p><strong>Chapter 23</strong>: 23.1, 23.3, 23.4, 23.5, (23.9)</p>
-</li>
-<li>
-<p><strong>Chapter 24</strong>: 24.2, 24.3, 24.5, 24.6</p>
-</li>
-<li>
-<p><strong>Chapter 25</strong>: 25.4, 25.5, (25.9), 25.10</p>
-</li>
-<li>
-<p><strong>Chapter 26</strong>: 26.12, 26.13</p>
-</li>
-<li>
-<p><strong>Chapter 27</strong>: 27.10</p>
-</li>
-<li>
-<p><strong>Chapter 29</strong>: 29.5, 29.7, 29.17, 29.18, (29.19), 29.20</p>
-</li>
-<li>
-<p><strong>Chapter 35</strong>: 35.2, 35.3, 35.4, (35.7), 35.9, 35.11, 35.16, 35.18, 35.19, 35.22</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_topics">Topics</h4>
-<div class="paragraph">
-<p>A list of concepts, ideas, idioms, patterns and keywords to understand and remember.
-The numbers in round brackets are a reference inside Marshall Cline&#8217;s C++ FAQ.</p>
+<p>A list of concepts, ideas, idioms, patterns and keywords to understand and remember.</p>
 </div>
 <div class="ulist">
 <ul>
@@ -606,7 +504,7 @@ The numbers in round brackets are a reference inside Marshall Cline&#8217;s C++ 
 <p>Explicit constructor (10.22)</p>
 </li>
 <li>
-<p><code>const</code> (29.7) / <code>mutable</code> (18.13) / <code>volatile</code> / <code>restrict</code></p>
+<p><a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/const-vs-define.html" target="_blank" rel="noopener">const (29.7)</a> / <code>mutable</code> (18.13) / <code>volatile</code> / <code>restrict</code></p>
 </li>
 <li>
 <p>v-table mechanism (20.4)</p>
@@ -639,7 +537,26 @@ The numbers in round brackets are a reference inside Marshall Cline&#8217;s C++ 
 <p><a href="https://en.wikipedia.org/wiki/Common_subexpression_elimination" target="_blank" rel="noopener">Common subexpression elimination</a></p>
 </li>
 <li>
-<p>Different kind of casts: C style, <code>static_cast</code>, <code>dynamic_cast</code>, <code>const_cast</code> and <code>reinterpret_cast</code></p>
+<p><a href="https://embeddedartistry.com/blog/2017/2/28/c-casting-or-oh-no-we-broke-malloc" target="_blank" rel="noopener">Different kind of casts</a>:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>C style</p>
+</li>
+<li>
+<p>static_cast</p>
+</li>
+<li>
+<p>dynamic_cast</p>
+</li>
+<li>
+<p>const_cast  <a href="https://stackoverflow.com/a/5249910/442992" target="_blank" rel="noopener">cast away volatile</a>,	<a href="https://stackoverflow.com/a/7368038/442992" target="_blank" rel="noopener">undefined behavior</a>,</p>
+</li>
+<li>
+<p>reinterpret_cast</p>
+</li>
+</ul>
+</div>
 </li>
 <li>
 <p><a href="https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization" target="_blank" rel="noopener">Resource acquisition is initialization</a> (RAII)</p>
@@ -647,19 +564,11 @@ The numbers in round brackets are a reference inside Marshall Cline&#8217;s C++ 
 <li>
 <p><a href="https://en.wikipedia.org/wiki/Run-time_type_information" target="_blank" rel="noopener">Run-time type information</a> (RTTI)</p>
 </li>
-</ul>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_more_topics">More topics</h4>
-<div class="paragraph">
-<p>A second list of concepts to keep in mind, only a bit harder this time.
-As before, the numbers in round brackets are a reference inside Marshall Cline&#8217;s C++ FAQ.</p>
-</div>
-<div class="ulist">
-<ul>
 <li>
-<p>Placement new <a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/placement-new.html" target="_blank" rel="noopener">11.10</a></p>
+<p><a href="http://www.goldsborough.me/c/c/linker/2016/03/30/19-34-25-internal_and_external_linkage_in_c/#linkage" target="_blank" rel="noopener">External vs Internal Linkage</a></p>
+</li>
+<li>
+<p><a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/placement-new.html" target="_blank" rel="noopener">Placement new</a> vs <a href="https://www.geeksforgeeks.org/overloading-new-delete-operator-c/" target="_blank" rel="noopener">operator new</a></p>
 </li>
 <li>
 <p>Pointer to member function</p>
@@ -668,7 +577,10 @@ As before, the numbers in round brackets are a reference inside Marshall Cline&#
 <p>Diamond problem (25.8, 25.9) and multiple inheritance (ch. 25)</p>
 </li>
 <li>
-<p>Hiding rule (23.9, 23.3)</p>
+<p><a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/hiding-rule.html" target="_blank" rel="noopener">Hiding rule</a></p>
+</li>
+<li>
+<p><a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/protected-virtuals.html" target="_blank" rel="noopener">Protected NVI</a></p>
 </li>
 <li>
 <p>Templates (ch. 35)</p>
@@ -680,13 +592,13 @@ As before, the numbers in round brackets are a reference inside Marshall Cline&#
 <p>Return value optimization (NRVO, RVO) (10.9) / Copy elision (<a href="https://eatplayhate.me/2013/10/01/c-cargo-cults-rvo-and-copy-elision/" target="_blank" rel="noopener">C++ Cargo Cults</a>)</p>
 </li>
 <li>
-<p>Copy-and-swap idiom (<a href="http://stackoverflow.com/a/3279550" target="_blank" rel="noopener">Why do we need the copy-and-swap idiom?</a>)</p>
+<p><a href="http://stackoverflow.com/a/3279550" target="_blank" rel="noopener">Why do we need the copy-and-swap idiom?</a></p>
 </li>
 <li>
 <p><a href="http://en.cppreference.com/w/cpp/language/adl" target="_blank" rel="noopener">Argument-dependant lookup</a> (Koenig lookup)</p>
 </li>
 <li>
-<p>Substitution Failure Is Not An Error (SFINAE) (35.11)</p>
+<p><a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/templates-vs-overloading.html" target="_blank" rel="noopener">Substitution Failure Is Not An Error (SFINAE)</a> (35.11)</p>
 </li>
 <li>
 <p>non-dependent types and members (35.18, 35.19, 35.20)</p>
@@ -714,6 +626,97 @@ As before, the numbers in round brackets are a reference inside Marshall Cline&#
 </li>
 <li>
 <p><a href="https://en.wikipedia.org/wiki/Constant_folding" target="_blank" rel="noopener">Constant folding</a></p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="_marshall_clines_c_faq">Marshall Cline&#8217;s C++ FAQ</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>ISOCPP <a href="https://isocpp.org/faq" target="_blank" rel="noopener">FAQ</a></p>
+</li>
+<li>
+<p>ISOCPP <a href="http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines" target="_blank" rel="noopener">C++ Core Guidelines</a></p>
+</li>
+<li>
+<p>Marshall Cline&#8217;s FAQ</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Mirror of 2012 version: <a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/index.html" class="bare">http://www.cs.technion.ac.il/users/yechiel/c++-faq/index.html</a></p>
+</li>
+<li>
+<p>Mirror of 2006 version: <a href="http://www.dietmar-kuehl.de/mirror/c++-faq/" class="bare">http://www.dietmar-kuehl.de/mirror/c++-faq/</a></p>
+</li>
+<li>
+<p>Mirror of 2003 version:: <a href="https://www.cs.rit.edu/~mjh/docs/c++-faq/" class="bare">https://www.cs.rit.edu/~mjh/docs/c++-faq/</a></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/classes-and-objects.html" target="_blank" rel="noopener">Classes and objects</a>: 7.7</p>
+</li>
+<li>
+<p><a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/references.html" target="_blank" rel="noopener">References</a>: 8.3, 8.4, 8.6</p>
+</li>
+<li>
+<p><a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/inline-functions.html" target="_blank" rel="noopener">Inline functions</a>: 9.1, 9.5, 9.6, 9.7, 9.8, 9.9</p>
+</li>
+<li>
+<p><a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/ctors.html" target="_blank" rel="noopener">Constructors</a>: 10.3, 10.4, (10.5), 10.6, 10.8, (10.9), 10.10, (10.14), 10.20, (10.22)</p>
+</li>
+<li>
+<p><a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/dtors.html" target="_blank" rel="noopener">Destructors</a>: 11.7, 11.10, 11.14</p>
+</li>
+<li>
+<p><a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/assignment-operators.html" target="_blank" rel="noopener">Assignment operators</a>: 12.3, 12.4</p>
+</li>
+<li>
+<p><a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/operator-overloading.html" target="_blank" rel="noopener">Operator overloading</a>: 13.9, 13.10, 13.14, 13.15</p>
+</li>
+<li>
+<p><a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/friends.html" target="_blank" rel="noopener">Friends</a>: 14.3, 14.5</p>
+</li>
+<li>
+<p><a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/freestore-mgmt.html" target="_blank" rel="noopener">Freestore management</a>: 16.4, 16.8, 16.10, 16.21</p>
+</li>
+<li>
+<p><a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/exceptions.html" target="_blank" rel="noopener">Exceptions and error handling</a>: 17.2, 17.3, 17.4, 17.8, 17.9, 17.10</p>
+</li>
+<li>
+<p><a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/const-correctness.html" target="_blank" rel="noopener">Const correctness</a>: 18.5, 18.7, 18.10, 18.12, (18.13), 18.15</p>
+</li>
+<li>
+<p><a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/virtual-functions.html" target="_blank" rel="noopener">virtual functions</a>: 20.3, 20.4, 20.5, 20.6, (20.7), 20.8</p>
+</li>
+<li>
+<p><a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/proper-inheritance.html" target="_blank" rel="noopener">proper inheritance and substitutability</a>: (21.4), 21.6, 21.8, 21.12</p>
+</li>
+<li>
+<p><a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/abcs.html" target="_blank" rel="noopener">abstract base classes (ABCs)</a>: 22.4, 22.5</p>
+</li>
+<li>
+<p><a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/strange-inheritance.html" target="_blank" rel="noopener">Inheritance — what your mother never told you</a>: 23.1, 23.3, 23.4, 23.5, (23.9)</p>
+</li>
+<li>
+<p><a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/private-inheritance.html" target="_blank" rel="noopener">private and protected inheritance</a>: 24.2, 24.3, 24.5, 24.6</p>
+</li>
+<li>
+<p><a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/multiple-inheritance.html" target="_blank" rel="noopener">multiple and virtual inheritance</a>: 25.4, 25.5, (25.9), 25.10</p>
+</li>
+<li>
+<p><a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/intrinsic-types.html" target="_blank" rel="noopener">Built-in / intrinsic / primitive data types</a>: 26.12, 26.13</p>
+</li>
+<li>
+<p><a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/coding-standards.html" target="_blank" rel="noopener">Coding standards</a>: 27.10</p>
+</li>
+<li>
+<p><a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/newbie.html" target="_blank" rel="noopener">Newbie Questions / Answers</a>: 29.5, 29.7, 29.17, 29.18, (29.19), 29.20</p>
+</li>
+<li>
+<p><a href="http://www.cs.technion.ac.il/users/yechiel/c++-faq/templates.html" target="_blank" rel="noopener">Templates</a>: 35.2, 35.3, 35.4, (35.7), 35.9, 35.11, 35.16, 35.18, 35.19, 35.22</p>
 </li>
 </ul>
 </div>
@@ -758,28 +761,105 @@ As before, the numbers in round brackets are a reference inside Marshall Cline&#
 </ul>
 </div>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_ooad_design_patterns">OOAD, Design patterns</h3>
+<div class="sect3">
+<h4 id="_stl">STL</h4>
 <div class="ulist">
 <ul>
 <li>
-<p><a href="https://en.wikipedia.org/wiki/Single_responsibility_principle" target="_blank" rel="noopener">Single responsibility principle</a></p>
+<p>Smart Pointers</p>
+<div class="ulist">
+<ul>
+<li>
+<p>shared_ptr</p>
+<div class="ulist">
+<ul>
+<li>
+<p>sh</p>
+</li>
+</ul>
+</div>
 </li>
 <li>
-<p><a href="https://en.wikipedia.org/wiki/Cohesion_(computer_science)" target="<em>blank">Cohesion</a> / <a href="https://en.wikipedia.org/wiki/Coupling" class="bare">https://en.wikipedia.org/wiki/Coupling</a></em>(computer_programming)[Coupling,window="_blank"]</p>
+<p>unique_ptr</p>
 </li>
 <li>
-<p><a href="https://en.wikipedia.org/wiki/Factory_method_pattern" target="_blank" rel="noopener">Factory method</a> / <a href="https://en.wikipedia.org/wiki/Abstract_factory_pattern" target="_blank" rel="noopener">Abstract factory pattern</a></p>
+<p>auto_ptr(deprecated)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_c_tricksgotchashacks">C Tricks/Gotchas/Hacks</h4>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://stackoverflow.com/questions/599365/what-is-your-favorite-c-programming-trick">few c tricks</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_bit_twiddling_hacks">Bit twiddling hacks</h4>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://graphics.stanford.edu/~seander/bithacks.html" target="_blank" rel="noopener">Bit twiddling hacks</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_algorithms_and_data_structures">Algorithms and Data Structures</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Sorting and data structures (lists, arrays, hash tables)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>About hash tables: linear probing, quadratic probing, <a href="http://preshing.com/20160314/leapfrog-probing/" target="_blank" rel="noopener">leapfrog probing</a>, double hashing, cuckoo hashing, hopscotch hashing</p>
+</li>
+</ul>
+</div>
 </li>
 <li>
-<p><a href="https://en.wikipedia.org/wiki/Builder_pattern" target="_blank" rel="noopener">Builder pattern</a></p>
+<p>Floating point (29.17 and <a href="https://randomascii.wordpress.com/" target="_blank" rel="noopener">Random ASCII blog</a>)</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://randomascii.wordpress.com/2012/01/11/tricks-with-the-floating-point-format/" target="_blank" rel="noopener">Tricks With the Floating-Point Format</a> (representation)</p>
 </li>
 <li>
-<p>Meyer&#8217;s singleton</p>
+<p><a href="https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/" target="_blank" rel="noopener">Comparing Floating Point Numbers</a> (ULP comparison)</p>
 </li>
 <li>
-<p><a href="https://en.wikipedia.org/wiki/Object_pool_pattern" target="_blank" rel="noopener">Object pool</a>, <a href="https://en.wikipedia.org/wiki/Thread_pool" target="_blank" rel="noopener">Thread pool</a>, <a href="https://en.wikipedia.org/wiki/Flyweight_pattern" target="_blank" rel="noopener">Flyweight pattern</a></p>
+<p><a href="https://randomascii.wordpress.com/2012/05/20/thats-not-normalthe-performance-of-odd-floats/" target="_blank" rel="noopener">That’s Not Normal–the Performance of Odd Floats</a> (hole around zero, denormals)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><a href="https://download-mirror.savannah.gnu.org/releases/pgubook/ProgrammingGroundUp-1-0-booksize.pdf" target="_blank" rel="noopener">Programming from the Ground Up</a> by Jonathan Bartlett</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Call_stack" target="_blank" rel="noopener">Call stack</a>, relocating code, dynamic libraries, <a href="https://en.wikipedia.org/wiki/Data_segment" target="_blank" rel="noopener">data</a> / <a href="https://en.wikipedia.org/wiki/.bss" target="_blank" rel="noopener">bss</a> / <a href="https://en.wikipedia.org/wiki/Code_segment" target="_blank" rel="noopener">text</a> segments</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><a href="http://gafferongames.com/game-physics/fix-your-timestep/" target="_blank" rel="noopener">Fix Your Timestep! by Glenn Fiedler</a></p>
+</li>
+<li>
+<p>Custom allocator with pools</p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Quadtree" target="_blank" rel="noopener">Quadtree</a>, <a href="https://en.wikipedia.org/wiki/Octree" target="_blank" rel="noopener">Octree</a> and <a href="https://en.wikipedia.org/wiki/Binary_space_partitioning" target="_blank" rel="noopener">Binary Space Partitioning (BSP)</a></p>
 </li>
 </ul>
 </div>
@@ -1183,60 +1263,8 @@ One of the book you could read to learn more on the subject is "<em>Computer Arc
 </div>
 </div>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_algorithms_and_data_structures">Algorithms and Data Structures</h3>
-<div class="ulist">
-<ul>
-<li>
-<p>Sorting and data structures (lists, arrays, hash tables)</p>
-<div class="ulist">
-<ul>
-<li>
-<p>About hash tables: linear probing, quadratic probing, <a href="http://preshing.com/20160314/leapfrog-probing/" target="_blank" rel="noopener">leapfrog probing</a>, double hashing, cuckoo hashing, hopscotch hashing</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>Floating point (29.17 and <a href="https://randomascii.wordpress.com/" target="_blank" rel="noopener">Random ASCII blog</a>)</p>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://randomascii.wordpress.com/2012/01/11/tricks-with-the-floating-point-format/" target="_blank" rel="noopener">Tricks With the Floating-Point Format</a> (representation)</p>
-</li>
-<li>
-<p><a href="https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/" target="_blank" rel="noopener">Comparing Floating Point Numbers</a> (ULP comparison)</p>
-</li>
-<li>
-<p><a href="https://randomascii.wordpress.com/2012/05/20/thats-not-normalthe-performance-of-odd-floats/" target="_blank" rel="noopener">That’s Not Normal–the Performance of Odd Floats</a> (hole around zero, denormals)</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p><a href="https://download-mirror.savannah.gnu.org/releases/pgubook/ProgrammingGroundUp-1-0-booksize.pdf" target="_blank" rel="noopener">Programming from the Ground Up</a> by Jonathan Bartlett</p>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Call_stack" target="_blank" rel="noopener">Call stack</a>, relocating code, dynamic libraries, <a href="https://en.wikipedia.org/wiki/Data_segment" target="_blank" rel="noopener">data</a> / <a href="https://en.wikipedia.org/wiki/.bss" target="_blank" rel="noopener">bss</a> / <a href="https://en.wikipedia.org/wiki/Code_segment" target="_blank" rel="noopener">text</a> segments</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p><a href="http://gafferongames.com/game-physics/fix-your-timestep/" target="_blank" rel="noopener">Fix Your Timestep! by Glenn Fiedler</a></p>
-</li>
-<li>
-<p>Custom allocator with pools</p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Quadtree" target="_blank" rel="noopener">Quadtree</a>, <a href="https://en.wikipedia.org/wiki/Octree" target="_blank" rel="noopener">Octree</a> and <a href="https://en.wikipedia.org/wiki/Binary_space_partitioning" target="_blank" rel="noopener">Binary Space Partitioning (BSP)</a></p>
-</li>
-</ul>
-</div>
 <div class="sect3">
-<h4 id="_more_topics_2">More topics</h4>
+<h4 id="_more_topics">More topics</h4>
 <div class="ulist">
 <ul>
 <li>
@@ -1310,6 +1338,56 @@ One of the book you could read to learn more on the subject is "<em>Computer Arc
 </li>
 </ul>
 </div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_ooad_design_patterns">OOAD, Design patterns</h3>
+<div class="literalblock">
+<div class="content">
+<pre>                              _._
+                               :.
+                               : :
+                               :  .
+                              .:   :
+                             : :    .
+                            :  :     :
+                           .   :      .
+                          :    :       :
+                         :     :        .
+                        .      :         :
+                       :       :          .
+                      :        :           :
+                      .=w=w=w=w=:            .
+                           :=w=w=w=w=w=w=.   ....
+           &lt;--._______:U~~~~~~~~\_________.:---/
+            \-------------------------------------------------/
+             \_____________________________/
+.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.
+"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"
+"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"</pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Single_responsibility_principle" target="_blank" rel="noopener">Single responsibility principle</a></p>
+</li>
+<li>
+<p><a href="https://enterprisecraftsmanship.com/2015/09/02/cohesion-coupling-difference/" target="_blank" rel="noopener">Cohesion/Coupling</a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Factory_method_pattern" target="_blank" rel="noopener">Factory method</a> / <a href="https://en.wikipedia.org/wiki/Abstract_factory_pattern" target="_blank" rel="noopener">Abstract factory pattern</a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Builder_pattern" target="_blank" rel="noopener">Builder pattern</a></p>
+</li>
+<li>
+<p>Meyer&#8217;s singleton</p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Object_pool_pattern" target="_blank" rel="noopener">Object pool</a>, <a href="https://en.wikipedia.org/wiki/Thread_pool" target="_blank" rel="noopener">Thread pool</a>, <a href="https://en.wikipedia.org/wiki/Flyweight_pattern" target="_blank" rel="noopener">Flyweight pattern</a></p>
+</li>
+</ul>
 </div>
 </div>
 <div class="sect2">
@@ -1399,7 +1477,7 @@ Some books are targeted to game developers, like:</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_topics_2">Topics</h4>
+<h4 id="_topics">Topics</h4>
 <div class="ulist">
 <ul>
 <li>
