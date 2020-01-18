@@ -2,29 +2,6 @@
 :toc: left
 :toclevels: 3
 == NOTES
-
-                              _._
-                               :.
-                               : :
-                               :  .
-                              .:   :
-                             : :    .
-                            :  :     :
-                           .   :      .
-                          :    :       :
-                         :     :        .
-                        .      :         :
-                       :       :          .
-                      :        :           :
-                      .=w=w=w=w=:            .
-                           :=w=w=w=w=w=w=.   ....
-           <--._______:U~~~~~~~~\_________.:---/
-            \-------------------------------------------------/
-             \_____________________________/
-.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.
-"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"
-"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"
-
 === C++
 A list of concepts, ideas, idioms, patterns and keywords to understand and remember.
 
@@ -161,23 +138,6 @@ The book "_Effective Modern C++_" by Scott Meyers is a must-have.
 ** https://stackoverflow.com/questions/8463741/how-linux-handles-threads-and-process-scheduling[How Linux handles threads and process scheduling,window="_blank"]
 ** https://stackoverflow.com/questions/5440128/thread-context-switch-vs-process-context-switch[Thread context switch vs process context switch,window="_blank"]
 
-=== CPU
-Important links from Wikipedia about the architecture of a CPU.
-One of the book you could read to learn more on the subject is "_Computer Architecture: A Quantitative Approach_" by David A. Patterson.
-
-* https://en.wikipedia.org/wiki/Von_Neumann_architecture[Von Neumann architecture,window="_blank"], https://en.wikipedia.org/wiki/Harvard_architecture[Harvard architecture,window="_blank"]
-* https://en.wikipedia.org/wiki/Instruction_pipelining[Instruction pipelining,window="_blank"], https://en.wikipedia.org/wiki/Classic_RISC_pipeline[Classic RISC pipeline,window="_blank"] -> (fetch, decode, execute, memory access, writeback), https://en.wikipedia.org/wiki/Branch_predication[Branch predication,window="_blank"]
-* https://en.wikipedia.org/wiki/Instruction-level_parallelism[Instruction-level parallelism,window="_blank"], https://en.wikipedia.org/wiki/Out-of-order_execution[Out-of-order execution,window="_blank"], https://en.wikipedia.org/wiki/Register_renaming[Register renaming,window="_blank"], https://en.wikipedia.org/wiki/Register_allocation#Spilling[Register spilling,window="_blank"], https://en.wikipedia.org/wiki/Superscalar_processor[Superscalar processor,window="_blank"], https://en.wikipedia.org/wiki/Very_long_instruction_word[VLIW (Very Long Instruction Word),window="_blank"], https://en.wikipedia.org/wiki/Barrel_processor[Barrell processor,window="_blank"]
-* https://en.wikipedia.org/wiki/Cycles_per_instruction[Cycles per instruction,window="_blank"], https://en.wikipedia.org/wiki/Instructions_per_cycle[Instructions per cycle (IPC),window="_blank"]
-* https://en.wikipedia.org/wiki/Branch_predictor[Branch predictor,window="_blank"], https://en.wikipedia.org/wiki/Branch_target_predictor[Branch target predictor,window="_blank"]
-* https://en.wikipedia.org/wiki/Hazard_%28computer_architecture%29[Hazard (computer architecture),window="_blank"] -> (RAW, WAR, WAW data hazards, pipeline bubbling, register forwarding)
-* https://en.wikipedia.org/wiki/Speculative_execution[Speculative execution,window="_blank"], https://en.wikipedia.org/wiki/Instruction_prefetch[Instruction prefetch,window="_blank"], https://en.wikipedia.org/wiki/Prefetch_input_queue[Prefetch input queue,window="_blank"]
-* https://en.wikipedia.org/wiki/CPU_cache[CPU cache,window="_blank"], https://en.wikipedia.org/wiki/Cache_replacement_policies[Cache replacement policies,window="_blank"], https://en.wikipedia.org/wiki/Translation_lookaside_buffer[Translation Lookaside Buffer (TLB),window="_blank"], https://en.wikipedia.org/wiki/Scratchpad_memory[Scratchpad memory,window="_blank"]
-* https://en.wikipedia.org/wiki/Cache_coherence[Cache coherence,window="_blank"] (https://en.wikipedia.org/wiki/MESI_protocol[MESI protocol,window="_blank"], https://en.wikipedia.org/wiki/MOESI_protocol[MOESI protocol,window="_blank"]), https://en.wikipedia.org/wiki/Bus_snooping[Bus snooping,window="_blank"], https://en.wikipedia.org/wiki/Write_combining[Write combining,window="_blank"]
-* https://en.wikipedia.org/wiki/Clock_gating[Clock gating,window="_blank"]
-* https://en.wikipedia.org/wiki/Multiply%E2%80%93accumulate_operation[Multiply–accumulate operation,window="_blank"] -> (Fused multiply–add)
-* https://en.wikipedia.org/wiki/Symmetric_multiprocessing[Symmetric multiprocessing,window="_blank"], https://en.wikipedia.org/wiki/Simultaneous_multithreading[Simultaneous multithreading,window="_blank"]
-
 ==== Multi-threading
 One of the book on the topic is "_The Art of Multiprocessor Programming_" by Maurice Herlihy and Nir Shavit
 
@@ -194,6 +154,23 @@ One of the book on the topic is "_The Art of Multiprocessor Programming_" by Mau
 ==== IPC
 * https://dbus.freedesktop.org/doc/dbus-tutorial.html[DBUS Tutorial,window="_blank"]
 
+=== Hardware
+==== CPU
+Important links from Wikipedia about the architecture of a CPU.
+One of the book you could read to learn more on the subject is "_Computer Architecture: A Quantitative Approach_" by David A. Patterson.
+
+* https://en.wikipedia.org/wiki/Von_Neumann_architecture[Von Neumann architecture,window="_blank"], https://en.wikipedia.org/wiki/Harvard_architecture[Harvard architecture,window="_blank"]
+* https://en.wikipedia.org/wiki/Instruction_pipelining[Instruction pipelining,window="_blank"], https://en.wikipedia.org/wiki/Classic_RISC_pipeline[Classic RISC pipeline,window="_blank"] -> (fetch, decode, execute, memory access, writeback), https://en.wikipedia.org/wiki/Branch_predication[Branch predication,window="_blank"]
+* https://en.wikipedia.org/wiki/Instruction-level_parallelism[Instruction-level parallelism,window="_blank"], https://en.wikipedia.org/wiki/Out-of-order_execution[Out-of-order execution,window="_blank"], https://en.wikipedia.org/wiki/Register_renaming[Register renaming,window="_blank"], https://en.wikipedia.org/wiki/Register_allocation#Spilling[Register spilling,window="_blank"], https://en.wikipedia.org/wiki/Superscalar_processor[Superscalar processor,window="_blank"], https://en.wikipedia.org/wiki/Very_long_instruction_word[VLIW (Very Long Instruction Word),window="_blank"], https://en.wikipedia.org/wiki/Barrel_processor[Barrell processor,window="_blank"]
+* https://en.wikipedia.org/wiki/Cycles_per_instruction[Cycles per instruction,window="_blank"], https://en.wikipedia.org/wiki/Instructions_per_cycle[Instructions per cycle (IPC),window="_blank"]
+* https://en.wikipedia.org/wiki/Branch_predictor[Branch predictor,window="_blank"], https://en.wikipedia.org/wiki/Branch_target_predictor[Branch target predictor,window="_blank"]
+* https://en.wikipedia.org/wiki/Hazard_%28computer_architecture%29[Hazard (computer architecture),window="_blank"] -> (RAW, WAR, WAW data hazards, pipeline bubbling, register forwarding)
+* https://en.wikipedia.org/wiki/Speculative_execution[Speculative execution,window="_blank"], https://en.wikipedia.org/wiki/Instruction_prefetch[Instruction prefetch,window="_blank"], https://en.wikipedia.org/wiki/Prefetch_input_queue[Prefetch input queue,window="_blank"]
+* https://en.wikipedia.org/wiki/CPU_cache[CPU cache,window="_blank"], https://en.wikipedia.org/wiki/Cache_replacement_policies[Cache replacement policies,window="_blank"], https://en.wikipedia.org/wiki/Translation_lookaside_buffer[Translation Lookaside Buffer (TLB),window="_blank"], https://en.wikipedia.org/wiki/Scratchpad_memory[Scratchpad memory,window="_blank"]
+* https://en.wikipedia.org/wiki/Cache_coherence[Cache coherence,window="_blank"] (https://en.wikipedia.org/wiki/MESI_protocol[MESI protocol,window="_blank"], https://en.wikipedia.org/wiki/MOESI_protocol[MOESI protocol,window="_blank"]), https://en.wikipedia.org/wiki/Bus_snooping[Bus snooping,window="_blank"], https://en.wikipedia.org/wiki/Write_combining[Write combining,window="_blank"]
+* https://en.wikipedia.org/wiki/Clock_gating[Clock gating,window="_blank"]
+* https://en.wikipedia.org/wiki/Multiply%E2%80%93accumulate_operation[Multiply–accumulate operation,window="_blank"] -> (Fused multiply–add)
+* https://en.wikipedia.org/wiki/Symmetric_multiprocessing[Symmetric multiprocessing,window="_blank"], https://en.wikipedia.org/wiki/Simultaneous_multithreading[Simultaneous multithreading,window="_blank"]
 
 
 === Graphics
@@ -355,7 +332,6 @@ The book "_OpenGL ES 3.0 Programming Guide_" by Dan Ginsburg and Budirijanto Pur
 *
 *
 
-=== Math and geometry
 ==== Books
 Read about the same math concepts on more than one book.
 Some books are targeted to game developers, like:

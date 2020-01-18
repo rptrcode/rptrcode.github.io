@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
 
-  <title>Tag Index</title>
+  <title>Blog</title>
 
   <meta name="author" content="Puttaraju" />
 
@@ -54,19 +54,29 @@
   
 
   
-  <meta property="og:title" content="Tag Index" />
+  <meta property="og:title" content="Blog" />
   
 
    
-  <meta property="og:description" content="{%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag in tags_list -%} &amp;nbsp;{{- tag -}}&amp;nbsp;({{site.tags[tag].size}}) {%- endfor -%} {%- for...">
+  <meta property="og:description" content="Latest Posts
+
+
+  {% for post in site.posts %}
+    
+      {{ post.title }}
+      {{ post.excerpt }}
+    
+  {% endfor %}
+
+">
   
 
 
   <meta property="og:type" content="website" />
 
   
-  <meta property="og:url" content="http://localhost:4000/tags/" />
-  <link rel="canonical" href="http://localhost:4000/tags/" />
+  <meta property="og:url" content="http://localhost:4000/blog/" />
+  <link rel="canonical" href="http://localhost:4000/blog/" />
   
 
   
@@ -80,11 +90,21 @@
   <meta name="twitter:creator" content="@" />
 
   
-  <meta name="twitter:title" content="Tag Index" />
+  <meta name="twitter:title" content="Blog" />
   
 
   
-  <meta name="twitter:description" content="{%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag in tags_list -%} &amp;nbsp;{{- tag -}}&amp;nbsp;({{site.tags[tag].size}}) {%- endfor -%} {%- for...">
+  <meta name="twitter:description" content="Latest Posts
+
+
+  {% for post in site.posts %}
+    
+      {{ post.title }}
+      {{ post.excerpt }}
+    
+  {% endfor %}
+
+">
   
 
   
@@ -195,43 +215,26 @@
 </nav>
 
 
-    <!-- TODO this file has become a mess, refactor it -->
+    <div class="intro-header"></div>
 
+<div role="main" class="container">
+  <h1>Latest Posts</h1>
 
+<ul>
+  
+    <li>
+      <h2><a href="/2014-12-31-start/">ತಿಮ್ಮ ಗುರುವಿಗೆ ನಮನ..</a></h2>
+      <p><p>ಕನ್ನಡ ಗೀತಾಚಾರ್ಯ ಡಿ ವಿ ಗುಂಡಪ್ಪನವರ ಕಗ್ಗಗಳು ಯಾರಿಗೆ ತಾನೇ ತಿಳಿದಿಲ್ಲ ಹೇಳಿ.<br />
+ಒಂದಕ್ಕಿಂತ ಒಂದು ಕಗ್ಗಗಳು ಬಹಳ ಬೆಲೆ ಬಾಳುವಂತವು, ಅರ್ಥವತ್ತಗಿರುವಂತವು.<br />
+ಕನ್ನಡ ಭಗವದ್ಗೀತಾ ಅಂತಲೇ ಕರೆಯಿಸಿಕೊಳ್ಳೊ ೯೪೫ ಪದ್ಯಗಳ ಬೃಹತ್ ಸಂಗ್ರಹ ಇದು.<br />
+ಇಲ್ಲಿನ ಪ್ರತಿಯೊಂದು ಕಗ್ಗಗಳು ಅಕ್ಷರ ಅಕ್ಷರ ಲಕ್ಷ ವರಹ ಬೆಲೆ ಬಾಳುವಂತವು.</p>
 
+</p>
+    </li>
+  
+</ul>
 
-
-<header class="header-section ">
-
-<div class="intro-header no-img">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <div class="page-heading">
-          <h1>Tag Index</h1>
-		  
-		  
-		  
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
-</header>
-
-
-
-
-<div class="container" role="main">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <div id="full-tags-list"></div>
-
-	    
-    </div>
-  </div>
-</div>
-
 
     <footer>
   <div class="container beautiful-jekyll-footer">

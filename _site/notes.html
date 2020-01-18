@@ -453,11 +453,15 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </li>
 <li><a href="#_algorithms_and_data_structures">Algorithms and Data Structures</a></li>
-<li><a href="#_operating_systems">Operating Systems</a></li>
-<li><a href="#_cpu">CPU</a>
+<li><a href="#_operating_systems">Operating Systems</a>
 <ul class="sectlevel3">
 <li><a href="#_multi_threading">Multi-threading</a></li>
 <li><a href="#_ipc">IPC</a></li>
+</ul>
+</li>
+<li><a href="#_hardware">Hardware</a>
+<ul class="sectlevel3">
+<li><a href="#_cpu">CPU</a></li>
 </ul>
 </li>
 <li><a href="#_graphics">Graphics</a>
@@ -470,8 +474,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 <li><a href="#_ooad_design_patterns">OOAD, Design patterns</a></li>
 <li><a href="#_data_oriented_design">Data Oriented Design</a></li>
-<li><a href="#_microservices">Microservices</a></li>
-<li><a href="#_math_and_geometry">Math and geometry</a>
+<li><a href="#_microservices">Microservices</a>
 <ul class="sectlevel3">
 <li><a href="#_books">Books</a></li>
 <li><a href="#_topics">Topics</a></li>
@@ -486,11 +489,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect1">
 <h2 id="_notes">NOTES</h2>
 <div class="sectionbody">
-<div class="imageblock">
-<div class="content">
-<img src="adieu.jpg" alt="adieu">
-</div>
-</div>
 <div class="sect2">
 <h3 id="_c">C++</h3>
 <div class="paragraph">
@@ -914,53 +912,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_cpu">CPU</h3>
-<div class="paragraph">
-<p>Important links from Wikipedia about the architecture of a CPU.
-One of the book you could read to learn more on the subject is "<em>Computer Architecture: A Quantitative Approach</em>" by David A. Patterson.</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Von_Neumann_architecture" target="_blank" rel="noopener">Von Neumann architecture</a>, <a href="https://en.wikipedia.org/wiki/Harvard_architecture" target="_blank" rel="noopener">Harvard architecture</a></p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Instruction_pipelining" target="_blank" rel="noopener">Instruction pipelining</a>, <a href="https://en.wikipedia.org/wiki/Classic_RISC_pipeline" target="_blank" rel="noopener">Classic RISC pipeline</a> &#8594; (fetch, decode, execute, memory access, writeback), <a href="https://en.wikipedia.org/wiki/Branch_predication" target="_blank" rel="noopener">Branch predication</a></p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Instruction-level_parallelism" target="_blank" rel="noopener">Instruction-level parallelism</a>, <a href="https://en.wikipedia.org/wiki/Out-of-order_execution" target="_blank" rel="noopener">Out-of-order execution</a>, <a href="https://en.wikipedia.org/wiki/Register_renaming" target="_blank" rel="noopener">Register renaming</a>, <a href="https://en.wikipedia.org/wiki/Register_allocation#Spilling" target="_blank" rel="noopener">Register spilling</a>, <a href="https://en.wikipedia.org/wiki/Superscalar_processor" target="_blank" rel="noopener">Superscalar processor</a>, <a href="https://en.wikipedia.org/wiki/Very_long_instruction_word" target="_blank" rel="noopener">VLIW (Very Long Instruction Word)</a>, <a href="https://en.wikipedia.org/wiki/Barrel_processor" target="_blank" rel="noopener">Barrell processor</a></p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Cycles_per_instruction" target="_blank" rel="noopener">Cycles per instruction</a>, <a href="https://en.wikipedia.org/wiki/Instructions_per_cycle" target="_blank" rel="noopener">Instructions per cycle (IPC)</a></p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Branch_predictor" target="_blank" rel="noopener">Branch predictor</a>, <a href="https://en.wikipedia.org/wiki/Branch_target_predictor" target="_blank" rel="noopener">Branch target predictor</a></p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Hazard_%28computer_architecture%29" target="_blank" rel="noopener">Hazard (computer architecture)</a> &#8594; (RAW, WAR, WAW data hazards, pipeline bubbling, register forwarding)</p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Speculative_execution" target="_blank" rel="noopener">Speculative execution</a>, <a href="https://en.wikipedia.org/wiki/Instruction_prefetch" target="_blank" rel="noopener">Instruction prefetch</a>, <a href="https://en.wikipedia.org/wiki/Prefetch_input_queue" target="_blank" rel="noopener">Prefetch input queue</a></p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/CPU_cache" target="_blank" rel="noopener">CPU cache</a>, <a href="https://en.wikipedia.org/wiki/Cache_replacement_policies" target="_blank" rel="noopener">Cache replacement policies</a>, <a href="https://en.wikipedia.org/wiki/Translation_lookaside_buffer" target="_blank" rel="noopener">Translation Lookaside Buffer (TLB)</a>, <a href="https://en.wikipedia.org/wiki/Scratchpad_memory" target="_blank" rel="noopener">Scratchpad memory</a></p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Cache_coherence" target="_blank" rel="noopener">Cache coherence</a> (<a href="https://en.wikipedia.org/wiki/MESI_protocol" target="_blank" rel="noopener">MESI protocol</a>, <a href="https://en.wikipedia.org/wiki/MOESI_protocol" target="_blank" rel="noopener">MOESI protocol</a>), <a href="https://en.wikipedia.org/wiki/Bus_snooping" target="_blank" rel="noopener">Bus snooping</a>, <a href="https://en.wikipedia.org/wiki/Write_combining" target="_blank" rel="noopener">Write combining</a></p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Clock_gating" target="_blank" rel="noopener">Clock gating</a></p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Multiply%E2%80%93accumulate_operation" target="_blank" rel="noopener">Multiply–accumulate operation</a> &#8594; (Fused multiply–add)</p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Symmetric_multiprocessing" target="_blank" rel="noopener">Symmetric multiprocessing</a>, <a href="https://en.wikipedia.org/wiki/Simultaneous_multithreading" target="_blank" rel="noopener">Simultaneous multithreading</a></p>
-</li>
-</ul>
-</div>
 <div class="sect3">
 <h4 id="_multi_threading">Multi-threading</h4>
 <div class="paragraph">
@@ -1004,6 +955,56 @@ One of the book you could read to learn more on the subject is "<em>Computer Arc
 <ul>
 <li>
 <p><a href="https://dbus.freedesktop.org/doc/dbus-tutorial.html" target="_blank" rel="noopener">DBUS Tutorial</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_hardware">Hardware</h3>
+<div class="sect3">
+<h4 id="_cpu">CPU</h4>
+<div class="paragraph">
+<p>Important links from Wikipedia about the architecture of a CPU.
+One of the book you could read to learn more on the subject is "<em>Computer Architecture: A Quantitative Approach</em>" by David A. Patterson.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Von_Neumann_architecture" target="_blank" rel="noopener">Von Neumann architecture</a>, <a href="https://en.wikipedia.org/wiki/Harvard_architecture" target="_blank" rel="noopener">Harvard architecture</a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Instruction_pipelining" target="_blank" rel="noopener">Instruction pipelining</a>, <a href="https://en.wikipedia.org/wiki/Classic_RISC_pipeline" target="_blank" rel="noopener">Classic RISC pipeline</a> &#8594; (fetch, decode, execute, memory access, writeback), <a href="https://en.wikipedia.org/wiki/Branch_predication" target="_blank" rel="noopener">Branch predication</a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Instruction-level_parallelism" target="_blank" rel="noopener">Instruction-level parallelism</a>, <a href="https://en.wikipedia.org/wiki/Out-of-order_execution" target="_blank" rel="noopener">Out-of-order execution</a>, <a href="https://en.wikipedia.org/wiki/Register_renaming" target="_blank" rel="noopener">Register renaming</a>, <a href="https://en.wikipedia.org/wiki/Register_allocation#Spilling" target="_blank" rel="noopener">Register spilling</a>, <a href="https://en.wikipedia.org/wiki/Superscalar_processor" target="_blank" rel="noopener">Superscalar processor</a>, <a href="https://en.wikipedia.org/wiki/Very_long_instruction_word" target="_blank" rel="noopener">VLIW (Very Long Instruction Word)</a>, <a href="https://en.wikipedia.org/wiki/Barrel_processor" target="_blank" rel="noopener">Barrell processor</a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Cycles_per_instruction" target="_blank" rel="noopener">Cycles per instruction</a>, <a href="https://en.wikipedia.org/wiki/Instructions_per_cycle" target="_blank" rel="noopener">Instructions per cycle (IPC)</a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Branch_predictor" target="_blank" rel="noopener">Branch predictor</a>, <a href="https://en.wikipedia.org/wiki/Branch_target_predictor" target="_blank" rel="noopener">Branch target predictor</a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Hazard_%28computer_architecture%29" target="_blank" rel="noopener">Hazard (computer architecture)</a> &#8594; (RAW, WAR, WAW data hazards, pipeline bubbling, register forwarding)</p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Speculative_execution" target="_blank" rel="noopener">Speculative execution</a>, <a href="https://en.wikipedia.org/wiki/Instruction_prefetch" target="_blank" rel="noopener">Instruction prefetch</a>, <a href="https://en.wikipedia.org/wiki/Prefetch_input_queue" target="_blank" rel="noopener">Prefetch input queue</a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/CPU_cache" target="_blank" rel="noopener">CPU cache</a>, <a href="https://en.wikipedia.org/wiki/Cache_replacement_policies" target="_blank" rel="noopener">Cache replacement policies</a>, <a href="https://en.wikipedia.org/wiki/Translation_lookaside_buffer" target="_blank" rel="noopener">Translation Lookaside Buffer (TLB)</a>, <a href="https://en.wikipedia.org/wiki/Scratchpad_memory" target="_blank" rel="noopener">Scratchpad memory</a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Cache_coherence" target="_blank" rel="noopener">Cache coherence</a> (<a href="https://en.wikipedia.org/wiki/MESI_protocol" target="_blank" rel="noopener">MESI protocol</a>, <a href="https://en.wikipedia.org/wiki/MOESI_protocol" target="_blank" rel="noopener">MOESI protocol</a>), <a href="https://en.wikipedia.org/wiki/Bus_snooping" target="_blank" rel="noopener">Bus snooping</a>, <a href="https://en.wikipedia.org/wiki/Write_combining" target="_blank" rel="noopener">Write combining</a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Clock_gating" target="_blank" rel="noopener">Clock gating</a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Multiply%E2%80%93accumulate_operation" target="_blank" rel="noopener">Multiply–accumulate operation</a> &#8594; (Fused multiply–add)</p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Symmetric_multiprocessing" target="_blank" rel="noopener">Symmetric multiprocessing</a>, <a href="https://en.wikipedia.org/wiki/Simultaneous_multithreading" target="_blank" rel="noopener">Simultaneous multithreading</a></p>
 </li>
 </ul>
 </div>
@@ -1349,31 +1350,6 @@ One of the book you could read to learn more on the subject is "<em>Computer Arc
 </div>
 <div class="sect2">
 <h3 id="_ooad_design_patterns">OOAD, Design patterns</h3>
-<div class="literalblock">
-<div class="content">
-<pre>                              _._
-                               :.
-                               : :
-                               :  .
-                              .:   :
-                             : :    .
-                            :  :     :
-                           .   :      .
-                          :    :       :
-                         :     :        .
-                        .      :         :
-                       :       :          .
-                      :        :           :
-                      .=w=w=w=w=:            .
-                           :=w=w=w=w=w=w=.   ....
-           &lt;--._______:U~~~~~~~~\_________.:---/
-            \-------------------------------------------------/
-             \_____________________________/
-.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.
-"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"
-"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"</pre>
-</div>
-</div>
 <div class="ulist">
 <ul>
 <li>
@@ -1393,6 +1369,9 @@ One of the book you could read to learn more on the subject is "<em>Computer Arc
 </li>
 <li>
 <p><a href="https://en.wikipedia.org/wiki/Object_pool_pattern" target="_blank" rel="noopener">Object pool</a>, <a href="https://en.wikipedia.org/wiki/Thread_pool" target="_blank" rel="noopener">Thread pool</a>, <a href="https://en.wikipedia.org/wiki/Flyweight_pattern" target="_blank" rel="noopener">Flyweight pattern</a></p>
+</li>
+<li>
+<p><a href="https://news.ycombinator.com/item?id=19715191">Why OO sucks</a> by Joe Armstrong</p>
 </li>
 </ul>
 </div>
@@ -1466,13 +1445,23 @@ One of the book you could read to learn more on the subject is "<em>Computer Arc
 <div class="ulist">
 <ul>
 <li>
-<p><a href="https://news.ycombinator.com/item?id=16200007" target="_blank" rel="noopener">The Death of Microservice Madness in 2018 - HN</a></p>
+<p><a href="https://news.ycombinator.com/item?id=16200007" target="_blank" rel="noopener">The Death of Microservice Madness in 2018 - HN</a>
+=== Rust</p>
+</li>
+<li>
+<p><a href="https://news.ycombinator.com/item?id=19540845" target="_blank" rel="noopener">Git implemented in Rust</a></p>
+</li>
+<li>
+<p><a href="https://news.ycombinator.com/item?id=19766713">Embedded Rust Book</a>
+*
+*
+*
+*
+*
+*</p>
 </li>
 </ul>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_math_and_geometry">Math and geometry</h3>
 <div class="sect3">
 <h4 id="_books">Books</h4>
 <div class="paragraph">

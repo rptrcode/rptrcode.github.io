@@ -3,84 +3,18 @@
   <channel>
     <title>My experiments with code</title>
     <description>My experiments with code</description>
-    <link>https://rptr87.github.io</link>
-    <atom:link href="https://rptr87.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>nCine Dev Update 5</title>
-        <description>
-          Updates from July to September 2018 - 
-          During those months two very important features appeared in the nCine. The first one is the integration of Lua for scripting, a language which is very easy to integrate and runs very fast. With Lua the user can quickly prototype ideas or actually write the entire game with just scripts,...
-        </description>
-        <pubDate>Sat, 29 Sep 2018 00:00:00 +0100</pubDate>
-        <link>https://rptr87.github.io/2018-09-29-ncine-dev-update-5/</link>
-        <guid isPermaLink="true">https://rptr87.github.io/2018-09-29-ncine-dev-update-5/</guid>
-      </item>
-    
-      <item>
-        <title>nCine Dev Update 4</title>
-        <description>
-          Updates from March to June 2018 - 
-          Plenty of work has been done during these few last months as I decided once again to update the engine renderer. This time it went from using OpenGL 2 and OpenGL ES 2 to 3.3 and 3.0 respectively. I started by rewriting all the shaders to support the new in...
-        </description>
-        <pubDate>Mon, 06 Aug 2018 00:00:00 +0100</pubDate>
-        <link>https://rptr87.github.io/2018-08-06-ncine-dev-update-4/</link>
-        <guid isPermaLink="true">https://rptr87.github.io/2018-08-06-ncine-dev-update-4/</guid>
-      </item>
-    
-      <item>
-        <title>nCine Compilation Benchmark</title>
-        <description>
-          How long does it take to compile the nCine? - 
-          Are you curious about the time I spend to compile the nCine? :smile: In this post I’m going to show how much time is needed to compile the engine on different platforms. Let’s start with the hardware and the software I’ve used for my tests. Hardware and Software Xiaomi Mi...
-        </description>
-        <pubDate>Sun, 04 Mar 2018 00:00:00 +0100</pubDate>
-        <link>https://rptr87.github.io/2018-03-04-ncine-compilation-benchmark/</link>
-        <guid isPermaLink="true">https://rptr87.github.io/2018-03-04-ncine-compilation-benchmark/</guid>
-      </item>
-    
-      <item>
-        <title>nCine Dev Update 3</title>
-        <description>
-          Updates from November 2017 to February 2018 - 
-          A lot of work has been carried out during the last three and a half months. First of all I have added some macros to allow asserts in the code, think about checks like this: ASSERT_MSG_X(index &amp;lt; size_, &quot;Index %u is out of bounds (size: %u)&quot;, index, size_); The macro...
-        </description>
-        <pubDate>Sat, 10 Feb 2018 00:00:00 +0100</pubDate>
-        <link>https://rptr87.github.io/2018-02-10-ncine-dev-update-3/</link>
-        <guid isPermaLink="true">https://rptr87.github.io/2018-02-10-ncine-dev-update-3/</guid>
-      </item>
-    
-      <item>
-        <title>nCine Dev Update 2</title>
-        <description>
-          Updates from August to October 2017 - 
-          During those three months I have been working on two big features. The first one has been the support of SDL2 GameController mapping format. Initially my plan was to build a layer on top of my joystick input functions and leave the mapping code outside, as helper functions in a...
-        </description>
-        <pubDate>Sun, 22 Oct 2017 00:00:00 +0100</pubDate>
-        <link>https://rptr87.github.io/2017-10-22-ncine-dev-update-2/</link>
-        <guid isPermaLink="true">https://rptr87.github.io/2017-10-22-ncine-dev-update-2/</guid>
-      </item>
-    
-      <item>
-        <title>nCine Dev Update 1</title>
-        <description>
-          Updates from June to July 2017 - 
-          During June and July 2017 I have been working as usual, in my spare time, on the project. :wink: The first big June addition has been the automatic screen culling of sprites, a very important feature needed in order to support games extending on multiple screens. The culling works on...
-        </description>
-        <pubDate>Mon, 18 Sep 2017 00:00:00 +0100</pubDate>
-        <link>https://rptr87.github.io/2017-09-18-ncine-dev-update-1/</link>
-        <guid isPermaLink="true">https://rptr87.github.io/2017-09-18-ncine-dev-update-1/</guid>
-      </item>
-    
-      <item>
-        <title>Get to know the nCine</title>
+        <title>ತಿಮ್ಮ ಗುರುವಿಗೆ ನಮನ..</title>
         <description>
           
-          I am writing this to present my latest and biggest project to date, the nCine. I was originally going to publish an article the day that I was going to release the source code but for various reasons you will have to wait a bit more. :cry: I am nevertheless...
+          ಕನ್ನಡ ಗೀತಾಚಾರ್ಯ ಡಿ ವಿ ಗುಂಡಪ್ಪನವರ ಕಗ್ಗಗಳು ಯಾರಿಗೆ ತಾನೇ ತಿಳಿದಿಲ್ಲ ಹೇಳಿ. ಒಂದಕ್ಕಿಂತ ಒಂದು ಕಗ್ಗಗಳು ಬಹಳ ಬೆಲೆ ಬಾಳುವಂತವು, ಅರ್ಥವತ್ತಗಿರುವಂತವು. ಕನ್ನಡ ಭಗವದ್ಗೀತಾ ಅಂತಲೇ ಕರೆಯಿಸಿಕೊಳ್ಳೊ ೯೪೫ ಪದ್ಯಗಳ ಬೃಹತ್ ಸಂಗ್ರಹ ಇದು. ಇಲ್ಲಿನ ಪ್ರತಿಯೊಂದು ಕಗ್ಗಗಳು ಅಕ್ಷರ ಅಕ್ಷರ ಲಕ್ಷ ವರಹ ಬೆಲೆ ಬಾಳುವಂತವು. ಕುವೆಂಪು ಅವರೇ ಹೇಳಿದ ಹಾಗೆ.. ಹಸ್ತಕ್ಕೆ ಬರೆ ನಕ್ಕೆ; ಓದುತ್ತ ಓದುತ್ತ । ಮಸ್ತಕಕ್ಕಿಟ್ಟು ಗಂಭೀರವಾದೆ ॥ ವಿಸ್ತರದ ದರ್ಶನಕೆ...
         </description>
-        <pubDate>Sun, 20 Aug 2017 00:00:00 +0100</pubDate>
-        <link>https://rptr87.github.io/2017-08-20-get-to-know-the-ncine/</link>
-        <guid isPermaLink="true">https://rptr87.github.io/2017-08-20-get-to-know-the-ncine/</guid>
+        <pubDate>Wed, 31 Dec 2014 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2014-12-31-start/</link>
+        <guid isPermaLink="true">http://localhost:4000/2014-12-31-start/</guid>
       </item>
     
   </channel>
