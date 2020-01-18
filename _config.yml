@@ -65,13 +65,13 @@ footer-link-col: "#404040"
 author:
   name: Puttaraju
 
-  # Select your active Social Network Links.
+# Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
- email: "puttaraju.r@gmail.com"
+  email: "puttaraju.r@gmail.com"
 #  facebook: encelo
   github: github.com/rptr87/
 #  twitter: encelo

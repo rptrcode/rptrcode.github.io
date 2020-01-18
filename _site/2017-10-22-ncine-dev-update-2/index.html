@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+
+  <title>nCine Dev Update 2</title>
+
+  <meta name="author" content="Puttaraju" />
+
+  
+  <meta name="description" content="Updates from August to October 2017">
+  
+
+  <link rel="alternate" type="application/rss+xml" title="My experiments with code - My experiments with code" href="/feed.xml" />
+
+  
+
+  
+
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="nCine Dev Update 2" />
+  
+
+   
+  <meta property="og:description" content="Updates from August to October 2017">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="https://rptr87.github.io/2017-10-22-ncine-dev-update-2/" />
+  <link rel="canonical" href="https://rptr87.github.io/2017-10-22-ncine-dev-update-2/" />
+  
+
+  
+  <meta property="og:image" content="https://rptr87.github.io/img/firefox.png" />
+  
+
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="nCine Dev Update 2" />
+  
+
+  
+  <meta name="twitter:description" content="Updates from August to October 2017">
+  
+
+  
+  <meta name="twitter:image" content="https://rptr87.github.io/img/firefox.png" />
+  
+
+  
+
+</head>
+
+
+  <body>
+
+    
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand" href="https://rptr87.github.io">My experiments with code</a>
+      
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/aboutme">About Me</a>
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Pages</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+
+<a href="/curriculum.html">Curriculum</a>
+
+                
+              
+                
+                  
+
+
+
+
+
+
+<a href="/notes.html">Study Notes</a>
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="https://www.linkedin.com/in/puttaraju87">LinkedIN</a>
+
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="https://rptr87.github.io">
+	      <img class="avatar-img" src="/img/firefox.png">
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <h1>nCine Dev Update 2</h1>
+		  
+		    
+			<h2 class="post-subheading">Updates from August to October 2017</h2>
+			
+		  
+		  
+		  
+		  <span class="post-meta">Posted on October 22, 2017</span>
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+      
+
+      <article role="main" class="blog-post">
+        <p>During those three months I have been working on two big features.</p>
+
+<p>The first one has been the support of SDL2 GameController <a href="https://wiki.libsdl.org/SDL_GameControllerAddMapping">mapping</a> format.
+Initially my plan was to build a layer on top of my joystick input functions and leave the mapping code outside, as helper functions in a file distributed along the source of my tests and only linked by them.<br>
+Later on I decided to refactor everything and bring the code inside the engine, in an effort to make it easier for an application to transparently use it.</p>
+
+<p>The mapping logic is still just a layer on top of the original joystick functions, but now the state of a mapped joystick can be queried easily from the input manager, just as you can do with the non mapped one. It is also possible for an application to listen to some new mapped events I have introduced and completely disregard the old ones.<br>
+So, for example, instead of being notified of button 1 being pressed, the application would be notified of button “B” being pressed. This also works for axis, of course, so that an application can perform its logic on named axis, like X direction on the left stick, instead of an anonymous axis 5.</p>
+
+<p>In order for the mapping to work, the joystick must be recognized. SDL2 uses a custom code per each platform in order to derive a GUID to identify the connected joystick. When compiled against SDL2 the engine can just use <a href="https://wiki.libsdl.org/SDL_JoystickGetGUID"><code class="highlighter-rouge">SDL_JoystickGetGUID()</code></a> and <a href="https://wiki.libsdl.org/SDL_JoystickGetGUIDString"><code class="highlighter-rouge">SDL_JoystickGetGUIDString()</code></a>, but on GLFW things are different. It seems like next version, GLFW 3.3, is going to have full SDL2 GameController suppport and provide a <code class="highlighter-rouge">glfwGetJoystickGUID()</code> function, which I’m already using inside a <code class="highlighter-rouge">#if GLFW_VERSION_MAJOR == 3 &amp;&amp; GLFW_VERSION_MINOR &gt;= 3</code> block.</p>
+
+<p>For previous versions of GLFW there is no GUID to return and the joystick mapping code falls back on comparing the name of the connected joystick with the one in the database, it is not completely reliable but it still mostly works.<br>
+When running on Android, SDL 2.0.6 uses the first 16 characters of the joystick name as its GUID, a less than optimal way that just resembles closely my GLFW 3.2 fall back method. <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20"> That is why I tried to do things better, especially because it is not so hard, when on API level 19, to just call the <a href="https://developer.android.com/reference/android/view/InputDevice.html#getVendorId()"><code class="highlighter-rouge">getVendorId()</code></a> and <a href="https://developer.android.com/reference/android/view/InputDevice.html#getProductId()"><code class="highlighter-rouge">getProductId()</code></a> of the <code class="highlighter-rouge">InputDevice</code> class and create an unique GUID with those.</p>
+
+<p>I have mentioned the mappings database before, it is assembled by combining all strings from <a href="https://hg.libsdl.org/SDL/file/8df7a59b5528/src/joystick/SDL_gamecontrollerdb.h"><code class="highlighter-rouge">SDL_gamecontrollerdb.h</code></a>, all strings from <a href="https://github.com/gabomdq/SDL_GameControllerDB/blob/master/gamecontrollerdb.txt"><code class="highlighter-rouge">gamecontrollerdb.txt</code></a> plus some more that are useful when running on GLFW 3.2 or on Android, given their particular GUID code.</p>
+
+<p>The second big task has been the complete transition from <code class="highlighter-rouge">ndk-build</code> to CMake, as starting from version <a href="https://cmake.org/cmake/help/v3.7/release/3.7.html#platforms">3.7</a> the developers have added the support for Android as a platform through the NDK or a standalone toolchain.<br>
+You start by defining <code class="highlighter-rouge">CMAKE_SYSTEM_NAME=Android</code> and some more additional CMake variables to specify the API level, the NDK location, the CPU architecture or the STL type.<br>
+I have decided not to use the modified CMake 3.6 that is distributed with the Android SDK, even if it is natively supported by the Android Plugin for Gradle, but the upstream latest version. This way I can support and test a single version of CMake to build on every platform.</p>
+
+<p>See you again soon with new and exciting updates from the nCine development! <img class="emoji" title=":wink:" alt=":wink:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+
+      </article>
+
+      
+        <div class="blog-tags">
+          Tags:
+          
+          
+            <a href="/tags#nCine">nCine</a>
+          
+          
+        </div>
+      
+
+      
+        <!-- Check if any share-links are active -->
+
+
+
+
+<section id="social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+  <!--- Share on Twitter -->
+    <a href="https://twitter.com/intent/tweet?text=nCine+Dev+Update+2+https://rptr87.github.io/2017-10-22-ncine-dev-update-2/" class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fa fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+
+  
+
+  
+  <!--- Share on LinkedIn -->
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://rptr87.github.io/2017-10-22-ncine-dev-update-2/" class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fa fa-fw fa-linkedin" aria-hidden="true"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  
+
+</section>
+
+
+
+      
+
+      <ul class="pager blog-pager">
+        
+        <li class="previous">
+          <a href="/2017-09-18-ncine-dev-update-1/" data-toggle="tooltip" data-placement="top" title="nCine Dev Update 1">← Previous Post</a>
+        </li>
+        
+        
+        <li class="next">
+          <a href="/2018-02-10-ncine-dev-update-3/" data-toggle="tooltip" data-placement="top" title="nCine Dev Update 3">Next Post →</a>
+        </li>
+        
+      </ul>
+
+      
+        <div class="disqus-comments">
+          
+        </div>
+        
+      
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+<li>
+<a href="/feed.xml" title="RSS"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">RSS</span>
+              </a>
+            </li>
+<li>
+<a href="mailto:puttaraju.r@gmail.com" title="Email me"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Email me</span>
+              </a>
+            </li>
+<li>
+<a href="https://github.com/github.com/rptr87/" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">GitHub</span>
+              </a>
+            </li>
+<li>
+<a href="https://linkedin.com/in/https://www.linkedin.com/in/puttaraju87" title="LinkedIn"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">LinkedIn</span>
+              </a>
+            </li>
+</ul>
+      <p class="copyright text-muted">
+      Puttaraju
+       • 
+      2020
+
+      
+
+      
+      </p>
+          <!-- Please don't remove this, keep my open source work credited :) -->
+    <p class="theme-by text-muted">
+      Theme by
+      <a href="http://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+    </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+
+
+  
+  </body>
+</html>

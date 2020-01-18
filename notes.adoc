@@ -2,7 +2,28 @@
 :toc: left
 :toclevels: 3
 == NOTES
-image::adieu.jpg[]
+
+                              _._
+                               :.
+                               : :
+                               :  .
+                              .:   :
+                             : :    .
+                            :  :     :
+                           .   :      .
+                          :    :       :
+                         :     :        .
+                        .      :         :
+                       :       :          .
+                      :        :           :
+                      .=w=w=w=w=:            .
+                           :=w=w=w=w=w=w=.   ....
+           <--._______:U~~~~~~~~\_________.:---/
+            \-------------------------------------------------/
+             \_____________________________/
+.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.
+"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"
+"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"
 
 === C++
 A list of concepts, ideas, idioms, patterns and keywords to understand and remember.
@@ -291,28 +312,6 @@ The book "_OpenGL ES 3.0 Programming Guide_" by Dan Ginsburg and Budirijanto Pur
 
 === OOAD, Design patterns
 
-                              _._
-                               :.
-                               : :
-                               :  .
-                              .:   :
-                             : :    .
-                            :  :     :
-                           .   :      .
-                          :    :       :
-                         :     :        .
-                        .      :         :
-                       :       :          .
-                      :        :           :
-                      .=w=w=w=w=:            .
-                           :=w=w=w=w=w=w=.   ....
-           <--._______:U~~~~~~~~\_________.:---/
-            \-------------------------------------------------/
-             \_____________________________/
-.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.
-"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"
-"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"~-,.,-~"^"
-
 
 * https://en.wikipedia.org/wiki/Single_responsibility_principle[Single responsibility principle,window="_blank"]
 * https://enterprisecraftsmanship.com/2015/09/02/cohesion-coupling-difference/[Cohesion/Coupling,window="_blank"]
@@ -320,7 +319,7 @@ The book "_OpenGL ES 3.0 Programming Guide_" by Dan Ginsburg and Budirijanto Pur
 * https://en.wikipedia.org/wiki/Builder_pattern[Builder pattern,window="_blank"]
 * Meyer's singleton
 * https://en.wikipedia.org/wiki/Object_pool_pattern[Object pool,window="_blank"], https://en.wikipedia.org/wiki/Thread_pool[Thread pool,window="_blank"], https://en.wikipedia.org/wiki/Flyweight_pattern[Flyweight pattern,window="_blank"]
-
+* https://news.ycombinator.com/item?id=19715191[Why OO sucks] by Joe Armstrong
 
 === Data Oriented Design
 * http://harmful.cat-v.org/software/OO_programming/_pdf/Pitfalls_of_Object_Oriented_Programming_GCAP_09.pdf[Pitfalls of Object Oriented Programming (PDF),window="_blank"] by Tony Albrecht (SCEE)
@@ -346,6 +345,15 @@ The book "_OpenGL ES 3.0 Programming Guide_" by Dan Ginsburg and Budirijanto Pur
 
 === Microservices
 * https://news.ycombinator.com/item?id=16200007[The Death of Microservice Madness in 2018 - HN ,window="_blank"]
+=== Rust
+* https://news.ycombinator.com/item?id=19540845[Git implemented in Rust, window="_blank"]
+* https://news.ycombinator.com/item?id=19766713[Embedded Rust Book]
+*
+*
+*
+*
+*
+*
 
 === Math and geometry
 ==== Books
