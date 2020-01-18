@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
 
-  <title>My experiments with code - My experiments with code</title>
+  <title>Blog</title>
 
   <meta name="author" content="Puttaraju" />
 
@@ -54,19 +54,29 @@
   
 
   
-  <meta property="og:title" content="My experiments with code" />
+  <meta property="og:title" content="Blog" />
   
 
    
-  <meta property="og:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: site.date_format }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count = post.excerpt |...">
+  <meta property="og:description" content="Latest Posts
+
+
+  {% for post in site.posts %}
+    
+      {{ post.title }}
+      {{ post.excerpt }}
+    
+  {% endfor %}
+
+">
   
 
 
   <meta property="og:type" content="website" />
 
   
-  <meta property="og:url" content="http://localhost:4000/" />
-  <link rel="canonical" href="http://localhost:4000/" />
+  <meta property="og:url" content="http://localhost:4000/blog/" />
+  <link rel="canonical" href="http://localhost:4000/blog/" />
   
 
   
@@ -80,11 +90,21 @@
   <meta name="twitter:creator" content="@" />
 
   
-  <meta name="twitter:title" content="My experiments with code" />
+  <meta name="twitter:title" content="Blog" />
   
 
   
-  <meta name="twitter:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: site.date_format }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count = post.excerpt |...">
+  <meta name="twitter:description" content="Latest Posts
+
+
+  {% for post in site.posts %}
+    
+      {{ post.title }}
+      {{ post.excerpt }}
+    
+  {% endfor %}
+
+">
   
 
   
@@ -195,57 +215,26 @@
 </nav>
 
 
-    <!-- TODO this file has become a mess, refactor it -->
+    <div class="intro-header"></div>
 
+<div role="main" class="container">
+  <h1>Latest Posts</h1>
 
-<div class="intro-header"></div>
-
-
-<div class="container" role="main">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <div class="posts-list">
+<ul>
   
-  <article class="post-preview">
-    <a href="/2014-12-31-start/">
-      <h2 class="post-title">ತಿಮ್ಮ ಗುರುವಿಗೆ ನಮನ..</h2>
+    <li>
+      <h2><a href="/2014-12-31-start/">ತಿಮ್ಮ ಗುರುವಿಗೆ ನಮನ..</a></h2>
+      <p><p>ಕನ್ನಡ ಗೀತಾಚಾರ್ಯ ಡಿ ವಿ ಗುಂಡಪ್ಪನವರ ಕಗ್ಗಗಳು ಯಾರಿಗೆ ತಾನೇ ತಿಳಿದಿಲ್ಲ ಹೇಳಿ.<br />
+ಒಂದಕ್ಕಿಂತ ಒಂದು ಕಗ್ಗಗಳು ಬಹಳ ಬೆಲೆ ಬಾಳುವಂತವು, ಅರ್ಥವತ್ತಗಿರುವಂತವು.<br />
+ಕನ್ನಡ ಭಗವದ್ಗೀತಾ ಅಂತಲೇ ಕರೆಯಿಸಿಕೊಳ್ಳೊ ೯೪೫ ಪದ್ಯಗಳ ಬೃಹತ್ ಸಂಗ್ರಹ ಇದು.<br />
+ಇಲ್ಲಿನ ಪ್ರತಿಯೊಂದು ಕಗ್ಗಗಳು ಅಕ್ಷರ ಅಕ್ಷರ ಲಕ್ಷ ವರಹ ಬೆಲೆ ಬಾಳುವಂತವು.</p>
 
-      
-    </a>
-
-    <p class="post-meta">
-      Posted on 2014-12-31 00:00:00 +0100
-    </p>
-
-    <div class="post-entry-container">
-      
-      <div class="post-entry">
-        ಕನ್ನಡ ಗೀತಾಚಾರ್ಯ ಡಿ ವಿ ಗುಂಡಪ್ಪನವರ ಕಗ್ಗಗಳು ಯಾರಿಗೆ ತಾನೇ ತಿಳಿದಿಲ್ಲ ಹೇಳಿ.
-ಒಂದಕ್ಕಿಂತ ಒಂದು ಕಗ್ಗಗಳು ಬಹಳ ಬೆಲೆ ಬಾಳುವಂತವು, ಅರ್ಥವತ್ತಗಿರುವಂತವು.
-ಕನ್ನಡ ಭಗವದ್ಗೀತಾ ಅಂತಲೇ ಕರೆಯಿಸಿಕೊಳ್ಳೊ ೯೪೫ ಪದ್ಯಗಳ ಬೃಹತ್ ಸಂಗ್ರಹ ಇದು.
-ಇಲ್ಲಿನ ಪ್ರತಿಯೊಂದು ಕಗ್ಗಗಳು ಅಕ್ಷರ ಅಕ್ಷರ ಲಕ್ಷ ವರಹ ಬೆಲೆ ಬಾಳುವಂತವು.
-
-
-        
-        
-          <a href="/2014-12-31-start/" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-    </div>
-
-    
-
-   </article>
+</p>
+    </li>
   
+</ul>
+
 </div>
-
-
-
-	    
-    </div>
-  </div>
-</div>
-
 
     <footer>
   <div class="container beautiful-jekyll-footer">

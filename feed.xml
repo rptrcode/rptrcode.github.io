@@ -1,24 +1,21 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:20 %}
+    <title>My experiments with code</title>
+    <description>My experiments with code</description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
+        <title>ತಿಮ್ಮ ಗುರುವಿಗೆ ನಮನ..</title>
         <description>
-          {% if post.subtitle %}{{ post.subtitle | xml_escape }} - {% endif %}
-          {{ post.content | strip_html | xml_escape | truncatewords: 50 }}
+          
+          ಕನ್ನಡ ಗೀತಾಚಾರ್ಯ ಡಿ ವಿ ಗುಂಡಪ್ಪನವರ ಕಗ್ಗಗಳು ಯಾರಿಗೆ ತಾನೇ ತಿಳಿದಿಲ್ಲ ಹೇಳಿ. ಒಂದಕ್ಕಿಂತ ಒಂದು ಕಗ್ಗಗಳು ಬಹಳ ಬೆಲೆ ಬಾಳುವಂತವು, ಅರ್ಥವತ್ತಗಿರುವಂತವು. ಕನ್ನಡ ಭಗವದ್ಗೀತಾ ಅಂತಲೇ ಕರೆಯಿಸಿಕೊಳ್ಳೊ ೯೪೫ ಪದ್ಯಗಳ ಬೃಹತ್ ಸಂಗ್ರಹ ಇದು. ಇಲ್ಲಿನ ಪ್ರತಿಯೊಂದು ಕಗ್ಗಗಳು ಅಕ್ಷರ ಅಕ್ಷರ ಲಕ್ಷ ವರಹ ಬೆಲೆ ಬಾಳುವಂತವು. ಕುವೆಂಪು ಅವರೇ ಹೇಳಿದ ಹಾಗೆ.. ಹಸ್ತಕ್ಕೆ ಬರೆ ನಕ್ಕೆ; ಓದುತ್ತ ಓದುತ್ತ । ಮಸ್ತಕಕ್ಕಿಟ್ಟು ಗಂಭೀರವಾದೆ ॥ ವಿಸ್ತರದ ದರ್ಶನಕೆ...
         </description>
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ site.url }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+        <pubDate>Wed, 31 Dec 2014 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2014-12-31-start/</link>
+        <guid isPermaLink="true">http://localhost:4000/2014-12-31-start/</guid>
       </item>
-    {% endfor %}
+    
   </channel>
 </rss>
