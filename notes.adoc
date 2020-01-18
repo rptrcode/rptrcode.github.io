@@ -2,7 +2,7 @@
 :toc: left
 :toclevels: 3
 == NOTES
-image::adieu.jpg[] 
+image::adieu.jpg[]
 
 === C++
 A list of concepts, ideas, idioms, patterns and keywords to understand and remember.
@@ -22,9 +22,9 @@ A list of concepts, ideas, idioms, patterns and keywords to understand and remem
 * Meyer's singleton (10.16)
 * https://en.wikipedia.org/wiki/One_Definition_Rule[One definition rule,window="_blank"]
 * https://en.wikipedia.org/wiki/Common_subexpression_elimination[Common subexpression elimination,window="_blank"]
-* https://embeddedartistry.com/blog/2017/2/28/c-casting-or-oh-no-we-broke-malloc[Different kind of casts,window="_blank"]: 
+* https://embeddedartistry.com/blog/2017/2/28/c-casting-or-oh-no-we-broke-malloc[Different kind of casts,window="_blank"]:
 	** C style
-	** static_cast 
+	** static_cast
 	** dynamic_cast
 	** const_cast  https://stackoverflow.com/a/5249910/442992[cast away volatile,window="_blank"],	https://stackoverflow.com/a/7368038/442992[undefined behavior,window="_blank"],
 	** reinterpret_cast
@@ -33,7 +33,7 @@ A list of concepts, ideas, idioms, patterns and keywords to understand and remem
 * http://www.goldsborough.me/c/c++/linker/2016/03/30/19-34-25-internal_and_external_linkage_in_c++/#linkage[External vs Internal Linkage, window="_blank"]
 * http://www.cs.technion.ac.il/users/yechiel/c++-faq/placement-new.html[Placement new ,window="_blank"] vs https://www.geeksforgeeks.org/overloading-new-delete-operator-c/[operator new,window="_blank"]
 * Pointer to member function
-* Diamond problem (25.8, 25.9) and multiple inheritance (ch. 25) 
+* Diamond problem (25.8, 25.9) and multiple inheritance (ch. 25)
 * http://www.cs.technion.ac.il/users/yechiel/c++-faq/hiding-rule.html[Hiding rule, window="_blank"]
 * http://www.cs.technion.ac.il/users/yechiel/c++-faq/protected-virtuals.html[Protected NVI, window="_blank"]
 * Templates (ch. 35)
@@ -52,7 +52,7 @@ A list of concepts, ideas, idioms, patterns and keywords to understand and remem
 * https://en.wikipedia.org/wiki/Tail_call[Tail call,window="_blank"]
 * https://en.wikipedia.org/wiki/Constant_folding[Constant folding,window="_blank"]
 
-==== Marshall Cline's C++ FAQ 
+==== Marshall Cline's C++ FAQ
 * ISOCPP https://isocpp.org/faq[FAQ,window="_blank"]
 * ISOCPP http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines[C++ Core Guidelines,window="_blank"]
 * Marshall Cline's FAQ
@@ -343,6 +343,9 @@ The book "_OpenGL ES 3.0 Programming Guide_" by Dan Ginsburg and Budirijanto Pur
 
 * http://assemblyrequired.crashworks.org/load-hit-stores-and-the-\__restrict-keyword/[Load-Hit-Stores and the `__restrict` keyword,window="_blank"] by Elan Ruskin
 * http://www.gamasutra.com/view/feature/132084/sponsored_feature_common_.php[Sponsored Feature: Common Performance Issues in Game Programming,window="_blank"] by Becky Heineman
+
+=== Microservices
+* https://news.ycombinator.com/item?id=16200007[The Death of Microservice Madness in 2018 - HN ,window="_blank"]
 
 === Math and geometry
 ==== Books
