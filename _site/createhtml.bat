@@ -1,1 +1,0 @@
-asciidoctor notes.adoc
