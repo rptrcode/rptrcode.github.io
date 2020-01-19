@@ -154,6 +154,55 @@ One of the book on the topic is "_The Art of Multiprocessor Programming_" by Mau
 ==== IPC
 * https://dbus.freedesktop.org/doc/dbus-tutorial.html[DBUS Tutorial,window="_blank"]
 
+
+
+=== OOAD, Design patterns
+
+
+* https://en.wikipedia.org/wiki/Single_responsibility_principle[Single responsibility principle,window="_blank"]
+* https://enterprisecraftsmanship.com/2015/09/02/cohesion-coupling-difference/[Cohesion/Coupling,window="_blank"]
+* https://en.wikipedia.org/wiki/Factory_method_pattern[Factory method,window="_blank"] / https://en.wikipedia.org/wiki/Abstract_factory_pattern[Abstract factory pattern,window="_blank"]
+* https://en.wikipedia.org/wiki/Builder_pattern[Builder pattern,window="_blank"]
+* Meyer's singleton
+* https://en.wikipedia.org/wiki/Object_pool_pattern[Object pool,window="_blank"], https://en.wikipedia.org/wiki/Thread_pool[Thread pool,window="_blank"], https://en.wikipedia.org/wiki/Flyweight_pattern[Flyweight pattern,window="_blank"]
+* https://news.ycombinator.com/item?id=19715191[Why OO sucks] by Joe Armstrong
+
+=== Data Oriented Design
+* http://harmful.cat-v.org/software/OO_programming/_pdf/Pitfalls_of_Object_Oriented_Programming_GCAP_09.pdf[Pitfalls of Object Oriented Programming (PDF),window="_blank"] by Tony Albrecht (SCEE)
+* https://macton.smugmug.com/Other/2008-07-15-by-Eye-Fi/n-xmKDH/i-BrHWXdJ[Typical C++ Bullshit,window="_blank"] by Mike Acton (Insomniac Games)
+* http://www.frostbite.com/wp-content/uploads/2013/05/CullingTheBattlefield.pdf[Culling the Battlefield (PDF),window="_blank"] by Daniel Collin (Frostbite)
+* http://www.slideshare.net/naughty_dog/multiprocessor-game-loops-lessons-from-uncharted-2-among-thieves[Multiprocessor Game Loops,window="_blank"] by Jason Gregory (Naughty Dog)
+* http://twvideo01.ubm-us.net/o1/vault/gdc2015/presentations/Gyrling_Christian_Parallelizing_The_Naughty.pdf[Parallelizing the Naughty Dog Engine Using Fibers (PDF),window="_blank"] (http://www.gdcvault.com/play/1022186/Parallelizing-the-Naughty-Dog-Engine[GDC Vault video,window="_blank"]) by Christian Gyrling (Naughty Dog)
+* http://lukasz.dk/mirror/research-scea/research/pdfs/GDC2003_Memory_Optimization_18Mar03.pdf[Memory Optimization (PDF),window="_blank"] by Christer Ericson (Sony Santa Monica)
+* http://www.dice.se/wp-content/uploads/2014/12/Introduction_to_Data-Oriented_Design.pdf[Introduction to Data Oriented Design (PDF),window="_blank"] by Daniel Collin (DICE)
+* http://gameprogrammingpatterns.com/data-locality.html[Data Locality,window="_blank"] (cache miss, branch misprediction, pipeline flush) from http://gameprogrammingpatterns.com[Game Programming Patterns,window="_blank"] by Robert Nystrom
+* http://media.steampowered.com/apps/valve/2015/Migdalskiy_Sergiy_Physics_Optimization_Strategies.pdf[Performance - Physics Optimization Strategies (PDF),window="_blank"] by Sergiy Migdalskiy (Valve)
+* http://cellperformance.beyond3d.com/articles/2009/08/roundup-recent-sketches-on-concurrency-data-design-and-performance.html[Roundup: Recent sketches on concurrency, data design and performance,window="_blank"] by Mike Acton (Insomniac Games)
+* https://fgiesen.wordpress.com/2013/02/17/optimizing-sw-occlusion-culling-index/[Optimizing Software Occlusion Culling - Index,window="_blank"] by Fabian "ryg" Giesen
+* https://docs.google.com/presentation/d/17Bzle0w6jz-1ndabrvC5MXUIQ5jme0M8xBF71oz-0Js/present?slide=id.i0[Practical Examples in Data Oriented Design,window="_blank"] by Niklas Frykholm (BitSquid)
+* https://gamedevelopment.tutsplus.com/articles/what-is-data-oriented-game-engine-design--cms-21052[What is Data-Oriented Game Engine Design?,window="_blank"] by David Davidović
+* http://gamesfromwithin.com/data-oriented-design[Data-Oriented Design (Or Why You Might Be Shooting Yourself in The Foot With OOP),window="_blank"] by Noel Llopis
+* http://www.dataorienteddesign.com/dodmain/dodmain.html[Data-Oriented Design,window="_blank"] book by Richard Fabian
+* http://www.bounceapp.com/116414[Mike Acton's review,window="_blank"] of `OgreNode.cpp`
+* https://gist.github.com/ocornut/cb980ea183e848685a36[Memory, Cache, CPU optimization resources,window="_blank"] by Omar Cornut
+
+* http://assemblyrequired.crashworks.org/load-hit-stores-and-the-\__restrict-keyword/[Load-Hit-Stores and the `__restrict` keyword,window="_blank"] by Elan Ruskin
+* http://www.gamasutra.com/view/feature/132084/sponsored_feature_common_.php[Sponsored Feature: Common Performance Issues in Game Programming,window="_blank"] by Becky Heineman
+
+=== Microservices
+* https://news.ycombinator.com/item?id=16200007[The Death of Microservice Madness in 2018 - HN ,window="_blank"]
+
+=== Rust
+* https://news.ycombinator.com/item?id=19540845[Git implemented in Rust, window="_blank"]
+* https://news.ycombinator.com/item?id=19766713[Embedded Rust Book]
+*
+*
+*
+*
+*
+*
+
+
 === Hardware
 ==== CPU
 Important links from Wikipedia about the architecture of a CPU.
@@ -287,50 +336,6 @@ The book "_OpenGL ES 3.0 Programming Guide_" by Dan Ginsburg and Budirijanto Pur
 [%hardbreaks]
 [%hardbreaks]
 
-=== OOAD, Design patterns
-
-
-* https://en.wikipedia.org/wiki/Single_responsibility_principle[Single responsibility principle,window="_blank"]
-* https://enterprisecraftsmanship.com/2015/09/02/cohesion-coupling-difference/[Cohesion/Coupling,window="_blank"]
-* https://en.wikipedia.org/wiki/Factory_method_pattern[Factory method,window="_blank"] / https://en.wikipedia.org/wiki/Abstract_factory_pattern[Abstract factory pattern,window="_blank"]
-* https://en.wikipedia.org/wiki/Builder_pattern[Builder pattern,window="_blank"]
-* Meyer's singleton
-* https://en.wikipedia.org/wiki/Object_pool_pattern[Object pool,window="_blank"], https://en.wikipedia.org/wiki/Thread_pool[Thread pool,window="_blank"], https://en.wikipedia.org/wiki/Flyweight_pattern[Flyweight pattern,window="_blank"]
-* https://news.ycombinator.com/item?id=19715191[Why OO sucks] by Joe Armstrong
-
-=== Data Oriented Design
-* http://harmful.cat-v.org/software/OO_programming/_pdf/Pitfalls_of_Object_Oriented_Programming_GCAP_09.pdf[Pitfalls of Object Oriented Programming (PDF),window="_blank"] by Tony Albrecht (SCEE)
-* https://macton.smugmug.com/Other/2008-07-15-by-Eye-Fi/n-xmKDH/i-BrHWXdJ[Typical C++ Bullshit,window="_blank"] by Mike Acton (Insomniac Games)
-* http://www.frostbite.com/wp-content/uploads/2013/05/CullingTheBattlefield.pdf[Culling the Battlefield (PDF),window="_blank"] by Daniel Collin (Frostbite)
-* http://www.slideshare.net/naughty_dog/multiprocessor-game-loops-lessons-from-uncharted-2-among-thieves[Multiprocessor Game Loops,window="_blank"] by Jason Gregory (Naughty Dog)
-* http://twvideo01.ubm-us.net/o1/vault/gdc2015/presentations/Gyrling_Christian_Parallelizing_The_Naughty.pdf[Parallelizing the Naughty Dog Engine Using Fibers (PDF),window="_blank"] (http://www.gdcvault.com/play/1022186/Parallelizing-the-Naughty-Dog-Engine[GDC Vault video,window="_blank"]) by Christian Gyrling (Naughty Dog)
-* http://lukasz.dk/mirror/research-scea/research/pdfs/GDC2003_Memory_Optimization_18Mar03.pdf[Memory Optimization (PDF),window="_blank"] by Christer Ericson (Sony Santa Monica)
-* http://www.dice.se/wp-content/uploads/2014/12/Introduction_to_Data-Oriented_Design.pdf[Introduction to Data Oriented Design (PDF),window="_blank"] by Daniel Collin (DICE)
-* http://gameprogrammingpatterns.com/data-locality.html[Data Locality,window="_blank"] (cache miss, branch misprediction, pipeline flush) from http://gameprogrammingpatterns.com[Game Programming Patterns,window="_blank"] by Robert Nystrom
-* http://media.steampowered.com/apps/valve/2015/Migdalskiy_Sergiy_Physics_Optimization_Strategies.pdf[Performance - Physics Optimization Strategies (PDF),window="_blank"] by Sergiy Migdalskiy (Valve)
-* http://cellperformance.beyond3d.com/articles/2009/08/roundup-recent-sketches-on-concurrency-data-design-and-performance.html[Roundup: Recent sketches on concurrency, data design and performance,window="_blank"] by Mike Acton (Insomniac Games)
-* https://fgiesen.wordpress.com/2013/02/17/optimizing-sw-occlusion-culling-index/[Optimizing Software Occlusion Culling - Index,window="_blank"] by Fabian "ryg" Giesen
-* https://docs.google.com/presentation/d/17Bzle0w6jz-1ndabrvC5MXUIQ5jme0M8xBF71oz-0Js/present?slide=id.i0[Practical Examples in Data Oriented Design,window="_blank"] by Niklas Frykholm (BitSquid)
-* https://gamedevelopment.tutsplus.com/articles/what-is-data-oriented-game-engine-design--cms-21052[What is Data-Oriented Game Engine Design?,window="_blank"] by David Davidović
-* http://gamesfromwithin.com/data-oriented-design[Data-Oriented Design (Or Why You Might Be Shooting Yourself in The Foot With OOP),window="_blank"] by Noel Llopis
-* http://www.dataorienteddesign.com/dodmain/dodmain.html[Data-Oriented Design,window="_blank"] book by Richard Fabian
-* http://www.bounceapp.com/116414[Mike Acton's review,window="_blank"] of `OgreNode.cpp`
-* https://gist.github.com/ocornut/cb980ea183e848685a36[Memory, Cache, CPU optimization resources,window="_blank"] by Omar Cornut
-
-* http://assemblyrequired.crashworks.org/load-hit-stores-and-the-\__restrict-keyword/[Load-Hit-Stores and the `__restrict` keyword,window="_blank"] by Elan Ruskin
-* http://www.gamasutra.com/view/feature/132084/sponsored_feature_common_.php[Sponsored Feature: Common Performance Issues in Game Programming,window="_blank"] by Becky Heineman
-
-=== Microservices
-* https://news.ycombinator.com/item?id=16200007[The Death of Microservice Madness in 2018 - HN ,window="_blank"]
-=== Rust
-* https://news.ycombinator.com/item?id=19540845[Git implemented in Rust, window="_blank"]
-* https://news.ycombinator.com/item?id=19766713[Embedded Rust Book]
-*
-*
-*
-*
-*
-*
 
 ==== Books
 Read about the same math concepts on more than one book.
