@@ -1,0 +1,48 @@
+== Operating Systems
+.‪
+[%collapsible]
+==== 
+
+* Wiki Links https://en.wikipedia.org/wiki/Virtual_memory[Virtual memory,window="_blank"], https://en.wikipedia.org/wiki/Paging[paging,window="_blank"], https://en.wikipedia.org/wiki/Translation_lookaside_buffer[TLB,window="_blank"], https://en.wikipedia.org/wiki/Memory_management_unit[MMU,window="_blank"], https://en.wikipedia.org/wiki/Mmap[mmap,window="_blank"]
+* https://manybutfinite.com/post/anatomy-of-a-program-in-memory/index.html[Anatomy of a Program in Memory,window="_blank"]
+* https://arjunsreedharan.org/post/148675821737/write-a-simple-memory-allocator[Write a simple memory allocator,window="_blank"]
+* https://blog.feabhas.com/search/semaphore/[Mutex VS Semaphore,window="_blank"]
+* https://cyber.wtf/2017/07/28/negative-result-reading-kernel-memory-from-user-mode/[Reading Kernel memory from user mode,window="_blank"]
+* https://events.static.linuxfound.org/sites/events/files/slides/elc_2016_mem.pdf[Virtual Memory,window="_blank"]
+* SOVF
+** https://stackoverflow.com/questions/13013491/why-is-kernel-mapped-to-the-same-address-space-as-processes[Why is kernel mapped to the same address space as processes,window="_blank"]
+** https://stackoverflow.com/questions/8463741/how-linux-handles-threads-and-process-scheduling[How Linux handles threads and process scheduling,window="_blank"]
+** https://stackoverflow.com/questions/5440128/thread-context-switch-vs-process-context-switch[Thread context switch vs process context switch,window="_blank"]
+====
+
+=== Linux
+.‪
+[%collapsible]
+==== 
+
+
+====
+
+=== Multi-threading, Concurrency
+.‪
+[%collapsible]
+==== 
+One of the book on the topic is "_The Art of Multiprocessor Programming_" by Maurice Herlihy and Nir Shavit
+
+* https://assets.bitbashing.io/papers/concurrency-primer.pdf[What every programmer should know about concurrency,window="_blank"]
+* Critical section, mutex, semaphore, https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem[Producer-consumer problem,window="_blank"], https://en.wikipedia.org/wiki/Dining_philosophers_problem[Dining philosophers problem,window="_blank"], https://en.wikipedia.org/wiki/Priority_inversion[Priority inversion,window="_blank"], race condition
+* Atomics and lock-free programming (http://preshing.com/[Preshing on Programming,window="_blank"]), http://preshing.com/20120226/roll-your-own-lightweight-mutex/[Benaphore,window="_blank"], https://en.wikipedia.org/wiki/ABA_problem[ABA problem,window="_blank"], https://en.wikipedia.org/wiki/Load-link/store-conditional[Load-link/store-conditional,window="_blank"], http://preshing.com/20120913/acquire-and-release-semantics/[acquire and release semantics,window="_blank"] (Load-Acquire/Store-Release in the ARM Reference Manual)
+* Cache coherency, https://en.wikipedia.org/wiki/MOESI_protocol[MOESI protocol,window="_blank"], https://en.wikipedia.org/wiki/MESIF_protocol[MESIF protocol,window="_blank"], https://en.wikipedia.org/wiki/False_sharing[false sharing,window="_blank"], https://en.wikipedia.org/wiki/Branch_misprediction[branch misprediction,window="_blank"], https://en.wikipedia.org/wiki/Scratchpad_memory[scratchpad memory,window="_blank"]
+* https://www.quora.com/CPUs-How-is-branch-prediction-implemented-in-microprocessors[CPUs: How is branch prediction implemented in microprocessors?,window="_blank"]
+* Single Producer / Multiple Consumer
+* Lock-free queues
+* https://en.wikipedia.org/wiki/Hazard_pointer[Hazard pointer,window="_blank"]
+* Aligning AoS to cache line size to avoid false sharing
+* https://fgiesen.wordpress.com/2016/08/07/why-do-cpus-have-multiple-cache-levels/[Why do CPUs have multiple cache levels?,window="_blank"]
+====
+
+.IPC
+[%collapsible]
+==== 
+* https://dbus.freedesktop.org/doc/dbus-tutorial.html[DBUS Tutorial,window="_blank"]
+====

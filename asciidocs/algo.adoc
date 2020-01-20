@@ -1,0 +1,16 @@
+== Algorithms and Data Structures
+.#
+[%collapsible]
+====
+* Sorting and data structures (lists, arrays, hash tables)
+** About hash tables: linear probing, quadratic probing, http://preshing.com/20160314/leapfrog-probing/[leapfrog probing,window="_blank"], double hashing, cuckoo hashing, hopscotch hashing
+* Floating point (29.17 and https://randomascii.wordpress.com/[Random ASCII blog,window="_blank"])
+** https://randomascii.wordpress.com/2012/01/11/tricks-with-the-floating-point-format/[Tricks With the Floating-Point Format,window="_blank"] (representation)
+** https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/[Comparing Floating Point Numbers, 2012 Edition,window="_blank"] (ULP comparison)
+** https://randomascii.wordpress.com/2012/05/20/thats-not-normalthe-performance-of-odd-floats/[That’s Not Normal–the Performance of Odd Floats,window="_blank"] (hole around zero, denormals)
+* https://download-mirror.savannah.gnu.org/releases/pgubook/ProgrammingGroundUp-1-0-booksize.pdf["Programming from the Ground Up" (PDF),window="_blank"] by Jonathan Bartlett
+** https://en.wikipedia.org/wiki/Call_stack[Call stack,window="_blank"], relocating code, dynamic libraries, https://en.wikipedia.org/wiki/Data_segment[data,window="_blank"] / https://en.wikipedia.org/wiki/.bss[bss,window="_blank"] / https://en.wikipedia.org/wiki/Code_segment[text,window="_blank"] segments
+* http://gafferongames.com/game-physics/fix-your-timestep/[Fix Your Timestep! by Glenn Fiedler,window="_blank"]
+* Custom allocator with pools
+* https://en.wikipedia.org/wiki/Quadtree[Quadtree,window="_blank"], https://en.wikipedia.org/wiki/Octree[Octree,window="_blank"] and https://en.wikipedia.org/wiki/Binary_space_partitioning[Binary Space Partitioning (BSP),window="_blank"]
+====

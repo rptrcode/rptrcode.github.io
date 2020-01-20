@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.10">
-<title>NOTES</title>
+<title>Languages</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -441,57 +441,42 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_notes">NOTES</a>
+<li><a href="#_languages">Languages</a>
 <ul class="sectlevel2">
-<li><a href="#_c">C++</a>
-<ul class="sectlevel3">
-<li><a href="#_marshall_clines_c_faq">Marshall Cline&#8217;s C++ FAQ</a></li>
-<li><a href="#_c11">C++11</a></li>
-<li><a href="#_stl">STL</a></li>
-<li><a href="#_c_tricksgotchashacks">C Tricks/Gotchas/Hacks</a></li>
-<li><a href="#_bit_twiddling_hacks">Bit twiddling hacks</a></li>
+<li><a href="#_c">C++</a></li>
+<li><a href="#_rust">Rust</a></li>
+<li><a href="#_java">Java</a></li>
+<li><a href="#_webassembly">WebAssembly</a></li>
+<li><a href="#_go">Go</a></li>
 </ul>
 </li>
 <li><a href="#_algorithms_and_data_structures">Algorithms and Data Structures</a></li>
-<li><a href="#_operating_systems">Operating Systems</a>
-<ul class="sectlevel3">
-<li><a href="#_multi_threading">Multi-threading</a></li>
-<li><a href="#_ipc">IPC</a></li>
-</ul>
-</li>
+<li><a href="#_design">Design</a>
+<ul class="sectlevel2">
 <li><a href="#_ooad_design_patterns">OOAD, Design patterns</a></li>
 <li><a href="#_data_oriented_design">Data Oriented Design</a></li>
 <li><a href="#_microservices">Microservices</a></li>
-<li><a href="#_rust">Rust</a></li>
-<li><a href="#_hardware">Hardware</a>
-<ul class="sectlevel3">
-<li><a href="#_cpu">CPU</a></li>
 </ul>
 </li>
-<li><a href="#_graphics">Graphics</a>
-<ul class="sectlevel3">
-<li><a href="#_mobile_gpus_architecture">Mobile GPUs architecture</a></li>
-<li><a href="#_desktop_gpus_architecture">Desktop GPUs architecture</a></li>
-<li><a href="#_graphics_techniques">Graphics techniques</a></li>
-<li><a href="#_more_topics">More topics</a></li>
-<li><a href="#_books">Books</a></li>
-<li><a href="#_topics">Topics</a></li>
+<li><a href="#_operating_systems">Operating Systems</a>
+<ul class="sectlevel2">
+<li><a href="#_linux">Linux</a></li>
+<li><a href="#_multi_threading_concurrency">Multi-threading, Concurrency</a></li>
 </ul>
 </li>
-</ul>
-</li>
+<li><a href="#_architecture">Architecture</a></li>
 </ul>
 </div>
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="_notes">NOTES</h2>
+<h2 id="_languages">Languages</h2>
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="_c">C++</h3>
-<div class="paragraph">
-<p>A list of concepts, ideas, idioms, patterns and keywords to understand and remember.</p>
-</div>
+<details>
+<summary class="title">cppfaq</summary>
+<div class="content">
 <div class="ulist">
 <ul>
 <li>
@@ -632,8 +617,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </div>
-<div class="sect3">
-<h4 id="_marshall_clines_c_faq">Marshall Cline&#8217;s C++ FAQ</h4>
+</div>
+</details>
+<details>
+<summary class="title">Marshall Cline&#8217;s cppfaq</summary>
+<div class="content">
 <div class="ulist">
 <ul>
 <li>
@@ -724,8 +712,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_c11">C++11</h4>
+</details>
+<details>
+<summary class="title">C++11</summary>
+<div class="content">
 <div class="paragraph">
 <p>The book "<em>Effective Modern C++</em>" by Scott Meyers is a must-have.</p>
 </div>
@@ -753,9 +743,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Perfect forwarding</p>
 </li>
 <li>
-<p>Enum classes</p>
-</li>
-<li>
 <p>Range-based for loops (and issues with <code>auto</code> and copying objects around)</p>
 </li>
 <li>
@@ -764,8 +751,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_stl">STL</h4>
+</details>
+<details>
+<summary class="title">STL</summary>
+<div class="content">
 <div class="ulist">
 <ul>
 <li>
@@ -794,29 +783,97 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_c_tricksgotchashacks">C Tricks/Gotchas/Hacks</h4>
+</details>
+<details>
+<summary class="title">C Tricks/Gotchas/Hacks</summary>
+<div class="content">
 <div class="ulist">
 <ul>
 <li>
 <p><a href="https://stackoverflow.com/questions/599365/what-is-your-favorite-c-programming-trick">few c tricks</a></p>
 </li>
-</ul>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_bit_twiddling_hacks">Bit twiddling hacks</h4>
-<div class="ulist">
-<ul>
 <li>
 <p><a href="https://graphics.stanford.edu/~seander/bithacks.html" target="_blank" rel="noopener">Bit twiddling hacks</a></p>
 </li>
 </ul>
 </div>
 </div>
+</details>
 </div>
 <div class="sect2">
-<h3 id="_algorithms_and_data_structures">Algorithms and Data Structures</h3>
+<h3 id="_rust">Rust</h3>
+<details>
+<summary class="title">‪</summary>
+<div class="content">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://news.ycombinator.com/item?id=19540845" target="_blank" rel="noopener">Git implemented in Rust</a></p>
+</li>
+<li>
+<p><a href="https://news.ycombinator.com/item?id=19766713">Embedded Rust Book</a></p>
+</li>
+<li>
+<p><a href="https://news.ycombinator.com/item?id=19778738">Giving up on wlroots-rs</a></p>
+</li>
+<li>
+<p><a href="https://news.ycombinator.com/item?id=19475218">On Learning Rust and Go: Migrating Away from Python</a></p>
+</li>
+<li>
+<p><a href="https://news.ycombinator.com/item?id=19430487">Implementing a NES Emulator in Rust</a></p>
+</li>
+</ul>
+</div>
+</div>
+</details>
+</div>
+<div class="sect2">
+<h3 id="_java">Java</h3>
+<details>
+<summary class="title">‪</summary>
+<div class="content">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://news.ycombinator.com/item?id=19346017">“No, we’re telling everyone we are using Java”</a></p>
+</li>
+</ul>
+</div>
+</div>
+</details>
+</div>
+<div class="sect2">
+<h3 id="_webassembly">WebAssembly</h3>
+<details>
+<summary class="title">‪</summary>
+<div class="content">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://news.ycombinator.com/item?id=19514353">Lucet: Native WebAssembly Compiler and Runtime</a></p>
+</li>
+</ul>
+</div>
+</div>
+</details>
+</div>
+<div class="sect2">
+<h3 id="_go">Go</h3>
+<details>
+<summary class="title">‪</summary>
+<div class="content">
+
+</div>
+</details>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_algorithms_and_data_structures">Algorithms and Data Structures</h2>
+<div class="sectionbody">
+<details>
+<summary class="title">#</summary>
+<div class="content">
 <div class="ulist">
 <ul>
 <li>
@@ -867,99 +924,17 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </div>
 </div>
-<div class="sect2">
-<h3 id="_operating_systems">Operating Systems</h3>
-<div class="ulist">
-<ul>
-<li>
-<p>Wiki Links <a href="https://en.wikipedia.org/wiki/Virtual_memory" target="_blank" rel="noopener">Virtual memory</a>, <a href="https://en.wikipedia.org/wiki/Paging" target="_blank" rel="noopener">paging</a>, <a href="https://en.wikipedia.org/wiki/Translation_lookaside_buffer" target="_blank" rel="noopener">TLB</a>, <a href="https://en.wikipedia.org/wiki/Memory_management_unit" target="_blank" rel="noopener">MMU</a>, <a href="https://en.wikipedia.org/wiki/Mmap" target="_blank" rel="noopener">mmap</a></p>
-</li>
-<li>
-<p><a href="https://manybutfinite.com/post/anatomy-of-a-program-in-memory/index.html" target="_blank" rel="noopener">Anatomy of a Program in Memory</a></p>
-</li>
-<li>
-<p><a href="https://arjunsreedharan.org/post/148675821737/write-a-simple-memory-allocator" target="_blank" rel="noopener">Write a simple memory allocator</a></p>
-</li>
-<li>
-<p><a href="https://assets.bitbashing.io/papers/concurrency-primer.pdf" target="_blank" rel="noopener">What every programmer should know about concurrency</a></p>
-</li>
-<li>
-<p><a href="https://blog.feabhas.com/search/semaphore/" target="_blank" rel="noopener">Mutex VS Semaphore</a></p>
-</li>
-<li>
-<p><a href="https://cyber.wtf/2017/07/28/negative-result-reading-kernel-memory-from-user-mode/" target="_blank" rel="noopener">Reading Kernel memory from user mode</a></p>
-</li>
-<li>
-<p><a href="https://events.static.linuxfound.org/sites/events/files/slides/elc_2016_mem.pdf" target="_blank" rel="noopener">Virtual Memory</a></p>
-</li>
-<li>
-<p>SOVF</p>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://stackoverflow.com/questions/13013491/why-is-kernel-mapped-to-the-same-address-space-as-processes" target="_blank" rel="noopener">Why is kernel mapped to the same address space as processes</a></p>
-</li>
-<li>
-<p><a href="https://stackoverflow.com/questions/8463741/how-linux-handles-threads-and-process-scheduling" target="_blank" rel="noopener">How Linux handles threads and process scheduling</a></p>
-</li>
-<li>
-<p><a href="https://stackoverflow.com/questions/5440128/thread-context-switch-vs-process-context-switch" target="_blank" rel="noopener">Thread context switch vs process context switch</a></p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-<div class="sect3">
-<h4 id="_multi_threading">Multi-threading</h4>
-<div class="paragraph">
-<p>One of the book on the topic is "<em>The Art of Multiprocessor Programming</em>" by Maurice Herlihy and Nir Shavit</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Critical section, mutex, semaphore, <a href="https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem" target="_blank" rel="noopener">Producer-consumer problem</a>, <a href="https://en.wikipedia.org/wiki/Dining_philosophers_problem" target="_blank" rel="noopener">Dining philosophers problem</a>, <a href="https://en.wikipedia.org/wiki/Priority_inversion" target="_blank" rel="noopener">Priority inversion</a>, race condition</p>
-</li>
-<li>
-<p>Atomics and lock-free programming (<a href="http://preshing.com/" target="_blank" rel="noopener">Preshing on Programming</a>), <a href="http://preshing.com/20120226/roll-your-own-lightweight-mutex/" target="_blank" rel="noopener">Benaphore</a>, <a href="https://en.wikipedia.org/wiki/ABA_problem" target="_blank" rel="noopener">ABA problem</a>, <a href="https://en.wikipedia.org/wiki/Load-link/store-conditional" target="_blank" rel="noopener">Load-link/store-conditional</a>, <a href="http://preshing.com/20120913/acquire-and-release-semantics/" target="_blank" rel="noopener">acquire and release semantics</a> (Load-Acquire/Store-Release in the ARM Reference Manual)</p>
-</li>
-<li>
-<p>Cache coherency, <a href="https://en.wikipedia.org/wiki/MOESI_protocol" target="_blank" rel="noopener">MOESI protocol</a>, <a href="https://en.wikipedia.org/wiki/MESIF_protocol" target="_blank" rel="noopener">MESIF protocol</a>, <a href="https://en.wikipedia.org/wiki/False_sharing" target="_blank" rel="noopener">false sharing</a>, <a href="https://en.wikipedia.org/wiki/Branch_misprediction" target="_blank" rel="noopener">branch misprediction</a>, <a href="https://en.wikipedia.org/wiki/Scratchpad_memory" target="_blank" rel="noopener">scratchpad memory</a></p>
-</li>
-<li>
-<p><a href="https://www.quora.com/CPUs-How-is-branch-prediction-implemented-in-microprocessors" target="_blank" rel="noopener">CPUs: How is branch prediction implemented in microprocessors?</a></p>
-</li>
-<li>
-<p>Single Producer / Multiple Consumer</p>
-</li>
-<li>
-<p>Lock-free queues</p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Hazard_pointer" target="_blank" rel="noopener">Hazard pointer</a></p>
-</li>
-<li>
-<p>Aligning AoS to cache line size to avoid false sharing</p>
-</li>
-<li>
-<p><a href="https://fgiesen.wordpress.com/2016/08/07/why-do-cpus-have-multiple-cache-levels/" target="_blank" rel="noopener">Why do CPUs have multiple cache levels?</a></p>
-</li>
-</ul>
+</details>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_ipc">IPC</h4>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://dbus.freedesktop.org/doc/dbus-tutorial.html" target="_blank" rel="noopener">DBUS Tutorial</a></p>
-</li>
-</ul>
-</div>
-</div>
-</div>
+<div class="sect1">
+<h2 id="_design">Design</h2>
+<div class="sectionbody">
 <div class="sect2">
 <h3 id="_ooad_design_patterns">OOAD, Design patterns</h3>
+<details>
+<summary class="title">‪</summary>
+<div class="content">
 <div class="ulist">
 <ul>
 <li>
@@ -986,8 +961,13 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </div>
 </div>
+</details>
+</div>
 <div class="sect2">
 <h3 id="_data_oriented_design">Data Oriented Design</h3>
+<details>
+<summary class="title">‪</summary>
+<div class="content">
 <div class="ulist">
 <ul>
 <li>
@@ -1050,8 +1030,13 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </div>
 </div>
+</details>
+</div>
 <div class="sect2">
 <h3 id="_microservices">Microservices</h3>
+<details>
+<summary class="title">‪</summary>
+<div class="content">
 <div class="ulist">
 <ul>
 <li>
@@ -1060,473 +1045,129 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </div>
 </div>
-<div class="sect2">
-<h3 id="_rust">Rust</h3>
+</details>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_operating_systems">Operating Systems</h2>
+<div class="sectionbody">
+<details>
+<summary class="title">‪</summary>
+<div class="content">
 <div class="ulist">
 <ul>
 <li>
-<p><a href="https://news.ycombinator.com/item?id=19540845" target="_blank" rel="noopener">Git implemented in Rust</a></p>
+<p>Wiki Links <a href="https://en.wikipedia.org/wiki/Virtual_memory" target="_blank" rel="noopener">Virtual memory</a>, <a href="https://en.wikipedia.org/wiki/Paging" target="_blank" rel="noopener">paging</a>, <a href="https://en.wikipedia.org/wiki/Translation_lookaside_buffer" target="_blank" rel="noopener">TLB</a>, <a href="https://en.wikipedia.org/wiki/Memory_management_unit" target="_blank" rel="noopener">MMU</a>, <a href="https://en.wikipedia.org/wiki/Mmap" target="_blank" rel="noopener">mmap</a></p>
 </li>
 <li>
-<p><a href="https://news.ycombinator.com/item?id=19766713">Embedded Rust Book</a>
-*
-*
-*
-*
-*
-*</p>
+<p><a href="https://manybutfinite.com/post/anatomy-of-a-program-in-memory/index.html" target="_blank" rel="noopener">Anatomy of a Program in Memory</a></p>
+</li>
+<li>
+<p><a href="https://arjunsreedharan.org/post/148675821737/write-a-simple-memory-allocator" target="_blank" rel="noopener">Write a simple memory allocator</a></p>
+</li>
+<li>
+<p><a href="https://blog.feabhas.com/search/semaphore/" target="_blank" rel="noopener">Mutex VS Semaphore</a></p>
+</li>
+<li>
+<p><a href="https://cyber.wtf/2017/07/28/negative-result-reading-kernel-memory-from-user-mode/" target="_blank" rel="noopener">Reading Kernel memory from user mode</a></p>
+</li>
+<li>
+<p><a href="https://events.static.linuxfound.org/sites/events/files/slides/elc_2016_mem.pdf" target="_blank" rel="noopener">Virtual Memory</a></p>
+</li>
+<li>
+<p>SOVF</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://stackoverflow.com/questions/13013491/why-is-kernel-mapped-to-the-same-address-space-as-processes" target="_blank" rel="noopener">Why is kernel mapped to the same address space as processes</a></p>
+</li>
+<li>
+<p><a href="https://stackoverflow.com/questions/8463741/how-linux-handles-threads-and-process-scheduling" target="_blank" rel="noopener">How Linux handles threads and process scheduling</a></p>
+</li>
+<li>
+<p><a href="https://stackoverflow.com/questions/5440128/thread-context-switch-vs-process-context-switch" target="_blank" rel="noopener">Thread context switch vs process context switch</a></p>
+</li>
+</ul>
+</div>
 </li>
 </ul>
 </div>
 </div>
+</details>
 <div class="sect2">
-<h3 id="_hardware">Hardware</h3>
-<div class="sect3">
-<h4 id="_cpu">CPU</h4>
-<div class="paragraph">
-<p>Important links from Wikipedia about the architecture of a CPU.
-One of the book you could read to learn more on the subject is "<em>Computer Architecture: A Quantitative Approach</em>" by David A. Patterson.</p>
+<h3 id="_linux">Linux</h3>
+<details>
+<summary class="title">‪</summary>
+<div class="content">
+
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Von_Neumann_architecture" target="_blank" rel="noopener">Von Neumann architecture</a>, <a href="https://en.wikipedia.org/wiki/Harvard_architecture" target="_blank" rel="noopener">Harvard architecture</a></p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Instruction_pipelining" target="_blank" rel="noopener">Instruction pipelining</a>, <a href="https://en.wikipedia.org/wiki/Classic_RISC_pipeline" target="_blank" rel="noopener">Classic RISC pipeline</a> &#8594; (fetch, decode, execute, memory access, writeback), <a href="https://en.wikipedia.org/wiki/Branch_predication" target="_blank" rel="noopener">Branch predication</a></p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Instruction-level_parallelism" target="_blank" rel="noopener">Instruction-level parallelism</a>, <a href="https://en.wikipedia.org/wiki/Out-of-order_execution" target="_blank" rel="noopener">Out-of-order execution</a>, <a href="https://en.wikipedia.org/wiki/Register_renaming" target="_blank" rel="noopener">Register renaming</a>, <a href="https://en.wikipedia.org/wiki/Register_allocation#Spilling" target="_blank" rel="noopener">Register spilling</a>, <a href="https://en.wikipedia.org/wiki/Superscalar_processor" target="_blank" rel="noopener">Superscalar processor</a>, <a href="https://en.wikipedia.org/wiki/Very_long_instruction_word" target="_blank" rel="noopener">VLIW (Very Long Instruction Word)</a>, <a href="https://en.wikipedia.org/wiki/Barrel_processor" target="_blank" rel="noopener">Barrell processor</a></p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Cycles_per_instruction" target="_blank" rel="noopener">Cycles per instruction</a>, <a href="https://en.wikipedia.org/wiki/Instructions_per_cycle" target="_blank" rel="noopener">Instructions per cycle (IPC)</a></p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Branch_predictor" target="_blank" rel="noopener">Branch predictor</a>, <a href="https://en.wikipedia.org/wiki/Branch_target_predictor" target="_blank" rel="noopener">Branch target predictor</a></p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Hazard_%28computer_architecture%29" target="_blank" rel="noopener">Hazard (computer architecture)</a> &#8594; (RAW, WAR, WAW data hazards, pipeline bubbling, register forwarding)</p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Speculative_execution" target="_blank" rel="noopener">Speculative execution</a>, <a href="https://en.wikipedia.org/wiki/Instruction_prefetch" target="_blank" rel="noopener">Instruction prefetch</a>, <a href="https://en.wikipedia.org/wiki/Prefetch_input_queue" target="_blank" rel="noopener">Prefetch input queue</a></p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/CPU_cache" target="_blank" rel="noopener">CPU cache</a>, <a href="https://en.wikipedia.org/wiki/Cache_replacement_policies" target="_blank" rel="noopener">Cache replacement policies</a>, <a href="https://en.wikipedia.org/wiki/Translation_lookaside_buffer" target="_blank" rel="noopener">Translation Lookaside Buffer (TLB)</a>, <a href="https://en.wikipedia.org/wiki/Scratchpad_memory" target="_blank" rel="noopener">Scratchpad memory</a></p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Cache_coherence" target="_blank" rel="noopener">Cache coherence</a> (<a href="https://en.wikipedia.org/wiki/MESI_protocol" target="_blank" rel="noopener">MESI protocol</a>, <a href="https://en.wikipedia.org/wiki/MOESI_protocol" target="_blank" rel="noopener">MOESI protocol</a>), <a href="https://en.wikipedia.org/wiki/Bus_snooping" target="_blank" rel="noopener">Bus snooping</a>, <a href="https://en.wikipedia.org/wiki/Write_combining" target="_blank" rel="noopener">Write combining</a></p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Clock_gating" target="_blank" rel="noopener">Clock gating</a></p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Multiply%E2%80%93accumulate_operation" target="_blank" rel="noopener">Multiply–accumulate operation</a> &#8594; (Fused multiply–add)</p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Symmetric_multiprocessing" target="_blank" rel="noopener">Symmetric multiprocessing</a>, <a href="https://en.wikipedia.org/wiki/Simultaneous_multithreading" target="_blank" rel="noopener">Simultaneous multithreading</a></p>
-</li>
-</ul>
-</div>
-</div>
+</details>
 </div>
 <div class="sect2">
-<h3 id="_graphics">Graphics</h3>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://www.scratchapixel.com/" target="_blank" rel="noopener">Scratchapixel - Learn Computer Graphics From Scratch!</a></p>
-</li>
-<li>
-<p><a href="http://blip.tv/linuxconfau/x-and-the-future-of-linux-graphics-4711540" target="_blank" rel="noopener">X and the future of Linux graphics</a></p>
-</li>
-<li>
-<p><a href="https://lwn.net/Articles/413335/" target="_blank" rel="noopener">Life after X</a></p>
-</li>
-</ul>
-</div>
-<div class="sect3">
-<h4 id="_mobile_gpus_architecture">Mobile GPUs architecture</h4>
+<h3 id="_multi_threading_concurrency">Multi-threading, Concurrency</h3>
+<details>
+<summary class="title">‪</summary>
+<div class="content">
 <div class="paragraph">
-<p>The book "<em>OpenGL ES 3.0 Programming Guide</em>" by Dan Ginsburg and Budirijanto Purnomo is a must-have.</p>
+<p>One of the book on the topic is "<em>The Art of Multiprocessor Programming</em>" by Maurice Herlihy and Nir Shavit</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p><a href="http://www.seas.upenn.edu/~pcozzi/OpenGLInsights/OpenGLInsights-TileBasedArchitectures.pdf" target="_blank" rel="noopener">Performance Tuning for Tile-Based Architectures (PDF)</a>, from chapter 23 of the "OpenGL Insights" book</p>
+<p><a href="https://assets.bitbashing.io/papers/concurrency-primer.pdf" target="_blank" rel="noopener">What every programmer should know about concurrency</a></p>
 </li>
 <li>
-<p><a href="http://gpuopen.com/vulkan-renderpasses/" target="_blank" rel="noopener">Vulkan Renderpasses</a></p>
+<p>Critical section, mutex, semaphore, <a href="https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem" target="_blank" rel="noopener">Producer-consumer problem</a>, <a href="https://en.wikipedia.org/wiki/Dining_philosophers_problem" target="_blank" rel="noopener">Dining philosophers problem</a>, <a href="https://en.wikipedia.org/wiki/Priority_inversion" target="_blank" rel="noopener">Priority inversion</a>, race condition</p>
 </li>
 <li>
-<p><a href="http://malideveloper.arm.com/downloads/ARM_Game_Developer_Days/PDFs/4-compute_shaders.pdf" target="_blank" rel="noopener">Get the most out of the new OpenGL ES 3.1 API (PDF)</a> by ARM</p>
+<p>Atomics and lock-free programming (<a href="http://preshing.com/" target="_blank" rel="noopener">Preshing on Programming</a>), <a href="http://preshing.com/20120226/roll-your-own-lightweight-mutex/" target="_blank" rel="noopener">Benaphore</a>, <a href="https://en.wikipedia.org/wiki/ABA_problem" target="_blank" rel="noopener">ABA problem</a>, <a href="https://en.wikipedia.org/wiki/Load-link/store-conditional" target="_blank" rel="noopener">Load-link/store-conditional</a>, <a href="http://preshing.com/20120913/acquire-and-release-semantics/" target="_blank" rel="noopener">acquire and release semantics</a> (Load-Acquire/Store-Release in the ARM Reference Manual)</p>
 </li>
 <li>
-<p><a href="http://malideveloper.arm.com/sample-code/opengl-es-sample-code/" target="_blank" rel="noopener">OpenGL ES Sample Code by ARM</a></p>
+<p>Cache coherency, <a href="https://en.wikipedia.org/wiki/MOESI_protocol" target="_blank" rel="noopener">MOESI protocol</a>, <a href="https://en.wikipedia.org/wiki/MESIF_protocol" target="_blank" rel="noopener">MESIF protocol</a>, <a href="https://en.wikipedia.org/wiki/False_sharing" target="_blank" rel="noopener">false sharing</a>, <a href="https://en.wikipedia.org/wiki/Branch_misprediction" target="_blank" rel="noopener">branch misprediction</a>, <a href="https://en.wikipedia.org/wiki/Scratchpad_memory" target="_blank" rel="noopener">scratchpad memory</a></p>
 </li>
 <li>
-<p><a href="http://malideveloper.arm.com/sample-code/vulkan-sample-code/" target="_blank" rel="noopener">Vulkan sample code by ARM</a></p>
+<p><a href="https://www.quora.com/CPUs-How-is-branch-prediction-implemented-in-microprocessors" target="_blank" rel="noopener">CPUs: How is branch prediction implemented in microprocessors?</a></p>
+</li>
+<li>
+<p>Single Producer / Multiple Consumer</p>
+</li>
+<li>
+<p>Lock-free queues</p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Hazard_pointer" target="_blank" rel="noopener">Hazard pointer</a></p>
+</li>
+<li>
+<p>Aligning AoS to cache line size to avoid false sharing</p>
+</li>
+<li>
+<p><a href="https://fgiesen.wordpress.com/2016/08/07/why-do-cpus-have-multiple-cache-levels/" target="_blank" rel="noopener">Why do CPUs have multiple cache levels?</a></p>
 </li>
 </ul>
 </div>
-<div class="sect4">
-<h5 id="_arm_mali">ARM Mali</h5>
+</div>
+</details>
+<details>
+<summary class="title">IPC</summary>
+<div class="content">
 <div class="ulist">
 <ul>
 <li>
-<p><a href="http://malideveloper.arm.com/documentation/developer-guides/mali-gpu-application-optimization-guide/" target="_blank" rel="noopener">Mali GPU Application Optimization Guide</a></p>
-</li>
-<li>
-<p>The Mali GPU: An Abstract Machine</p>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://www.community.arm.com/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-1---frame-pipelining" target="_blank" rel="noopener">Part 1 - Frame Pipelining</a></p>
-</li>
-<li>
-<p><a href="https://www.community.arm.com/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-2---tile-based-rendering" target="_blank" rel="noopener">Part 2 - Tile-based Rendering</a></p>
-</li>
-<li>
-<p><a href="https://www.community.arm.com/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-3---the-midgard-shader-core" target="_blank" rel="noopener">Part 3 - The Midgard Shader Core</a></p>
-</li>
-<li>
-<p><a href="https://www.community.arm.com/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-4---the-bifrost-shader-core" target="_blank" rel="noopener">Part 4 - The Bifrost Shader Core</a></p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p><a href="https://www.community.arm.com/graphics/b/blog/posts/killing-pixels---a-new-optimization-for-shading-on-arm-mali-gpus" target="_blank" rel="noopener">Killing Pixels - A New Optimization for Shading on ARM Mali GPUs</a> (Forward Pixel Kill)</p>
-</li>
-<li>
-<p><a href="https://www.community.arm.com/graphics/b/blog/posts/how-low-can-you-go-building-low-power-low-bandwidth-arm-mali-gpus" target="_blank" rel="noopener">How low can you go? Building low-power</a> (Transaction elimination)</p>
-</li>
-<li>
-<p>Mali Performance</p>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://www.community.arm.com/graphics/b/blog/posts/mali-performance-1-checking-the-pipeline" target="_blank" rel="noopener">1: Checking the Pipeline</a></p>
-</li>
-<li>
-<p><a href="https://www.community.arm.com/graphics/b/blog/posts/mali-performance-2-how-to-correctly-handle-framebuffers" target="_blank" rel="noopener">2: How to Correctly Handle Framebuffers</a></p>
-</li>
-<li>
-<p><a href="https://www.community.arm.com/graphics/b/blog/posts/mali-performance-3-is-egl_5f00_buffer_5f00_preserved-a-good-thing" target="_blank" rel="noopener">3: Is <code>EGL_BUFFER_PRESERVED</code> a good thing?</a></p>
-</li>
-<li>
-<p><a href="https://www.community.arm.com/graphics/b/blog/posts/mali-performance-4-principles-of-high-performance-rendering" target="_blank" rel="noopener">4: Principles of High Performance Rendering</a></p>
-</li>
-<li>
-<p><a href="https://www.community.arm.com/graphics/b/blog/posts/mali-performance-5-an-application-s-performance-responsibilities" target="_blank" rel="noopener">5: An Application&#8217;s Performance Responsibilities</a></p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>Benchmarking floating-point precision in mobile GPUs</p>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://community.arm.com/graphics/b/blog/posts/benchmarking-floating-point-precision-in-mobile-gpus" target="_blank" rel="noopener">Part I</a></p>
-</li>
-<li>
-<p><a href="https://community.arm.com/graphics/b/blog/posts/benchmarking-floating-point-precision-in-mobile-gpus---part-ii" target="_blank" rel="noopener">Part II</a></p>
-</li>
-<li>
-<p><a href="https://community.arm.com/graphics/b/blog/posts/benchmarking-floating-point-precision-in-mobile-gpus---part-iii" target="_blank" rel="noopener">Part III</a></p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p><a href="https://www.community.arm.com/graphics/b/blog/posts/pixel-local-storage-on-arm-mali-gpus" target="_blank" rel="noopener">Pixel Local Storage on ARM&#174; Mali&#8482; GPUs</a></p>
-</li>
-<li>
-<p><a href="http://www.geomerics.com/wp-content/uploads/2014/11/Efficient-Rendering-with-Tile-Local-Storage.pdf" target="_blank" rel="noopener">Efficient Rendering with Tile Local Storage (PDF)</a> (SIGGRAPH 2014)</p>
-</li>
-<li>
-<p><a href="http://www.anandtech.com/show/8234/arms-mali-midgard-architecture-explored" target="_blank" rel="noopener">ARM&#8217;s Mali Midgard Architecture Explored</a></p>
-</li>
-<li>
-<p><a href="http://www.anandtech.com/show/10375/arm-unveils-bifrost-and-mali-g71" target="_blank" rel="noopener">ARM Unveils Next Generation Bifrost GPU Architexture &amp; Mali-G71: The New High-End Mali</a></p>
+<p><a href="https://dbus.freedesktop.org/doc/dbus-tutorial.html" target="_blank" rel="noopener">DBUS Tutorial</a></p>
 </li>
 </ul>
 </div>
 </div>
-<div class="sect4">
-<h5 id="_imagination_powervr">Imagination PowerVR</h5>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://www.imgtec.com/blog/a-look-at-the-powervr-graphics-architecture-tile-based-rendering/" target="_blank" rel="noopener">A look at the PowerVR graphics architecture: Tile-based rendering</a></p>
-</li>
-<li>
-<p><a href="https://www.imgtec.com/blog/the-dr-in-tbdr-deferred-rendering-in-rogue/" target="_blank" rel="noopener">A look at the PowerVR graphics architecture: Deferred rendering</a></p>
-</li>
-<li>
-<p><a href="https://community.imgtec.com/?do-download=50703" target="_blank" rel="noopener">PowerVR Hardware Architecture Overview for Developers (PDF)</a></p>
-</li>
-<li>
-<p><a href="https://community.imgtec.com/?do-download=50702" target="_blank" rel="noopener">PowerVR Series5 Architecture Guide for Developers (PDF)</a></p>
-</li>
-<li>
-<p><a href="https://community.imgtec.com/?do-download=50691" target="_blank" rel="noopener">PowerVR Series6 Compiler Instruction Set Reference (PDF)</a></p>
-</li>
-<li>
-<p><a href="https://community.imgtec.com/?do-download=50705" target="_blank" rel="noopener">PowerVR Performance Recommendations (PDF)</a></p>
-</li>
-<li>
-<p><a href="https://community.imgtec.com/?do-download=50751" target="_blank" rel="noopener">PowerVR Performance Recommendations The Golden Rules (PDF)</a></p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect4">
-<h5 id="_qualcomm_adreno">Qualcomm Adreno</h5>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://developer.qualcomm.com/download/adrenosdk/adreno-opengl-es-developer-guide.pdf" target="_blank" rel="noopener">Adreno OpenGL ES Developer Guide (PDF)</a></p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect4">
-<h5 id="_nvidia_tegra">Nvidia Tegra</h5>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://developer.nvidia.com/embedded/tegra-2-reference" target="_blank" rel="noopener">Tegra 2 Reference</a></p>
-</li>
-<li>
-<p><a href="https://developer.nvidia.com/embedded/tegra-3-reference" target="_blank" rel="noopener">Tegra 3 Reference</a></p>
-</li>
-<li>
-<p><a href="https://developer.nvidia.com/embedded/tegra-4-reference" target="_blank" rel="noopener">Tegra 4 Reference</a></p>
-</li>
-<li>
-<p><a href="https://developer.nvidia.com/embedded/tegra-k1-reference" target="_blank" rel="noopener">Tegra K1 Reference</a></p>
-</li>
-<li>
-<p><a href="http://developer.download.nvidia.com/assets/mobile/files/tegra_gles2_development.pdf" target="_blank" rel="noopener">OpenGL ES 2.0 Development for the Tegra Platform (PDF)</a></p>
-</li>
-</ul>
+</details>
 </div>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_desktop_gpus_architecture">Desktop GPUs architecture</h4>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="http://bps10.idav.ucdavis.edu/talks/03-fatahalian_gpuArchTeraflop_BPS_SIGGRAPH2010.pdf" target="_blank" rel="noopener">From Shader Code to a Teraflop: How GPU Shader Cores Work (PDF)</a> by Kayvon Fatahalian (SIGGRAPH 2010)</p>
-</li>
-<li>
-<p><a href="http://bps11.idav.ucdavis.edu/talks/05-schedulingGraphicsPipeline-BPS2011-ragankelley.pdf" target="_blank" rel="noopener">Scheduling the Graphics Pipeline (PDF)</a> by Jonathan Ragan-Kelley (SIGGRAPH 2011)</p>
-</li>
-<li>
-<p><a href="https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/" target="_blank" rel="noopener">A trip through the Graphics Pipeline 2011: Index</a> by Fabian "ryg" Giesen</p>
-</li>
-</ul>
-</div>
-<div class="sect4">
-<h5 id="_amd_radeon">AMD Radeon</h5>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="http://gpuopen.com/compute-product/amd-gcn3-isa-architecture-manual/" target="_blank" rel="noopener">AMD GCN3 ISA Architecture Manual</a></p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_graphics_techniques">Graphics techniques</h4>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="http://advances.realtimerendering.com/" target="_blank" rel="noopener">Advances in Real-Time Rendering in 3D Graphics and Games</a></p>
-</li>
-<li>
-<p><a href="http://blog.selfshadow.com/publications/s2016-shading-course/" target="_blank" rel="noopener">SIGGRAPH 2016 Course: Physically Based Shading in Theory and Practice</a></p>
-</li>
-<li>
-<p><a href="http://blog.selfshadow.com/publications/s2013-shading-course/hoffman/s2013_pbs_physics_math_notes.pdf" target="_blank" rel="noopener">Background: Physics and Math of Shading (PDF)</a> by Naty Hoffman</p>
-</li>
-<li>
-<p><a href="https://newq.net/publications/more/s2015-many-lights-course" target="_blank" rel="noopener">Real-Time Many-Light Management and Shadows with Clustered Shading</a> a SIGGRAPH 2015 Course</p>
-</li>
-<li>
-<p><a href="http://www.adriancourreges.com/blog/2016/09/09/doom-2016-graphics-study/" target="_blank" rel="noopener">DOOM (2016) - Graphics Study</a> by Adrian Courreges</p>
-</li>
-<li>
-<p><a href="http://www.adriancourreges.com/blog/2015/11/02/gta-v-graphics-study/" target="_blank" rel="noopener">GTA V - Graphics Study</a> by Adrian Courreges</p>
-</li>
-<li>
-<p><a href="http://iryoku.com/downloads/Practical-Realtime-Strategies-for-Accurate-Indirect-Occlusion.pdf" target="_blank" rel="noopener">Practical Realtime Strategies for Accurate Indirect Occlusion (PDF)</a> by Jorge Jimenez, Xian-Chun Wu, Angelo Pesce and Adrian Jarabo</p>
-</li>
-</ul>
-</div>
-<div class="sect4">
-<h5 id="_older_resources">Older resources</h5>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="http://www.punkuser.net/vsm/vsm_paper.pdf" target="_blank" rel="noopener">Variance Shadow Maps (PDF)</a> by William Donnelly and Andrew Lauritzen</p>
-</li>
-<li>
-<p><a href="http://www.cescg.org/CESCG-2006/papers/TUBudapest-Premecz-Matyas.pdf" target="_blank" rel="noopener">Iterative Parallax Mapping with Slope Information (PDF)</a> by Mátyás Premecz</p>
-</li>
-<li>
-<p><a href="https://www.gamedev.net/resources/_/technical/graphics-programming-and-theory/a-simple-and-practical-approach-to-ssao-r2753" target="_blank" rel="noopener">A Simple and Practical Approach to SSAO</a> by José María Méndez</p>
-</li>
-<li>
-<p><a href="http://amd-dev.wpengine.netdna-cdn.com/wordpress/media/2012/10/Scheuermann_DepthOfField.pdf" target="_blank" rel="noopener">Advanced Depth of Field (PDF)</a> by Thorsten Scheuermann</p>
-</li>
-<li>
-<p><a href="http://realtimecollisiondetection.net/blog/?p=86" target="_blank" rel="noopener">Order your graphics draw calls around!</a> from the Real-Time Collision Detection blog</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_more_topics">More topics</h4>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://mynameismjp.wordpress.com/2012/10/24/msaa-overview/" target="_blank" rel="noopener">A Quick Overview of MSAA</a> by Matt Pettineo</p>
-</li>
-<li>
-<p><a href="https://www.opengl.org/pipeline/article/vol003_6/" target="_blank" rel="noopener">GLSL: Center or Centroid?  (Or When Shaders Attack!)</a> by Bill Licea-Kane (AMD)</p>
-</li>
-<li>
-<p><a href="https://renderdoc.org/vulkan-in-30-minutes.html" target="_blank" rel="noopener">Vulkan in 30 minutes</a> by Baldur Karlsson</p>
-</li>
-<li>
-<p><a href="https://www.cs.cornell.edu/courses/cs4620/2008fa/lectures/texture-filtering.pdf" target="_blank" rel="noopener">Texture filtering (PDF)</a> (Mipmap selection with derivatives) by Steve Marschner</p>
-</li>
-<li>
-<p><a href="http://www.3dkingdoms.com/weekly/weekly.php?a=2" target="_blank" rel="noopener">Reflecting a Vector</a> (Vector reflection with vector projection and dot product)</p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Gram%E2%80%93Schmidt_process" target="_blank" rel="noopener">Gram-Schmidt orthogonalization</a> with vector projection and dot product</p>
-</li>
-<li>
-<p><a href="http://s09.idav.ucdavis.edu/talks/05-JP_id_Tech_5_Challenges.pdf" target="_blank" rel="noopener">id Tech 5 Challanges - From Texture Virtualization to Massive Parallelization (PDF)</a> by J.M.P. van Wavewer (id Software) (virtual texturing, sparse resources, parallel job system)</p>
-</li>
-<li>
-<p><a href="http://www.slideshare.net/CassEveritt/approaching-zero-driver-overhead" target="_blank" rel="noopener">Approaching Zero Driver Overhead in OpenGL (PDF)</a> <a href="http://gdcvault.com/play/1020791/" target="_blank" rel="noopener">(GDC Vault video)</a>, persistent mapping</p>
-</li>
-<li>
-<p><a href="http://media.steampowered.com/apps/steamdevdays/slides/beyondporting.pdf" target="_blank" rel="noopener">Beyond Porting (PDF)</a> <a href="https://www.youtube.com/watch?v=-bCeNzgiJ8I" target="_blank" rel="noopener">(Steam Dev Days video)</a> by Cass Everitt and John McDonald (NVIDIA) (persistent mapping, texture arrays, sparse and bindless textures)</p>
-</li>
-<li>
-<p><a href="http://kayru.org/articles/deferred-stencil/" target="_blank" rel="noopener">Rendering deferred lights using Stencil culling algorithm</a> by Yuriy O&#8217;Donnell</p>
-</li>
-<li>
-<p><a href="https://developer.nvidia.com/content/depth-precision-visualized" target="_blank" rel="noopener">Depth Precision Visualized</a> by Nathan Reed (NVIDIA)</p>
-</li>
-<li>
-<p><a href="https://gamedev.stackexchange.com/questions/130888/what-are-screen-space-derivatives-and-when-would-i-use-them/130933#130933" target="_blank" rel="noopener">What are screen space derivatives and when would I use them?</a></p>
-</li>
-<li>
-<p><a href="https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/gl_HelperInvocation.xhtml" target="_blank" rel="noopener">gl_HelperInvocation</a> - OpenGL 4 Reference Pages</p>
-</li>
-<li>
-<p><a href="https://developer.nvidia.com/content/life-triangle-nvidias-logical-pipeline" target="_blank" rel="noopener">Life of a triangle - NVIDIA&#8217;s logical pipeline</a> by Christoph Kubisch</p>
-</li>
-<li>
-<p><a href="https://mynameismjp.wordpress.com/2018/03/06/breaking-down-barriers-part-1-whats-a-barrier/" target="_blank" rel="noopener">Breaking Down Barriers - Part 1: What&#8217;s a Barrier?</a> by Matt Pettineo</p>
-</li>
-<li>
-<p><a href="https://mynameismjp.wordpress.com/2018/04/01/breaking-down-barriers-part-2-synchronizing-gpu-threads/" target="_blank" rel="noopener">Breaking Down Barriers - Part 2: Synchronizing GPU Threads</a> by Matt Pettineo</p>
-</li>
-<li>
-<p><a href="https://mynameismjp.wordpress.com/2018/06/17/breaking-down-barriers-part-3-multiple-command-processors/" target="_blank" rel="noopener">Breaking Down Barriers - Part 3: Multiple Command Processors</a> by Matt Pettineo</p>
-</li>
-<li>
-<p><a href="https://mynameismjp.wordpress.com/2018/07/03/breaking-down-barriers-part-4-gpu-preemption/" target="_blank" rel="noopener">Breaking Down Barriers - Part 4: GPU Preemption</a> by Matt Pettineo</p>
-</li>
-<li>
-<p><a href="https://mynameismjp.wordpress.com/2018/09/08/breaking-down-barriers-part-5-back-to-the-real-world/" target="_blank" rel="noopener">Breaking Down Barriers - Part 5: Back to the Real World</a> by Matt Pettineo</p>
-</li>
-<li>
-<p><a href="https://anteru.net/blog/2018/intro-to-compute-shaders/index.html" target="_blank" rel="noopener">Introduction to compute shaders</a> by Matthäus G. Chajdas</p>
-</li>
-<li>
-<p><a href="https://anteru.net/blog/2018/more-compute-shaders/index.html" target="_blank" rel="noopener">More compute shaders</a> by Matthäus G. Chajdas</p>
-</li>
-<li>
-<p><a href="https://anteru.net/blog/2018/even-more-compute-shaders/index.html" target="_blank" rel="noopener">Even more compute shaders</a> by Matthäus G. Chajdas</p>
-</li>
-<li>
-<p><a href="https://medium.com/@alen.ladavac/the-elusive-frame-timing-168f899aec92" target="_blank" rel="noopener">The Elusive Frame Timing</a> by Alen Ladavac</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_books">Books</h4>
+<div class="sect1">
+<h2 id="_architecture">Architecture</h2>
+<div class="sectionbody">
 <div class="paragraph">
-<p>Read about the same math concepts on more than one book.
-Some books are targeted to game developers, like:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>"<em>Essential Mathematics for Games and Interactive Applications</em>" by James M. Van Verth and Lars M. Bishop</p>
-</li>
-<li>
-<p>"<em>3D Math Primer for Graphics and Game Development</em>" by Fletcher Dunn and Ian Parberry</p>
-</li>
-<li>
-<p>"<em>Mathematics for 3D Game Programming and Computer Graphics</em>" by Eric Lengyel and John Flynt</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_topics">Topics</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>Trigonometry</p>
-</li>
-<li>
-<p>Vectors and matrices</p>
-</li>
-<li>
-<p>Rendering pipeline</p>
-</li>
-<li>
-<p>OpenGL transformations and matrices:</p>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="http://www.songho.ca/opengl/gl_transform.html" target="_blank" rel="noopener">OpenGL Transformation</a></p>
-</li>
-<li>
-<p><a href="http://www.songho.ca/opengl/gl_projectionmatrix.html" target="_blank" rel="noopener">OpenGL Projection Matrix</a></p>
-</li>
-<li>
-<p><a href="http://www.scratchapixel.com/lessons/3d-basic-rendering/perspective-and-orthographic-projection-matrix/projection-matrix-introduction" target="_blank" rel="noopener">The Perspective and Orthographic Projection Matrix</a></p>
-</li>
-<li>
-<p><a href="https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/projection-stage" target="_blank" rel="noopener">The Projection Stage</a></p>
-</li>
-<li>
-<p><a href="http://www.terathon.com/gdc07_lengyel.pdf" target="_blank" rel="noopener">Projection Matrix Tricks by Eric Lengyel (PDF)</a></p>
-</li>
-<li>
-<p><a href="http://stackoverflow.com/questions/76134/how-do-i-reverse-project-2d-points-into-3d/33976739#33976739" target="_blank" rel="noopener">How do I reverse-project 2D points into 3D?</a></p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</div>
+<p>===</p>
 </div>
 </div>
 </div>

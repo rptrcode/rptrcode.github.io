@@ -25,7 +25,7 @@ description: My experiments with code
 # List of links in the navigation bar
 navbar-links:
   Blog: "blog/index.html"
-  Study Notes: "notes.html"
+  Study Notes: "asciidocs/notes.html"
   Links:
     - Linkedin: "https://www.linkedin.com/in/puttaraju87"
     - Github: "https://github.com/rptr87"

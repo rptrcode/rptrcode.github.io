@@ -1,0 +1,164 @@
+
+
+== Hardware
+.CPU
+[%collapsible]
+====
+Important links from Wikipedia about the architecture of a CPU.
+One of the book you could read to learn more on the subject is "_Computer Architecture: A Quantitative Approach_" by David A. Patterson.
+
+* https://en.wikipedia.org/wiki/Von_Neumann_architecture[Von Neumann architecture,window="_blank"], https://en.wikipedia.org/wiki/Harvard_architecture[Harvard architecture,window="_blank"]
+* https://en.wikipedia.org/wiki/Instruction_pipelining[Instruction pipelining,window="_blank"], https://en.wikipedia.org/wiki/Classic_RISC_pipeline[Classic RISC pipeline,window="_blank"] -> (fetch, decode, execute, memory access, writeback), https://en.wikipedia.org/wiki/Branch_predication[Branch predication,window="_blank"]
+* https://en.wikipedia.org/wiki/Instruction-level_parallelism[Instruction-level parallelism,window="_blank"], https://en.wikipedia.org/wiki/Out-of-order_execution[Out-of-order execution,window="_blank"], https://en.wikipedia.org/wiki/Register_renaming[Register renaming,window="_blank"], https://en.wikipedia.org/wiki/Register_allocation#Spilling[Register spilling,window="_blank"], https://en.wikipedia.org/wiki/Superscalar_processor[Superscalar processor,window="_blank"], https://en.wikipedia.org/wiki/Very_long_instruction_word[VLIW (Very Long Instruction Word),window="_blank"], https://en.wikipedia.org/wiki/Barrel_processor[Barrell processor,window="_blank"]
+* https://en.wikipedia.org/wiki/Cycles_per_instruction[Cycles per instruction,window="_blank"], https://en.wikipedia.org/wiki/Instructions_per_cycle[Instructions per cycle (IPC),window="_blank"]
+* https://en.wikipedia.org/wiki/Branch_predictor[Branch predictor,window="_blank"], https://en.wikipedia.org/wiki/Branch_target_predictor[Branch target predictor,window="_blank"]
+* https://en.wikipedia.org/wiki/Hazard_%28computer_architecture%29[Hazard (computer architecture),window="_blank"] -> (RAW, WAR, WAW data hazards, pipeline bubbling, register forwarding)
+* https://en.wikipedia.org/wiki/Speculative_execution[Speculative execution,window="_blank"], https://en.wikipedia.org/wiki/Instruction_prefetch[Instruction prefetch,window="_blank"], https://en.wikipedia.org/wiki/Prefetch_input_queue[Prefetch input queue,window="_blank"]
+* https://en.wikipedia.org/wiki/CPU_cache[CPU cache,window="_blank"], https://en.wikipedia.org/wiki/Cache_replacement_policies[Cache replacement policies,window="_blank"], https://en.wikipedia.org/wiki/Translation_lookaside_buffer[Translation Lookaside Buffer (TLB),window="_blank"], https://en.wikipedia.org/wiki/Scratchpad_memory[Scratchpad memory,window="_blank"]
+* https://en.wikipedia.org/wiki/Cache_coherence[Cache coherence,window="_blank"] (https://en.wikipedia.org/wiki/MESI_protocol[MESI protocol,window="_blank"], https://en.wikipedia.org/wiki/MOESI_protocol[MOESI protocol,window="_blank"]), https://en.wikipedia.org/wiki/Bus_snooping[Bus snooping,window="_blank"], https://en.wikipedia.org/wiki/Write_combining[Write combining,window="_blank"]
+* https://en.wikipedia.org/wiki/Clock_gating[Clock gating,window="_blank"]
+* https://en.wikipedia.org/wiki/Multiply%E2%80%93accumulate_operation[Multiply–accumulate operation,window="_blank"] -> (Fused multiply–add)
+* https://en.wikipedia.org/wiki/Symmetric_multiprocessing[Symmetric multiprocessing,window="_blank"], https://en.wikipedia.org/wiki/Simultaneous_multithreading[Simultaneous multithreading,window="_blank"]
+====
+
+.Graphics
+[%collapsible]
+====
+* https://www.scratchapixel.com/[Scratchapixel - Learn Computer Graphics From Scratch!,window="_blank"]
+* http://blip.tv/linuxconfau/x-and-the-future-of-linux-graphics-4711540[X and the future of Linux graphics,window="_blank"]
+* https://lwn.net/Articles/413335/[Life after X,window="_blank"]
+====
+
+=== Mobile GPUs architecture
+
+[%collapsible]
+==== 
+The book "_OpenGL ES 3.0 Programming Guide_" by Dan Ginsburg and Budirijanto Purnomo is a must-have.
+
+* http://www.seas.upenn.edu/~pcozzi/OpenGLInsights/OpenGLInsights-TileBasedArchitectures.pdf[Performance Tuning for Tile-Based Architectures (PDF),window="_blank"], from chapter 23 of the "OpenGL Insights" book
+* http://gpuopen.com/vulkan-renderpasses/[Vulkan Renderpasses,window="_blank"]
+* http://malideveloper.arm.com/downloads/ARM_Game_Developer_Days/PDFs/4-compute_shaders.pdf[Get the most out of the new OpenGL ES 3.1 API (PDF),window="_blank"] by ARM
+* http://malideveloper.arm.com/sample-code/opengl-es-sample-code/[OpenGL ES Sample Code by ARM,window="_blank"]
+* http://malideveloper.arm.com/sample-code/vulkan-sample-code/[Vulkan sample code by ARM,window="_blank"]
+====
+
+.ARM Mali
+[%collapsible]
+==== 
+* http://malideveloper.arm.com/documentation/developer-guides/mali-gpu-application-optimization-guide/[Mali GPU Application Optimization Guide,window="_blank"]
+* The Mali GPU: An Abstract Machine
+** https://www.community.arm.com/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-1---frame-pipelining[Part 1 - Frame Pipelining,window="_blank"]
+** https://www.community.arm.com/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-2---tile-based-rendering[Part 2 - Tile-based Rendering,window="_blank"]
+** https://www.community.arm.com/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-3---the-midgard-shader-core[Part 3 - The Midgard Shader Core,window="_blank"]
+** https://www.community.arm.com/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-4---the-bifrost-shader-core[Part 4 - The Bifrost Shader Core,window="_blank"]
+* https://www.community.arm.com/graphics/b/blog/posts/killing-pixels---a-new-optimization-for-shading-on-arm-mali-gpus[Killing Pixels - A New Optimization for Shading on ARM Mali GPUs,window="_blank"] (Forward Pixel Kill)
+* https://www.community.arm.com/graphics/b/blog/posts/how-low-can-you-go-building-low-power-low-bandwidth-arm-mali-gpus[How low can you go? Building low-power, low-bandwidth ARM Mali GPUs,window="_blank"] (Transaction elimination)
+* Mali Performance
+** https://www.community.arm.com/graphics/b/blog/posts/mali-performance-1-checking-the-pipeline[1: Checking the Pipeline,window="_blank"]
+** https://www.community.arm.com/graphics/b/blog/posts/mali-performance-2-how-to-correctly-handle-framebuffers[2: How to Correctly Handle Framebuffers,window="_blank"]
+** https://www.community.arm.com/graphics/b/blog/posts/mali-performance-3-is-egl_5f00_buffer_5f00_preserved-a-good-thing[3: Is `EGL_BUFFER_PRESERVED` a good thing?,window="_blank"]
+** https://www.community.arm.com/graphics/b/blog/posts/mali-performance-4-principles-of-high-performance-rendering[4: Principles of High Performance Rendering,window="_blank"]
+** https://www.community.arm.com/graphics/b/blog/posts/mali-performance-5-an-application-s-performance-responsibilities[5: An Application's Performance Responsibilities,window="_blank"]
+* Benchmarking floating-point precision in mobile GPUs
+** https://community.arm.com/graphics/b/blog/posts/benchmarking-floating-point-precision-in-mobile-gpus[Part I,window="_blank"]
+** https://community.arm.com/graphics/b/blog/posts/benchmarking-floating-point-precision-in-mobile-gpus---part-ii[Part II,window="_blank"]
+** https://community.arm.com/graphics/b/blog/posts/benchmarking-floating-point-precision-in-mobile-gpus---part-iii[Part III,window="_blank"]
+* https://www.community.arm.com/graphics/b/blog/posts/pixel-local-storage-on-arm-mali-gpus[Pixel Local Storage on ARM(R) Mali(TM) GPUs,window="_blank"]
+* http://www.geomerics.com/wp-content/uploads/2014/11/Efficient-Rendering-with-Tile-Local-Storage.pdf[Efficient Rendering with Tile Local Storage (PDF),window="_blank"] (SIGGRAPH 2014)
+* http://www.anandtech.com/show/8234/arms-mali-midgard-architecture-explored[ARM's Mali Midgard Architecture Explored,window="_blank"]
+* http://www.anandtech.com/show/10375/arm-unveils-bifrost-and-mali-g71[ARM Unveils Next Generation Bifrost GPU Architexture & Mali-G71: The New High-End Mali,window="_blank"]
+====
+
+.Imagination PowerVR
+[%collapsible]
+====
+* https://www.imgtec.com/blog/a-look-at-the-powervr-graphics-architecture-tile-based-rendering/[A look at the PowerVR graphics architecture: Tile-based rendering,window="_blank"]
+* https://www.imgtec.com/blog/the-dr-in-tbdr-deferred-rendering-in-rogue/[A look at the PowerVR graphics architecture: Deferred rendering,window="_blank"]
+* https://community.imgtec.com/?do-download=50703[PowerVR Hardware Architecture Overview for Developers (PDF),window="_blank"]
+* https://community.imgtec.com/?do-download=50702[PowerVR Series5 Architecture Guide for Developers (PDF),window="_blank"]
+* https://community.imgtec.com/?do-download=50691[PowerVR Series6 Compiler Instruction Set Reference (PDF),window="_blank"]
+* https://community.imgtec.com/?do-download=50705[PowerVR Performance Recommendations (PDF),window="_blank"]
+* https://community.imgtec.com/?do-download=50751[PowerVR Performance Recommendations The Golden Rules (PDF),window="_blank"]
+====
+
+==== Qualcomm Adreno
+* https://developer.qualcomm.com/download/adrenosdk/adreno-opengl-es-developer-guide.pdf[Adreno OpenGL ES Developer Guide (PDF),window="_blank"]
+
+==== Nvidia Tegra
+* https://developer.nvidia.com/embedded/tegra-2-reference[Tegra 2 Reference,window="_blank"]
+* https://developer.nvidia.com/embedded/tegra-3-reference[Tegra 3 Reference,window="_blank"]
+* https://developer.nvidia.com/embedded/tegra-4-reference[Tegra 4 Reference,window="_blank"]
+* https://developer.nvidia.com/embedded/tegra-k1-reference[Tegra K1 Reference,window="_blank"]
+* http://developer.download.nvidia.com/assets/mobile/files/tegra_gles2_development.pdf[OpenGL ES 2.0 Development for the Tegra Platform (PDF),window="_blank"]
+
+==== Desktop GPUs architecture
+* http://bps10.idav.ucdavis.edu/talks/03-fatahalian_gpuArchTeraflop_BPS_SIGGRAPH2010.pdf[From Shader Code to a Teraflop: How GPU Shader Cores Work (PDF),window="_blank"] by Kayvon Fatahalian (SIGGRAPH 2010)
+* http://bps11.idav.ucdavis.edu/talks/05-schedulingGraphicsPipeline-BPS2011-ragankelley.pdf[Scheduling the Graphics Pipeline (PDF),window="_blank"] by Jonathan Ragan-Kelley (SIGGRAPH 2011)
+* https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/[A trip through the Graphics Pipeline 2011: Index,window="_blank"] by Fabian "ryg" Giesen
+
+==== AMD Radeon
+* http://gpuopen.com/compute-product/amd-gcn3-isa-architecture-manual/[AMD GCN3 ISA Architecture Manual,window="_blank"]
+
+
+
+==== Graphics techniques
+* http://advances.realtimerendering.com/[Advances in Real-Time Rendering in 3D Graphics and Games,window="_blank"]
+* http://blog.selfshadow.com/publications/s2016-shading-course/[SIGGRAPH 2016 Course: Physically Based Shading in Theory and Practice,window="_blank"]
+* http://blog.selfshadow.com/publications/s2013-shading-course/hoffman/s2013_pbs_physics_math_notes.pdf[Background: Physics and Math of Shading (PDF),window="_blank"] by Naty Hoffman
+* https://newq.net/publications/more/s2015-many-lights-course[Real-Time Many-Light Management and Shadows with Clustered Shading,window="_blank"] a SIGGRAPH 2015 Course
+* http://www.adriancourreges.com/blog/2016/09/09/doom-2016-graphics-study/[DOOM (2016) - Graphics Study,window="_blank"] by Adrian Courreges
+* http://www.adriancourreges.com/blog/2015/11/02/gta-v-graphics-study/[GTA V - Graphics Study,window="_blank"] by Adrian Courreges
+* http://iryoku.com/downloads/Practical-Realtime-Strategies-for-Accurate-Indirect-Occlusion.pdf[Practical Realtime Strategies for Accurate Indirect Occlusion (PDF),window="_blank"] by Jorge Jimenez, Xian-Chun Wu, Angelo Pesce and Adrian Jarabo
+
+===== Older resources
+* http://www.punkuser.net/vsm/vsm_paper.pdf[Variance Shadow Maps (PDF),window="_blank"] by William Donnelly and Andrew Lauritzen
+* http://www.cescg.org/CESCG-2006/papers/TUBudapest-Premecz-Matyas.pdf[Iterative Parallax Mapping with Slope Information (PDF),window="_blank"] by Mátyás Premecz
+* https://www.gamedev.net/resources/_/technical/graphics-programming-and-theory/a-simple-and-practical-approach-to-ssao-r2753[A Simple and Practical Approach to SSAO,window="_blank"] by José María Méndez
+* http://amd-dev.wpengine.netdna-cdn.com/wordpress/media/2012/10/Scheuermann_DepthOfField.pdf[Advanced Depth of Field (PDF),window="_blank"] by Thorsten Scheuermann
+* http://realtimecollisiondetection.net/blog/?p=86[Order your graphics draw calls around!,window="_blank"] from the Real-Time Collision Detection blog
+
+
+==== More topics
+* https://mynameismjp.wordpress.com/2012/10/24/msaa-overview/[A Quick Overview of MSAA,window="_blank"] by Matt Pettineo
+* https://www.opengl.org/pipeline/article/vol003_6/[GLSL: Center or Centroid?  (Or When Shaders Attack!),window="_blank"] by Bill Licea-Kane (AMD)
+* https://renderdoc.org/vulkan-in-30-minutes.html[Vulkan in 30 minutes,window="_blank"] by Baldur Karlsson
+* https://www.cs.cornell.edu/courses/cs4620/2008fa/lectures/texture-filtering.pdf[Texture filtering (PDF),window="_blank"] (Mipmap selection with derivatives) by Steve Marschner
+* http://www.3dkingdoms.com/weekly/weekly.php?a=2[Reflecting a Vector,window="_blank"] (Vector reflection with vector projection and dot product)
+* https://en.wikipedia.org/wiki/Gram%E2%80%93Schmidt_process[Gram-Schmidt orthogonalization,window="_blank"] with vector projection and dot product
+* http://s09.idav.ucdavis.edu/talks/05-JP_id_Tech_5_Challenges.pdf[id Tech 5 Challanges - From Texture Virtualization to Massive Parallelization (PDF),window="_blank"] by J.M.P. van Wavewer (id Software) (virtual texturing, sparse resources, parallel job system)
+* http://www.slideshare.net/CassEveritt/approaching-zero-driver-overhead[Approaching Zero Driver Overhead in OpenGL (PDF),window="_blank"] http://gdcvault.com/play/1020791/[(GDC Vault video),window="_blank"], persistent mapping
+* http://media.steampowered.com/apps/steamdevdays/slides/beyondporting.pdf[Beyond Porting (PDF),window="_blank"] https://www.youtube.com/watch?v=-bCeNzgiJ8I[(Steam Dev Days video),window="_blank"] by Cass Everitt and John McDonald (NVIDIA) (persistent mapping, texture arrays, sparse and bindless textures)
+* http://kayru.org/articles/deferred-stencil/[Rendering deferred lights using Stencil culling algorithm,window="_blank"] by Yuriy O'Donnell
+* https://developer.nvidia.com/content/depth-precision-visualized[Depth Precision Visualized,window="_blank"] by Nathan Reed (NVIDIA)
+* https://gamedev.stackexchange.com/questions/130888/what-are-screen-space-derivatives-and-when-would-i-use-them/130933#130933[What are screen space derivatives and when would I use them?,window="_blank"]
+* https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/gl_HelperInvocation.xhtml[gl_HelperInvocation,window="_blank"] - OpenGL 4 Reference Pages
+* https://developer.nvidia.com/content/life-triangle-nvidias-logical-pipeline[Life of a triangle - NVIDIA's logical pipeline,window="_blank"] by Christoph Kubisch
+* https://mynameismjp.wordpress.com/2018/03/06/breaking-down-barriers-part-1-whats-a-barrier/[Breaking Down Barriers - Part 1: What's a Barrier?,window="_blank"] by Matt Pettineo
+* https://mynameismjp.wordpress.com/2018/04/01/breaking-down-barriers-part-2-synchronizing-gpu-threads/[Breaking Down Barriers - Part 2: Synchronizing GPU Threads,window="_blank"] by Matt Pettineo
+* https://mynameismjp.wordpress.com/2018/06/17/breaking-down-barriers-part-3-multiple-command-processors/[Breaking Down Barriers - Part 3: Multiple Command Processors,window="_blank"] by Matt Pettineo
+* https://mynameismjp.wordpress.com/2018/07/03/breaking-down-barriers-part-4-gpu-preemption/[Breaking Down Barriers - Part 4: GPU Preemption,window="_blank"] by Matt Pettineo
+* https://mynameismjp.wordpress.com/2018/09/08/breaking-down-barriers-part-5-back-to-the-real-world/[Breaking Down Barriers - Part 5: Back to the Real World,window="_blank"] by Matt Pettineo
+* https://anteru.net/blog/2018/intro-to-compute-shaders/index.html[Introduction to compute shaders,window="_blank"] by Matthäus G. Chajdas
+* https://anteru.net/blog/2018/more-compute-shaders/index.html[More compute shaders,window="_blank"] by Matthäus G. Chajdas
+* https://anteru.net/blog/2018/even-more-compute-shaders/index.html[Even more compute shaders,window="_blank"] by Matthäus G. Chajdas
+* https://medium.com/@alen.ladavac/the-elusive-frame-timing-168f899aec92[The Elusive Frame Timing,window="_blank"] by Alen Ladavac
+
+==== Books
+Read about the same math concepts on more than one book.
+Some books are targeted to game developers, like:
+
+* "_Essential Mathematics for Games and Interactive Applications_" by James M. Van Verth and Lars M. Bishop
+* "_3D Math Primer for Graphics and Game Development_" by Fletcher Dunn and Ian Parberry
+* "_Mathematics for 3D Game Programming and Computer Graphics_" by Eric Lengyel and John Flynt
+
+==== Topics
+* Trigonometry
+* Vectors and matrices
+* Rendering pipeline
+* OpenGL transformations and matrices:
+** http://www.songho.ca/opengl/gl_transform.html[OpenGL Transformation,window="_blank"]
+** http://www.songho.ca/opengl/gl_projectionmatrix.html[OpenGL Projection Matrix,window="_blank"]
+** http://www.scratchapixel.com/lessons/3d-basic-rendering/perspective-and-orthographic-projection-matrix/projection-matrix-introduction[The Perspective and Orthographic Projection Matrix,window="_blank"]
+** https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/projection-stage[The Projection Stage,window="_blank"]
+** http://www.terathon.com/gdc07_lengyel.pdf[Projection Matrix Tricks by Eric Lengyel (PDF),window="_blank"]
+** http://stackoverflow.com/questions/76134/how-do-i-reverse-project-2d-points-into-3d/33976739#33976739[How do I reverse-project 2D points into 3D?,window="_blank"]

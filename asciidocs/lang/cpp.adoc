@@ -1,0 +1,116 @@
+
+=== C++
+.cppfaq
+[%collapsible]
+====
+* Method chaining (8.4) / Named Parameter Idiom (10.20)
+* Conversion constructor and conversion operator
+* Operator overloading (ch. 13)
+* Explicit constructor (10.22)
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/const-vs-define.html[const (29.7),window="_blank"] / `mutable` (18.13) / `volatile` / `restrict`
+* v-table mechanism (20.4)
+* Pure virtual member functions (22.4), abstract base classes (ch. 22)
+* Covariant Return Types and "virtual constructor" (20.8, 22.5)
+* Object slicing (21.4, 31.8, 20.8)
+* Template Method pattern and private virtuals (23.4) (http://www.gotw.ca/publications/mill18.htm[Virtuality by Herb Sutter,window="_blank"])
+* Private inheritance (24.2, 24.3) (http://www.gotw.ca/publications/mill06.htm[Uses and Abuses of Inheritance, Part 1 by Herb Sutter,window="_blank"])
+* Static initialization order fiasco (10.14)
+* Meyer's singleton (10.16)
+* https://en.wikipedia.org/wiki/One_Definition_Rule[One definition rule,window="_blank"]
+* https://en.wikipedia.org/wiki/Common_subexpression_elimination[Common subexpression elimination,window="_blank"]
+* https://embeddedartistry.com/blog/2017/2/28/c-casting-or-oh-no-we-broke-malloc[Different kind of casts,window="_blank"]:
+	** C style
+	** static_cast
+	** dynamic_cast
+	** const_cast  https://stackoverflow.com/a/5249910/442992[cast away volatile,window="_blank"],	https://stackoverflow.com/a/7368038/442992[undefined behavior,window="_blank"],
+	** reinterpret_cast
+* https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization[Resource acquisition is initialization,window="_blank"] (RAII)
+* https://en.wikipedia.org/wiki/Run-time_type_information[Run-time type information,window="_blank"] (RTTI)
+* http://www.goldsborough.me/c/c++/linker/2016/03/30/19-34-25-internal_and_external_linkage_in_c++/#linkage[External vs Internal Linkage, window="_blank"]
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/placement-new.html[Placement new ,window="_blank"] vs https://www.geeksforgeeks.org/overloading-new-delete-operator-c/[operator new,window="_blank"]
+* Pointer to member function
+* Diamond problem (25.8, 25.9) and multiple inheritance (ch. 25)
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/hiding-rule.html[Hiding rule, window="_blank"]
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/protected-virtuals.html[Protected NVI, window="_blank"]
+* Templates (ch. 35)
+* https://en.wikipedia.org/wiki/Rule_of_three_(C%2B%2B_programming)[Rule of three,window="_blank"] / five / zero, https://en.wikipedia.org/wiki/Special_member_functions[special member functions,window="_blank"]
+* Return value optimization (NRVO, RVO) (10.9) / Copy elision (https://eatplayhate.me/2013/10/01/c-cargo-cults-rvo-and-copy-elision/[C++ Cargo Cults, RVO and Copy Elision,window="_blank"])
+* http://stackoverflow.com/a/3279550[Why do we need the copy-and-swap idiom?,window="_blank"]
+* http://en.cppreference.com/w/cpp/language/adl[Argument-dependant lookup,window="_blank"] (Koenig lookup)
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/templates-vs-overloading.html[Substitution Failure Is Not An Error (SFINAE),window="_blank"] (35.11)
+* non-dependent types and members (35.18, 35.19, 35.20)
+* Proxy template (35.22), in C++11 you would employ the Type alias declaration with `using`
+* Type traits, concepts, tag dispatching (http://www.boost.org/community/generic_programming.html[Generic Programming Techniques,window="_blank"])
+* https://en.wikipedia.org/wiki/Most_vexing_parse[Most vexing parse,window="_blank"]
+* http://blog.llvm.org/2009/12/dreaded-two-phase-name-lookup.html[Two-phase name lookup,window="_blank"]
+* https://en.wikipedia.org/wiki/Maximal_munch[Maximal munch,window="_blank"]
+* https://en.wikipedia.org/wiki/Sequence_point[Sequence point,window="_blank"]
+* https://en.wikipedia.org/wiki/Tail_call[Tail call,window="_blank"]
+* https://en.wikipedia.org/wiki/Constant_folding[Constant folding,window="_blank"]
+====
+
+.Marshall Cline's cppfaq
+[%collapsible]
+====
+* ISOCPP https://isocpp.org/faq[FAQ,window="_blank"]
+* ISOCPP http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines[C++ Core Guidelines,window="_blank"]
+* Marshall Cline's FAQ
+** Mirror of 2012 version: http://www.cs.technion.ac.il/users/yechiel/c++-faq/index.html
+** Mirror of 2006 version: http://www.dietmar-kuehl.de/mirror/c++-faq/
+** Mirror of 2003 version:: https://www.cs.rit.edu/~mjh/docs/c++-faq/
+
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/classes-and-objects.html[Classes and objects,window="_blank"]: 7.7
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/references.html[References,window="_blank"]: 8.3, 8.4, 8.6
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/inline-functions.html[Inline functions,window="_blank"]: 9.1, 9.5, 9.6, 9.7, 9.8, 9.9
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/ctors.html[Constructors,window="_blank"]: 10.3, 10.4, (10.5), 10.6, 10.8, (10.9), 10.10, (10.14), 10.20, (10.22)
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/dtors.html[Destructors,window="_blank"]: 11.7, 11.10, 11.14
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/assignment-operators.html[Assignment operators,window="_blank"]: 12.3, 12.4
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/operator-overloading.html[Operator overloading,window="_blank"]: 13.9, 13.10, 13.14, 13.15
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/friends.html[Friends,window="_blank"]: 14.3, 14.5
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/freestore-mgmt.html[Freestore management,window="_blank"]: 16.4, 16.8, 16.10, 16.21
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/exceptions.html[Exceptions and error handling,window="_blank"]: 17.2, 17.3, 17.4, 17.8, 17.9, 17.10
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/const-correctness.html[Const correctness,window="_blank"]: 18.5, 18.7, 18.10, 18.12, (18.13), 18.15
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/virtual-functions.html[virtual functions,window="_blank"]: 20.3, 20.4, 20.5, 20.6, (20.7), 20.8
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/proper-inheritance.html[proper inheritance and substitutability,window="_blank"]: (21.4), 21.6, 21.8, 21.12
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/abcs.html[abstract base classes (ABCs),window="_blank"]: 22.4, 22.5
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/strange-inheritance.html[Inheritance — what your mother never told you,window="_blank"]: 23.1, 23.3, 23.4, 23.5, (23.9)
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/private-inheritance.html[private and protected inheritance,window="_blank"]: 24.2, 24.3, 24.5, 24.6
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/multiple-inheritance.html[multiple and virtual inheritance,window="_blank"]: 25.4, 25.5, (25.9), 25.10
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/intrinsic-types.html[Built-in / intrinsic / primitive data types,window="_blank"]: 26.12, 26.13
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/coding-standards.html[Coding standards,window="_blank"]: 27.10
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/newbie.html[Newbie Questions / Answers,window="_blank"]: 29.5, 29.7, 29.17, 29.18, (29.19), 29.20
+* http://www.cs.technion.ac.il/users/yechiel/c++-faq/templates.html[Templates,window="_blank"]: 35.2, 35.3, 35.4, (35.7), 35.9, 35.11, 35.16, 35.18, 35.19, 35.22
+====
+
+.C++11
+[%collapsible]
+====
+The book "_Effective Modern C++_" by Scott Meyers is a must-have.
+
+* Rvalues (http://thbecker.net/articles/rvalue_references/section_01.html[C++ Rvalue References Explained by Thomas Becker])
+* Auto keyword and type deduction
+* Move semantics, rule of five
+* Reference collapsing
+* Reference qualifiers
+* Forwarding (AKA universal) references (https://isocpp.org/blog/2012/11/universal-references-in-c11-scott-meyers[Universal References in C++11 by Scott Meyers,window="_blank"])
+* Perfect forwarding
+* Range-based for loops (and issues with `auto` and copying objects around)
+* List initialization
+====
+
+.STL
+[%collapsible]
+====
+* Smart Pointers
+** shared_ptr
+*** sh
+** unique_ptr
+** auto_ptr(deprecated)
+====
+
+.C Tricks/Gotchas/Hacks
+[%collapsible]
+====
+* https://stackoverflow.com/questions/599365/what-is-your-favorite-c-programming-trick[few c tricks]
+* https://graphics.stanford.edu/~seander/bithacks.html[Bit twiddling hacks,window="_blank"]
+====
