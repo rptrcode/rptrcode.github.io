@@ -9,3 +9,8 @@
 * [Sqlite - SQL Database in Browser using IndexedDB File System, window="_blank"]
 * [JSON4cpp - Json Parser c++ library]
 ====
+
+=== Profiling
+====
+* https://github.com/rptrcode/tracing[C/C++ Application profiling]
+====
