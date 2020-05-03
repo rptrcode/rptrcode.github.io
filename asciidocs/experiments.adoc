@@ -6,8 +6,8 @@
 == Experiments
 === WebAssembly 
 ====
-* link:experiments/wasm/xerces-ui.html[Xerces - XML parsing in Browser using IndexedDB File System, window="_blank"]
-* [Sqlite - SQL Database in Browser using IndexedDB File System, window="_blank"]
+* link:experiments/wasm/xerces-app.html[Xerces - XML parsing in Browser using IndexedDB File System, window="_blank"]
+* link:experiments/wasm/sqlite-app.html[Sqlite - SQL Database in Browser using IndexedDB File System, window="_blank"]
 * [JSON4cpp - Json Parser c++ library]
 ====
 

@@ -1,0 +1,65 @@
+<html>
+<head>
+
+<script type="text/javascript" src="xerces-app.js"></script>
+
+<script type="text/javascript">
+
+
+function CreateXML() {
+  document.getElementById("demo").innerHTML = "creating xml !";
+  Module.ccall('CreateXML_API', null, null, null);
+}
+
+function ReadXML() {
+  document.getElementById("demo").innerHTML = "reading xml !";
+  Module.ccall('ReadXML_API', null, null, null);
+}
+
+function DeleteXML() {
+  document.getElementById("demo").innerHTML = "delete xml";
+  Module.ccall('DeleteXML_API', null, null, null);
+
+}
+
+</script>
+
+</head>
+
+<body>
+<script type="text/javascript">
+
+window.onload = function() {
+
+
+(function () {
+if (!console) {
+    console = {};
+}
+var old = console.log;
+var logger = document.getElementById('log');
+console.log = function (message) {
+if (typeof message == 'object') {
+    logger.innerHTML += (JSON && JSON.stringify ? JSON.stringify(message) : String(message)) + '<br />';
+} else {
+    logger.innerHTML += message + '<br />';
+}
+}
+})();
+
+}
+
+console.log("hi");
+
+</script>
+<div id="log"></div>
+
+<button onclick="CreateXML()">Create XML</button>
+<button onclick="ReadXML()">Read XML</button>
+<button onclick="DeleteXML()">Delete XML</button>
+
+<p id="demo"></p>
+
+
+</body>
+</html>

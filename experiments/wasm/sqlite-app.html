@@ -1,0 +1,74 @@
+<html>
+<head>
+
+<script type="text/javascript" src="sqliteapp-emcc.js"></script>
+
+<script type="text/javascript">
+
+function CheckSqliteVersion() {
+  document.getElementById("demo").innerHTML = "CheckVersion_API !";
+  const createxml = Module.ccall('CheckVersion_API', null, null, null);
+}
+
+
+function CreateDB() {
+  document.getElementById("demo").innerHTML = "creating Sqlite DB !";
+  Module.ccall('CreateDB_API', null, null, null);
+}
+
+function ReadDB() {
+  document.getElementById("demo").innerHTML = "reading Sqlite DB !";
+     Module.ccall('ReadDB_API', null, null, null);
+}
+
+function DeleteDB() {
+  document.getElementById("demo").innerHTML = "delete DB";
+  Module.ccall('DeleteDB_API', null, null, null);
+
+}
+
+
+console.log("hi");
+
+</script>
+
+</head>
+
+<body>
+<script type="text/javascript">
+
+window.onload = function() {
+
+
+(function () {
+if (!console) {
+    console = {};
+}
+var old = console.log;
+var logger = document.getElementById('log');
+console.log = function (message) {
+if (typeof message == 'object') {
+    logger.innerHTML += (JSON && JSON.stringify ? JSON.stringify(message) : String(message)) + '<br />';
+} else {
+    logger.innerHTML += message + '<br />';
+}
+}
+})();
+
+}
+
+console.log("hi");
+
+</script>
+<div id="log"></div>
+
+<button onclick="CheckSqliteVersion()">Sqlite Version</button>
+<button onclick="CreateDB()">Create DB</button>
+<button onclick="ReadDB()">Read DB</button>
+<button onclick="DeleteDB()">Delete DB</button>
+
+<p id="demo"></p>
+
+
+</body>
+</html>
