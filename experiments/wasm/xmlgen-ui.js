@@ -1336,11 +1336,11 @@ function updateGlobalBufferAndViews(buf) {
 }
 
 var STATIC_BASE = 1024,
-    STACK_BASE = 5960720,
+    STACK_BASE = 5960672,
     STACKTOP = STACK_BASE,
-    STACK_MAX = 717840,
-    DYNAMIC_BASE = 5960720,
-    DYNAMICTOP_PTR = 717680;
+    STACK_MAX = 717792,
+    DYNAMIC_BASE = 5960672,
+    DYNAMICTOP_PTR = 717632;
 
 assert(STACK_BASE % 16 === 0, 'stack must start aligned');
 assert(DYNAMIC_BASE % 16 === 0, 'heap must start aligned');
@@ -1917,9 +1917,9 @@ var tempI64;
 
 var ASM_CONSTS = {
   1090: function() {FS.syncfs(function(err) { assert(!err); ccall('success', 'v'); });},  
- 1179: function() {FS.unmount('/mydir/'); FS.syncfs(function(err) { assert(!err); ccall('success', 'v'); });},  
- 1284: function() {FS.mkdir('/mydir'); FS.mount(IDBFS, {}, '/mydir/'); FS.syncfs(true, function(err) { assert(!err); ccall('CreateXML', 'v'); } ); FS.unmount('/mydir');},  
- 1447: function() {FS.mount(IDBFS, {}, '/mydir/'); FS.syncfs(true, function(err) { assert(!err); ccall('ReadXML', 'v'); } );}
+ 1194: function() {out("call syncfs and CreateXML"); FS.syncfs(true, function(err) { assert(!err); ccall('CreateXML', 'v'); });},  
+ 1316: function() {FS.syncfs(true, function(err) { assert(!err); ccall('ReadXML', 'v'); });},  
+ 1418: function() {FS.mkdir('/mydir'); FS.mount(IDBFS, {}, '/mydir/'); FS.syncfs(true, function(err) { assert(!err); ccall('success', 'v'); });}
 };
 
 function _emscripten_asm_const_iii(code, sigPtr, argbuf) {
@@ -1929,7 +1929,7 @@ function _emscripten_asm_const_iii(code, sigPtr, argbuf) {
 
 
 
-// STATICTOP = STATIC_BASE + 716816;
+// STATICTOP = STATIC_BASE + 716768;
 /* global initializers */  __ATINIT__.push({ func: function() { ___wasm_call_ctors() } });
 
 
@@ -5981,7 +5981,7 @@ function _emscripten_asm_const_iii(code, sigPtr, argbuf) {
     }
 
   function _emscripten_get_sbrk_ptr() {
-      return 717680;
+      return 717632;
     }
 
   function _emscripten_memcpy_big(dest, src, num) {
