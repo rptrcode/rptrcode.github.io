@@ -1,0 +1,48 @@
+<html>
+<head>
+
+<script type="text/javascript" src="xmlgen-ui.js"></script>
+
+<script type="text/javascript">
+function CreateXML() {
+  document.getElementById("demo").innerHTML = "creating xml";
+
+  const createxml = Module.ccall('CreateXML_API', null, null, null);
+
+
+}
+
+function ReadXML() {
+  document.getElementById("demo").innerHTML = "reading xml > check console !";
+    const createxml = Module.ccall('ReadXML_API', null, null, null);
+
+}
+
+
+function DeleteXML() {
+  document.getElementById("demo").innerHTML = "delete xml";
+}
+
+</script>
+
+</head>
+
+<body>
+
+<button onclick="CreateXML()">Create XML</button>
+<button onclick="ReadXML()">Read XML</button>
+<button onclick="DeleteXML()">Delete XML</button>
+
+<p id="demo"></p>
+
+
+<br><br>
+<button onclick="CreateDB()">Create Database</button>
+<button onclick="ReadDB()">Read Database</button>
+<button onclick="DeleteDB()">Delete Database</button>
+
+<p id="demodb"></p>
+
+
+</body>
+</html>

@@ -1,14 +1,11 @@
 :nofooter:
 :toc: left
 :toclevels: 5
+:ext-relative: adoc
 
 === WebAssembly Experiments
-.‪
-[%collapsible]
 ==== 
-* https://news.ycombinator.com/item?id=19540845[Git implemented in Rust, window="_blank"]
-* https://news.ycombinator.com/item?id=19766713[Embedded Rust Book]
-* https://news.ycombinator.com/item?id=19778738[Giving up on wlroots-rs]
-* https://news.ycombinator.com/item?id=19475218[On Learning Rust and Go: Migrating Away from Python]
-* https://news.ycombinator.com/item?id=19430487[Implementing a NES Emulator in Rust]
+* link:experiments/wasm/xerces-ui.html[Xerces - XML parsing in Browser using IndexedDB File System, window="_blank"]
+* [Sqlite - SQL Database in Browser using IndexedDB File System, window="_blank"]
+* [JSON4cpp - Json Parser c++ library]
 ====

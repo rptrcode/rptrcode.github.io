@@ -24,7 +24,7 @@ description: My experiments with code
 
 # List of links in the navigation bar
 navbar-links:
-  Experiments: "asciidocs/experiments.html"
+  Experiments: "experiments.html"
   Blog: "blog/index.html"
   Study Notes: "asciidocs/notes.html"
   Links:
