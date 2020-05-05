@@ -29,7 +29,7 @@ navbar-links:
   Study Notes: "asciidocs/notes.html"
   Links:
     - Linkedin: "https://www.linkedin.com/in/puttaraju87"
-    - Github: "https://github.com/rptr87"
+    - Github: "https://github.com/rptrcode"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -74,9 +74,8 @@ author:
 social-network-links:
   rss: true
   email: "puttaraju.r@gmail.com"
-#  facebook: encelo
-  github: rptr87
-#  twitter: encelo
+  github: rptrcode
+  twitter: rptr_ 
 #  reddit: yourname
 #  google-plus: +yourname
   linkedin: puttaraju87
@@ -84,10 +83,8 @@ social-network-links:
 #  stackoverflow: "1234567/yourname"
 #  snapchat: yourname
 #  instagram: yourname
-#  youtube: user/encelo
 #  spotify: yourname
 #  telephone: +12345678901
-#  steam: encelo
 #  twitch: yourname
 #  yelp: yourname
 
@@ -100,7 +97,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-# url-pretty: "encelo.github.io"
+url-pretty: "rptrcode.github.io"
 
 # --- Web Statistics Section --- #
 
@@ -123,9 +120,6 @@ share-links-active:
 #  opt-out: true
 
 # --- Comments --- #
-
-# Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-# disqus: "encelo"
 
 # To use Facebook Comments, fill in a Facebook App ID
 # fb_comment_id: ""
