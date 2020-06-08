@@ -8,10 +8,10 @@ tags: [Education]
 Some useful content i found and learned last week
 
 Detailed discussion about containers vs VM
-https://mobycast.fm/episode/81-virtual-machines-vs-containers-revisited-part-1/
-https://mobycast.fm/episode/82-virtual-machines-vs-containers-revisited-part-2/
-https://mobycast.fm/episode/83-virtual-machines-vs-containers-revisited-part-3/
-https://mobycast.fm/episode/84-virtual-machines-vs-containers-revisited-part-4/
+[part1](https://mobycast.fm/episode/81-virtual-machines-vs-containers-revisited-part-1/)
+[part2](https://mobycast.fm/episode/82-virtual-machines-vs-containers-revisited-part-2/)
+[part3](https://mobycast.fm/episode/83-virtual-machines-vs-containers-revisited-part-3/)
+[part4](https://mobycast.fm/episode/84-virtual-machines-vs-containers-revisited-part-4/)
 
 
 Full stack journey podcast hosted by Scott Lowe:https://twitter.com/scott_lowe
