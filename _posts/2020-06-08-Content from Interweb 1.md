@@ -14,22 +14,19 @@ Detailed discussion about containers vs VM
 [part4](https://mobycast.fm/episode/84-virtual-machines-vs-containers-revisited-part-4/)
 
 
-Full stack journey podcast hosted by Scott Lowe:https://twitter.com/scott_lowe
-https://packetpushers.net/series/full-stack-journey/
+[Full stack journey podcast](https://packetpushers.net/series/full-stack-journey/)
+ hosted by Scott Lowe [twitter](https://twitter.com/scott_lowe)
 
-gold mine of information for Networking, Virtualization, Cloud by Scott Lowe:
-https://blog.scottlowe.org/categories/information/
-https://blog.scottlowe.org/categories/education/
-
-Hardware virtualization:
-https://binarydebt.wordpress.com/2018/10/14/intel-virtualisation-how-vt-x-kvm-and-qemu-work-together/
-
-Nitro from Amazon AWS:
-https://www.theregister.com/2017/11/29/aws_reveals_nitro_architecture_bare_metal_ec2_guard_duty_security_tool/
+Gold mine of [information](https://blog.scottlowe.org/categories/information/) for Networking, Virtualization, Cloud and lots of [education series](https://blog.scottlowe.org/categories/education/) by Scott Lowe:
 
 
-unikernels:
-https://queue.acm.org/detail.cfm?id=2566628
+[Hardware virtualization](https://binarydebt.wordpress.com/2018/10/14/intel-virtualisation-how-vt-x-kvm-and-qemu-work-together/) Introduction for Intel
 
-valuable docker links:
-https://web.archive.org/web/20181007090005/https://www.nkode.io/2014/08/24/valuable-docker-links.html
+Some details about [Nitro Hypervisor](https://www.theregister.com/2017/11/29/aws_reveals_nitro_architecture_bare_metal_ec2_guard_duty_security_tool/
+) from AWS.
+
+
+[Unikernels](https://queue.acm.org/detail.cfm?id=2566628)
+
+[Valuable docker links](https://web.archive.org/web/20181007090005/https://www.nkode.io/2014/08/24/valuable-docker-links.html
+) from wayback machine.
