@@ -102,10 +102,10 @@ The book "_Effective Modern C++_" by Scott Meyers is a must-have.
 [%collapsible]
 ====
 * Smart Pointers
-** shared_ptr
-*** sh
-** unique_ptr
+** https://www.geeksforgeeks.org/auto_ptr-unique_ptr-shared_ptr-weak_ptr-2/ [shared_ptr- unique_ptr - auto_ptr - week_ptr,window="_blank"]  
+** 
 ** auto_ptr(deprecated)
+
 ====
 
 .C Tricks/Gotchas/Hacks

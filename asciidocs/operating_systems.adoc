@@ -13,6 +13,8 @@
 ** https://stackoverflow.com/questions/13013491/why-is-kernel-mapped-to-the-same-address-space-as-processes[Why is kernel mapped to the same address space as processes,window="_blank"]
 ** https://stackoverflow.com/questions/8463741/how-linux-handles-threads-and-process-scheduling[How Linux handles threads and process scheduling,window="_blank"]
 ** https://stackoverflow.com/questions/5440128/thread-context-switch-vs-process-context-switch[Thread context switch vs process context switch,window="_blank"]
+
+* priority inversion https://cmdlinelinux.blogspot.com/2013/12/priority-inversion-how-to-avoid-it.html[l1, window="_blank"]
 ====
 
 === Linux
