@@ -4,7 +4,7 @@
 
 == Languages
 
-include::lang\cpp.adoc[]
+include::lang/cpp.adoc[]
 
 === Rust
 .‪
