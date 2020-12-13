@@ -1,9 +1,7 @@
 
 
 == Hardware
-.CPU
-[%collapsible]
-====
+==== CPU
 Important links from Wikipedia about the architecture of a CPU.
 One of the book you could read to learn more on the subject is "_Computer Architecture: A Quantitative Approach_" by David A. Patterson.
 
@@ -19,32 +17,20 @@ One of the book you could read to learn more on the subject is "_Computer Archit
 * https://en.wikipedia.org/wiki/Clock_gating[Clock gating,window="_blank"]
 * https://en.wikipedia.org/wiki/Multiply%E2%80%93accumulate_operation[Multiply–accumulate operation,window="_blank"] -> (Fused multiply–add)
 * https://en.wikipedia.org/wiki/Symmetric_multiprocessing[Symmetric multiprocessing,window="_blank"], https://en.wikipedia.org/wiki/Simultaneous_multithreading[Simultaneous multithreading,window="_blank"]
-====
 
-.Graphics
-[%collapsible]
-====
+==== Graphics
 * https://www.scratchapixel.com/[Scratchapixel - Learn Computer Graphics From Scratch!,window="_blank"]
 * http://blip.tv/linuxconfau/x-and-the-future-of-linux-graphics-4711540[X and the future of Linux graphics,window="_blank"]
 * https://lwn.net/Articles/413335/[Life after X,window="_blank"]
-====
 
 === Mobile GPUs architecture
-
-[%collapsible]
-==== 
-The book "_OpenGL ES 3.0 Programming Guide_" by Dan Ginsburg and Budirijanto Purnomo is a must-have.
-
 * http://www.seas.upenn.edu/~pcozzi/OpenGLInsights/OpenGLInsights-TileBasedArchitectures.pdf[Performance Tuning for Tile-Based Architectures (PDF),window="_blank"], from chapter 23 of the "OpenGL Insights" book
 * http://gpuopen.com/vulkan-renderpasses/[Vulkan Renderpasses,window="_blank"]
 * http://malideveloper.arm.com/downloads/ARM_Game_Developer_Days/PDFs/4-compute_shaders.pdf[Get the most out of the new OpenGL ES 3.1 API (PDF),window="_blank"] by ARM
 * http://malideveloper.arm.com/sample-code/opengl-es-sample-code/[OpenGL ES Sample Code by ARM,window="_blank"]
 * http://malideveloper.arm.com/sample-code/vulkan-sample-code/[Vulkan sample code by ARM,window="_blank"]
-====
 
-.ARM Mali
-[%collapsible]
-==== 
+==== ARM Mali 
 * http://malideveloper.arm.com/documentation/developer-guides/mali-gpu-application-optimization-guide/[Mali GPU Application Optimization Guide,window="_blank"]
 * The Mali GPU: An Abstract Machine
 ** https://www.community.arm.com/graphics/b/blog/posts/the-mali-gpu-an-abstract-machine-part-1---frame-pipelining[Part 1 - Frame Pipelining,window="_blank"]
@@ -67,11 +53,8 @@ The book "_OpenGL ES 3.0 Programming Guide_" by Dan Ginsburg and Budirijanto Pur
 * http://www.geomerics.com/wp-content/uploads/2014/11/Efficient-Rendering-with-Tile-Local-Storage.pdf[Efficient Rendering with Tile Local Storage (PDF),window="_blank"] (SIGGRAPH 2014)
 * http://www.anandtech.com/show/8234/arms-mali-midgard-architecture-explored[ARM's Mali Midgard Architecture Explored,window="_blank"]
 * http://www.anandtech.com/show/10375/arm-unveils-bifrost-and-mali-g71[ARM Unveils Next Generation Bifrost GPU Architexture & Mali-G71: The New High-End Mali,window="_blank"]
-====
 
-.Imagination PowerVR
-[%collapsible]
-====
+==== Imagination PowerVR
 * https://www.imgtec.com/blog/a-look-at-the-powervr-graphics-architecture-tile-based-rendering/[A look at the PowerVR graphics architecture: Tile-based rendering,window="_blank"]
 * https://www.imgtec.com/blog/the-dr-in-tbdr-deferred-rendering-in-rogue/[A look at the PowerVR graphics architecture: Deferred rendering,window="_blank"]
 * https://community.imgtec.com/?do-download=50703[PowerVR Hardware Architecture Overview for Developers (PDF),window="_blank"]
@@ -79,7 +62,6 @@ The book "_OpenGL ES 3.0 Programming Guide_" by Dan Ginsburg and Budirijanto Pur
 * https://community.imgtec.com/?do-download=50691[PowerVR Series6 Compiler Instruction Set Reference (PDF),window="_blank"]
 * https://community.imgtec.com/?do-download=50705[PowerVR Performance Recommendations (PDF),window="_blank"]
 * https://community.imgtec.com/?do-download=50751[PowerVR Performance Recommendations The Golden Rules (PDF),window="_blank"]
-====
 
 ==== Qualcomm Adreno
 * https://developer.qualcomm.com/download/adrenosdk/adreno-opengl-es-developer-guide.pdf[Adreno OpenGL ES Developer Guide (PDF),window="_blank"]

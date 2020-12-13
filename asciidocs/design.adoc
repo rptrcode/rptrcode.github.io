@@ -1,26 +1,22 @@
 
 == Design
 
-=== OOAD, Design patterns
-.‪
-[%collapsible]
-==== 
-
-
-* https://en.wikipedia.org/wiki/Single_responsibility_principle[Single responsibility principle,window="_blank"]
-* https://enterprisecraftsmanship.com/2015/09/02/cohesion-coupling-difference/[Cohesion/Coupling,window="_blank"]
-* https://en.wikipedia.org/wiki/Factory_method_pattern[Factory method,window="_blank"] / https://en.wikipedia.org/wiki/Abstract_factory_pattern[Abstract factory pattern,window="_blank"]
+=== Design patterns
+* https://www.bogotobogo.com/DesignPatterns/factorymethod.php[Factory method,window="_blank"] 
+* https://refactoring.guru/design-patterns/abstract-factory/cpp/example[Abstract factory pattern,window="_blank"]
+* https://refactoring.guru/design-patterns/chain-of-responsibility[Chain of responsibility, window="_blank"]
 * https://en.wikipedia.org/wiki/Builder_pattern[Builder pattern,window="_blank"]
 * Meyer's singleton
-* https://en.wikipedia.org/wiki/Object_pool_pattern[Object pool,window="_blank"], https://en.wikipedia.org/wiki/Thread_pool[Thread pool,window="_blank"], https://en.wikipedia.org/wiki/Flyweight_pattern[Flyweight pattern,window="_blank"]
+* https://en.wikipedia.org/wiki/Object_pool_pattern[Object pool,window="_blank"], https://en.wikipedia.org/wiki/Thread_pool[Thread pool,window="_blank"]
+* https://en.wikipedia.org/wiki/Flyweight_pattern[Flyweight pattern,window="_blank"]
+
+=== OOAD and principles
+* https://en.wikipedia.org/wiki/Single_responsibility_principle[Single responsibility principle,window="_blank"]
+* https://enterprisecraftsmanship.com/2015/09/02/cohesion-coupling-difference/[Cohesion/Coupling,window="_blank"]
+
 * https://news.ycombinator.com/item?id=19715191[Why OO sucks] by Joe Armstrong
-====
 
 === Data Oriented Design
-.‪
-[%collapsible]
-==== 
-
 * http://harmful.cat-v.org/software/OO_programming/_pdf/Pitfalls_of_Object_Oriented_Programming_GCAP_09.pdf[Pitfalls of Object Oriented Programming (PDF),window="_blank"] by Tony Albrecht (SCEE)
 * https://macton.smugmug.com/Other/2008-07-15-by-Eye-Fi/n-xmKDH/i-BrHWXdJ[Typical C++ Bullshit,window="_blank"] by Mike Acton (Insomniac Games)
 * http://www.frostbite.com/wp-content/uploads/2013/05/CullingTheBattlefield.pdf[Culling the Battlefield (PDF),window="_blank"] by Daniel Collin (Frostbite)
@@ -41,12 +37,6 @@
 
 * http://assemblyrequired.crashworks.org/load-hit-stores-and-the-\__restrict-keyword/[Load-Hit-Stores and the `__restrict` keyword,window="_blank"] by Elan Ruskin
 * http://www.gamasutra.com/view/feature/132084/sponsored_feature_common_.php[Sponsored Feature: Common Performance Issues in Game Programming,window="_blank"] by Becky Heineman
-====
 
 === Microservices
-.‪
-[%collapsible]
-==== 
-
 * https://news.ycombinator.com/item?id=16200007[The Death of Microservice Madness in 2018 - HN ,window="_blank"]
-====

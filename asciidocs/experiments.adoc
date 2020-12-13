@@ -5,34 +5,23 @@
 
 == Experiments
 === WebAssembly 
-====
 * link:experiments/wasm/xerces-app.html[Xerces - XML parsing in Browser using IndexedDB File System, window="_blank"]
 * link:experiments/wasm/sqlite-app.html[Sqlite - SQL Database in Browser using IndexedDB File System, window="_blank"]
 * [JSON4cpp - Json Parser c++ library]
-====
+
 
 === Profiling
-====
 * https://github.com/rptrcode/tracing[C/C++ Application profiling]
-====
 
 === Android
-====
 * https://github.com/rptrcode/BatchDownloaderAndroid[Android app to batchdownload images]
 * https://github.com/rptrcode/FileTagsAndroid[Android app to tag Audio/video content, has player]
-====
 
 === Chrome App
-====
 * https://github.com/rptrcode/Geeks4GeeksChrome[Chrome app to track GeeksforGeeks progress ]
-====
 
 === Python
-====
 * https://github.com/rptrcode/Pygtk[PyGTK app :)]
-====
 
 === OpenGL
-====
 * https://github.com/rptrcode/OpenglSamples/tree/master/rotate-x-y[OpenGL apps]
-====

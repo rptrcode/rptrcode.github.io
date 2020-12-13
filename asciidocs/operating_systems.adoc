@@ -1,7 +1,4 @@
 == Operating Systems
-.‪
-[%collapsible]
-==== 
 
 * Wiki Links https://en.wikipedia.org/wiki/Virtual_memory[Virtual memory,window="_blank"], https://en.wikipedia.org/wiki/Paging[paging,window="_blank"], https://en.wikipedia.org/wiki/Translation_lookaside_buffer[TLB,window="_blank"], https://en.wikipedia.org/wiki/Memory_management_unit[MMU,window="_blank"], https://en.wikipedia.org/wiki/Mmap[mmap,window="_blank"]
 * https://manybutfinite.com/post/anatomy-of-a-program-in-memory/index.html[Anatomy of a Program in Memory,window="_blank"]
@@ -15,20 +12,10 @@
 ** https://stackoverflow.com/questions/5440128/thread-context-switch-vs-process-context-switch[Thread context switch vs process context switch,window="_blank"]
 
 * priority inversion https://cmdlinelinux.blogspot.com/2013/12/priority-inversion-how-to-avoid-it.html[l1, window="_blank"]
-====
 
 === Linux
-.‪
-[%collapsible]
-==== 
-
-
-====
 
 === Multi-threading, Concurrency
-.‪
-[%collapsible]
-==== 
 One of the book on the topic is "_The Art of Multiprocessor Programming_" by Maurice Herlihy and Nir Shavit
 
 * https://assets.bitbashing.io/papers/concurrency-primer.pdf[What every programmer should know about concurrency,window="_blank"]
@@ -41,10 +28,6 @@ One of the book on the topic is "_The Art of Multiprocessor Programming_" by Mau
 * https://en.wikipedia.org/wiki/Hazard_pointer[Hazard pointer,window="_blank"]
 * Aligning AoS to cache line size to avoid false sharing
 * https://fgiesen.wordpress.com/2016/08/07/why-do-cpus-have-multiple-cache-levels/[Why do CPUs have multiple cache levels?,window="_blank"]
-====
 
-.IPC
-[%collapsible]
-==== 
+==== IPC
 * https://dbus.freedesktop.org/doc/dbus-tutorial.html[DBUS Tutorial,window="_blank"]
-====

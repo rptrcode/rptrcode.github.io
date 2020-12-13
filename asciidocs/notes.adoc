@@ -2,41 +2,26 @@
 :toc: left
 :toclevels: 5
 
+= Notes and bookmarks
+
 == Languages
 
 include::lang/cpp.adoc[]
 
 === Rust
-.‪
-[%collapsible]
-==== 
 * https://news.ycombinator.com/item?id=19540845[Git implemented in Rust, window="_blank"]
 * https://news.ycombinator.com/item?id=19766713[Embedded Rust Book]
 * https://news.ycombinator.com/item?id=19778738[Giving up on wlroots-rs]
 * https://news.ycombinator.com/item?id=19475218[On Learning Rust and Go: Migrating Away from Python]
 * https://news.ycombinator.com/item?id=19430487[Implementing a NES Emulator in Rust]
-====
 
 === Java
-.‪
-[%collapsible]
-==== 
 * https://news.ycombinator.com/item?id=19346017[“No, we’re telling everyone we are using Java”]
-====
 
 === WebAssembly
-.‪
-[%collapsible]
-==== 
 * https://news.ycombinator.com/item?id=19514353[Lucet: Native WebAssembly Compiler and Runtime]
-====
-
 
 === Go
-.‪
-[%collapsible]
-==== 
-====
 
 include::algo.adoc[]
 

@@ -1,8 +1,7 @@
 
 === C++
-.cppfaq
-[%collapsible]
-====
+
+==== cppfaq
 * Method chaining (8.4) / Named Parameter Idiom (10.20)
 * Conversion constructor and conversion operator
 * Operator overloading (ch. 13)
@@ -47,11 +46,12 @@
 * https://en.wikipedia.org/wiki/Sequence_point[Sequence point,window="_blank"]
 * https://en.wikipedia.org/wiki/Tail_call[Tail call,window="_blank"]
 * https://en.wikipedia.org/wiki/Constant_folding[Constant folding,window="_blank"]
-====
 
-.Marshall Cline's cppfaq
-[%collapsible]
-====
+
+
+
+==== Marshall Cline's cppfaq
+
 * ISOCPP https://isocpp.org/faq[FAQ,window="_blank"]
 * ISOCPP http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines[C++ Core Guidelines,window="_blank"]
 * Marshall Cline's FAQ
@@ -80,11 +80,8 @@
 * http://www.cs.technion.ac.il/users/yechiel/c++-faq/coding-standards.html[Coding standards,window="_blank"]: 27.10
 * http://www.cs.technion.ac.il/users/yechiel/c++-faq/newbie.html[Newbie Questions / Answers,window="_blank"]: 29.5, 29.7, 29.17, 29.18, (29.19), 29.20
 * http://www.cs.technion.ac.il/users/yechiel/c++-faq/templates.html[Templates,window="_blank"]: 35.2, 35.3, 35.4, (35.7), 35.9, 35.11, 35.16, 35.18, 35.19, 35.22
-====
 
-.C++11
-[%collapsible]
-====
+==== C++11
 The book "_Effective Modern C++_" by Scott Meyers is a must-have.
 
 * Rvalues (http://thbecker.net/articles/rvalue_references/section_01.html[C++ Rvalue References Explained by Thomas Becker])
@@ -96,21 +93,14 @@ The book "_Effective Modern C++_" by Scott Meyers is a must-have.
 * Perfect forwarding
 * Range-based for loops (and issues with `auto` and copying objects around)
 * List initialization
-====
 
-.STL
-[%collapsible]
-====
+==== STL
 * Smart Pointers
 ** https://www.geeksforgeeks.org/auto_ptr-unique_ptr-shared_ptr-weak_ptr-2/[shared_ptr- unique_ptr - auto_ptr - week_ptr,window="_blank"]  
 ** 
 ** auto_ptr(deprecated)
 
-====
-
-.C Tricks/Gotchas/Hacks
-[%collapsible]
-====
+==== Tricks/Gotchas/Hacks
 * https://stackoverflow.com/questions/599365/what-is-your-favorite-c-programming-trick[few c tricks]
 * https://graphics.stanford.edu/~seander/bithacks.html[Bit twiddling hacks,window="_blank"]
-====
+

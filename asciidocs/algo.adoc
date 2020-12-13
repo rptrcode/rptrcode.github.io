@@ -1,7 +1,4 @@
 == Algorithms and Data Structures
-.#
-[%collapsible]
-====
 * Sorting and data structures (lists, arrays, hash tables)
 ** About hash tables: linear probing, quadratic probing, http://preshing.com/20160314/leapfrog-probing/[leapfrog probing,window="_blank"], double hashing, cuckoo hashing, hopscotch hashing
 * Floating point (29.17 and https://randomascii.wordpress.com/[Random ASCII blog,window="_blank"])
@@ -13,4 +10,3 @@
 * http://gafferongames.com/game-physics/fix-your-timestep/[Fix Your Timestep! by Glenn Fiedler,window="_blank"]
 * Custom allocator with pools
 * https://en.wikipedia.org/wiki/Quadtree[Quadtree,window="_blank"], https://en.wikipedia.org/wiki/Octree[Octree,window="_blank"] and https://en.wikipedia.org/wiki/Binary_space_partitioning[Binary Space Partitioning (BSP),window="_blank"]
-====
