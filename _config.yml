@@ -23,13 +23,13 @@ description: "*rtr++"
 
 # List of links in the navigation bar
 navbar-links:
+  Linkedin: "https://www.linkedin.com/in/rptr"
   Experiments: "experiments.html"
   Study Notes: "asciidocs/notes.html"
   Blogs:
     - Medium : "https://medium.com/@rptr"
     - Wordpress : "https://puttaraju.wordpress.com/"
   Social:
-    - Linkedin: "https://www.linkedin.com/in/rptr"
     - Github: "https://github.com/rptrcode"
     - Twitter: "https://twitter.com/rptr_"
 
@@ -77,10 +77,10 @@ social-network-links:
   rss: true
   email: "puttaraju.r@gmail.com"
   github: rptrcode
-  twitter: rptr_ 
+  twitter: rptr_
 #  reddit: yourname
 #  google-plus: +yourname
-  linkedin: rptr 
+  linkedin: rptr
 #  xing: yourname
 #  stackoverflow: "1234567/yourname"
 #  snapchat: yourname
