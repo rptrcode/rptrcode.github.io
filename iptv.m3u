@@ -1,619 +1,619 @@
 #EXTM3U
-#EXTINF:1, 8Outof10Cats
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",8 Out of 10 Cats (1080p) [Geo-blocked]
 https://amg00627-amg00627c37-samsung-au-4294.playouts.now.amagi.tv/playlist/amg00627-banijayfast-8outof10cats-samsungau/playlist.m3u8
-#EXTINF:2,Amg00627 Amg00627C37 Samsung Nz 4295.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",8 Out of 10 Cats (1080p
 https://amg00627-amg00627c37-samsung-nz-4295.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:3, 9Xjhakaas
+#EXTINF:-1 tvg-id="9XJhakaas.in@SD" tvg-logo="https://i.imgur.com/aZ0f85I.png" group-title="Music",9x Jhakaas
 https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8
-#EXTINF:4, 9Xtashan
+#EXTINF:-1 tvg-id="9XTashan.in@SD" tvg-logo="https://i.imgur.com/MMR1RMF.png" group-title="Music",9X Tashan
 https://amg01281-9xmediapvtltd-9xtashan-samsungin-xz1sd.amagi.tv/playlist/amg01281-9xmediapvtltd-9xtashan-samsungin/playlist.m3u8
-#EXTINF:-1,Amg02162 Newenconnect 100Pour100Docs Rakutenus
+#EXTINF:-1 tv
 https://amg02162-newenconnect-amg02162c2-rakuten-us-1981.playouts.now.amagi.tv/playlist/amg02162-newenconnect-100pour100docs-rakutenus/playlist.m3u8
-#EXTINF:-1,Amg01117 Amg01117C1 Amgplt0165.Playout.Now3.Amagi.Tv
+#EXTINF:-1 tvg-id="AndTV.in@SD" tvg-logo="https://i.imgur.com/32W50Y6.png"
 https://amg01117-amg01117c1-amgplt0165.playout.now3.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00327 Coxmediagroup Wftvbreaking Ono
+#EXTINF:-1 tvg-id="WFTVDT1.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" group-title="N
 https://amg00327-coxmediagroup-wftvbreaking-ono-hec7b.amagi.tv/playlist/amg00327-coxmediagroup-wftvbreaking-ono/playlist.m3u8
-#EXTINF:-1,Amg01076 Lightningintern Actionhollywood Samsungau
+#EXTINF:-1 tv
 https://amg01076-lightningintern-actionhollywood-samsungau-rs69y.amagi.tv/playlist/amg01076-lightningintern-actionhollywood-samsungau/playlist.m3u8
-#EXTINF:-1,Amg01480 Alshallalfze Alshallal Ono Q0Hfg.Amagi.Tv
+#EXTINF:-1 tvg-id="AlShallalTV.ae@SD" tvg-logo="https://i.imgur.com/otAH
 https://amg01480-alshallalfze-alshallal-ono-q0hfg.amagi.tv/playlist.m3u8
-#EXTINF:-1,Live
+#EXTINF:-1 tvg-id="AlWafaTarim.id@SD" tvg-logo="ht
 https://ammedia.siar.us/ammedia/live/playlist.m3u8
-#EXTINF:-1,Amazonsat
+#EXTINF:-1 tvg-id="AmazonSat.br@SD" tvg-logo="https://i.imgur.
 https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
-#EXTINF:-1,Hls
+#EXTINF:-1 tvg-id="AMC.af@SD" tvg-logo=
 https://amchls.wns.live/hls/stream.m3u8
-#EXTINF:-1,Amc Absolutereality 1 Us.Plex.Wurl.Tv
+#EXTINF:-1 tvg-id="AbsoluteRealitybyWETV.us@SD" tvg-logo="h
 https://amc-absolutereality-1-us.plex.wurl.tv/playlist.m3u8
-#EXTINF:-1,Ammantvhd
+#EXTINF:-1 tvg-id="AmmanTV.jo@SD" tvg-logo="https://i.i
 https://ammantv-live.ercdn.net/ammantvhd/ammantvhd.m3u8
-#EXTINF:-1,Amg00442 Zazoommediagroup Zmgwild Klowdtvus
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Animal Cam (720p) [Geo-blocked]
 https://amg00442-zmg-amg00442c2-klowdtv-us-2123.playouts.now.amagi.tv/playlist/amg00442-zazoommediagroup-zmgwild-klowdtvus/playlist.m3u8
-#EXTINF:-1,Amg02159 Kcglobal Animax Samsungin
+#EXTINF:-1 tvg-id="Animax.in@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Animax.png/512px-Animax.png" 
 https://amg02159-kcglobal-amg02159c1-samsung-in-521.playouts.now.amagi.tv/playlist/amg02159-kcglobal-animax-samsungin/playlist.m3u8
-#EXTINF:-1,Streams
+#EXTINF:-1 tvg-id="ArekTV.id@SD" tvg-logo="https://i.imgur.com/Bw
 https://ams.juraganstreaming.com:5443/LiveApp/streams/arektv.m3u8
-#EXTINF:-1,Smil:Arirang 3Ch.Smil
+#EXTINF:-1 tvg-id="ArirangRadio.kr@SD" tvg-logo="https://i.imgur.com/dtfiG9k.png" group-ti
 http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
-#EXTINF:-1,Smil:Arirang 1Ch.Smil
+#EXTINF:-1 tvg-id="ArirangTV.kr@SD" tvg-logo="https://i.imgur.com/Asu5pE9.png" group-title
 http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
-#EXTINF:-1,Smil:Arirang 2Ch.Smil
+#EXTINF:-1 tvg-id="ArirangUN.kr@SD" tvg-logo="https://i.imgur.com/Jdy3WNm.png" group-title=
 https://amdlive-ch02-ctnd-com.akamaized.net/arirang_2ch/smil:arirang_2ch.smil/playlist.m3u8
-#EXTINF:-1,Am2Abr
+#EXTINF:-1 tvg-id="Armenia1.am@SD" tvg-logo="http
 https://amtv.tulixcdn.com/amtv2/am2abr/index.m3u8
-#EXTINF:-1,Am3Abr
+#EXTINF:-1 tvg-id="Armenia2.am@SD" tvg-logo="http
 https://amtv.tulixcdn.com/amtv3/am3abr/index.m3u8
-#EXTINF:-1,Amogonetworx Artflix 1 Nl.Samsung.Wurl.Tv
+#EXTINF:-1 tvg-id="ARTFLIXMovieClassics.us@SD" tvg-logo="https:
 https://amogonetworx-artflix-1-nl.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1,Streams
+#EXTINF:-1 tvg-id="AshiilTV.id@SD" tvg-logo="https://i.imgur.com/bTk
 https://ams.juraganstreaming.com:5443/LiveApp/streams/ashiiltv2.m3u8
-#EXTINF:-1,Amg01201 Cinedigmenterta Asiancrush Cineverse
+#EXTINF:-1 tvg-id="AsianCrush.us@SD" tvg-logo="https://i.imgur.com/hW6z1RG.png" group-title="Entertainment",AsianCrush
 https://amg01201-cinedigmenterta-asiancrush-cineverse-x701o.amagi.tv/playlist/amg01201-cinedigmenterta-asiancrush-cineverse/playlist.m3u8
-#EXTINF:-1,Amg00627 Banijayfast Mrbeanfrcc Rakutenfr
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Banijay Mr Bean Animé
 https://amg00627-amg00627c31-rakuten-fr-3991.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanfrcc-rakutenfr/playlist.m3u8
-#EXTINF:-1,Amg00627 Banijayfast Mrbeanpopupcc Rakutenuk
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Banijay Mr Bean Classic
 https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8
-#EXTINF:-1,Amg00145 Fremantlemedian Baywatch Samsungau
+#EXTINF:-1 tvg-id="Baywatch.us@US" tvg-logo="https://i.imgur.com/c2esKHg.png" group-title="Series",Baywatch (1080p)
 https://amg00145-fremantlemedian-baywatch-samsungau-gtsd6.amagi.tv/playlist/amg00145-fremantlemedian-baywatch-samsungau/playlist.m3u8
-#EXTINF:-1,Amg00793 Amg00793C17 Rakuten It 5361.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",BBC Doctor Who Italy (1
 https://amg00793-amg00793c17-rakuten-it-5361.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00793 Amg00793C41 Rakuten It 5445.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",BBC Drama Italy (1080p)
 https://amg00793-amg00793c41-rakuten-it-5445.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00793 Amg00793C6 Firetv Us 4067.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="BBCEarth.uk@US" tvg-logo="https://i.imgur.com/nGSsUd4.png" 
 https://amg00793-amg00793c6-firetv-us-4067.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Bbcstudios Bbctopgear8Min All
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",BBC Top Gear
 https://amg00793-amg00793c5-xumo-us-2664.playouts.now.amagi.tv/bbcstudios-bbctopgear8min-all/playlist.m3u8
-#EXTINF:-1,Amg00793 Amg00793C5 Firetv Us 4068.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",BBC Top Gear (1080p) 
 https://amg00793-amg00793c5-firetv-us-4068.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00793 Amg00793C49 Rakuten Fi 5848.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",BBC Top Gear Finland (1
 https://amg00793-amg00793c49-rakuten-fi-5848.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00793 Amg00793C45 Rakuten Fr 5539.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",BBC Top Gear France (10
 https://amg00793-amg00793c45-rakuten-fr-5539.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00793 Amg00793C44 Rakuten De 5538.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",BBC Top Gear Germany (1
 https://amg00793-amg00793c44-rakuten-de-5538.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00793 Amg00793C43 Rakuten It 5537.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",BBC Top Gear Italy (108
 https://amg00793-amg00793c43-rakuten-it-5537.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg01334 Beinsportsllc Beinxtra Samsungau
+#EXTINF:-1 tvg-id="beINSPORTSXTRA.us@SD" tvg-logo="https://i.imgur.com/uJosqHh.png" group-title="Sports",BeIN SPORTS XTRA (1080p)
 https://amg01334-beinsportsllc-beinxtra-samsungau-eiyvc.amagi.tv/playlist/amg01334-beinsportsllc-beinxtra-samsungau/playlist.m3u8
-#EXTINF:-1,Amg01681 Beondtv Beondtv Klowdtvus
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Beond TV (720p) [Geo-blocked]
 https://amg01681-beondtv-amg01681c1-klowdtv-us-1826.playouts.now.amagi.tv/playlist/amg01681-beondtv-beondtv-klowdtvus/playlist.m3u8
-#EXTINF:-1,Amg01796 Fastmediafast Beybladefr Rakutenfr
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Beyblade
 https://amg01796-amg01796c6-rakuten-fr-5334.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-beybladefr-rakutenfr/playlist.m3u8
-#EXTINF:-1,Amg01796 Fastmediafast Beybladees Rakutenes
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Beyblade en Español (1080p)
 https://amg01796-amg01796c8-rakuten-es-5333.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-beybladees-rakutenes/playlist.m3u8
-#EXTINF:-1,Amg01258 Raycom Amg01258C7 Xumo Us 5514.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Big 12 Studios
 https://amg01258-raycom-amg01258c7-xumo-us-5514.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00350 Bratstudiofast Brat Klowdtvus
+#EXTINF:-1 tvg-id="BratTV.us@SD" tvg-logo="https://i.imgur.com/Kkcp9Bk.png" group-title="Kids",Brat TV (720p) [Geo-blocked]
 https://amg00350-amg00350c1-klowdtv-us-2536.playouts.now.amagi.tv/playlist/amg00350-bratstudiofast-brat-klowdtvus/playlist.m3u8
-#EXTINF:-1,Amg02703 Leadstory Leadstory Samsungau
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Breaking News by LeadStory (1080p)
 https://amg02703-leadstory-leadstory-samsungau-rr75f.amagi.tv/playlist/amg02703-leadstory-leadstory-samsungau/playlist.m3u8
-#EXTINF:-1,Amg02703 Leadstory Leadstory Samsungnz
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Breaking News by LeadStory (1080p)
 https://amg02703-leadstory-leadstory-samsungnz-vc7nn.amagi.tv/playlist/amg02703-leadstory-leadstory-samsungnz/playlist.m3u8
-#EXTINF:-1,Amg02604 Byutv Amg02604C2 Firetv Us 4981.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="BYUTV.us@SD" tvg-logo="https://i.imgur.com/mruGyuu.png" group-tit
 https://amg02604-byutv-amg02604c2-firetv-us-4981.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Cbccomedy
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",CBC Comedy (1080p
 https://amagi-streams.akamaized.net/hls/live/2110963/cbccomedy/master.m3u8
-#EXTINF:-1,Cbcheartland
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",CBC Heartland (1080p
 https://amagi-streams.akamaized.net/hls/live/2113391/cbcheartland/master.m3u8
-#EXTINF:-1,Cbcmurdoch
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",CBC Murdoch Myster
 https://amagi-streams.akamaized.net/hls/live/2113390/cbcmurdoch/master.m3u8
-#EXTINF:-1,Cbcnewsbc
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",CBC News BC (1080
 https://amagi-streams.akamaized.net/hls/live/2110960/cbcnewsbc/master.m3u8
-#EXTINF:-1,Cbcexplore
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",CBC News Explore (
 https://amagi-streams.akamaized.net/hls/live/2110962/cbcexplore/master.m3u8
-#EXTINF:-1,Cbctoronto
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",CBC News Toronto (
 https://amagi-streams.akamaized.net/hls/live/2110961/cbctoronto/master.m3u8
-#EXTINF:-1,Streams
+#EXTINF:-1 tvg-id="CelebesTV.id@SD" tvg-logo="https://upload.wikimedia.
 https://ams.juraganstreaming.com:5443/LiveApp/streams/celebesmedia.m3u8
-#EXTINF:-1,Lionsgate Clbng
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Celebrity Name Game [Geo-blocked]
 https://amg00353-amg00353c19-xumo-us-2608.playouts.now.amagi.tv/lionsgate-clbng/playlist.m3u8
-#EXTINF:-1,Amg00405 Rakutentv Cgtn Rakuten I9Tar.Amagi.Tv
+#EXTINF:-1 tvg-id="CGTN.cn@SD" tvg-logo="https://upload.wikimedia.
 https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
-#EXTINF:-1,Amg00405 Rakutentv Cgtndocumentary Rakuten 0Ql8J.Amagi.Tv
+#EXTINF:-1 tvg-id="CGTNDocumentary.cn@SD" tvg-logo="https://i.imgur.com/JHv0W
 https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
-#EXTINF:-1,Channelsreporter
+#EXTINF:-1 tvg-id="ChannelS.bd@SD" tvg-logo="https://www.channels.com.bd
 https://amigofx.com:1936/channelsreporter/channelsreporter/playlist.m3u8
-#EXTINF:-1,Amg02724 Somosfast Cineenespanol Klowdtvus
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Cine en Espanol (720p) [Geo-blocked]
 https://amg02724-somos-amg02724c1-klowdtv-us-2002.playouts.now.amagi.tv/playlist/amg02724-somosfast-cineenespanol-klowdtvus/playlist.m3u8
-#EXTINF:-1,Amg00432 Circletv Circletv Cineverseus
+#EXTINF:-1 tvg-id="Circle.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Circle_Network_logo.svg/
 https://amg00432-circletvfast-amg00432c1-cineverse-us-1112.playouts.now.amagi.tv/playlist/amg00432-circletv-circletv-cineverseus/playlist.m3u8
-#EXTINF:-1,Itv Cdwmug
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Come Dine With Me (1080p)
 https://amg00654-itv-amg00654c2-samsung-au-925.playouts.now.amagi.tv/itv-cdwmug/playlist.m3u8
-#EXTINF:-1,Amg00654 Itvstudiosfast Comedinewithmeukglobal Rakutenuk
+#EXTINF:-1 tv
 https://amg00654-itv-amg00654c2-rakuten-uk-1281.playouts.now.amagi.tv/playlist/amg00654-itvstudiosfast-comedinewithmeukglobal-rakutenuk/playlist.m3u8
-#EXTINF:-1,Amg01420 Amg01420C5 Xumo Us 3817.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Cook's Country Chan
 https://amg01420-amg01420c5-xumo-us-3817.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00376 Magellantv Spacesciencenowcauk Rakutenuk
+#EXTINF:-1 tv
 https://amg00376-magellan-amg00376c14-rakuten-uk-1694.playouts.now.amagi.tv/playlist/amg00376-magellantv-spacesciencenowcauk-rakutenuk/playlist.m3u8
-#EXTINF:-1,Amg01201 Cinedigmenterta Crimehunters Cineverse
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Crime Hunters
 https://amg01201-cinedigmenterta-crimehunters-cineverse-cnqvb.amagi.tv/playlist/amg01201-cinedigmenterta-crimehunters-cineverse/playlist.m3u8
-#EXTINF:-1,Amg01796 Amg01796C13 Rakuten Gb 6739.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Crímenes Reales (1080p)
 https://amg01796-amg01796c13-rakuten-gb-6739.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00170 Curiositystreamllcfast Curiositynowrow Rakutenus
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Curiosity Now 
 https://amg00170-curiositystream-amg00170c3-rakuten-us-2289.playouts.now.amagi.tv/playlist/amg00170-curiositystreamllcfast-curiositynowrow-rakutenus/playlist.m3u8
-#EXTINF:-1,Amg00841 Aeemeafast Dealmastersrakuten Rakutenuk
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Deal Masters (1080p)
 https://amg00841-amg00841c8-rakuten-uk-2819.playouts.now.amagi.tv/playlist/amg00841-aeemeafast-dealmastersrakuten-rakutenuk/playlist.m3u8
-#EXTINF:-1,Amg00627 Banijaygroup Dealornodeal Samsungau
+#EXTINF:-1 tvg-id="DealorNoDeal.us@SD" tvg-logo="https://i.imgur.com/lZvNXA1.png" group-title="Series",Deal or No Deal (1080p)
 https://amg00627-banijaygroup-dealornodeal-samsungau-si7xg.amagi.tv/playlist/amg00627-banijaygroup-dealornodeal-samsungau/playlist.m3u8
-#EXTINF:-1,Amg01529 Defiancetv Defiancemedia Glewed Tre8X.Amagi.Tv
+#EXTINF:-1 tvg-id="DeFianceMedia.pr@SD" tvg-logo="https://encrypted-tbn0.gsta
 https://amg01529-defiancetv-defiancemedia-glewed-tre8x.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00353 Amg00353C40 Xumo Us 4839.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Designated Survivor 
 https://amg00353-amg00353c40-xumo-us-4839.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00857 Amg00857C1 Rakuten Us 4656.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",DesiPlay TV (1080p)
 https://amg00857-amg00857c1-rakuten-us-4656.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00276 Aetelevisionnetworksfast Dogthebountyhunterall Rakutenuk
+#EXTINF:-1 tv
 https://amg00276-amg00276c11-rakuten-uk-3446.playouts.now.amagi.tv/playlist/amg00276-aetelevisionnetworksfast-dogthebountyhunterall-rakutenuk/playlist.m3u8
-#EXTINF:-1,Amg01201 Cinedigmentertainment Dogwhispererwithcesarmilan Cineverseus
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Dog Whisperer with Cesar M
 https://amg01201-amg01201c30-cineverse-us-3100.playouts.now.amagi.tv/playlist/amg01201-cinedigmentertainment-dogwhispererwithcesarmilan-cineverseus/playlist.m3u8
-#EXTINF:-1,Cinedigm Dogwhisperer Hls
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Dog Whisperer with Cesar Millan [Geo-blocked]
 https://amg01201-cinedigm-amg01201c30-xumo-us-2277.playouts.now.amagi.tv/cinedigm-dogwhisperer-hls/playlist.m3u8
-#EXTINF:-1,Amg00426 Lds Amg00426C15 Samsung Au 3684.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="DontTellTheBride.us@SD" tvg-logo="https://i.imgur.com/h0bc3Fa.png
 https://amg00426-lds-amg00426c15-samsung-au-3684.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg01201 Cinedigmenterta Dove Cineverse
+#EXTINF:-1 tvg-id="DoveChannel.us@SD" tvg-logo="" group-title="Family",Dove Channel
 https://amg01201-cinedigmenterta-dove-cineverse-1fck5.amagi.tv/playlist/amg01201-cinedigmenterta-dove-cineverse/playlist.m3u8
-#EXTINF:-1,Amg01796 Amg01796C2 Rakuten Uk 3887.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Drive TV (1080p)
 https://amg01796-amg01796c2-rakuten-uk-3887.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00461 Eone Amg00461C3 Firetv Us 5211.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Dungeons & Dragons Adventu
 https://amg00461-eone-amg00461c3-firetv-us-5211.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Ebonytv Pl
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Ebony TV [Geo-blocked]
 https://amg00353-lionsgatestudios-amg00353c11-xumo-us-2108.playouts.now.amagi.tv/EbonyTV-pl/playlist.m3u8
-#EXTINF:-1,Amg00654 Itv Amg00654C18 Samsung Nz 4373.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Eggheads (1080p)
 https://amg00654-itv-amg00654c18-samsung-nz-4373.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00654 Itv Amg00654C28 Rakuten Uk 5302.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Eggheads (1080p)
 https://amg00654-itv-amg00654c28-rakuten-uk-5302.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Streams
+#EXTINF:-1 tvg-id="ElshintaTV.id@SD" tvg-logo="https://i.imgur.com/x5
 https://ams.juraganstreaming.com:5443/LiveApp/streams/elshintatv.m3u8
-#EXTINF:-1,Amg01447 Samsungau Enthub Samsungau
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Entertainment Hub (1080p)
 https://amg01447-samsungau-enthub-samsungau-ugr5u.amagi.tv/playlist/amg01447-samsungau-enthub-samsungau/playlist.m3u8
-#EXTINF:-1,Amg01447 Samsungau Enthubnz Samsungnz
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Entertainment Hub (1080p)
 https://amg01447-samsungau-enthubnz-samsungnz-t9rkn.amagi.tv/playlist/amg01447-samsungau-enthubnz-samsungnz/playlist.m3u8
-#EXTINF:-1,Amg01201 Cinedigmentertainment Entrepreneurtv Cineverseus
+#EXTINF:-1 tv
 https://amg01201-amg01201c31-cineverse-us-2915.playouts.now.amagi.tv/playlist/amg01201-cinedigmentertainment-entrepreneurtv-cineverseus/playlist.m3u8
-#EXTINF:-1,Amg00145 Amg00145C11 Samsung Au 6579.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Escape to the Country (
 https://amg00145-amg00145c11-samsung-au-6579.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00145 Amg00145C11 Rakuten Uk 5450.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Escape to The Country (
 https://amg00145-amg00145c11-rakuten-uk-5450.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00145 Amg00145C3 Xumo Us 3802.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Family Feud Classic
 https://amg00145-amg00145c3-xumo-us-3802.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,
+#EXTINF:-1 tvg-id="FamilyTime.us@SD" tvg-logo="https://i.imgur.com/TCKJT2x.png" group-title="Family",Family Time (1080p)
 https://amg09501-questar-amg09501c3-stirr-us-3096.playouts.now.amagi.tv/amg09501/AMG09501C3/segmented_playlist/0/35-89-3096.m3u8
-#EXTINF:-1,Amg00627 Banijaygroup Fearfactor Samsungau
+#EXTINF:-1 tvg-id="FearFactor.us@US" tvg-logo="https://i.imgur.com/CIYnLWz.png" group-title="Series",Fear Factor (1080p)
 https://amg00627-banijaygroup-fearfactor-samsungau-9vdod.amagi.tv/playlist/amg00627-banijaygroup-fearfactor-samsungau/playlist.m3u8
-#EXTINF:-1,Amg00285 Amg00285C3 Firetv Us 6596.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",FGTEEV (1080p) [Geo-b
 https://amg00285-amg00285c3-firetv-us-6596.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Am3Abr
+#EXTINF:-1 tvg-id="FirstChannelNews.am@SD" tvg-logo="h
 https://amtv1-2.livestreamingcdn.com/am3abr/index.m3u8
-#EXTINF:-1,Amg01768 Flou Flou Canelatv
+#EXTINF:-1 tvg-id="FlouCine.us@SD" tvg-logo="https://i.imgur.com/OM6BP37.png" group-title="Movies",Fl
 https://amg01768-flou-flou-canelatv-yri41.amagi.tv/playlist/amg01768-flou-flou-canelatv/playlist.m3u8
-#EXTINF:-1,Amg00346 Vizioono Forkandfligt Xumo Us.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Fork & Fligh
 https://amg00346-vizioono-forkandfligt-xumo-us.amagi.tv/playlist.m3u8
-#EXTINF:-1,Fox Sports Amazonnews
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",FOX Sports [Geo-blocked]
 https://amg02855-foxsports-amg02855c1-xumo-us-1755.playouts.now.amagi.tv/Fox-Sports-AmazonNews/playlist.m3u8
-#EXTINF:-1,Amg00106 France24Fast France24 Rakutenuk
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",France 24 FAST English
 https://amg00106-amg00106c1-rakuten-uk-4654.playouts.now.amagi.tv/playlist/amg00106-france24fast-france24-rakutenuk/playlist.m3u8
-#EXTINF:-1,Cdn
+#EXTINF:-1 tvg-id="FUELTV.at@SD" tvg-logo="https://i.imgur.com/I8mviBy.png" group-title="Sports",FUEL TV (1080p)
 https://amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/hls/amagi_hls_data_rakutenAA-fueltvemeaen/CDN/master.m3u8
-#EXTINF:-1,Amg01076 Lightningintern Gbnewsau Samsungau
+#EXTINF:-1 tvg-id="GBNews.uk@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/GB_News_Logo.svg/512px-GB_News_Logo.s
 https://amg01076-lightningintern-gbnewsau-samsungau-et7fz.amagi.tv/playlist/amg01076-lightningintern-gbnewsau-samsungau/playlist.m3u8
-#EXTINF:-1,Amg01460 Gemshoppingnetw Gem Ono X662C.Amagi.Tv
+#EXTINF:-1 tvg-id="GemShoppingNetwork.us@SD" tvg-logo="https://i.imgu
 https://amg01460-gemshoppingnetw-gem-ono-x662c.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00353 Amg00353C30 Samsung Au 3440.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="GhostHunters.us@UK" tvg-logo="https://i.imgur.com/KdBr6rG.png
 https://amg00353-amg00353c30-samsung-au-3440.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg09501 Quester Gotraveler Klowdtvus
+#EXTINF:-1 tvg-id="GoTraveler.us@SD" tvg-logo="https://i.imgur.com/IaRcN1G.png" group-title="Travel",GoTraveler (720p) [Geo-bl
 https://amg09501-amg09501c1-klowdtv-us-2398.playouts.now.amagi.tv/playlist/amg09501-quester-gotraveler-klowdtvus/playlist.m3u8
-#EXTINF:-1,Amg00654 Itv Amg00654C35 Rakuten Gb 7598.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Graham Norton (1080p)
 https://amg00654-itv-amg00654c35-rakuten-gb-7598.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00654 Itv Amg00654C37 Rakuten De 7600.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Graham Norton Germany (1080
 https://amg00654-itv-amg00654c37-rakuten-de-7600.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg01753 Narrativeuk Greatmovies Lggb
+#EXTINF:-1 tvg-id="GREATmovies.uk@UK" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3709.png
 https://amg01753-narrativeuk-amg01753c3-lg-gb-1833.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatmovies-lggb/playlist.m3u8
-#EXTINF:-1,Amg01753 Amg01753C5 Rakuten Uk 5500.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",GREAT! real (1080p)
 https://amg01753-amg01753c5-rakuten-uk-5500.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg01753 Narrativeuk Greatchristmas Lggb
+#EXTINF:-1 tvg-id="GREATromance.uk@UK" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3643.png" 
 https://amg01753-narrativeuk-amg01753c2-lg-gb-1832.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatchristmas-lggb/playlist.m3u8
-#EXTINF:-1,Amogonetworx Grjngo 6 It.Rakuten.Wurl.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Grjng
 https://amogonetworx-grjngo-6-it.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1,Amogo Networx Grjngopelculasdeloeste 1 Es.Rakuten.Wurl.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Grjngo Spain (720p)
 https://amogo-networx-grjngopelculasdeloeste-1-es.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1,Amogonetworx Grjngo 3 Dk.Samsung.Wurl.Tv
+#EXTINF:-1 tvg-id="GrjngoWesternMovies.de@SD" tvg-logo="https:
 https://amogonetworx-grjngo-3-dk.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1,Amg00235 Amg00235C3 Xumo Us 3820.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Hallmark en Espanol
 https://amg00235-amg00235c3-xumo-us-3820.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00627 Banijay Amg00627C8 Samsung Au 1827.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Hardcore Pawn (1080p)
 https://amg00627-banijay-amg00627c8-samsung-au-1827.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00627 Banijay Amg00627C8 Samsung Nz 1828.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Hardcore Pawn (1080p)
 https://amg00627-banijay-amg00627c8-samsung-nz-1828.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00627 Amg00627C8 Rakuten Uk 4801.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Hardcore Pawn (1080p)
 https://amg00627-amg00627c8-rakuten-uk-4801.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg01446 Blueantmediacan Haunttvaussam Samsungau
+#EXTINF:-1 tv
 https://amg01446-blueantmediacan-haunttvaussam-samsungau-vcnai.amagi.tv/playlist/amg01446-blueantmediacan-haunttvaussam-samsungau/playlist.m3u8
-#EXTINF:-1,Itv Hellskitchen Samsung
+#EXTINF:-1 tvg-id="HellsKitchen.us@UK" tvg-logo="https://i.imgur.com/P9eT0O9.png" group-title="Series",Hell'
 https://amg00654-itv-amg00654c1-samsung-au-1072.playouts.now.amagi.tv/itv-hellskitchen-samsung/playlist.m3u8
-#EXTINF:-1,Amg00654 Itv Amg00654C20 Rakuten It 3615.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Hell's Kitchen Italy (1080p
 https://amg00654-itv-amg00654c20-rakuten-it-3615.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00627 Banijayfast Highwaythruhell Samsungau
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Highway Thru Hell (1080p)
 https://amg00627-amg00627c15-samsung-au-2899.playouts.now.amagi.tv/playlist/amg00627-banijayfast-highwaythruhell-samsungau/playlist.m3u8
-#EXTINF:-1,Amg00627 Banijayfast Highwaythruhell Samsungnz
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Highway Thru Hell (1080p)
 https://amg00627-amg00627c15-samsung-nz-2900.playouts.now.amagi.tv/playlist/amg00627-banijayfast-highwaythruhell-samsungnz/playlist.m3u8
-#EXTINF:-1,Amg00627 Amg00627C15 Rakuten Uk 4803.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Highway Thru Hell (1080
 https://amg00627-amg00627c15-rakuten-uk-4803.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Hipstr (1080p)
 https://amg09501-questar-amg09501c2-stirr-us-3095.playouts.now.amagi.tv/amg09501/AMG09501C2/segmented_playlist/0/35-89-3095.m3u8
-#EXTINF:-1,Amg00376 Magellantv Historyandwarfarenowaunzin Samsungnz
+#EXTINF:-1 tv
 https://amg00376-magellan-amg00376c19-samsung-nz-1735.playouts.now.amagi.tv/playlist/amg00376-magellantv-historyandwarfarenowaunzin-samsungnz/playlist.m3u8
-#EXTINF:-1,Amg00841 Aeemeafast Historyhuntersrakuten Rakutenuk
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",History Hunters (1080p)
 https://amg00841-amg00841c7-rakuten-uk-2820.playouts.now.amagi.tv/playlist/amg00841-aeemeafast-historyhuntersrakuten-rakutenuk/playlist.m3u8
-#EXTINF:-1,Amg01448 Samsungindia Historychannelenglish Samsungin
+#EXTINF:-1 tv
 https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/playlist/amg01448-samsungindia-historychannelenglish-samsungin/playlist.m3u8
-#EXTINF:-1,Amg00090 Blueantllc Homefull Xumo Rn9Cd.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Homeful
 https://amg00090-blueantllc-homefull-xumo-rn9cd.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00090 Blueantfast Homefulworldwide Samsungau
+#EXTINF:-1 tv
 https://amg00090-blueantcanada-amg00090c4-samsung-au-819.playouts.now.amagi.tv/playlist/amg00090-blueantfast-homefulworldwide-samsungau/playlist.m3u8
-#EXTINF:-1,Amg00090 Blueantfast Homefulworldwide Samsungnz
+#EXTINF:-1 tv
 https://amg00090-blueantcanada-amg00090c4-samsung-nz-820.playouts.now.amagi.tv/playlist/amg00090-blueantfast-homefulworldwide-samsungnz/playlist.m3u8
-#EXTINF:-1,Amg00090 Blueantfast Homefulworldwide Rakutenuk
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Homeful (1080p)
 https://amg00090-amg00090c4-rakuten-uk-2806.playouts.now.amagi.tv/playlist/amg00090-blueantfast-homefulworldwide-rakutenuk/playlist.m3u8
-#EXTINF:-1,Amg00654 Itv Amg00654C4 Rakuten Uk 5263.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Hotel Inspector (1080p)
 https://amg00654-itv-amg00654c4-rakuten-uk-5263.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Ici Live Stream
+#EXTINF:-1 tvg-id="CFHDDT.ca@SD" tvg-logo="https://i.imgur.com/x0vLIWr.p
 https://amdici.akamaized.net/hls/live/873426/ICI-Live-Stream/master.m3u8
-#EXTINF:-1,Amg01540 Apexmediafast Intouchplus Klowdtvus
+#EXTINF:-1 tv
 https://amg01540-apexmedia-amg01540c2-klowdtv-us-1989.playouts.now.amagi.tv/playlist/amg01540-apexmediafast-intouchplus-klowdtvus/playlist.m3u8
-#EXTINF:-1,Amg01324 Infamousmedia Infamoustv Cineverseus
+#EXTINF:-1 tv
 https://amg01324-infamous-amg01324c1-cineverse-us-1102.playouts.now.amagi.tv/playlist/amg01324-infamousmedia-infamoustv-cineverseus/playlist.m3u8
-#EXTINF:-1,Amg00861 Terninternation Lifestyle Samsungau
+#EXTINF:-1 tvg-id="INFAST.us@SD" tvg-logo="https://i.imgur.com/VwAMqA7.png" group-title="Undefined",INFAST (1080p)
 https://amg00861-terninternation-lifestyle-samsungau-kdlyy.amagi.tv/playlist/amg00861-terninternation-lifestyle-samsungau/playlist.m3u8
-#EXTINF:-1,Amg00861 Amg00861C10 Rakuten Uk 3152.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",InTravel (1080p)
 https://amg00861-amg00861c10-rakuten-uk-3152.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00861 Amg00861C10 Firetv Us 4726.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",INTRAVEL (1080p) [Geo-
 https://amg00861-amg00861c10-firetv-us-4726.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00861 Terninternationalfast Introublehd Cineverseus
+#EXTINF:-1 tv
 https://amg00861-terncloud-amg00861c6-cineverse-us-964.playouts.now.amagi.tv/playlist/amg00861-terninternationalfast-introublehd-cineverseus/playlist.m3u8
-#EXTINF:-1,Amg00346 Vizioono Investigation Xumo Us.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Investigation
 https://amg00346-vizioono-investigation-xumo-us.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00861 Terninternation Inwild Samsungau
+#EXTINF:-1 tvg-id="InWild.it@SD" tvg-logo="https://i.imgur.com/48atMgj.png" group-title="Outdoor;Shop",InWild (720p)
 https://amg00861-terninternation-inwild-samsungau-3qrga.amagi.tv/playlist/amg00861-terninternation-inwild-samsungau/playlist.m3u8
-#EXTINF:-1,Amg00861 Terninternation Inwonder Samsungau
+#EXTINF:-1 tvg-id="InWonder.nl@SD" tvg-logo="https://i.postimg.cc/xdgYN7Z5/inwonder.png" group-title="Science",InWonder (1080p)
 https://amg00861-terninternation-inwonder-samsungau-1k63k.amagi.tv/playlist/amg00861-terninternation-inwonder-samsungau/playlist.m3u8
-#EXTINF:-1,Amg00654 Itvstudios Itvchoice Samsungau
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",ITV Choice (1080p) [Geo-blocked]
 https://amg00654-itvstudios-itvchoice-samsungau-2bacj.amagi.tv/playlist/amg00654-itvstudios-itvchoice-samsungau/playlist.m3u8
-#EXTINF:-1,Amg00654 Itvstudiosfast Unvillagesfrancais Rakutenfr
+#EXTINF:-1 tv
 https://amg00654-itv-amg00654c32-rakuten-fr-6134.playouts.now.amagi.tv/playlist/amg00654-itvstudiosfast-unvillagesfrancais-rakutenfr/playlist.m3u8
-#EXTINF:-1,Streams
+#EXTINF:-1 tvg-id="JambiTV.id@SD" tvg-logo="https://static.wikia.noco
 https://ams.juraganstreaming.com:5443/JambiTV/streams/livestream.m3u8
-#EXTINF:-1,Amg00514 Noseybaxterllc Realnosey Cineverse
+#EXTINF:-1 tvg-id="JudgeNosey.us@US" tvg-logo="https://i.imgur.com/S4r98AB.png" group-title="Series",Judge Nosey
 https://amg00514-noseybaxterllc-realnosey-cineverse-tqbpv.amagi.tv/playlist/amg00514-noseybaxterllc-realnosey-cineverse/playlist.m3u8
-#EXTINF:-1,Amg00562 Amg00562C1 Kwelitv Worldwide 3293.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="KweliTV.us@SD" tvg-logo="https://i.imgur.com/LXMlbda.png" group-tit
 https://amg00562-amg00562c1-kwelitv-worldwide-3293.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg02162 Newenconnect Leffetpapillon Rakutenus
+#EXTINF:-1 tv
 https://amg02162-newenconnect-amg02162c1-rakuten-us-1983.playouts.now.amagi.tv/playlist/amg02162-newenconnect-leffetpapillon-rakutenus/playlist.m3u8
-#EXTINF:-1,Amg00375 Fusemedia Latinovibes Xumo Qyjhw.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Latino Vibes [G
 https://amg00375-fusemedia-latinovibes-xumo-qyjhw.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00779 Latvnetworkllc Latv Cineverseus
+#EXTINF:-1 tvg-id="LATV.us@SD" tvg-logo="https://i.imgur.com/fJxySUg.png" group-title="Entertainment",LATV [Geo-blocked]
 https://amg00779-latv-amg00779c1-cineverse-us-1746.playouts.now.amagi.tv/playlist/amg00779-latvnetworkllc-latv-cineverseus/playlist.m3u8
-#EXTINF:-1,Amg02393 Awpg Lemeilleurdarthur Rakutenuk
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Le Meilleur d'Arthur
 https://amg02393-awpg-amg02393c2-rakuten-uk-2464.playouts.now.amagi.tv/playlist/amg02393-awpg-lemeilleurdarthur-rakutenuk/playlist.m3u8
-#EXTINF:-1,Amg02393 Awpg Lemeilleurdelatvrealite Rakutenuk
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Le Meilleur de la TV Realite (1080p)
 https://amg02393-awpg-amg02393c4-rakuten-uk-3886.playouts.now.amagi.tv/playlist/amg02393-awpg-lemeilleurdelatvrealite-rakutenuk/playlist.m3u8
-#EXTINF:-1,Amg02703 Amg02703C20 Samsung Au 9093.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Leaderboard Sports News
 https://amg02703-amg02703c20-samsung-au-9093.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg02393 Awpg Lesanges Rakutenuk
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Les Anges
 https://amg02393-awpg-amg02393c5-rakuten-uk-2463.playouts.now.amagi.tv/playlist/amg02393-awpg-lesanges-rakutenuk/playlist.m3u8
-#EXTINF:-1,Amg02393 Awpg Lessecretsdenosregions Rakutenuk
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Les Secrets de Nos Régions
 https://amg02393-awpg-amg02393c6-rakuten-uk-2460.playouts.now.amagi.tv/playlist/amg02393-awpg-lessecretsdenosregions-rakutenuk/playlist.m3u8
-#EXTINF:-1,Amg02393 Awpg Leszamours Rakutenuk
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Les Z'Amours
 https://amg02393-awpg-amg02393c3-rakuten-uk-2462.playouts.now.amagi.tv/playlist/amg02393-awpg-leszamours-rakutenuk/playlist.m3u8
-#EXTINF:-1,Amg01468 Lifeminutetv Lifeminute Klowdtv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Life Minute (720p)
 https://amg01468-lifeminutetv-lifeminute-klowdtv-r4hhz.amagi.tv/playlist/amg01468-lifeminutetv-lifeminute-klowdtv/playlist.m3u8
-#EXTINF:-1,Amg02757 Loolookids Llkdefast Rakutende
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",LooLoo Kids TV (1080p)
 https://amg02757-amg02757c3-rakuten-de-6135.playouts.now.amagi.tv/playlist/amg02757-loolookids-llkdefast-rakutende/playlist.m3u8
-#EXTINF:-1,Amg01821 Lovetvchannels Lovemagazineuk Samsungse
+#EXTINF:-1 tv
 https://amg01821-lovetvchannels-lovemagazineuk-samsungse-p1sf1.amagi.tv/playlist/amg01821-lovetvchannels-lovemagazineuk-samsungse/playlist.m3u8
-#EXTINF:-1,Bamus Lovenaturespanish Roku
+#EXTINF:-1 tvg-id="LoveNatureenEspanol.us@SD" tvg-logo="https://i.imgur.com/7uNdcWB.png" group-title="Unde
 https://amg01515-amg01515c17-xumo-us-2489.playouts.now.amagi.tv/bamus-lovenaturespanish-roku/playlist.m3u8
-#EXTINF:-1,Amg01576 Blueskyeenterta Lovepetsemea Samsungse
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Love Pets (1080p)
 https://amg01576-blueskyeenterta-lovepetsemea-samsungse-ctamh.amagi.tv/playlist/amg01576-blueskyeenterta-lovepetsemea-samsungse/playlist.m3u8
-#EXTINF:-1,Amg01821 Lovetv Amg01821C8 Xumo Us 3443.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Love The Planet [Geo-block
 https://amg01821-lovetv-amg01821c8-xumo-us-3443.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00376 Magellantv Magellantvnowww Samsungau
+#EXTINF:-1 tv
 https://amg00376-magellan-amg00376c5-samsung-au-1708.playouts.now.amagi.tv/playlist/amg00376-magellantv-magellantvnowww-samsungau/playlist.m3u8
-#EXTINF:-1,Amg00627 Banijayfast Mcleodsdaughters Samsungnz
+#EXTINF:-1 tvg-id="McLeodsDaughters.us@UK" tvg-logo="https://i.imgur.com/q4BBDzw.png" group-title="Series",Mcleod's Daughters (1080p)
 https://amg00627-amg00627c5-samsung-nz-2807.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mcleodsdaughters-samsungnz/playlist.m3u8
-#EXTINF:-1,Amg01201 Cinedigmentertainment Meateater Cineverseus
+#EXTINF:-1 tv
 https://amg01201-amg01201c35-cineverse-us-3139.playouts.now.amagi.tv/playlist/amg01201-cinedigmentertainment-meateater-cineverseus/playlist.m3u8
-#EXTINF:-1,Amg26296 Meritstreetmediafast Meritplushd Meritworldwide
+#EXTINF:-1 tv
 https://amg26296-amg26296c2-merit-worldwide-6642.playouts.now.amagi.tv/playlist/amg26296-meritstreetmediafast-meritplushd-meritworldwide/playlist.m3u8
-#EXTINF:-1,Amg01201 Cinedigmenterta Midnightpulp Cineverse
+#EXTINF:-1 tvg-id="MidnightPulp.us@SD" tvg-logo="" group-title="Entertainment",Midnight Pulp
 https://amg01201-cinedigmenterta-midnightpulp-cineverse-axym1.amagi.tv/playlist/amg01201-cinedigmenterta-midnightpulp-cineverse/playlist.m3u8
-#EXTINF:-1,Amg00353 Lionsgatefilmsi Moviesphereaus Samsungau
+#EXTINF:-1 tv
 https://amg00353-lionsgatefilmsi-moviesphereaus-samsungau-7qzhf.amagi.tv/playlist/amg00353-lionsgatefilmsi-moviesphereaus-samsungau/playlist.m3u8
-#EXTINF:-1,Amg00353 Amg00353C32 Samsung Nz 3588.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",MovieSphere (1080p)
 https://amg00353-amg00353c32-samsung-nz-3588.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00627 Amg00627C23 Samsung Au 4110.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Mr. Bean Animated (1080
 https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00627 Banijayfast Mrbeanukcc Rakutenuk
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Mr. Bean Anime (1080p)
 https://amg00627-amg00627c28-rakuten-uk-3984.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanukcc-rakutenuk/playlist.m3u8
-#EXTINF:-1,Amg00627 Banijayfast Mrbeanitcc Rakutenit
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Mr. Bean Anime Italy (1080p)
 https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8
-#EXTINF:-1,Amg00627 Banijayfast Mrbeanescc Rakutenes
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Mr. Bean Anime Spain (1080p)
 https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8
-#EXTINF:-1,Amg02873 Kravemedia Mtrspt1 Samsungau
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",MTRSPT 1 (1080p)
 https://amg02873-kravemedia-mtrspt1-samsungau-2anp4.amagi.tv/playlist/amg02873-kravemedia-mtrspt1-samsungau/playlist.m3u8
-#EXTINF:-1,Amg02873 Kravemedia Mtrspt1 Samsungnz
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",MTRSPT 1 (1080p)
 https://amg02873-kravemedia-mtrspt1-samsungnz-k70ln.amagi.tv/playlist/amg02873-kravemedia-mtrspt1-samsungnz/playlist.m3u8
-#EXTINF:-1,Amg00353 Amg00353C35 Xumo Us 3804.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Nash Bridges Channel
 https://amg00353-amg00353c35-xumo-us-3804.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00376 Amg00376C21 Firetv Us 3433.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Naturaleza Salvaje (10
 https://amg00376-amg00376c21-firetv-us-3433.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00090 Blueantllc Lovenature Au Samsungau
+#EXTINF:-1 tvg-id="NatureTime.es@SD" tvg-logo="https://i.imgur.com/72JmyjM.png" group-title="Documentary",NatureTime (1080p)
 https://amg00090-blueantllc-lovenature-au-samsungau-wggcn.amagi.tv/playlist/amg00090-blueantllc-lovenature-au-samsungau/playlist.m3u8
-#EXTINF:-1,Amg00556 Amg00556C3 Firetv Us 6060.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="NBATV.us@SD" tvg-logo="https://upload.wikimedia.org/wikiped
 https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00884 Nbcuniversal Wanews Xumo Oamde.Amagi.Tv
+#EXTINF:-1 tvg-id="WRCDT1.us@SD" tvg-logo="https://i.imgur.com/7JpMArM
 https://amg00884-nbcuniversal-wanews-xumo-oamde.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00884 Nbcuniversal Nbcch Pcr Xumo E9Lcl.Amagi.Tv
+#EXTINF:-1 tvg-id="WMAQDT1.us@SD" tvg-logo="https://i.imgur.com/wblxisu.p
 https://amg00884-nbcuniversal-nbcch-pcr-xumo-e9lcl.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00884 Nbcuniversal Dfwnews Xumo R5In7.Amagi.Tv
+#EXTINF:-1 tvg-id="KXASDT1.us@SD" tvg-logo="https://upload.wikimedia.or
 https://amg00884-nbcuniversal-dfwnews-xumo-r5in7.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00884 Nbcuniversal Nbcnsf Pcr Xumo 78Jf2.Amagi.Tv
+#EXTINF:-1 tvg-id="WTVJDT1.us@SD" tvg-logo="https://i.imgur.com/p3HXpSv.pn
 https://amg00884-nbcuniversal-nbcnsf-pcr-xumo-78jf2.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00884 Nbcuniversal Nbcbos Pcr Xumo 9Xxph.Amagi.Tv
+#EXTINF:-1 tvg-id="WBTSCD1.us@SD" tvg-logo="https://upload.wikimedia.org/w
 https://amg00884-nbcuniversal-nbcbos-pcr-xumo-9xxph.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00884 Nbcuniversal Nbcpa Pcr Xumo Q61Uw.Amagi.Tv
+#EXTINF:-1 tvg-id="WCAUDT1.us@SD" tvg-logo="https://upload.wikimedia.org/
 https://amg00884-nbcuniversal-nbcpa-pcr-xumo-q61uw.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00884 Nbcuniversal Nbcsf Pcr Xumo Xetsp.Amagi.Tv
+#EXTINF:-1 tvg-id="KNTVDT1.us@SD" tvg-logo="https://upload.wikimedia.org/
 https://amg00884-nbcuniversal-nbcsf-pcr-xumo-xetsp.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00884 Nbcuniversal Ctnews Xumo Cdfzg.Amagi.Tv
+#EXTINF:-1 tvg-id="WVITDT1.us@SD" tvg-logo="https://upload.wikimedia.o
 https://amg00884-nbcuniversal-ctnews-xumo-cdfzg.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg01448 Samsungin Ndtvgoodtimes Samsungin
+#EXTINF:-1 tvg-id="NDTVGoodTimes.in@SD" tvg-logo="https://i.imgur.com/7cruYvo.png" group-title="Lifestyle",NDTV Good Times (1080p)
 https://amg01448-samsungin-ndtvgoodtimes-samsungin-ad-gp.amagi.tv/playlist/amg01448-samsungin-ndtvgoodtimes-samsungin/playlist.m3u8
-#EXTINF:-1,Amg01076 Lightning Newsworld Rakutenus
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",NewsWorld
 https://amg01076-lightning-amg01076c5-rakuten-us-1788.playouts.now.amagi.tv/playlist/amg01076-lightning-newsworld-rakutenus/playlist.m3u8
-#EXTINF:-1,Amg00654 Itv Amg00654C27 Rakuten Uk 5295.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Ninja Warrior (1080p)
 https://amg00654-itv-amg00654c27-rakuten-uk-5295.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg13231 Actve Amg13231C1 Rakuten Us 5604.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="NitroCircus.us@SD" tvg-logo="" group-title="Sports",Nitro Circus (
 https://amg13231-actve-amg13231c1-rakuten-us-5604.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg02784 Nollyafricafast Nollyafricahd Cineverseus
+#EXTINF:-1 tvg-id="NollyAfrica.uk@SD" tvg-logo="https://i.imgur.
 https://amg02784-nollyafricafast-amg02784c1-cineverse-us-1124.playouts.now.amagi.tv/playlist/amg02784-nollyafricafast-nollyafricahd-cineverseus/playlist.m3u8
-#EXTINF:-1,Amaru.Dyndns.Org:
+#EXTINF:-1 tvg-id="Nortevision.es@S
 http://amaru.dyndns.org:8870/0.m3u8
-#EXTINF:-1,Amg01076 Lightning Now90S00S Rakutengb
+#EXTINF:-1 tvg-id="Now90s00s.uk@Poland" tvg-logo="" group-title="Music",NOW 90s00s
 https://amg01076-amg01076c19-rakuten-gb-8653.playouts.now.amagi.tv/playlist/amg01076-lightning-now90s00s-rakutengb/playlist.m3u8
-#EXTINF:-1,Amg17596 Newtangdynastytelevision Ntdtv Rakutengb
+#EXTINF:-1 tv
 https://amg17596-ntdtv-amg17596c1-rakuten-gb-6741.playouts.now.amagi.tv/playlist/amg17596-newtangdynastytelevision-ntdtv-rakutengb/playlist.m3u8
-#EXTINF:-1,Amg00718 Outdoorchannela Outdoortv Samsungau
+#EXTINF:-1 tvg-id="OutdoorChannel.us@SD" tvg-logo="https://i.imgur.com/Kh4MWaY.png" group-title="Outdoor",Outdoor Channel (1080p)
 https://amg00718-outdoorchannela-outdoortv-samsungau-uc7mp.amagi.tv/playlist/amg00718-outdoorchannela-outdoortv-samsungau/playlist.m3u8
-#EXTINF:-1,Lionsgate Otspr Xumo
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",OuterSphere [Geo-blocked]
 https://amg00353-amg00353c17-xumo-us-2554.playouts.now.amagi.tv/lionsgate-otspr-xumo/playlist.m3u8
-#EXTINF:-1,Pbsd Antiquesroadtripsf Samsung
+#EXTINF:-1 tvg-id="AntiquesRoadTrip.us@SD" tvg-logo="https://i.imgur.com/kkm7VqV.png" group-title="Lifestyle",PBS A
 https://amg02333-pbs-amg02333c1-samsung-au-1253.playouts.now.amagi.tv/PBSD-AntiquesRoadTripSF-samsung/playlist.m3u8
-#EXTINF:-1,Amg02333 Pbs Amg02333C8 Firetv Us 4239.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="PBSAntiquesRoadshow.us@SD" tvg-logo="https://i.imgur.com/U9CYao
 https://amg02333-pbs-amg02333c8-firetv-us-4239.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg02333 Pbsdistributionfast Pbshistory Samsungau
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",PBS History (1080p)
 https://amg02333-pbs-amg02333c1-samsung-au-1253.playouts.now.amagi.tv/playlist/amg02333-pbsdistributionfast-pbshistory-samsungau/playlist.m3u8
-#EXTINF:-1,Amg02333 Pbsdistributionfast Pbshistory Samsungnz
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",PBS History (1080p)
 https://amg02333-pbs-amg02333c1-samsung-nz-1254.playouts.now.amagi.tv/playlist/amg02333-pbsdistributionfast-pbshistory-samsungnz/playlist.m3u8
-#EXTINF:-1,Amg02333 Pbs Amg02333C11 Firetv Us 4242.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="PBSNature.us@SD" tvg-logo="https://i.imgur.com/Brry7cZ.png" grou
 https://amg02333-pbs-amg02333c11-firetv-us-4242.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg02333 Pbs Amg02333C6 Firetv Us 4236.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",PBS Retro (1080p) [Geo-bl
 https://amg02333-pbs-amg02333c6-firetv-us-4236.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg02333 Pbs Amg02333C13 Samsung Au 6858.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",PBS Science (1080p)
 https://amg02333-pbs-amg02333c13-samsung-au-6858.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Streams
+#EXTINF:-1 tvg-id="PKTV.id@SD" tvg-logo="https://i.imgur.com/ml
 https://ams.juraganstreaming.com:5443/LiveApp/streams/pktv.m3u8
-#EXTINF:-1,Amg00627 Amg00627C34 Rakuten Uk 4005.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Pointless (1080p)
 https://amg00627-amg00627c34-rakuten-uk-4005.playouts.now.amagi.tv/master.m3u8
-#EXTINF:-1,Amg00627 Banijayfast Pointless Samsungau
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Pointless (1080p) [Geo-blocked]
 https://amg00627-amg00627c34-samsung-au-8173.playouts.now.amagi.tv/playlist/amg00627-banijayfast-pointless-samsungau/playlist.m3u8
-#EXTINF:-1,Amg01753 Amg01753C6 Samsung Au 6678.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="Pop.uk@SD" tvg-logo="https://i.imgur.com/fGUlCY3.png" group-
 https://amg01753-amg01753c6-samsung-au-6678.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amc Portlandia 1 Us.Xumo.Wurl.Tv
+#EXTINF:-1 tvg-id="Portlandia.us@SD" tvg-logo="https:/
 https://amc-portlandia-1-us.xumo.wurl.tv/playlist.m3u8
-#EXTINF:-1,Amg00461 Eone Amg00461C2 Firetv Us 5210.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Power Rangers (1080p) [Geo
 https://amg00461-eone-amg00461c2-firetv-us-5210.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg01258 Raycomsports Powernationau Samsungau 18Bwc.Amagi.Tv
+#EXTINF:-1 tvg-id="PowerNationTV.us@SD" tvg-logo="https://i.imgur.com/jguTO8E.png"
 https://amg01258-raycomsports-powernationau-samsungau-18bwc.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg02189 Amg02189C1 Samsung Au 5798.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Project Runway (1080p)
 https://amg02189-amg02189c1-samsung-au-5798.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg02189 Amg02189C1 Rakuten Us 5453.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Project Runway (1080p)
 https://amg02189-amg02189c1-rakuten-us-5453.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg01076 Lightningintern Pulse Samsungau
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Pulse (1080p)
 https://amg01076-lightningintern-pulse-samsungau-4a45e.amagi.tv/playlist/amg01076-lightningintern-pulse-samsungau/playlist.m3u8
-#EXTINF:-1,Amg02393 Awpg Quiveutgagnerdesmillions Rakutenuk
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Qui Veut Gagner Des Millions La Chaîne
 https://amg02393-awpg-amg02393c1-rakuten-uk-2461.playouts.now.amagi.tv/playlist/amg02393-awpg-quiveutgagnerdesmillions-rakutenuk/playlist.m3u8
-#EXTINF:-1,Qvc Bigdishdelayed Switcher Localnow
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",QVC The Big Dish Channel (1080p)
 https://amg01717-qvc-amg01717c1-stirr-us-2651.playouts.now.amagi.tv/qvc-bigdishdelayed-switcher-localnow/playlist.m3u8
-#EXTINF:-1,Amg01717 Qvc Amg01717C3 Xumo Us 2876.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",QVC's The Big Dish [Geo
 https://amg01717-qvc-amg01717c3-xumo-us-2876.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00378 Mavtvfast Motorsportsnetwork Rakutenus
+#EXTINF:-1 tvg-id="RACERInternational.pl@FAST" tvg-logo="" group-title="Sports",RACER International
 https://amg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-rakutenus/playlist.m3u8
-#EXTINF:-1,Amg00378 Mavtvfast Motorsportsnetwork Samsungau
+#EXTINF:-1 tvg-id="RacerNetwork.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/74/Racer_Network.jpg" group-title="Sports",Racer 
 https://amg00378-mavtv-amg00378c2-samsung-au-1790.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-samsungau/playlist.m3u8
-#EXTINF:-1,Cdn
+#EXTINF:-1 tvg-id="RadioItaliaTrendTV.it@HD" tvg-logo="https://i.imgur.com/HNrKqGM.png" group-title="Music",Radio Italia Trend (720
 https://amg00745-radioitailaspa-radioitalia-rakuten-sucsc.amagi.tv/hls/amagi_hls_data_rakutenAA-radioitalia-rakuten/CDN/master.m3u8
-#EXTINF:-1,Amg01076 Lightningintern Rialto Samsungnz
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",RCM (1080p)
 https://amg01076-lightningintern-rialto-samsungnz-03h40.amagi.tv/playlist/amg01076-lightningintern-rialto-samsungnz/playlist.m3u8
-#EXTINF:-1,Amg00426 Littledotstudio Realcrimebeta Samsungse
+#EXTINF:-1 tv
 https://amg00426-littledotstudio-realcrimebeta-samsungse-lpne7.amagi.tv/playlist/amg00426-littledotstudio-realcrimebeta-samsungse/playlist.m3u8
-#EXTINF:-1,Amg00453 Reuters Reuters Rakutenuk
+#EXTINF:-1 tvg-id="ReutersTV.us@SD" tvg-logo="https://i.imgur.com/6eQ2nCJ.png" group-title="News",Reuters
 https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8
-#EXTINF:-1,Amogonetworx Royalworld 2 De.Rakuten.Wurl.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Royalworl
 https://amogonetworx-royalworld-2-de.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1,Snc Xm
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Salem News Channel [Geo-blocked]
 https://amg00732-salemnewsfast-amg00732c2-xumo-us-1316.playouts.now.amagi.tv/snc-xm/playlist.m3u8
-#EXTINF:-1,Amg00732 Salemmediagroup Salemnews Klowdtv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Salem News Channel (720p) [Geo-blocked]
 https://amg00732-salemmediagroup-salemnews-klowdtv-79zyj.amagi.tv/playlist/amg00732-salemmediagroup-salemnews-klowdtv/playlist.m3u8
-#EXTINF:-1,Live
+#EXTINF:-1 tvg-id="SanIgnacioTV.hn@SD" tvg-
 https://amixtv.live:3753/live/sitvlive.m3u8
-#EXTINF:-1,Amc Scaresbyshudder 1 Us.Xumo.Wurl.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Sc
 https://amc-scaresbyshudder-1-us.xumo.wurl.tv/playlist.m3u8
-#EXTINF:-1,Amg16109 Shglivingnetwork Smarthealthygreenliving Klowdtvus
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Smart Healthy Gr
 https://amg16109-shgliving-amg16109c1-klowdtv-us-2235.playouts.now.amagi.tv/playlist/amg16109-shglivingnetwork-smarthealthygreenliving-klowdtvus/playlist.m3u8
-#EXTINF:-1,Amg12058 Amg12058C5 Rakuten Gb 7997.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",SquashTV (1080p)
 https://amg12058-amg12058c5-rakuten-gb-7997.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg01720 Filmhub Stashtvblackstories Klowdtvus
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",StashTV Black Stories (720p) [Geo-blocked]
 https://amg01720-amg01720c1-klowdtv-us-4664.playouts.now.amagi.tv/playlist/amg01720-filmhub-stashtvblackstories-klowdtvus/playlist.m3u8
-#EXTINF:-1,Amg01720 Filmhub Stashtvcrimetime Klowdtvus
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",StashTV Crime Time (720p) [Geo-blocked]
 https://amg01720-amg01720c3-klowdtv-us-4665.playouts.now.amagi.tv/playlist/amg01720-filmhub-stashtvcrimetime-klowdtvus/playlist.m3u8
-#EXTINF:-1,Amg01720 Filmhub Stashtvtheclassics Klowdtvus
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",StashTV The Classics (720p) [Geo-blocked]
 https://amg01720-amg01720c2-klowdtv-us-4689.playouts.now.amagi.tv/playlist/amg01720-filmhub-stashtvtheclassics-klowdtvus/playlist.m3u8
-#EXTINF:-1,Amg00145 Letsplayinc Supermarketswep Xumo 59Bvy.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Supermarket Sweep [Ge
 https://amg00145-letsplayinc-supermarketswep-xumo-59bvy.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00145 Buzzr Bigballs Supermarket Rokuus
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Supermarket Sweep (1080p) [Geo-blocked]
 https://amg00145-buzzr-bigballs-supermarket-rokuus-iqx8g.amagi.tv/playlist/amg00145-buzzr-bigballs-supermarket-rokuus/playlist.m3u8
-#EXTINF:-1,Amg13231 Actvefast Surfer Samsungau
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Surf Cinema (1080p)
 https://amg13231-actve-amg13231c4-samsung-au-2990.playouts.now.amagi.tv/playlist/amg13231-actvefast-surfer-samsungau/playlist.m3u8
-#EXTINF:-1,Amg13231 Actvefast Surfer Samsungnz
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Surf Cinema (1080p)
 https://amg13231-actve-amg13231c4-samsung-nz-3093.playouts.now.amagi.tv/playlist/amg13231-actvefast-surfer-samsungnz/playlist.m3u8
-#EXTINF:-1,Amg00627 Banijayfast Survivor Samsungnz
+#EXTINF:-1 tvg-id="Survivor.us@SD" tvg-logo="https://i.imgur.com/Zz9SgY8.png" group-title="Series",Survivor (1080p)
 https://amg00627-amg00627c16-samsung-nz-2811.playouts.now.amagi.tv/playlist/amg00627-banijayfast-survivor-samsungnz/playlist.m3u8
-#EXTINF:-1,Amg00738 Newscorpukandirelandlimited Talktv Lggb
+#EXTINF:-1 tvg-id="TalkTV.uk@SD" tvg-logo="https://i.imgur.com/KxHWpQB.png" group-title="Undefined",TalkTV (1080p)
 https://amg00738-newsuk-amg00738c1-lg-gb-3426.playouts.now.amagi.tv/playlist/amg00738-newscorpukandirelandlimited-talktv-lggb/playlist.m3u8
-#EXTINF:-1,Amg00047 Tastemadefast Tastemadehome Cineverseus
+#EXTINF:-1 tv
 https://amg00047-tastemade-amg00047c2-cineverse-us-1357.playouts.now.amagi.tv/playlist/amg00047-tastemadefast-tastemadehome-cineverseus/playlist.m3u8
-#EXTINF:-1,Amg00047 Tastemadefast Tastemadetravel Cineverseus
+#EXTINF:-1 tv
 https://amg00047-tastemade-amg00047c3-cineverse-us-1360.playouts.now.amagi.tv/playlist/amg00047-tastemadefast-tastemadetravel-cineverseus/playlist.m3u8
-#EXTINF:-1,Amg01416 Amg01416C4 Firetv Us 4522.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Team USA (1080p)
 https://amg01416-amg01416c4-firetv-us-4522.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00884 Nbcuniversal Nbctelemundowest Xumo Xc0N5.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Telemundo Noticias Cali
 https://amg00884-nbcuniversal-nbctelemundowest-xumo-xc0n5.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00884 Nbcuniversal Nbctelemundoflorida Xumo Atn0M.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Telemundo Noticias Florida
 https://amg00884-nbcuniversal-nbctelemundoflorida-xumo-atn0m.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00884 Nbcuniversal Nbctelemundonortheast Xumo Ok3Ha.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Telemundo Noticias Noreste
 https://amg00884-nbcuniversal-nbctelemundonortheast-xumo-ok3ha.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00884 Nbcuniversal Nbctelemundotexas Xumo Eeb56.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Telemundo Noticias Texas
 https://amg00884-nbcuniversal-nbctelemundotexas-xumo-eeb56.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg01935 Amg01935C1 Amgplt0165.Playout.Now3.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Tennis+ (1080p)
 https://amg01935-amg01935c1-amgplt0165.playout.now3.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00426 Littledotstudio Thechatshow Samsungnz
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",The Chat Show Channel (1080p)
 https://amg00426-littledotstudio-thechatshow-samsungnz-uqmtt.amagi.tv/playlist/amg00426-littledotstudio-thechatshow-samsungnz/playlist.m3u8
-#EXTINF:-1,Amg00426 Littledotstudio Thechatshow Samsungse
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",The Chat Show Channel (1080p)
 https://amg00426-littledotstudio-thechatshow-samsungse-n39q0.amagi.tv/playlist/amg00426-littledotstudio-thechatshow-samsungse/playlist.m3u8
-#EXTINF:-1,Amg00426 Lds Amg00426C11 Rakuten Uk 3888.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",The Chat Show Channel (1080
 https://amg00426-lds-amg00426c11-rakuten-uk-3888.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00353 Amg00353C36 Xumo Us 3803.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",The Conners [Geo-blo
 https://amg00353-amg00353c36-xumo-us-3803.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00600 Amg00600C1 Thecountrynetwork Us 5497.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="TheCountryNetwork.us@SD" tvg-logo="https://upload.wikimedia.org/wikipe
 https://amg00600-amg00600c1-thecountrynetwork-us-5497.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00441 Thedesignnetworkllcfast Thedesignnetwork Rakutenus
+#EXTINF:-1 tv
 https://amg00441-amg00441c1-rakuten-us-6050.playouts.now.amagi.tv/playlist/amg00441-thedesignnetworkllcfast-thedesignnetwork-rakutenus/playlist.m3u8
-#EXTINF:-1,Amg00441 Amg00441C1 Samsung Au 6606.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="TheDesignNetwork.us@SD" tvg-logo="https://i.imgur.com/J5YJ3r
 https://amg00441-amg00441c1-samsung-au-6606.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00654 Itvstudiosfast Hotelinspector Samsungau
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",The Hotel Inspector (1080p)
 https://amg00654-itv-amg00654c4-samsung-au-998.playouts.now.amagi.tv/playlist/amg00654-itvstudiosfast-hotelinspector-samsungau/playlist.m3u8
-#EXTINF:-1,Amg00353 Lionsgatestudio Wickedtuna Samsungau
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",The Wicked Tuna Channel (1080p)
 https://amg00353-lionsgatestudio-wickedtuna-samsungau-26lq4.amagi.tv/playlist/amg00353-lionsgatestudio-wickedtuna-samsungau/playlist.m3u8
-#EXTINF:-1,Amg00353 Lionsgatestudio Wickedtunase Samsungse
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",The Wicked Tuna Channel (1080p)
 https://amg00353-lionsgatestudio-wickedtunase-samsungse-w4kcr.amagi.tv/playlist/amg00353-lionsgatestudio-wickedtunase-samsungse/playlist.m3u8
-#EXTINF:-1,Amg01220 Amg01220C1 Firetv Us 5111.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="TheYoungTurks.us@SD" tvg-logo="https://i.imgur.com/XDNXJCl.
 https://amg01220-amg01220c1-firetv-us-5111.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg01448 Samsungin Tinnavbharat Samsungin
+#EXTINF:-1 tvg-id="TimesNowNavbharat.in@SD" tvg-logo="https://i.imgur.com/kSCozXg.png" group-title="News",Times Now Navbharat (10
 https://amg01448-samsungin-tinnavbharat-samsungin-ad-m8.amagi.tv/playlist/amg01448-samsungin-tinnavbharat-samsungin/playlist.m3u8
-#EXTINF:-1,Amg01753 Narrativeuk Tinypop Lggb
+#EXTINF:-1 tvg-id="TinyPop.uk@SD" tvg-logo="https://i.imgur.com/zCTf71x.png" group-title="Kids",Tiny Pop (1080p)
 https://amg01753-narrativeuk-amg01753c1-lg-gb-1830.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-tinypop-lggb/playlist.m3u8
-#EXTINF:-1,Amg01329 Otterainc Toongoggles Samsungau
+#EXTINF:-1 tvg-id="ToonGoggles.us@SD" tvg-logo="https://i.imgur.com/JMnxswq.png" group-title="Kids",ToonGoggles (720p)
 https://amg01329-otterainc-toongoggles-samsungau-ad-4c.amagi.tv/playlist/amg01329-otterainc-toongoggles-samsungau/playlist.m3u8
-#EXTINF:-1,Amg17560 Fcbarcelona Topbarcaenglish Rakutenuk
+#EXTINF:-1 tvg-id="TOPBarca.pl@SD" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/
 https://amg17560-fcb-amg17560c1-rakuten-uk-4891.playouts.now.amagi.tv/playlist/amg17560-fcbarcelona-topbarcaenglish-rakutenuk/playlist.m3u8
-#EXTINF:-1,Amg17560 Fcb Amg17560C2 Rakuten Es 4889.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",TOP Barça Spain (1080p)
 https://amg17560-fcb-amg17560c2-rakuten-es-4889.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00609 Amg00609C5 Rakuten Uk 3764.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Top Sci-Fi (1080p)
 https://amg00609-amg00609c5-rakuten-uk-3764.playouts.now.amagi.tv/master.m3u8
-#EXTINF:-1,Cdn
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Top Serien (1080p)
 https://amg00609-palatinmediafil-cractiontv-rakuten-dhjcp.amagi.tv/hls/amagi_hls_data_rakutenAA-cractiontv-rakuten/CDN/master.m3u8
-#EXTINF:-1,Amg01131 Tracetv Amg01131C4 Stirr Us 4390.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="TraceBrazuca.fr@SD" tvg-logo="https://i.imgur.com/DFBocPu.png" gro
 https://amg01131-tracetv-amg01131c4-stirr-us-4390.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg01131 Tracetv Amg01131C5 Stirr Us 4389.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",TRACE UK (1080p)
 https://amg01131-tracetv-amg01131c5-stirr-us-4389.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00461 Eone Amg00461C1 Firetv Us 5209.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Transformers (1080p) [Geo-
 https://amg00461-eone-amg00461c1-firetv-us-5209.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg02507 Giantpictures Tribeca Xumo Ey2B7.Amagi.Tv
+#EXTINF:-1 tvg-id="TribecaChannel.us@SD" tvg-logo="https://i.imgur.com/J
 https://amg02507-giantpictures-tribeca-xumo-ey2b7.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00979 Amg00979C1 Firetv Us 3622.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",True Crime Network+ (
 https://amg00979-amg00979c1-firetv-us-3622.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00376 Magellantv Truecrimenowcauk Rakutenuk
+#EXTINF:-1 tv
 https://amg00376-magellan-amg00376c9-rakuten-uk-1941.playouts.now.amagi.tv/playlist/amg00376-magellantv-truecrimenowcauk-rakutenuk/playlist.m3u8
-#EXTINF:-1,Amg00376 Magellantv Truecrimenowaunzin Samsungau
+#EXTINF:-1 tv
 https://amg00376-magellan-amg00376c12-samsung-au-1725.playouts.now.amagi.tv/playlist/amg00376-magellantv-truecrimenowaunzin-samsungau/playlist.m3u8
-#EXTINF:-1,Amg00654 Itvstudiosfast Truelives Rakutenuk
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",True Lives (1080p)
 https://amg00654-itv-amg00654c7-rakuten-uk-1282.playouts.now.amagi.tv/playlist/amg00654-itvstudiosfast-truelives-rakutenuk/playlist.m3u8
-#EXTINF:-1,Amg00206 Amg00206C1 Distrotv Us 6886.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="TVAsia.us@SD" tvg-logo="https://i.imgur.com/a0BRhvr.png" group-
 https://amg00206-amg00206c1-distrotv-us-6886.playouts.now.amagi.tv/24-25-6886.m3u8
-#EXTINF:-1,Amg00437 Amg00437C3 Firetv Us 5409.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",TV Blossom (1080p)
 https://amg00437-amg00437c3-firetv-us-5409.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Tvcentro
+#EXTINF:-1 tvg-id="TVCentroCanalRegional.ni@SD"
 https://amixtv.com:19360/tvcentro/tvcentro.m3u8
-#EXTINF:-1,Streams
+#EXTINF:-1 tvg-id="UChannel.id@SD" tvg-logo="https://i.imgur.com/qxk
 https://ams.juraganstreaming.com:5443/LiveApp/streams/uchannel1.m3u8
-#EXTINF:-1,Live
+#EXTINF:-1 tvg-id="UNETV.hn@SD" tvg-logo="ht
 https://amixtv.live:3395/live/unetvlive.m3u8
-#EXTINF:-1,Amg00056 Vevotv Vevo70Saunz Samsungau
+#EXTINF:-1 tvg-id="Vevo70s.us@SD" tvg-logo="https://images.pluto.tv/channels/5f32f26bcd8aea00071240e5/featuredImage.jpg" 
 https://amg00056-vevotv-vevo70saunz-samsungau-xzszd.amagi.tv/playlist/amg00056-vevotv-vevo70saunz-samsungau/playlist.m3u8
-#EXTINF:-1,Amg00056 Vevotv Vevo80Saunz Samsungau
+#EXTINF:-1 tvg-id="Vevo80s.us@SD" tvg-logo="https://images.pluto.tv/channels/5fd7b8bf927e090007685853/featuredImage.jpg" 
 https://amg00056-vevotv-vevo80saunz-samsungau-rp5e3.amagi.tv/playlist/amg00056-vevotv-vevo80saunz-samsungau/playlist.m3u8
-#EXTINF:-1,Amg00056 Vevotv Vevo90Saunz Samsungau
+#EXTINF:-1 tvg-id="Vevo90s.us@SD" tvg-logo="https://images.pluto.tv/channels/5fd7bb1f86d94a000796e2c2/featuredImage.jpg" 
 https://amg00056-vevotv-vevo90saunz-samsungau-n6a0d.amagi.tv/playlist/amg00056-vevotv-vevo90saunz-samsungau/playlist.m3u8
-#EXTINF:-1,Amg00056 Amg00056C12 Rakuten It 3240.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Vevo '90s & '00s Italy 
 https://amg00056-amg00056c12-rakuten-it-3240.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00056 Vevotv Vevocountryau Samsungau
+#EXTINF:-1 tvg-id="VevoCountry.us@SD" tvg-logo="https://images.pluto.tv/channels/5da0d75e84830900098a1ea0/featuredImage.jpg" 
 https://amg00056-vevotv-vevocountryau-samsungau-ktmqm.amagi.tv/playlist/amg00056-vevotv-vevocountryau-samsungau/playlist.m3u8
-#EXTINF:-1,Amg00056 Amg00056C26 Rakuten Uk 3236.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Vevo Hip-Hop & R&B (108
 https://amg00056-amg00056c26-rakuten-uk-3236.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00056 Vevotvfast Vevohiphopandrbfr Rakutenfr
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Vevo Hip-Hop et RnB
 https://amg00056-amg00056c14-rakuten-fr-3244.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevohiphopandrbfr-rakutenfr/playlist.m3u8
-#EXTINF:-1,Amg00056 Amg00056C13 Rakuten Es 3246.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="VevoLatino.us@SD" tvg-logo="https://i.imgur.com/D7SwmuB.png" 
 https://amg00056-amg00056c13-rakuten-es-3246.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00056 Amg00056C6 Rakuten Uk 3235.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Vevo Pop (1080p)
 https://amg00056-amg00056c6-rakuten-uk-3235.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00056 Amg00056C7 Rakuten De 3245.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Vevo Pop Germany (1080
 https://amg00056-amg00056c7-rakuten-de-3245.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00056 Amg00056C8 Rakuten It 3239.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Vevo Pop Italy (1080p)
 https://amg00056-amg00056c8-rakuten-it-3239.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00056 Amg00056C10 Rakuten Es 3242.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Vevo Pop Spain (1080p)
 https://amg00056-amg00056c10-rakuten-es-3242.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00056 Amg00056C15 Rakuten It 3241.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Vevo Schlager Pop (1080
 https://amg00056-amg00056c15-rakuten-it-3241.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg01796 Fastmediafast Wasabii Rakutenuk
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Wasabi la chaîne anime
 https://amg01796-amg01796c3-rakuten-uk-2555.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-wasabii-rakutenuk/playlist.m3u8
-#EXTINF:-1,Amg01655 Thewashingtonpo Washingtonpost Klowdtv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Washington Post TV (720p)
 https://amg01655-thewashingtonpo-washingtonpost-klowdtv-fxhac.amagi.tv/playlist/amg01655-thewashingtonpo-washingtonpost-klowdtv/playlist.m3u8
-#EXTINF:-1,Amg01415 Waterbearnetwor Waterbear Samsungau
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",WaterBear (1080p)
 https://amg01415-waterbearnetwor-waterbear-samsungau-gicbz.amagi.tv/playlist/amg01415-waterbearnetwor-waterbear-samsungau/playlist.m3u8
-#EXTINF:-1,Amg01415 Waterbearnetwor Waterbear Samsungnz
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",WaterBear (1080p)
 https://amg01415-waterbearnetwor-waterbear-samsungnz-odh3b.amagi.tv/playlist/amg01415-waterbearnetwor-waterbear-samsungnz/playlist.m3u8
-#EXTINF:-1,Streams
+#EXTINF:-1 tvg-id="WesalTV.id@SD" tvg-logo="https://i.imgur.com/Uv
 https://ams.juraganstreaming.com:5443/LiveApp/streams/wesaltv.m3u8
-#EXTINF:-1,Amg00353 Amg00353C25 Rakuten Us 4896.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Wicked Tuna (1080p)
 https://amg00353-amg00353c25-rakuten-us-4896.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00353 Amg00353C28 Rakuten Us 4895.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Wicked Tuna Germany (10
 https://amg00353-amg00353c28-rakuten-us-4895.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg01269 Amg01269C1 Firetv Us 5377.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Willow Sports (1080p)
 https://amg01269-amg01269c1-firetv-us-5377.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00627 Banijaygroup Wipeoutxtraau Samsungau
+#EXTINF:-1 tvg-id="WipeoutXtra.us@SD" tvg-logo="https://i.imgur.com/UDeCRW1.png" group-title="Entertainment",Wipeout Xtra (1080p)
 https://amg00627-banijaygroup-wipeoutxtraau-samsungau-ashbl.amagi.tv/playlist/amg00627-banijaygroup-wipeoutxtraau-samsungau/playlist.m3u8
-#EXTINF:-1,Amg00654 Itvstudios Worldofloveisland Samsungse
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",World Of Love Island (1080p) [Geo-blocked]
 https://amg00654-itvstudios-worldofloveisland-samsungse-nbyj3.amagi.tv/playlist/amg00654-itvstudios-worldofloveisland-samsungse/playlist.m3u8
-#EXTINF:-1,Amg00143 Younghollywoodfast Younghollywood Cineverseus
+#EXTINF:-1 tvg-id="YoungHollywood.us@SD" tvg-logo="https://i.imgur.c
 https://amg00143-younghollywoodfast-amg00143c1-cineverse-us-946.playouts.now.amagi.tv/playlist/amg00143-younghollywoodfast-younghollywood-cineverseus/playlist.m3u8
-#EXTINF:-1,Amg01796 Fastmediafast Yugioh2En Rakutengb
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Yu-Gi-Oh! (1080p)
 https://amg01796-amg01796c19-rakuten-gb-7486.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-yugioh2en-rakutengb/playlist.m3u8
-#EXTINF:-1,Amg01796 Fastmediafast Yugiohees Rakutenes
+#EXTINF:-1 tvg-id="YuGiOhenespanol.us@SD" tvg-logo="https://i.imgur.com/VH8RiHg.png" group-title="Undefined",Yu-Gi-Oh! en espanol
 https://amg01796-amg01796c18-rakuten-es-7491.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-yugiohees-rakutenes/playlist.m3u8
-#EXTINF:-1,Amg01796 Fastmediafast Yugioh3It Rakutenit
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Yu-Gi-Oh! Italy
 https://amg01796-amg01796c17-rakuten-it-7492.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-yugioh3it-rakutenit/playlist.m3u8
-#EXTINF:-1,Amg17931 Zee Amg17931C8 Samsung Th 6526.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="ZeeBollymovies.in@SD" tvg-logo="https://framerusercontent.com/im
 https://amg17931-zee-amg17931c8-samsung-th-6526.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg17931 Zee Amg17931C8 Samsung Au 8871.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="ZeeBollymovies.in@Australia" tvg-logo="https://framerusercontent
 https://amg17931-zee-amg17931c8-samsung-au-8871.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg17931 Zee Amg17931C5 Samsung Au 8873.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="ZeeCinema.in@SD" tvg-logo="https://upload.wikimedia.org/wikipedi
 https://amg17931-zee-amg17931c5-samsung-au-8873.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg17931 Asiatvusaltdfast Zeeworld Samsungau
+#EXTINF:-1 tvg-id="ZeeOne.uk@UK" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png" 
 https://amg17931-zee-amg17931c6-samsung-au-8872.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeeworld-samsungau/playlist.m3u8
-#EXTINF:-1,Amg00711 Zylofast Cinewesternes Rakutenes
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Zylo Cine Western (1080p) [Geo-blocked]
 https://amg00711-zylo-amg00711c9-rakuten-es-5783.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinewesternes-rakutenes/playlist.m3u8
-#EXTINF:-1,Amg00711 Zylofast Cinewestern Rakutenuk
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Zylo Ciné Western
 https://amg00711-zylo-amg00711c8-rakuten-uk-2686.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinewestern-rakutenuk/playlist.m3u8
-#EXTINF:-1,Amg00711 Zylo Amg00711C10 Rakuten Fr 6731.Playouts.Now.Amagi.Tv
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Zylo Into Crime (1080p)
 https://amg00711-zylo-amg00711c10-rakuten-fr-6731.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Amg00711 Zylofast Frecuencianovelas Rakutenes
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Zylo Todo Novelas (1080p) [Geo-blocked]
 https://amg00711-zylo-amg00711c3-rakuten-es-5794.playouts.now.amagi.tv/playlist/amg00711-zylofast-frecuencianovelas-rakutenes/playlist.m3u8
