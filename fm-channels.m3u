@@ -2,11 +2,43 @@
 #EXTINF:1 tvg-id="AIR.Mysuru" tvg-name="AIR Mysuru" tvg-logo="https://onlineradiofm.in/assets/image/radio/100/radiodhamaal.jpg" group-title="Kannada",AIR Mysuru
 https://air.pc.cdn.bitgravity.com/air/live/pbaudio177/chunklist.m3u8
 
-#EXTINF:1 tvg-id="AIR.Rainbow" tvg-name="AIR FM Rainbow" tvg-logo="https://onlineradiofm.in/assets/image/radio/180/rainbowkan-kannada.jpg" group-title="Kannada",AIR FM Rainbow
+#EXTINF:2 tvg-id="AIR.Rainbow" tvg-name="AIR FM Rainbow" tvg-logo="https://onlineradiofm.in/assets/image/radio/180/rainbowkan-kannada.jpg" group-title="Kannada",AIR FM Rainbow
 https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio027/hlspbaudio02764kbps.m3u8
 
-#EXTINF:1 tvg-id="AIR.Dharawad" tvg-name="AIR Dharawad" tvg-logo="https://onlineradiofm.in/assets/image/radio/100/radiodhamaal.jpg" group-title="Kannada",AIR Dharawad
+#EXTINF:3 tvg-id="AIR.Bengaluru" tvg-name="AIR Bengaluru" tvg-logo="https://onlineradiofm.in/assets/image/radio/180/airbangaluru.jpg" group-title="Kannada",AIR Bengaluru
+https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio030/hlspbaudio03064kbps.m3u8
+
+#EXTINF:4 tvg-id="Vivid.Bharathi" tvg-name="Vivid Bharathi" tvg-logo="https://onlineradiofm.in/assets/image/radio/180/vbkannada.jpg" group-title="Kannada",Vivid Bharathi
+https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio026/hlspbaudio02664kbps.m3u8
+
+#EXTINF:5 tvg-id="AIR.Hassan" tvg-name="AIR Hassan" tvg-logo="https://onlineradiofm.in/assets/image/radio/180/air-hassan.jpg" group-title="Kannada",AIR Hassan
+https://air.pc.cdn.bitgravity.com/air/live/pbaudio172/playlist.m3u8
+
+#EXTINF:11 tvg-id="AIR.Mangalore" tvg-name="AIR Mangalore" tvg-logo="https://onlineradiofm.in/assets/image/radio/180/air-mangalore.jpg" group-title="Kannada",AIR Mangalore
+https://air.pc.cdn.bitgravity.com/air/live/pbaudio073/playlist.m3u8
+
+#EXTINF:12 tvg-id="AIR.Madikeri" tvg-name="AIR Madikeri" tvg-logo="https://onlineradiofm.in/assets/image/radio/180/medikeri.jpg" group-title="Kannada",AIR Madikeri
+https://air.pc.cdn.bitgravity.com/air/live/pbaudio068/playlist.m3u8
+
+#EXTINF:13 tvg-id="AIR.Karwar" tvg-name="AIR Karwar" tvg-logo="https://onlineradiofm.in/assets/image/radio/180/air-karwar.jpg" group-title="Kannada",AIR Karwar
+https://air.pc.cdn.bitgravity.com/air/live/pbaudio123/playlist.m3u8
+
+
+#EXTINF:21 tvg-id="AIR.Dharawad" tvg-name="AIR Dharawad" tvg-logo="https://onlineradiofm.in/assets/image/radio/180/akashvani-dharwad.jpg" group-title="Kannada",AIR Dharawad
 https://air.pc.cdn.bitgravity.com/air/live/pbaudio150/chunklist.m3u8
 
-#EXTINF:1 tvg-id="Vivid.Bharathi" tvg-name="Vivid Bharathi" tvg-logo="https://onlineradiofm.in/assets/image/radio/180/vbkannada.jpg" group-title="Kannada",Vivid Bharathi
-https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio026/hlspbaudio02664kbps.m3u8
+#EXTINF:22 tvg-id="AIR.Chitradurga" tvg-name="AIR Chitradurga" tvg-logo="https://onlineradiofm.in/assets/image/radio/180/air-chitradurga.jpg" group-title="Kannada",AIR Chitradurga
+https://air.pc.cdn.bitgravity.com/air/live/pbaudio105/playlist.m3u8
+
+#EXTINF:23 tvg-id="AIR.Bijapur" tvg-name="AIR Bijapur" tvg-logo="https://onlineradiofm.in/assets/image/radio/180/Bijapur.jpg" group-title="Kannada",AIR Bijapur
+https://air.pc.cdn.bitgravity.com/air/live/pbaudio145/playlist.m3u8
+
+#EXTINF:24 tvg-id="AIR.Kalaburagi" tvg-name="AIR Kalaburagi" tvg-logo="https://onlineradiofm.in/assets/image/radio/180/RADIO_797239.jpg" group-title="Kannada",AIR Kalaburagi
+https://air.pc.cdn.bitgravity.com/air/live/pbaudio015/playlist.m3u8
+
+#EXTINF:25 tvg-id="AIR.Hospet" tvg-name="AIR Hospet" tvg-logo="https://onlineradiofm.in/assets/image/radio/180/air-hospet.jpg" group-title="Kannada",AIR Hospet
+https://air.pc.cdn.bitgravity.com/air/live/pbaudio184/playlist.m3u8
+
+#EXTINF:26 tvg-id="AIR.Raichur" tvg-name="AIR Raichur" tvg-logo="https://onlineradiofm.in/assets/image/radio/180/raichur.jpg" group-title="Kannada",AIR Raichur
+https://air.pc.cdn.bitgravity.com/air/live/pbaudio198/playlist.m3u8
+
