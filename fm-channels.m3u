@@ -1,0 +1,12 @@
+#EXTM3U
+#EXTINF:1 tvg-id="AIR.Mysuru" tvg-name="AIR Mysuru" tvg-logo="https://onlineradiofm.in/assets/image/radio/100/radiodhamaal.jpg" group-title="Kannada",AIR Mysuru
+https://air.pc.cdn.bitgravity.com/air/live/pbaudio177/chunklist.m3u8
+
+#EXTINF:1 tvg-id="AIR.Rainbow" tvg-name="AIR FM Rainbow" tvg-logo="https://onlineradiofm.in/assets/image/radio/180/rainbowkan-kannada.jpg" group-title="Kannada",AIR FM Rainbow
+https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio027/hlspbaudio02764kbps.m3u8
+
+#EXTINF:1 tvg-id="AIR.Dharawad" tvg-name="AIR Dharawad" tvg-logo="https://onlineradiofm.in/assets/image/radio/100/radiodhamaal.jpg" group-title="Kannada",AIR Dharawad
+https://air.pc.cdn.bitgravity.com/air/live/pbaudio150/chunklist.m3u8
+
+#EXTINF:1 tvg-id="Vivid.Bharathi" tvg-name="Vivid Bharathi" tvg-logo="https://onlineradiofm.in/assets/image/radio/180/vbkannada.jpg" group-title="Kannada",Vivid Bharathi
+https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio026/hlspbaudio02664kbps.m3u8
