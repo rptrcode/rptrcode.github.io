@@ -1,24 +1,18 @@
 #EXTM3U
 #EXTINF:1 tvg-id="AIR.Mysuru" tvg-name="AIR Mysuru" tvg-logo="https://onlineradiofm.in/assets/image/radio/100/radiodhamaal.jpg" group-title="Kannada",AIR Mysuru
-https://d1cvqgmbcpg5yn.cloudfront.net/9d18e57ddfb1d4b4/9d18e57ddfb1d4b4.m3u8
+https://d1tmej9eu7kw5c.cloudfront.net/9d18e57ddfb1d4b4/9d18e57ddfb1d4b4.m3u8
 
 #EXTINF:2 tvg-id="AIR.Mangalore" tvg-name="AIR Mangalore" tvg-logo="https://onlineradiofm.in/assets/image/radio/180/air-mangalore.jpg" group-title="Kannada",AIR Mangalore
-https://d1cvqgmbcpg5yn.cloudfront.net/3c522579906d4dcb/3c522579906d4dcb.m3u8
+https://radio.wavespb.com/live/3c522579906d4dcb/3c522579906d4dcb.m3u8
 
 #EXTINF:3 tvg-id="AIR.Madikeri" tvg-name="AIR Madikeri" tvg-logo="https://onlineradiofm.in/assets/image/radio/180/medikeri.jpg" group-title="Kannada",AIR Madikeri
-https://d1cvqgmbcpg5yn.cloudfront.net/5f58506ab7d090ec/5f58506ab7d090ec.m3u8
+https://radio.wavespb.com/live/5f58506ab7d090ec/5f58506ab7d090ec.m3u8
 
-#EXTINF:4 tvg-id="AIR.Rainbow" tvg-name="AIR FM Rainbow" tvg-logo="https://onlineradiofm.in/assets/image/radio/180/rainbowkan-kannada.jpg" group-title="Kannada",AIR FM Rainbow
-https://all.tamilfmradios.com/assets/radio/airbang02/air03464kbps.m3u8
+#EXTINF:4 tvg-id="AIR.Dharward" tvg-name="AIR Dharwad" tvg-logo="https://onlineradiofm.in/assets/image/radio/180/akashvani-dharwad.jpg" group-title="Kannada",AIR Dharwad
+https://d3hrxqn1tritdh.cloudfront.net/449dcf0b33491e65/449dcf0b33491e65.m3u8
 
-#EXTINF:5 tvg-id="AIR.Bengaluru" tvg-name="AIR Bengaluru" tvg-logo="https://onlineradiofm.in/assets/image/radio/180/airbangaluru.jpg" group-title="Kannada",AIR Bengaluru
-https://all.tamilfmradios.com/assets/radio/airbang01/air03332kbps.m3u8
+#EXTINF:5 tvg-id="FM Rainbow" tvg-name="FM Rainbow" tvg-logo="https://onlineradiofm.in/assets/image/radio/180/rainbowkan-kannada.jpg" group-title="Kannada",FM Rainbow
+https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio027/hlspbaudio02764kbps.m3u8
 
-#EXTINF:6 tvg-id="Vivid.Bharathi" tvg-name="Vivid Bharathi" tvg-logo="https://onlineradiofm.in/assets/image/radio/180/vbkannada.jpg" group-title="Kannada",Vivid Bharathi
-https://d1cvqgmbcpg5yn.cloudfront.net/146ed6ec6dea5a24/146ed6ec6dea5a24.m3u8
-
-#EXTINF:7 tvg-id="Vivid.Bharathi" tvg-name="Namm Radio" group-title="Kannada", Namm Radio
-https://stream-288.surfernetwork.com/6quh1pfnt1duv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI2cXVoMXBmbnQxZHV2IiwiaG9zdCI6InN0cmVhbS0yODguc3VyZmVybmV0d29yay5jb20iLCJydHRsIjo1LCJqdGkiOiJvN3k1dV9UZFRfQ0o5anZFX3o3cDhBIiwiaWF0IjoxNzk0MDI1MDMxLCJleHAiOjE3OTQwMjUwOTF9.c_JqVBpqYQ0m5WSJ3MdFnCJlyOfHGP6QOkJ-Rvuu3w0
-
-#EXTINF:8 tvg-id="Vivid.Bharathi" tvg-name="AIR Dharwad" group-title="Kannada", Air Dharwad
-https://d1cvqgmbcpg5yn.cloudfront.net/449dcf0b33491e65/449dcf0b33491e65.m3u8
+#EXTINF:6 tvg-id="Vivid Bharathi" tvg-name="Vivid Bharathi" tvg-logo="https://onlineradiofm.in/assets/image/radio/180/vbkannada.jpg" group-title="Kannada",Vivid Bharathi
+https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio026/hlspbaudio02664kbps.m3u8
