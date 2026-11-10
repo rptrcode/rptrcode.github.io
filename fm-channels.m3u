@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:1 tvg-id="AIR.Mysuru" tvg-name="AIR Mysuru" tvg-logo="https://onlineradiofm.in/assets/image/radio/100/radiodhamaal.jpg" group-title="Kannada",AIR Mysuru
-https://d1tmej9eu7kw5c.cloudfront.net/9d18e57ddfb1d4b4/9d18e57ddfb1d4b4.m3u8
+https://radio.wavespb.com/live/9d18e57ddfb1d4b4/9d18e57ddfb1d4b4.m3u8
 
 #EXTINF:2 tvg-id="AIR.Mangalore" tvg-name="AIR Mangalore" tvg-logo="https://onlineradiofm.in/assets/image/radio/180/air-mangalore.jpg" group-title="Kannada",AIR Mangalore
 https://radio.wavespb.com/live/3c522579906d4dcb/3c522579906d4dcb.m3u8
